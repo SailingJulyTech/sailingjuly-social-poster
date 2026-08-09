@@ -1,0 +1,49 @@
+name: Scheduled social posting
+
+on:
+  schedule:
+    # Runs every 30 minutes. GitHub Actions cron is UTC and best-effort --
+    # under load it can slip by several minutes, which is fine here since
+    # the scheduler only posts things that are already due.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write  # needed so the job can commit updated queue.json back
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scheduler
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          TIKTOK_PRIVACY_LEVEL: ${{ vars.TIKTOK_PRIVACY_LEVEL }}
+        run: python scripts/run_scheduler.py
+
+      - name: Commit updated queue status
+        if: always()
+        run: |
+          git config user.name "sailingjuly-poster-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- content/queue.json; then
+            git add content/queue.json
+            git commit -m "Update queue status [skip ci]"
+            git push
+          else
+            echo "No queue changes to commit."
+          fi
