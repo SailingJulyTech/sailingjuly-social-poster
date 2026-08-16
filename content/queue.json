@@ -27,7 +27,12 @@
     "caption": "Slow progress is still progress. #boatrestoration #Pearson34",
     "media_url": "https://example.com/media/refit-photo.jpg",
     "media_type": "photo",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false,
+      "instagram": false,
+      "tiktok": false
+    }
   }
 ]
