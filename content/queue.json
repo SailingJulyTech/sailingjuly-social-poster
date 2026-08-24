@@ -1,38 +1,15 @@
 [
   {
-    "id": "2026-08-15-dive-teaser",
-    "scheduled_for": "2026-08-15T16:00:00Z",
+    "id": "episode-12-05-mark-is-a-superstar",
+    "scheduled_for": "2026-08-27T00:00:00Z",
     "platforms": [
       "facebook",
       "instagram"
     ],
-    "caption": "New dive site, new problems to solve. Full episode Sunday. #SailingJuly #Pearson34",
-    "media_url": "https://example.com/media/dive-teaser.mp4",
+    "caption": "\"Mark is a superstar, I'm not going to lie.\" Full episode on the channel. #sailingjuly #shorts",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-05/05-mark-is-a-superstar-final-confetti.mp4",
     "media_type": "video",
-    "status": "failed",
-    "posted_at": {},
-    "last_result": {
-      "facebook": false,
-      "instagram": false
-    }
-  },
-  {
-    "id": "2026-08-16-refit-photo",
-    "scheduled_for": "2026-08-16T15:00:00Z",
-    "platforms": [
-      "facebook",
-      "instagram",
-      "tiktok"
-    ],
-    "caption": "Slow progress is still progress. #boatrestoration #Pearson34",
-    "media_url": "https://example.com/media/refit-photo.jpg",
-    "media_type": "photo",
-    "status": "failed",
-    "posted_at": {},
-    "last_result": {
-      "facebook": false,
-      "instagram": false,
-      "tiktok": false
-    }
+    "status": "pending",
+    "posted_at": {}
   }
 ]
