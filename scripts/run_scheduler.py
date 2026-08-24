@@ -68,9 +68,9 @@ def post_to_instagram(item, dry_run):
         log(f"[dry-run] would post to Instagram: {item['id']}")
         return True
     try:
-        ig_user_id = os.environ["IG_BUSINESS_ACCOUNT_ID"]
-        token = os.environ["META_PAGE_ACCESS_TOKEN"]
-        container_id = post_instagram.create_container(
+        ig_user_id = os.environ["IG_USER_ID"]
+        token = os.environ["IG_ACCESS_TOKEN"]
+        container_id = post_instagram.create_hosted_container(
             ig_user_id, token, caption, media_url, ig_media_type
         )
         if ig_media_type == "reels":
