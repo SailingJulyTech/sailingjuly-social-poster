@@ -2,21 +2,37 @@
   {
     "id": "2026-08-15-dive-teaser",
     "scheduled_for": "2026-08-15T16:00:00Z",
-    "platforms": ["facebook", "instagram"],
+    "platforms": [
+      "facebook",
+      "instagram"
+    ],
     "caption": "New dive site, new problems to solve. Full episode Sunday. #SailingJuly #Pearson34",
     "media_url": "https://example.com/media/dive-teaser.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false,
+      "instagram": false
+    }
   },
   {
     "id": "2026-08-16-refit-photo",
     "scheduled_for": "2026-08-16T15:00:00Z",
-    "platforms": ["facebook", "instagram", "tiktok"],
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
     "caption": "Slow progress is still progress. #boatrestoration #Pearson34",
     "media_url": "https://example.com/media/refit-photo.jpg",
     "media_type": "photo",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false,
+      "instagram": false,
+      "tiktok": false
+    }
   }
 ]
