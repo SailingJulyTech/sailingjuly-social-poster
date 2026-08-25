@@ -1,6 +1,5 @@
 """
-Post to TikTok via the Content Posting API (v2), pulling the video from a
-public URL (PULL_FROM_URL upload mode).
+Post to TikTok via the Content Posting API (v2).
 
 Env vars required:
   TIKTOK_CLIENT_KEY
@@ -8,7 +7,8 @@ Env vars required:
   TIKTOK_REFRESH_TOKEN
 
 Usage:
-  python post_tiktok.py --caption "Dive day!" --media-url https://.../clip.mp4
+  python post_tiktok.py --caption "Dive day!" --media-path /local/clip.mp4
+  python post_tiktok.py --caption "Dive day!" --media-url https://verified-domain/clip.mp4
 
 TikTok has two separate posting endpoints gated by two separate scopes:
   - `video.upload` (granted pre-audit) -> the inbox/Upload API. The video
@@ -19,8 +19,18 @@ TikTok has two separate posting endpoints gated by two separate scopes:
     caption, no manual step. `creator_info` also requires this scope.
 This script uses inbox/Upload automatically for --privacy-level SELF_ONLY
 (the default) and Direct Post for anything else. See docs/TIKTOK_SETUP.md.
+
+Two source modes for the video itself:
+  - `--media-path` (FILE_UPLOAD): uploads the file's bytes directly to
+    TikTok. No domain restrictions -- use this unless the video is already
+    hosted on a domain you've verified in TikTok's developer console.
+  - `--media-url` (PULL_FROM_URL): has TikTok fetch the URL itself. Fails
+    with `url_ownership_unverified` unless that URL's domain has been
+    verified for this app (see docs/TIKTOK_SETUP.md) -- GitHub Releases
+    URLs do NOT qualify, since you don't control the github.com domain.
 """
 import argparse
+import os
 import time
 import requests
 from common import env, log
@@ -101,6 +111,51 @@ def init_post_inbox(access_token, media_url):
     return resp.json()
 
 
+def init_post_inbox_file(access_token, video_size):
+    """Upload API (video.upload scope) via FILE_UPLOAD -- same as
+    init_post_inbox but avoids the PULL_FROM_URL domain-verification
+    requirement entirely by uploading bytes directly. Single chunk only
+    (fine for anything under TikTok's 64MB single-chunk ceiling)."""
+    body = {
+        "source_info": {
+            "source": "FILE_UPLOAD",
+            "video_size": video_size,
+            "chunk_size": video_size,
+            "total_chunk_count": 1,
+        }
+    }
+    resp = requests.post(
+        INBOX_INIT_URL,
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        json=body,
+        timeout=60,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def upload_video_file(upload_url, video_path):
+    """PUTs the whole file to the upload_url returned by init_post_inbox_file
+    as a single chunk, per TikTok's FILE_UPLOAD Content-Range contract."""
+    video_size = os.path.getsize(video_path)
+    with open(video_path, "rb") as f:
+        video_bytes = f.read()
+    resp = requests.put(
+        upload_url,
+        headers={
+            "Content-Type": "video/mp4",
+            "Content-Range": f"bytes 0-{video_size - 1}/{video_size}",
+        },
+        data=video_bytes,
+        timeout=120,
+    )
+    resp.raise_for_status()
+    return resp
+
+
 def init_post_direct(access_token, caption, media_url, privacy_level):
     """Direct Post (video.publish scope, requires a passed audit) --
     publishes live with the given caption/privacy_level, no manual step."""
@@ -156,7 +211,8 @@ def poll_status(access_token, publish_id):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--caption", required=True)
-    parser.add_argument("--media-url", required=True)
+    parser.add_argument("--media-path", help="Local video file -- uploaded directly (FILE_UPLOAD), no domain restrictions")
+    parser.add_argument("--media-url", help="Public video URL -- only works if its domain is verified for this app (PULL_FROM_URL)")
     parser.add_argument(
         "--privacy-level",
         default="SELF_ONLY",
@@ -164,6 +220,10 @@ def main():
         help="PUBLIC_TO_EVERYONE requires an audited app -- see docs/TIKTOK_SETUP.md",
     )
     args = parser.parse_args()
+    if not args.media_path and not args.media_url:
+        parser.error("one of --media-path or --media-url is required")
+    if args.media_path and args.media_url:
+        parser.error("pass only one of --media-path or --media-url")
 
     client_key = env("TIKTOK_CLIENT_KEY")
     client_secret = env("TIKTOK_CLIENT_SECRET")
@@ -176,7 +236,17 @@ def main():
         log("Using Upload API (inbox) -- video.publish scope not granted until the app is "
             "audited, so this lands as a draft in the creator's TikTok inbox, not a live post. "
             "--caption is ignored; the creator captions it manually before publishing.")
-        init_resp = init_post_inbox(access_token, args.media_url)
+        if args.media_path:
+            video_size = os.path.getsize(args.media_path)
+            init_resp = init_post_inbox_file(access_token, video_size)
+            upload_url = init_resp.get("data", {}).get("upload_url")
+            if not upload_url:
+                log(f"FAILED to init post: {init_resp}")
+                raise SystemExit(1)
+            log(f"Uploading {video_size} bytes to TikTok...")
+            upload_video_file(upload_url, args.media_path)
+        else:
+            init_resp = init_post_inbox(access_token, args.media_url)
     else:
         creator_info = get_creator_info(access_token)
         allowed = creator_info.get("privacy_level_options") or []

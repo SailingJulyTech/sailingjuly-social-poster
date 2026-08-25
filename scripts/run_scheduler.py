@@ -15,6 +15,9 @@ import argparse
 import datetime
 import os
 import sys
+import tempfile
+
+import requests
 
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -98,7 +101,23 @@ def post_to_tiktok(item, dry_run):
         )
         privacy_level = os.environ.get("TIKTOK_PRIVACY_LEVEL", "SELF_ONLY")
         if privacy_level == "SELF_ONLY":
-            init_resp = post_tiktok.init_post_inbox(access_token, media_url)
+            # queue.json media_urls point at GitHub Releases, an unverified
+            # domain for PULL_FROM_URL -- download and FILE_UPLOAD instead.
+            log(f"Downloading {media_url} for TikTok FILE_UPLOAD...")
+            video_resp = requests.get(media_url, timeout=120)
+            video_resp.raise_for_status()
+            with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as f:
+                f.write(video_resp.content)
+                tmp_path = f.name
+            try:
+                video_size = os.path.getsize(tmp_path)
+                init_resp = post_tiktok.init_post_inbox_file(access_token, video_size)
+                upload_url = init_resp.get("data", {}).get("upload_url")
+                if not upload_url:
+                    raise RuntimeError(f"no upload_url in response: {init_resp}")
+                post_tiktok.upload_video_file(upload_url, tmp_path)
+            finally:
+                os.remove(tmp_path)
         else:
             creator_info = post_tiktok.get_creator_info(access_token)
             allowed = creator_info.get("privacy_level_options") or []
