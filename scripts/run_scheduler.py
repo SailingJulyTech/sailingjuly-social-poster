@@ -96,14 +96,17 @@ def post_to_tiktok(item, dry_run):
         access_token = post_tiktok.refresh_access_token(
             client_key, client_secret, refresh_token
         )
-        creator_info = post_tiktok.get_creator_info(access_token)
         privacy_level = os.environ.get("TIKTOK_PRIVACY_LEVEL", "SELF_ONLY")
-        allowed = creator_info.get("privacy_level_options") or []
-        if allowed and privacy_level not in allowed:
-            raise RuntimeError(
-                f"privacy_level {privacy_level} not in allowed options {allowed}"
-            )
-        init_resp = post_tiktok.init_post(access_token, caption, media_url, privacy_level)
+        if privacy_level == "SELF_ONLY":
+            init_resp = post_tiktok.init_post_inbox(access_token, media_url)
+        else:
+            creator_info = post_tiktok.get_creator_info(access_token)
+            allowed = creator_info.get("privacy_level_options") or []
+            if allowed and privacy_level not in allowed:
+                raise RuntimeError(
+                    f"privacy_level {privacy_level} not in allowed options {allowed}"
+                )
+            init_resp = post_tiktok.init_post_direct(access_token, caption, media_url, privacy_level)
         publish_id = init_resp.get("data", {}).get("publish_id")
         if not publish_id:
             raise RuntimeError(f"no publish_id in response: {init_resp}")

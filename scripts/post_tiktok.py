@@ -10,10 +10,15 @@ Env vars required:
 Usage:
   python post_tiktok.py --caption "Dive day!" --media-url https://.../clip.mp4
 
-IMPORTANT: until your TikTok app has passed the Content Posting API audit,
-posts will land as private/draft content for the creator to review and
-publish manually in the TikTok app -- not auto-published to the public
-feed. See docs/TIKTOK_SETUP.md.
+TikTok has two separate posting endpoints gated by two separate scopes:
+  - `video.upload` (granted pre-audit) -> the inbox/Upload API. The video
+    lands as a draft in the creator's TikTok inbox for them to caption and
+    publish manually. --caption is ignored here since the API takes none.
+  - `video.publish` (granted only after the Content Posting API audit) ->
+    Direct Post, which actually goes live with the given privacy_level and
+    caption, no manual step. `creator_info` also requires this scope.
+This script uses inbox/Upload automatically for --privacy-level SELF_ONLY
+(the default) and Direct Post for anything else. See docs/TIKTOK_SETUP.md.
 """
 import argparse
 import time
@@ -22,7 +27,8 @@ from common import env, log
 
 TOKEN_URL = "https://open.tiktokapis.com/v2/oauth/token/"
 CREATOR_INFO_URL = "https://open.tiktokapis.com/v2/post/publish/creator_info/query/"
-INIT_URL = "https://open.tiktokapis.com/v2/post/publish/video/init/"
+INBOX_INIT_URL = "https://open.tiktokapis.com/v2/post/publish/inbox/video/init/"
+DIRECT_INIT_URL = "https://open.tiktokapis.com/v2/post/publish/video/init/"
 STATUS_URL = "https://open.tiktokapis.com/v2/post/publish/status/fetch/"
 
 POLL_INTERVAL_SECONDS = 5
@@ -77,7 +83,27 @@ def get_creator_info(access_token):
     return data
 
 
-def init_post(access_token, caption, media_url, privacy_level):
+def init_post_inbox(access_token, media_url):
+    """Upload API (video.upload scope) -- delivers as a draft to the
+    creator's TikTok inbox. Takes no caption/privacy_level; the creator
+    sets those manually before publishing from the app."""
+    body = {"source_info": {"source": "PULL_FROM_URL", "video_url": media_url}}
+    resp = requests.post(
+        INBOX_INIT_URL,
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        json=body,
+        timeout=60,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def init_post_direct(access_token, caption, media_url, privacy_level):
+    """Direct Post (video.publish scope, requires a passed audit) --
+    publishes live with the given caption/privacy_level, no manual step."""
     body = {
         "post_info": {
             "title": caption,
@@ -92,7 +118,7 @@ def init_post(access_token, caption, media_url, privacy_level):
         },
     }
     resp = requests.post(
-        INIT_URL,
+        DIRECT_INIT_URL,
         headers={
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/json; charset=UTF-8",
@@ -146,14 +172,20 @@ def main():
     log("Refreshing TikTok access token...")
     access_token = refresh_access_token(client_key, client_secret, refresh_token)
 
-    creator_info = get_creator_info(access_token)
-    allowed = creator_info.get("privacy_level_options") or []
-    if allowed and args.privacy_level not in allowed:
-        log(f"FAILED: privacy_level {args.privacy_level} not in allowed options {allowed}")
-        raise SystemExit(1)
+    if args.privacy_level == "SELF_ONLY":
+        log("Using Upload API (inbox) -- video.publish scope not granted until the app is "
+            "audited, so this lands as a draft in the creator's TikTok inbox, not a live post. "
+            "--caption is ignored; the creator captions it manually before publishing.")
+        init_resp = init_post_inbox(access_token, args.media_url)
+    else:
+        creator_info = get_creator_info(access_token)
+        allowed = creator_info.get("privacy_level_options") or []
+        if allowed and args.privacy_level not in allowed:
+            log(f"FAILED: privacy_level {args.privacy_level} not in allowed options {allowed}")
+            raise SystemExit(1)
+        log(f"Initiating direct post (privacy_level={args.privacy_level})...")
+        init_resp = init_post_direct(access_token, args.caption, args.media_url, args.privacy_level)
 
-    log(f"Initiating post (privacy_level={args.privacy_level})...")
-    init_resp = init_post(access_token, args.caption, args.media_url, args.privacy_level)
     publish_id = init_resp.get("data", {}).get("publish_id")
     if not publish_id:
         log(f"FAILED to init post: {init_resp}")
