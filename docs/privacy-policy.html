@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SailingJuly Social Auto-Poster — Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.15em; margin-top: 1.8em; }
+  code { background: #f2f2f2; padding: 1px 5px; border-radius: 3px; }
+  footer { margin-top: 3em; font-size: 0.9em; color: #666; }
+</style>
+</head>
+<body>
+<h1>SailingJuly Social Auto-Poster — Privacy Policy</h1>
+<p><em>Last updated: 2026-08-25</em></p>
+
+<p>This page describes the data practices of the SailingJuly Social
+Auto-Poster, a personal automation tool that publishes pre-produced video
+content to the SailingJuly Facebook Page, Instagram account, and TikTok
+account on a schedule, on behalf of the SailingJuly creator (its owner and
+sole operator).</p>
+
+<h2>What this tool is</h2>
+<p>It is a small, single-user script (not a public app, service, or
+product offered to other users) that connects to each platform's official
+API to post already-finished SailingJuly video content at scheduled
+times. It has no public sign-up, no other users, and no audience-facing
+component.</p>
+
+<h2>What data it accesses</h2>
+<p>Via TikTok's Content Posting API, the tool requests the
+<code>video.publish</code> and <code>video.upload</code> scopes, and reads
+basic creator profile info (username, nickname, avatar, and allowed
+privacy/posting options) for the single connected SailingJuly TikTok
+account, solely to confirm which account a post is about to go to before
+publishing it.</p>
+<p>It does not access, collect, or process data belonging to any TikTok
+viewer, follower, or other third party — only the connected creator
+account's own posting permissions.</p>
+
+<h2>What it does with that data</h2>
+<p>The creator profile info is used only to display the target account
+before a post is published and to select a valid privacy level for that
+post. The OAuth tokens are used only to call TikTok's official posting
+endpoints for content the SailingJuly creator has already produced and
+queued.</p>
+
+<h2>Storage and retention</h2>
+<p>API credentials (client key/secret, refresh token) are stored as
+encrypted secrets in a private GitHub Actions configuration, accessible
+only to the repository owner. They are not logged, not shared with any
+third party, and not used for advertising, analytics, or any purpose
+other than posting the SailingJuly creator's own content to their own
+connected accounts.</p>
+
+<h2>Revoking access</h2>
+<p>The connected TikTok account owner can revoke this app's access at any
+time from TikTok's app settings (Settings and privacy → Security →
+Manage apps), which immediately invalidates the stored token.</p>
+
+<h2>Contact</h2>
+<p>Questions about this tool or its data practices can be sent via the
+SailingJuly YouTube channel (<code>[[ CHANNEL_URL — fill in before
+publishing ]]</code>).</p>
+
+<footer>SailingJuly Social Auto-Poster — source at
+<a href="https://github.com/SailingJulyTech/sailingjuly-social-poster">github.com/SailingJulyTech/sailingjuly-social-poster</a></footer>
+</body>
+</html>

@@ -21,6 +21,7 @@ import requests
 from common import env, log
 
 TOKEN_URL = "https://open.tiktokapis.com/v2/oauth/token/"
+CREATOR_INFO_URL = "https://open.tiktokapis.com/v2/post/publish/creator_info/query/"
 INIT_URL = "https://open.tiktokapis.com/v2/post/publish/video/init/"
 STATUS_URL = "https://open.tiktokapis.com/v2/post/publish/status/fetch/"
 
@@ -45,6 +46,35 @@ def refresh_access_token(client_key, client_secret, refresh_token):
     if "access_token" not in payload:
         raise RuntimeError(f"Token refresh failed: {payload}")
     return payload["access_token"]
+
+
+def get_creator_info(access_token):
+    """Query the connected creator's profile + posting options.
+
+    Required by TikTok's Content Posting API guidelines: the creator's
+    username/avatar must be shown before a post is published, and audit
+    reviewers check for this step in the demo video. Also confirms which
+    privacy_level values this account is actually allowed to use.
+    """
+    resp = requests.post(
+        CREATOR_INFO_URL,
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        timeout=30,
+    )
+    resp.raise_for_status()
+    payload = resp.json()
+    data = payload.get("data", {})
+    if not data:
+        raise RuntimeError(f"creator_info query failed: {payload}")
+    log(
+        f"Posting as @{data.get('creator_username')} "
+        f"({data.get('creator_nickname')}) -- avatar: {data.get('creator_avatar_url')}"
+    )
+    log(f"Allowed privacy levels for this account: {data.get('privacy_level_options')}")
+    return data
 
 
 def init_post(access_token, caption, media_url, privacy_level):
@@ -115,6 +145,12 @@ def main():
 
     log("Refreshing TikTok access token...")
     access_token = refresh_access_token(client_key, client_secret, refresh_token)
+
+    creator_info = get_creator_info(access_token)
+    allowed = creator_info.get("privacy_level_options") or []
+    if allowed and args.privacy_level not in allowed:
+        log(f"FAILED: privacy_level {args.privacy_level} not in allowed options {allowed}")
+        raise SystemExit(1)
 
     log(f"Initiating post (privacy_level={args.privacy_level})...")
     init_resp = init_post(access_token, args.caption, args.media_url, args.privacy_level)
