@@ -83,3 +83,46 @@ meantime.
   publish rather than going live automatically — build that into your
   workflow (e.g. a phone notification reminder) rather than assuming
   silent success.
+
+## 5. Submitting for the audit (lifts the private/draft restriction)
+
+Do this as early as possible — it's the long pole (1-4 weeks, sometimes
+longer, no guaranteed approval). You can build and test everything else
+while it's pending, since `SELF_ONLY` posting works without an audit.
+
+**Before you submit, make sure you have:**
+
+1. A working end-to-end test recorded in `SELF_ONLY` mode: OAuth
+   login/consent screen → the creator_info step (`post_tiktok.py` now
+   calls `/creator_info/query/` and logs the connected account's
+   username/avatar before every post — point your screen recording at
+   that log line, or the terminal running `run_scheduler.py`) → the post
+   landing in the TikTok inbox as a draft. Reviewers specifically check
+   that the creator's identity is shown before publish.
+2. A public privacy policy URL — this repo's is live at
+   `https://sailingjulytech.github.io/sailingjuly-social-poster/privacy-policy.html`
+   (edit `docs/privacy-policy.html` if anything about the data handling
+   changes, then re-push).
+3. A short written use-case description for the submission form. Draft:
+
+   > SailingJuly is a personal YouTube/social channel. This is a
+   > single-user, no-third-party-audience automation that publishes the
+   > creator's own already-produced short-form video clips to their own
+   > connected TikTok account on a schedule, alongside the same content
+   > going to the creator's own Facebook Page and Instagram account. It
+   > does not post on behalf of any other user, does not access other
+   > users' data, and only uses the `video.publish` and `video.upload`
+   > scopes plus the creator's own basic profile info (to confirm the
+   > target account before each post).
+
+**Where to submit:** from the app's dashboard on
+developers.tiktok.com — Products → Content Posting API → request
+audit/review. The exact button label and form fields shift over time, so
+follow whatever the dashboard currently shows rather than this doc if
+they've diverged.
+
+**Once approved:** switch the `TIKTOK_PRIVACY_LEVEL` GitHub Actions
+variable from `SELF_ONLY` to `PUBLIC_TO_EVERYONE` (Settings → Secrets and
+variables → Actions → Variables) and add `"tiktok"` to the `platforms`
+array of queue entries — no code changes needed, `run_scheduler.py`
+already dispatches to `post_to_tiktok`.
