@@ -9,8 +9,15 @@
     "caption": "\"Mark is a superstar, I'm not going to lie.\" Full episode on the channel. #sailingjuly #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-05/05-mark-is-a-superstar-final-confetti.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-27T16:08:44.201882+00:00",
+      "instagram": "2026-08-27T16:09:31.474149+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "hot-weld-hands-06-wrong-tank-hands",
