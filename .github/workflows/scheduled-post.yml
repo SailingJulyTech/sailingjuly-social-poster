@@ -2,10 +2,12 @@ name: Scheduled social posting
 
 on:
   schedule:
-    # Runs every 30 minutes. GitHub Actions cron is UTC and best-effort --
-    # under load it can slip by several minutes, which is fine here since
-    # the scheduler only posts things that are already due.
-    - cron: "*/30 * * * *"
+    # Runs every 30 minutes, offset to :07/:37. GitHub Actions cron is UTC and
+    # best-effort -- firing exactly on :00/:30 hits peak scheduler congestion
+    # (everyone else's cron jobs fire there too), which caused gaps as long as
+    # 26 hours in practice. Off-peak minutes are GitHub's own documented
+    # mitigation; this doesn't guarantee zero delay, just less of it.
+    - cron: "7,37 * * * *"
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
 
 permissions:
