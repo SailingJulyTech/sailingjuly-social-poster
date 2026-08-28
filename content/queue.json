@@ -146,7 +146,14 @@
     "caption": "I'd already turned the camera off. Then two strangers called me back over. Lowe's might be my biggest win yet.\n\nFull episode -- link in bio.\n\n#sailingjuly #theexperiment #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-15/biggest-win-yet-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-28T11:07:55.828321+00:00",
+      "instagram": "2026-08-28T11:08:25.853218+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
