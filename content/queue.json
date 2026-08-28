@@ -107,8 +107,15 @@
     "caption": "Dead serious -- comment if you want one. This channel is THAT small.\n\n#welding #shorts #smallyoutuber",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-12/nine-subscribers-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-28T21:51:20.158100+00:00",
+      "instagram": "2026-08-28T21:51:52.707591+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "lowes-experiment-13-brought-me-to-tears",
@@ -133,8 +140,15 @@
     "caption": "First casualty of learning to weld: my own shirt. Playing with fire, literally.\n\n#welding #shorts #beginnerwelder",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-14/burned-shirt-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-28T21:51:57.244184+00:00",
+      "instagram": "2026-08-28T21:52:34.734102+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "lowes-experiment-15-biggest-win-yet",
