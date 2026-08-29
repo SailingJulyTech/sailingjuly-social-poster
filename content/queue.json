@@ -29,8 +29,15 @@
     "caption": "Grabbed the wrong tank and didn't even know it -- 75% argon mix, first-ever weld attempt. Everybody starts somewhere.\n\n#welding #beginnerwelder #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-06/wrong-tank-hands-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-29T14:11:36.968138+00:00",
+      "instagram": "2026-08-29T14:12:16.262092+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "lowes-experiment-07-100-percent",
