@@ -81,8 +81,15 @@
     "caption": "Holding my own welds next to a real reference weld... it's humbling. How much do you think I'm worth as a welder?\n\n#welding #shorts #diy",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-10/weld-in-hand-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-29T09:11:32.240063+00:00",
+      "instagram": "2026-08-29T09:12:05.901174+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "lowes-experiment-11-lagos-pitch",
