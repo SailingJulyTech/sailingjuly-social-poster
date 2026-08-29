@@ -62,8 +62,15 @@
     "caption": "Repeating 'go in and get out' like a mantra and the puddle still won't release. Don't know what you don't know.\n\n#welding #beginnerwelder #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-08/engineering-school-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-29T19:11:32.000708+00:00",
+      "instagram": "2026-08-29T19:12:05.227824+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "lowes-experiment-09-karen-subscribed",
