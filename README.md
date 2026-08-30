@@ -74,7 +74,8 @@ content/README.md                      -- queue format docs
 docs/META_SETUP.md                     -- Facebook + Instagram API setup
 docs/TIKTOK_SETUP.md                   -- TikTok API setup
 scripts/post_facebook.py               -- Facebook Graph API calls
-scripts/post_instagram.py              -- Instagram Graph API calls
+scripts/post_instagram.py              -- Instagram Graph API calls (incl. licensed audio)
+scripts/find_audio.py                  -- search Meta's licensed music catalogue
 scripts/post_tiktok.py                 -- TikTok Content Posting API calls
 scripts/run_scheduler.py               -- reads the queue, posts what's due
 scripts/common.py                      -- shared helpers
@@ -92,6 +93,15 @@ push_to_github.sh                      -- one-shot script to init + push this re
   these endpoints as configured here). Where you host that (GitHub raw
   URLs, S3, Cloudinary, etc.) is up to you — happy to wire that up too if
   useful.
+- **Licensed music on Reels needs the other Instagram auth flavour.** Meta's
+  Audio API only works on the Instagram API with *Facebook* Login, not
+  Instagram Business Login. Set `IG_FB_ACCESS_TOKEN` + `IG_FB_USER_ID`
+  (token scopes: `instagram_basic`, `instagram_content_publish`,
+  `pages_show_list`) and the poster switches hosts automatically —
+  `graph.facebook.com` instead of `graph.instagram.com`. Both credential
+  pairs can coexist; Facebook Login wins when present. Force either one with
+  the `IG_LOGIN_TYPE` repo variable (`instagram` or `facebook`). See
+  `content/README.md` for the queue format.
 - **Meta Page tokens generated this way don't auto-expire**, but can be
   invalidated by a password change or deauthorizing the app — if posts
   start failing with an auth error, regenerate the token per

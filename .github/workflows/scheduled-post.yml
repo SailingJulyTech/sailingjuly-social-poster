@@ -32,6 +32,11 @@ jobs:
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          # Facebook-Login flavour. Only these unlock the Audio API
+          # (licensed music). When both pairs are set, these win.
+          IG_FB_ACCESS_TOKEN: ${{ secrets.IG_FB_ACCESS_TOKEN }}
+          IG_FB_USER_ID: ${{ secrets.IG_FB_USER_ID }}
+          IG_LOGIN_TYPE: ${{ vars.IG_LOGIN_TYPE }}
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}

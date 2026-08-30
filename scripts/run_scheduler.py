@@ -67,18 +67,27 @@ def post_to_instagram(item, dry_run):
     caption = item["caption"]
     media_url = item["media_url"]
     ig_media_type = "reels" if item.get("media_type") == "video" else "image"
+    # Optional licensed music, attached at container-creation time:
+    #   "audio": {"audio_id": "...", "audio_volume": 25, "video_volume": 100}
+    # Find ids with scripts/find_audio.py. Requires Facebook Login creds --
+    # if they're missing the item fails loudly rather than quietly publishing
+    # a music-less Reel, because publishing can't be undone.
+    audio = item.get("audio")
     if dry_run:
-        log(f"[dry-run] would post to Instagram: {item['id']}")
+        extra = f" with audio {audio['audio_id']}" if audio else ""
+        log(f"[dry-run] would post to Instagram: {item['id']}{extra}")
         return True
     try:
-        ig_user_id = os.environ["IG_USER_ID"]
-        token = os.environ["IG_ACCESS_TOKEN"]
+        if audio and ig_media_type != "reels":
+            raise RuntimeError("audio can only be attached to reels, not images")
+        target = post_instagram.resolve_target()
+        log(f"Instagram via {target}")
         container_id = post_instagram.create_hosted_container(
-            ig_user_id, token, caption, media_url, ig_media_type
+            target, caption, media_url, ig_media_type, audio, item.get("audio_name")
         )
         if ig_media_type == "reels":
-            post_instagram.wait_for_container(container_id, token)
-        resp = post_instagram.publish_container(ig_user_id, token, container_id)
+            post_instagram.wait_for_container(target, container_id)
+        resp = post_instagram.publish_container(target, container_id)
         resp.raise_for_status()
         return True
     except Exception as e:
