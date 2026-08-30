@@ -155,8 +155,15 @@
     "caption": "I went in expecting nothing. I walked out crying in a parking lot. Strangers will do that to you.\n\nFollow along for the rest of The Experiment.\n\n#sailingjuly #theexperiment #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-13/brought-me-to-tears-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-08-30T14:11:29.336428+00:00",
+      "instagram": "2026-08-30T14:12:23.725060+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "hot-weld-hands-14-burned-shirt",
