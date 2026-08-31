@@ -49,8 +49,14 @@
     "caption": "You miss 100% of the shots you don't take. Even the awkward ones, at a hardware store, with a helmet on.\n\nFull experiment on the channel.\n\n#sailingjuly #motivation #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-07/100-percent-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-08-31T15:23:52.405726+00:00"
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true
+    }
   },
   {
     "id": "hot-weld-hands-08-engineering-school",
@@ -82,8 +88,14 @@
     "caption": "Asked a stranger at Lowe's if she watches YouTube. She subscribed before I even finished the sentence.\n\nThis is The Experiment -- more on the channel.\n\n#sailingjuly #theexperiment #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-09/karen-subscribed-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-08-31T15:24:29.568344+00:00"
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true
+    }
   },
   {
     "id": "hot-weld-hands-10-weld-in-hand",
