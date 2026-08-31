@@ -227,12 +227,18 @@
     "caption": "Three weeks of failed attempts -- then this. My first clean weld bead, solo, no help, no do-over. This is the real, unscripted reaction, not a re-take.\n\nFollow the welding-arc build on the channel.\n\n#sailingjuly #welding #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-16/first-clean-bead-final.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-08-31T21:03:02.350878+00:00"
+    },
     "audio": {
       "audio_id": "1543577430102877",
       "audio_volume": 25,
       "video_volume": 100
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true
     }
   },
   {
