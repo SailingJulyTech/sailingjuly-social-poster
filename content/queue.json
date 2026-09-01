@@ -275,12 +275,18 @@
     "caption": "The clearest hands-on lesson from the whole shoot -- Charlie right there, telling me to turn the heat down and lay it small. Then he watches my next bead and gives the verdict himself: \"you're getting somewhere.\"\n\nFollow the welding-arc build on the channel.\n\n#sailingjuly #welding #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-18/charlie-teaches-me-to-weld-final.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-09-01T15:09:19.415098+00:00"
+    },
     "audio": {
       "audio_id": "1232530197323594",
       "audio_volume": 25,
       "video_volume": 100
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true
     }
   },
   {
