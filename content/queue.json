@@ -251,12 +251,18 @@
     "caption": "I finally got a real weld puddle going and texted Charlie for the win. His review: \"it looks like a glob.\" So naturally, I torched it right back down flat. Twice.\n\n#welding #shorts #diy",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-17/glob-fake-out-final.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-09-01T10:25:33.350292+00:00"
+    },
     "audio": {
       "audio_id": "1108169820016207",
       "audio_volume": 25,
       "video_volume": 100
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true
     }
   },
   {
