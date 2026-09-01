@@ -299,12 +299,18 @@
     "caption": "The arch has been off my boat since episode 12. This weld is the one thing standing between me and putting it back on -- burn through it and I'm back to square one.\n\nFollow the Pearson 34 rebuild on the channel.\n\n#sailingjuly #welding #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-19/arch-stakes-final.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-09-01T21:43:58.836982+00:00"
+    },
     "audio": {
       "audio_id": "590944702094055",
       "audio_volume": 25,
       "video_volume": 100
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true
     }
   },
   {
