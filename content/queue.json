@@ -323,12 +323,18 @@
     "caption": "Thought I nailed the weld. Then Charlie flipped the plate over.\n\nTurns out too hot means too hot -- even when it looks clean on top.\n\nFrom a night in the shop, episode 15. More on the channel.\n\n#sailingjuly #welding #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-20/ruined-my-joy-final-loud.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-09-02T13:33:41.555058+00:00"
+    },
     "audio": {
       "audio_id": "265006529823191",
       "audio_volume": 25,
       "video_volume": 100
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true
     }
   }
 ]
