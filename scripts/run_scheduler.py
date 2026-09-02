@@ -21,7 +21,7 @@ import requests
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-from common import log, load_json, save_json  # noqa: E402
+from common import log, load_json, save_json, describe_error  # noqa: E402
 import post_facebook  # noqa: E402
 import post_instagram  # noqa: E402
 import post_tiktok  # noqa: E402
@@ -59,7 +59,7 @@ def post_to_facebook(item, dry_run):
         resp.raise_for_status()
         return True
     except Exception as e:
-        log(f"Facebook post failed for {item['id']}: {e}")
+        log(f"Facebook post failed for {item['id']}: {describe_error(e)}")
         return False
 
 
@@ -91,7 +91,7 @@ def post_to_instagram(item, dry_run):
         resp.raise_for_status()
         return True
     except Exception as e:
-        log(f"Instagram post failed for {item['id']}: {e}")
+        log(f"Instagram post failed for {item['id']}: {describe_error(e)}")
         return False
 
 
@@ -141,7 +141,7 @@ def post_to_tiktok(item, dry_run):
         post_tiktok.poll_status(access_token, publish_id)
         return True
     except Exception as e:
-        log(f"TikTok post failed for {item['id']}: {e}")
+        log(f"TikTok post failed for {item['id']}: {describe_error(e)}")
         return False
 
 
