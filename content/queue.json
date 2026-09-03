@@ -365,6 +365,15 @@
     "caption": "shorts-engine E6-02 pipeline verification -- please ignore, internal test of the queue-writer across all 3 platforms, will be deleted.",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/shorts-engine-token-verify-1788469138/e4-04-reverify-native-1788455823.mp4",
     "media_type": "video",
-    "status": "pending"
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-03T21:36:27.493769+00:00",
+      "instagram": "2026-09-03T21:36:54.280384+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   }
 ]
