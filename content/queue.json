@@ -336,5 +336,16 @@
       "facebook": false,
       "instagram": true
     }
+  },
+  {
+    "id": "shorts-engine-22-token-fix-verification",
+    "scheduled_for": "2026-09-03T20:59:27Z",
+    "platforms": [
+      "facebook"
+    ],
+    "caption": "shorts-engine token-fix verification -- please ignore, internal pipeline test, will be deleted.",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/shorts-engine-token-verify-1788469138/e4-04-reverify-native-1788455823.mp4",
+    "media_type": "video",
+    "status": "pending"
   }
 ]
