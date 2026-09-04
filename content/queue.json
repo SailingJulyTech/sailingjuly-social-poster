@@ -555,5 +555,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-3-this-channel-isn-t-just-about",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I want this channel to be a real community, not just me talking. Comment below and let's talk!",
+    "captions": {
+      "instagram": "Not just talking about myself -- I want real conversations here. Comment below. #community #sailingjuly #diy",
+      "tiktok": "This channel is about US, not just me \ud83e\udef6 comment below #community #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5956f087-40e0-4086-977b-771decb17167/ff76fe0a-86b8-48d9-af0f-ca560813729a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
