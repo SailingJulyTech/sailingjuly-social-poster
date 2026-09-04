@@ -519,5 +519,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-22-wait-it-s-actually-moving",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "It's moving! Finally got the science down on this weld. Save this one.",
+    "captions": {
+      "instagram": "It's actually moving \ud83d\ude05 got the science down. #welding #boatbuild #sailingjuly",
+      "tiktok": "IT'S MOVING \ud83d\ude33 save this for later #welding #sailingjuly #diy"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/03860ad7-ead1-41a8-bd6e-0a3bfe9928a0/7e74ac98-9ba1-4653-84cd-75ca02404b8f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
