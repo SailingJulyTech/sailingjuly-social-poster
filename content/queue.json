@@ -487,5 +487,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-1-a-stranger-told-me-i-need",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Devin didn't even watch YouTube and still told me I needed a channel. Follow for more dock encounters like this one. #sailingjuly #boatrestoration #doubleyoutube",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d0fb083e-9c72-4833-9ea7-a12d144f90dc/4cf7d7a0-13c7-4d61-a93a-7d3b473e7b8e.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
