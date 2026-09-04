@@ -1,0 +1,38 @@
+name: Delete Facebook post (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      contains:
+        description: "Substring to match in the post's description/caption"
+        required: true
+      confirm:
+        description: "true to actually delete matches; false just lists them"
+        required: false
+        default: "false"
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Find/delete matching post
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          CONTAINS: ${{ github.event.inputs.contains }}
+          CONFIRM: ${{ github.event.inputs.confirm }}
+        run: |
+          if [ "$CONFIRM" = "true" ]; then
+            python scripts/delete_facebook_post.py --contains "$CONTAINS" --confirm
+          else
+            python scripts/delete_facebook_post.py --contains "$CONTAINS"
+          fi
