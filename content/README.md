@@ -33,6 +33,29 @@ Field notes:
   run, then commits the updated file back to the repo so items are never
   double-posted.
 
+## Per-platform captions (optional)
+
+By default every platform in `platforms` uses the shared `caption` field.
+When a post needs different copy per platform, add a `captions` object with
+just the platforms that differ — anything not listed there still falls back
+to `caption`:
+
+```json
+{
+  "id": "...",
+  "platforms": ["facebook", "instagram", "tiktok"],
+  "caption": "Shared fallback caption.",
+  "captions": {
+    "facebook": "Facebook-specific caption.",
+    "instagram": "Instagram-specific caption."
+  }
+}
+```
+
+`caption` is still required even when `captions` is present (used as the
+fallback for any platform not listed, and shown in tools that only know
+about the single shared field).
+
 ## Licensed music on Instagram Reels (optional)
 
 Meta's Audio API can attach officially licensed catalogue music to a Reel at

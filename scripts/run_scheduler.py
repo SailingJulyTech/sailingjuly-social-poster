@@ -40,8 +40,14 @@ def parse_scheduled_for(value):
     return datetime.datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
+def caption_for(item, platform):
+    """Per-platform caption override, when present, else the item's shared
+    `caption` -- see content/README.md's "captions" field."""
+    return (item.get("captions") or {}).get(platform, item["caption"])
+
+
 def post_to_facebook(item, dry_run):
-    caption = item["caption"]
+    caption = caption_for(item, "facebook")
     media_url = item.get("media_url")
     media_type = item.get("media_type")
     if dry_run:
@@ -64,7 +70,7 @@ def post_to_facebook(item, dry_run):
 
 
 def post_to_instagram(item, dry_run):
-    caption = item["caption"]
+    caption = caption_for(item, "instagram")
     media_url = item["media_url"]
     ig_media_type = "reels" if item.get("media_type") == "video" else "image"
     # Optional licensed music, attached at container-creation time:
@@ -96,7 +102,7 @@ def post_to_instagram(item, dry_run):
 
 
 def post_to_tiktok(item, dry_run):
-    caption = item["caption"]
+    caption = caption_for(item, "tiktok")
     media_url = item["media_url"]
     if dry_run:
         log(f"[dry-run] would post to TikTok: {item['id']}")
