@@ -459,5 +459,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-21-this-hole-nearly-sank-my-restoration",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "This hole is bigger than I wanted it to be. Here's the before, right before I try to fix it. Comment below if you think I can save it. #sailingjuly #boatrestoration #diy",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d0c0be00-ff13-4b0a-867a-4e8530d15681/1f9b5686-adfb-45ca-a791-6872c8a0bbc8.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
