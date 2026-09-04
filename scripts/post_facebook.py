@@ -14,14 +14,29 @@ Usage:
 --media-path uploads the local file directly (multipart) -- no public hosting
 needed. --media-url instead has Meta fetch the file from a public URL.
 
+--media-type video with --media-url publishes as a Facebook Reel (the
+start/upload/finish flow below), not a plain Page video post. Plain /videos
+posts get almost no organic reach under Meta's current algorithm -- short
+vertical video only gets real distribution through the Reels surface. This
+is what run_scheduler.py uses for every queued short. --media-path video
+still goes through the older plain-video-post path (post_video_file) --
+nothing in this repo drives that code path today, so it hasn't been
+converted; convert it the same way (start/upload-bytes/finish) if a local
+upload is ever needed.
+
 See docs/META_SETUP.md for how to obtain these values.
 """
 import argparse
+import time
 import requests
 from common import env, log
 
 GRAPH_VERSION = "v19.0"
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
+
+REEL_POLL_INTERVAL_SECONDS = 5
+REEL_POLL_MAX_ATTEMPTS = 60  # ~5 minutes
+REEL_TERMINAL_ERROR_STATUSES = {"error", "expired", "upload_failed"}
 
 
 def post_text(page_id, token, caption):
@@ -77,6 +92,84 @@ def post_video_file(page_id, token, caption, media_path):
     return resp
 
 
+def start_reel_upload(page_id, token):
+    """Phase 1 of Reels publishing: open an upload session.
+    Returns (video_id, upload_url)."""
+    resp = requests.post(
+        f"{GRAPH_BASE}/{page_id}/video_reels",
+        data={"upload_phase": "start", "access_token": token},
+        timeout=60,
+    )
+    resp.raise_for_status()
+    j = resp.json()
+    return j["video_id"], j["upload_url"]
+
+
+def upload_reel_from_url(upload_url, token, media_url):
+    """Phase 2: have Meta fetch the video from a public URL instead of
+    transferring bytes ourselves -- rupload.facebook.com supports this via
+    the file_url header (see post_instagram.py's upload_video_bytes for the
+    raw-bytes equivalent, used by Instagram's resumable upload)."""
+    headers = {
+        "Authorization": f"OAuth {token}",
+        "file_url": media_url,
+    }
+    resp = requests.post(upload_url, headers=headers, timeout=600)
+    resp.raise_for_status()
+    j = resp.json()
+    if not j.get("success"):
+        raise RuntimeError(f"Reel upload from URL failed: {j}")
+
+
+def wait_for_reel_ready(page_id, token, video_id):
+    """Poll until Meta finishes fetching/processing the uploaded video.
+    Without this, calling finish while status is still "uploading" or
+    "processing" publishes an empty/broken Reel instead of failing loudly."""
+    for attempt in range(REEL_POLL_MAX_ATTEMPTS):
+        resp = requests.get(
+            f"{GRAPH_BASE}/{video_id}",
+            params={"fields": "status", "access_token": token},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        status = resp.json().get("status", {})
+        video_status = status.get("video_status")
+        log(f"Reel {video_id} status: {video_status} ({status})")
+        if video_status == "ready":
+            return
+        if video_status in REEL_TERMINAL_ERROR_STATUSES:
+            raise RuntimeError(f"Reel upload did not become ready: {status}")
+        time.sleep(REEL_POLL_INTERVAL_SECONDS)
+    raise TimeoutError(f"Reel {video_id} did not become ready in time")
+
+
+def finish_reel(page_id, token, video_id, caption):
+    """Phase 3: publish the uploaded video as a Reel."""
+    return requests.post(
+        f"{GRAPH_BASE}/{page_id}/video_reels",
+        data={
+            "upload_phase": "finish",
+            "video_id": video_id,
+            "video_state": "PUBLISHED",
+            "description": caption,
+            "access_token": token,
+        },
+        timeout=60,
+    )
+
+
+def post_video_reel(page_id, token, caption, media_url):
+    """Publish a short vertical video as a Facebook Reel rather than a plain
+    Page video post. Plain /videos posts get almost no organic distribution
+    under Meta's current algorithm -- nearly all short vertical video reach
+    goes through the dedicated Reels surface, which this uses instead."""
+    video_id, upload_url = start_reel_upload(page_id, token)
+    log(f"Reel upload session started: video_id={video_id}")
+    upload_reel_from_url(upload_url, token, media_url)
+    wait_for_reel_ready(page_id, token, video_id)
+    return finish_reel(page_id, token, video_id, caption)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--caption", required=True)
@@ -102,10 +195,12 @@ def main():
             page_id, token, args.caption, args.media_path
         )
     elif args.media_url:
-        log(f"Posting {args.media_type} to Facebook Page from URL: {args.media_url}")
-        resp = (post_video if args.media_type == "video" else post_photo)(
-            page_id, token, args.caption, args.media_url
-        )
+        if args.media_type == "video":
+            log(f"Posting video as a Facebook Reel from URL: {args.media_url}")
+            resp = post_video_reel(page_id, token, args.caption, args.media_url)
+        else:
+            log(f"Posting {args.media_type} to Facebook Page from URL: {args.media_url}")
+            resp = post_photo(page_id, token, args.caption, args.media_url)
     else:
         log("Posting text-only update to Facebook Page...")
         resp = post_text(page_id, token, args.caption)

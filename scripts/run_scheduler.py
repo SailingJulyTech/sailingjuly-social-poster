@@ -61,7 +61,7 @@ def post_to_facebook(item, dry_run):
         elif media_type == "photo":
             resp = post_facebook.post_photo(page_id, token, caption, media_url)
         else:
-            resp = post_facebook.post_video(page_id, token, caption, media_url)
+            resp = post_facebook.post_video_reel(page_id, token, caption, media_url)
         resp.raise_for_status()
         return True
     except Exception as e:
