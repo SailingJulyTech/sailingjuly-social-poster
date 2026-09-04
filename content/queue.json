@@ -573,5 +573,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-24-today-s-the-day-we-finally",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Today's the day this finally gets finished. Let's go!",
+    "captions": {
+      "instagram": "Today's the day. No more excuses. #boatbuild #sailingjuly #diy #archrebuild",
+      "tiktok": "Today's finally the day \ud83d\ude24 #boatbuild #sailingjuly #getitdone"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bcac5333-900b-4110-b8e7-596077ad8120/43ad18fc-c0cb-46ec-8699-808103850b7f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
