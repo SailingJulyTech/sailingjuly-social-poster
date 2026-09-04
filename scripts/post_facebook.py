@@ -27,6 +27,8 @@ upload is ever needed.
 See docs/META_SETUP.md for how to obtain these values.
 """
 import argparse
+import os
+import tempfile
 import time
 import requests
 from common import env, log
@@ -105,20 +107,35 @@ def start_reel_upload(page_id, token):
     return j["video_id"], j["upload_url"]
 
 
-def upload_reel_from_url(upload_url, token, media_url):
-    """Phase 2: have Meta fetch the video from a public URL instead of
-    transferring bytes ourselves -- rupload.facebook.com supports this via
-    the file_url header (see post_instagram.py's upload_video_bytes for the
-    raw-bytes equivalent, used by Instagram's resumable upload)."""
+def download_to_tempfile(media_url):
+    resp = requests.get(media_url, stream=True, timeout=120)
+    resp.raise_for_status()
+    with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as f:
+        for chunk in resp.iter_content(chunk_size=1024 * 1024):
+            f.write(chunk)
+        return f.name
+
+
+def upload_reel_bytes(upload_url, token, media_path):
+    """Phase 2, uploading raw bytes rather than pointing Meta at our URL.
+    queue.json's media_urls are GitHub Releases links, which redirect to a
+    short-lived signed blob URL -- the same "unverified domain for
+    PULL_FROM_URL" reliability problem post_tiktok.py already had to work
+    around (see run_scheduler.py's TikTok FILE_UPLOAD path). Downloading
+    ourselves and uploading bytes sidesteps Meta's hosted-fetch entirely."""
+    file_size = os.path.getsize(media_path)
+    with open(media_path, "rb") as f:
+        video_bytes = f.read()
     headers = {
         "Authorization": f"OAuth {token}",
-        "file_url": media_url,
+        "offset": "0",
+        "file_size": str(file_size),
     }
-    resp = requests.post(upload_url, headers=headers, timeout=600)
+    resp = requests.post(upload_url, headers=headers, data=video_bytes, timeout=600)
     resp.raise_for_status()
     j = resp.json()
     if not j.get("success"):
-        raise RuntimeError(f"Reel upload from URL failed: {j}")
+        raise RuntimeError(f"Reel upload failed: {j}")
 
 
 def wait_for_reel_ready(page_id, token, video_id):
@@ -165,7 +182,12 @@ def post_video_reel(page_id, token, caption, media_url):
     goes through the dedicated Reels surface, which this uses instead."""
     video_id, upload_url = start_reel_upload(page_id, token)
     log(f"Reel upload session started: video_id={video_id}")
-    upload_reel_from_url(upload_url, token, media_url)
+    log(f"Downloading {media_url} for direct upload...")
+    tmp_path = download_to_tempfile(media_url)
+    try:
+        upload_reel_bytes(upload_url, token, tmp_path)
+    finally:
+        os.remove(tmp_path)
     wait_for_reel_ready(page_id, token, video_id)
     return finish_reel(page_id, token, video_id, caption)
 
