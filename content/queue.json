@@ -501,5 +501,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-6-this-weld-only-takes-one-bead",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "One bead around the foot and it's done. Easy peasy!",
+    "captions": {
+      "instagram": "One bead, all the way around. Done. #welding #boatbuild #sailingjuly #diy",
+      "tiktok": "Easy peasy weld \ud83d\ude0c #welding #sailingjuly #boatbuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0060f161-f7ff-48e5-947f-912a00a5c0c9/9600e204-d432-47c4-ac8e-1644fb4e1612.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
