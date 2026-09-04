@@ -431,5 +431,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-1-i-asked-a-total-stranger-for",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I asked a total stranger for a favor on camera and her reaction says it all. Follow for more real dock encounters on the Pearson 34 restoration. #sailingjuly #boatlife #restoration",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/31965506-107d-45c4-a854-145f1959e815/ef22ad0c-d871-4ca0-ab2e-5e68c791841f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
