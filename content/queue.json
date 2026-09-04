@@ -417,5 +417,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-19-he-actually-did-it-and-i",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "He actually did it -- and I couldn't hold back the reaction. Comment below if this got you too. #sailingjuly #shorts",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59d82523-27e8-4554-b18e-2e922a695599/868848c0-e19a-4cc7-8047-5204efff1fbd.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
