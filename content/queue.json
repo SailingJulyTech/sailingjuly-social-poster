@@ -403,5 +403,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-18-new-technology-same-old-sailing-july",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "New technology, same old Sailing July hustle. Subscribe for more boat-life run-ins. #sailingjuly #shorts",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4853a20f-bd81-4eae-97ca-4312a9779c1c/bb7cef13-ca48-48aa-a311-8245ab30496a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
