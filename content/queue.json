@@ -537,5 +537,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-23-i-haven-t-landed-this-weld",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Haven't landed this weld in over a month. Today's the day it finally clicks. Full build on the channel.",
+    "captions": {
+      "instagram": "Over a month chasing this weld. Today it finally landed. #welding #boatbuild #sailingjuly #diy #liveaboard",
+      "tiktok": "A month of bad welds later... today it finally landed \ud83d\udd25 #welding #boatlife #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/213ad746-85e5-4ccb-999c-a9303ee138fa/e4342d6b-3cef-4487-8132-9deea88dd999.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
