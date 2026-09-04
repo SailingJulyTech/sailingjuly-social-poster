@@ -445,5 +445,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-20-i-thought-the-camera-was-off",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I had just turned the camera off when this gentleman stopped me to ask about the channel. Follow us \u2014 it's Sailing July, one word. #sailingjuly #boatlife #contentcreator",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b305ace3-48ad-4d57-8f4f-d96495335d7d/fa217887-76b1-4929-95b6-f417b8475600.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
