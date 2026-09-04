@@ -389,5 +389,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-17-i-stopped-a-total-stranger-at",
+    "scheduled_for": "2026-09-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I stopped a total stranger at Lowe's and asked for 20 seconds of his time. Follow for more Sailing July strangers. #sailingjuly #shorts",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3e9d687b-6088-437f-9471-14244261bcc4/c6a97356-b775-4fde-8944-6b9e61668342.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
