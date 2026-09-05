@@ -186,6 +186,14 @@ def main():
         posted_at = item.setdefault("posted_at", {})
         results = {}
         for platform in item.get("platforms", []):
+            if platform in posted_at:
+                # A retry of a "failed" item (one or more OTHER platforms
+                # failed last time) must not re-post to a platform that
+                # already succeeded -- posted_at only ever gets a platform
+                # key on success, so its presence is the retry-safe signal.
+                log(f"Skipping {platform} for {item['id']}: already posted at {posted_at[platform]}")
+                results[platform] = True
+                continue
             handler = PLATFORM_HANDLERS.get(platform)
             if handler is None:
                 log(f"Unknown platform '{platform}' in item {item['id']}, skipping")
