@@ -115,32 +115,35 @@ def post_to_tiktok(item, dry_run):
             client_key, client_secret, refresh_token
         )
         privacy_level = os.environ.get("TIKTOK_PRIVACY_LEVEL", "SELF_ONLY")
-        if privacy_level == "SELF_ONLY":
-            # queue.json media_urls point at GitHub Releases, an unverified
-            # domain for PULL_FROM_URL -- download and FILE_UPLOAD instead.
-            log(f"Downloading {media_url} for TikTok FILE_UPLOAD...")
-            video_resp = requests.get(media_url, timeout=120)
-            video_resp.raise_for_status()
-            with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as f:
-                f.write(video_resp.content)
-                tmp_path = f.name
-            try:
-                video_size = os.path.getsize(tmp_path)
+        # queue.json media_urls point at GitHub Releases, an unverified
+        # domain for PULL_FROM_URL -- download and FILE_UPLOAD instead,
+        # for both the inbox (SELF_ONLY) and Direct Post paths.
+        log(f"Downloading {media_url} for TikTok FILE_UPLOAD...")
+        video_resp = requests.get(media_url, timeout=120)
+        video_resp.raise_for_status()
+        with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as f:
+            f.write(video_resp.content)
+            tmp_path = f.name
+        try:
+            video_size = os.path.getsize(tmp_path)
+            if privacy_level == "SELF_ONLY":
                 init_resp = post_tiktok.init_post_inbox_file(access_token, video_size)
-                upload_url = init_resp.get("data", {}).get("upload_url")
-                if not upload_url:
-                    raise RuntimeError(f"no upload_url in response: {init_resp}")
-                post_tiktok.upload_video_file(upload_url, tmp_path)
-            finally:
-                os.remove(tmp_path)
-        else:
-            creator_info = post_tiktok.get_creator_info(access_token)
-            allowed = creator_info.get("privacy_level_options") or []
-            if allowed and privacy_level not in allowed:
-                raise RuntimeError(
-                    f"privacy_level {privacy_level} not in allowed options {allowed}"
+            else:
+                creator_info = post_tiktok.get_creator_info(access_token)
+                allowed = creator_info.get("privacy_level_options") or []
+                if allowed and privacy_level not in allowed:
+                    raise RuntimeError(
+                        f"privacy_level {privacy_level} not in allowed options {allowed}"
+                    )
+                init_resp = post_tiktok.init_post_direct_file(
+                    access_token, caption, privacy_level, video_size
                 )
-            init_resp = post_tiktok.init_post_direct(access_token, caption, media_url, privacy_level)
+            upload_url = init_resp.get("data", {}).get("upload_url")
+            if not upload_url:
+                raise RuntimeError(f"no upload_url in response: {init_resp}")
+            post_tiktok.upload_video_file(upload_url, tmp_path)
+        finally:
+            os.remove(tmp_path)
         publish_id = init_resp.get("data", {}).get("publish_id")
         if not publish_id:
             raise RuntimeError(f"no publish_id in response: {init_resp}")

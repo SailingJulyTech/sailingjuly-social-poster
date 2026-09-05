@@ -19,6 +19,7 @@ TikTok has two separate posting endpoints gated by two separate scopes:
     caption, no manual step. `creator_info` also requires this scope.
 This script uses inbox/Upload automatically for --privacy-level SELF_ONLY
 (the default) and Direct Post for anything else. See docs/TIKTOK_SETUP.md.
+Both endpoints support either source mode below (FILE_UPLOAD or PULL_FROM_URL).
 
 Two source modes for the video itself:
   - `--media-path` (FILE_UPLOAD): uploads the file's bytes directly to
@@ -185,6 +186,39 @@ def init_post_direct(access_token, caption, media_url, privacy_level):
     return resp.json()
 
 
+def init_post_direct_file(access_token, caption, privacy_level, video_size):
+    """Direct Post (video.publish scope) via FILE_UPLOAD -- same as
+    init_post_direct but avoids the PULL_FROM_URL domain-verification
+    requirement entirely by uploading bytes directly, same as
+    init_post_inbox_file does for the Upload API."""
+    body = {
+        "post_info": {
+            "title": caption,
+            "privacy_level": privacy_level,
+            "disable_duet": False,
+            "disable_comment": False,
+            "disable_stitch": False,
+        },
+        "source_info": {
+            "source": "FILE_UPLOAD",
+            "video_size": video_size,
+            "chunk_size": video_size,
+            "total_chunk_count": 1,
+        },
+    }
+    resp = requests.post(
+        DIRECT_INIT_URL,
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        json=body,
+        timeout=60,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
 def poll_status(access_token, publish_id):
     for attempt in range(POLL_MAX_ATTEMPTS):
         resp = requests.post(
@@ -254,7 +288,17 @@ def main():
             log(f"FAILED: privacy_level {args.privacy_level} not in allowed options {allowed}")
             raise SystemExit(1)
         log(f"Initiating direct post (privacy_level={args.privacy_level})...")
-        init_resp = init_post_direct(access_token, args.caption, args.media_url, args.privacy_level)
+        if args.media_path:
+            video_size = os.path.getsize(args.media_path)
+            init_resp = init_post_direct_file(access_token, args.caption, args.privacy_level, video_size)
+            upload_url = init_resp.get("data", {}).get("upload_url")
+            if not upload_url:
+                log(f"FAILED to init post: {init_resp}")
+                raise SystemExit(1)
+            log(f"Uploading {video_size} bytes to TikTok...")
+            upload_video_file(upload_url, args.media_path)
+        else:
+            init_resp = init_post_direct(access_token, args.caption, args.media_url, args.privacy_level)
 
     publish_id = init_resp.get("data", {}).get("publish_id")
     if not publish_id:
