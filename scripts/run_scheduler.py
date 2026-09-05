@@ -29,6 +29,31 @@ import post_tiktok  # noqa: E402
 DEFAULT_QUEUE_PATH = os.path.join(
     os.path.dirname(__file__), "..", "content", "queue.json"
 )
+DEFAULT_STATE_PATH = os.path.join(
+    os.path.dirname(__file__), "..", "content", "scheduler_state.json"
+)
+
+# Added 2026-09-05: a batch of ~14 due items all posted back-to-back in one
+# run hammered Facebook hard enough to trip its own anti-spam rate limit
+# (code 368) after ~13 rapid Reel attempts, and the run's own single
+# end-of-run save_json+git-push lost all 80 minutes of results to an
+# unrelated commit landing mid-run. Fix: process at most ONE due item per
+# invocation, and refuse to even start a new one until MIN_GAP_MINUTES has
+# passed since the last attempt (tracked in DEFAULT_STATE_PATH, not
+# queue.json itself -- queue.json's schema is a flat list of post items,
+# not a place for cross-run scheduler state). Real spacing between actual
+# platform API calls, not just "whatever the cron happens to trigger."
+MIN_GAP_MINUTES = 60
+
+
+def load_state(path):
+    if not os.path.exists(path):
+        return {}
+    return load_json(path)
+
+
+def save_state(path, state):
+    save_json(path, state)
 
 
 def utcnow():
@@ -164,6 +189,7 @@ PLATFORM_HANDLERS = {
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--queue", default=DEFAULT_QUEUE_PATH)
+    parser.add_argument("--state", default=DEFAULT_STATE_PATH)
     parser.add_argument(
         "--dry-run", action="store_true",
         help="Don't actually call any platform APIs, just show what would post"
@@ -172,53 +198,75 @@ def main():
 
     queue = load_json(args.queue)
     now = utcnow()
-    any_failure = False
-    any_change = False
 
-    for item in queue:
-        if item.get("status") != "pending":
+    # Same-hour throttle (2026-09-05 fix -- see MIN_GAP_MINUTES's own
+    # comment): skipped entirely for --dry-run so previewing isn't blocked
+    # by real posting history, and never persisted from a dry run either.
+    if not args.dry_run:
+        state = load_state(args.state)
+        last_attempt_raw = state.get("last_attempt_at")
+        if last_attempt_raw is not None:
+            last_attempt_at = parse_scheduled_for(last_attempt_raw)
+            elapsed_minutes = (now - last_attempt_at).total_seconds() / 60
+            if elapsed_minutes < MIN_GAP_MINUTES:
+                log(
+                    f"Last post attempt was {elapsed_minutes:.1f} min ago; "
+                    f"waiting until {MIN_GAP_MINUTES} min have passed "
+                    f"({MIN_GAP_MINUTES - elapsed_minutes:.1f} min remaining). Nothing posted this run."
+                )
+                return
+
+    # Only the SINGLE oldest due+pending item -- not a loop over every due
+    # item -- is processed per invocation, so a batch of many due posts
+    # gets spread across many runs (paced by MIN_GAP_MINUTES above) instead
+    # of firing at every platform back-to-back in one run.
+    due_items = [
+        item for item in queue
+        if item.get("status") == "pending"
+        and parse_scheduled_for(item["scheduled_for"]) <= now
+    ]
+    due_items.sort(key=lambda item: parse_scheduled_for(item["scheduled_for"]))
+
+    if not due_items:
+        log("Nothing due.")
+        return
+
+    item = due_items[0]
+    log(f"Processing due post: {item['id']} ({len(due_items) - 1} more still due after this one)")
+    posted_at = item.setdefault("posted_at", {})
+    results = {}
+    for platform in item.get("platforms", []):
+        if platform in posted_at:
+            # A retry of a "failed" item (one or more OTHER platforms
+            # failed last time) must not re-post to a platform that
+            # already succeeded -- posted_at only ever gets a platform
+            # key on success, so its presence is the retry-safe signal.
+            log(f"Skipping {platform} for {item['id']}: already posted at {posted_at[platform]}")
+            results[platform] = True
             continue
-        scheduled_for = parse_scheduled_for(item["scheduled_for"])
-        if scheduled_for > now:
+        handler = PLATFORM_HANDLERS.get(platform)
+        if handler is None:
+            log(f"Unknown platform '{platform}' in item {item['id']}, skipping")
+            results[platform] = False
             continue
+        ok = handler(item, args.dry_run)
+        results[platform] = ok
+        if ok and not args.dry_run:
+            posted_at[platform] = utcnow().isoformat()
 
-        log(f"Processing due post: {item['id']}")
-        posted_at = item.setdefault("posted_at", {})
-        results = {}
-        for platform in item.get("platforms", []):
-            if platform in posted_at:
-                # A retry of a "failed" item (one or more OTHER platforms
-                # failed last time) must not re-post to a platform that
-                # already succeeded -- posted_at only ever gets a platform
-                # key on success, so its presence is the retry-safe signal.
-                log(f"Skipping {platform} for {item['id']}: already posted at {posted_at[platform]}")
-                results[platform] = True
-                continue
-            handler = PLATFORM_HANDLERS.get(platform)
-            if handler is None:
-                log(f"Unknown platform '{platform}' in item {item['id']}, skipping")
-                results[platform] = False
-                continue
-            ok = handler(item, args.dry_run)
-            results[platform] = ok
-            if ok and not args.dry_run:
-                posted_at[platform] = utcnow().isoformat()
+    if all(results.values()):
+        item["status"] = "posted" if not args.dry_run else "pending"
+    else:
+        item["status"] = "failed"
+    item["last_result"] = results
 
-        any_change = True
-        if all(results.values()):
-            item["status"] = "posted" if not args.dry_run else "pending"
-        else:
-            item["status"] = "failed"
-            any_failure = True
-        item["last_result"] = results
-
-    if any_change and not args.dry_run:
+    if not args.dry_run:
         save_json(args.queue, queue)
         log(f"Updated {args.queue}")
-    elif not any_change:
-        log("Nothing due.")
+        save_state(args.state, {"last_attempt_at": utcnow().isoformat()})
+        log(f"Updated {args.state}")
 
-    if any_failure:
+    if not all(results.values()):
         sys.exit(1)
 
 

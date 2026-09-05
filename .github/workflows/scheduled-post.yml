@@ -48,10 +48,31 @@ jobs:
         run: |
           git config user.name "sailingjuly-poster-bot"
           git config user.email "actions@users.noreply.github.com"
-          if ! git diff --quiet -- content/queue.json; then
-            git add content/queue.json
+          # content/scheduler_state.json added 2026-09-05 (run_scheduler.py's
+          # same-hour throttle) -- must be committed alongside queue.json or
+          # the throttle's "last attempt" marker never persists and every
+          # run re-checks against a stale/missing state file.
+          if ! git diff --quiet -- content/queue.json content/scheduler_state.json; then
+            git add content/queue.json content/scheduler_state.json
             git commit -m "Update queue status [skip ci]"
-            git push
+            # Retry on a rejected push (2026-09-05 fix): an 80-minute run
+            # previously lost 100% of its results because an unrelated
+            # commit landed on origin/main mid-run and the final `git push`
+            # was rejected outright, with nothing to fall back on. Rebase
+            # onto whatever landed in the meantime and retry a few times
+            # rather than failing the whole job over a push race.
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                break
+              fi
+              echo "push rejected (attempt $attempt/5) -- fetching + rebasing and retrying"
+              git fetch origin main
+              git rebase origin/main
+              if [ "$attempt" = 5 ]; then
+                echo "::error::push still failing after 5 attempts -- giving up, see log above"
+                exit 1
+              fi
+            done
           else
             echo "No queue changes to commit."
           fi
