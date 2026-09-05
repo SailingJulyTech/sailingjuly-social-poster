@@ -729,7 +729,11 @@
     "caption": "Dead serious -- comment if you want one. This channel is THAT small.\n\n#welding #shorts #smallyoutuber",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-12/nine-subscribers-final-loud.mp4",
     "media_type": "video",
-    "status": "pending"
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false
+    }
   },
   {
     "id": "hot-weld-hands-14-burned-shirt-repost-fb-reel",
