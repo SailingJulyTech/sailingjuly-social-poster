@@ -699,7 +699,11 @@
     "caption": "\"Mark is a superstar, I'm not going to lie.\" Full episode on the channel. #sailingjuly #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-05/05-mark-is-a-superstar-final-confetti.mp4",
     "media_type": "video",
-    "status": "pending"
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false
+    }
   },
   {
     "id": "lowes-experiment-15-biggest-win-yet-repost-fb-reel",
