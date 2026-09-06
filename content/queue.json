@@ -800,5 +800,23 @@
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-13/brought-me-to-tears-final-loud.mp4",
     "media_type": "video",
     "status": "pending"
+  },
+  {
+    "id": "lowes-experiment-21-july-isn-t-a-month",
+    "scheduled_for": "2026-09-06T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"Sailing in July?\" No \u2014 July is the BOAT. Happens every single time. Serious question though: should I change the channel name? Let me know.",
+    "captions": {
+      "instagram": "It's not the month. July is the boat. \ud83d\ude05 Should the channel name change? Comment below.\n\n#sailing #boatlife #boatrestoration #sailinglife #pearson34 #sailingjuly #boatnames",
+      "tiktok": "July is the boat, not the month. Should I rename the channel? #sailing #boattok #boatlife #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/33c469f3-1cdc-4af5-8dd2-48b89a93995a/a074a67e-eef3-4911-a6bc-d618fa175a75.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
