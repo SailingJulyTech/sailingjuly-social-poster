@@ -828,8 +828,15 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/33c469f3-1cdc-4af5-8dd2-48b89a93995a/a074a67e-eef3-4911-a6bc-d618fa175a75.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-09-06T23:52:04.145899+00:00"
+    },
+    "last_result": {
+      "facebook": false,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-15-25-one-month-still-can-t-weld",
