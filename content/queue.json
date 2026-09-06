@@ -774,7 +774,11 @@
     "caption": "Grabbed the wrong tank and didn't even know it -- 75% argon mix, first-ever weld attempt. Everybody starts somewhere.\n\n#welding #beginnerwelder #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-06/wrong-tank-hands-final-loud.mp4",
     "media_type": "video",
-    "status": "pending"
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false
+    }
   },
   {
     "id": "hot-weld-hands-08-engineering-school-repost-fb-reel",
