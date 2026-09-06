@@ -836,5 +836,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-2-download-your-youtube-app-man",
+    "scheduled_for": "2026-09-06T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"Download your YouTube app, man, stop playing.\" This is my whole marketing strategy. He took it well.",
+    "captions": {
+      "instagram": "Signing up subscribers in aisle 12. \ud83d\ude02 He was not ready.\n\n#sailing #boatrestoration #strangers #funny #sailinglife #sailingjuly #boatlife",
+      "tiktok": "\"Download your YouTube app, man.\" My entire growth strategy. #funny #strangers #sailing #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/cdc78929-7596-496e-9db2-a4e20e85dde0/1f1d75c3-0e14-4a2a-986c-6652877d6ae7.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
