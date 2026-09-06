@@ -759,7 +759,11 @@
     "caption": "Holding my own welds next to a real reference weld... it's humbling. How much do you think I'm worth as a welder?\n\n#welding #shorts #diy",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-10/weld-in-hand-final-loud.mp4",
     "media_type": "video",
-    "status": "pending"
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false
+    }
   },
   {
     "id": "hot-weld-hands-06-wrong-tank-hands-repost-fb-reel",
