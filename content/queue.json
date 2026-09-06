@@ -744,7 +744,11 @@
     "caption": "First casualty of learning to weld: my own shirt. Playing with fire, literally.\n\n#welding #shorts #beginnerwelder",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-14/burned-shirt-final-loud.mp4",
     "media_type": "video",
-    "status": "pending"
+    "status": "failed",
+    "posted_at": {},
+    "last_result": {
+      "facebook": false
+    }
   },
   {
     "id": "hot-weld-hands-10-weld-in-hand-repost-fb-reel",
