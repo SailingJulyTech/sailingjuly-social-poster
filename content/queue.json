@@ -818,5 +818,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-25-one-month-still-can-t-weld",
+    "scheduled_for": "2026-09-06T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A month of failing at this weld. He did it in two seconds with everything dialed in. Today I've got no excuses left.",
+    "captions": {
+      "instagram": "Almost a month on one weld. He did it in two seconds. \ud83d\udd25 No excuses today. Follow for the attempt.\n\n#welding #boatrestoration #sailing #learningtoweld #diy #sailingjuly #pearson34",
+      "tiktok": "A month of failing. He did it in 2 seconds. #welding #boatrestoration #learning #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5711faec-2b8a-491f-90f2-1a68aa1a8a8c/6e1c8807-5b8a-4f1e-ba7a-55fad8d5047d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
