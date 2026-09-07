@@ -29,14 +29,31 @@ GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
 
 
 def find_matching_videos(page_id, token, contains):
-    resp = requests.get(
-        f"{GRAPH_BASE}/{page_id}/videos",
-        params={"fields": "id,description,created_time", "access_token": token, "limit": 50},
-        timeout=30,
-    )
-    resp.raise_for_status()
-    videos = resp.json().get("data", [])
-    return [v for v in videos if contains.lower() in (v.get("description") or "").lower()]
+    """Searches both /videos (plain Page video posts) and /video_reels
+    (Reels -- the edge run_scheduler.py's post_video_reel() actually
+    publishes through, per commit 2a2c29a switching to Reels for
+    distribution). A post's actual type isn't known ahead of a search, so
+    both edges are queried and the results merged -- fixes a real miss:
+    the first version of this script only checked /videos and silently
+    found nothing for any Reel, despite Reels being 100% of what this
+    project posts today.
+    """
+    seen_ids = set()
+    matches = []
+    for edge in ("videos", "video_reels"):
+        resp = requests.get(
+            f"{GRAPH_BASE}/{page_id}/{edge}",
+            params={"fields": "id,description,created_time", "access_token": token, "limit": 50},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        for v in resp.json().get("data", []):
+            if v["id"] in seen_ids:
+                continue
+            if contains.lower() in (v.get("description") or "").lower():
+                seen_ids.add(v["id"])
+                matches.append(v)
+    return matches
 
 
 def delete_video(video_id, token):
