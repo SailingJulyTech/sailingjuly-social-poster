@@ -1,0 +1,55 @@
+name: Test Facebook plain video post (manual, diagnostic)
+
+on:
+  workflow_dispatch:
+    inputs:
+      media_url:
+        description: "URL of the video to download and post via plain /videos (not Reels)"
+        required: true
+      caption:
+        description: "Caption/description for the test post"
+        required: true
+        default: "[internal test -- plain video post fallback, will be deleted]"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download and post via plain /videos (non-Reels)
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          MEDIA_URL: ${{ github.event.inputs.media_url }}
+          CAPTION: ${{ github.event.inputs.caption }}
+        run: |
+          python -c "
+          import sys, os
+          sys.path.insert(0, 'scripts')
+          from common import env, log
+          import post_facebook as pf
+
+          page_id = env('META_PAGE_ID')
+          token = env('META_PAGE_ACCESS_TOKEN')
+          media_url = os.environ['MEDIA_URL']
+          caption = os.environ['CAPTION']
+
+          log(f'Downloading {media_url}...')
+          tmp_path = pf.download_to_tempfile(media_url)
+          try:
+              log(f'Posting via plain /{page_id}/videos (not Reels)...')
+              resp = pf.post_video_file(page_id, token, caption, tmp_path)
+              log(f'HTTP {resp.status_code}')
+              log(resp.text[:2000])
+              resp.raise_for_status()
+          finally:
+              os.remove(tmp_path)
+          "
