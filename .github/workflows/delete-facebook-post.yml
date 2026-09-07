@@ -14,6 +14,10 @@ on:
         description: "true to keep only the earliest match and delete the rest (retry-caused duplicate cleanup)"
         required: false
         default: "false"
+      debug_raw:
+        description: "true to print raw /videos and /video_reels API responses before matching"
+        required: false
+        default: "false"
 
 jobs:
   delete:
@@ -35,6 +39,7 @@ jobs:
           CONTAINS: ${{ github.event.inputs.contains }}
           CONFIRM: ${{ github.event.inputs.confirm }}
           KEEP_EARLIEST: ${{ github.event.inputs.keep_earliest }}
+          DEBUG_RAW: ${{ github.event.inputs.debug_raw }}
         run: |
           args=(--contains "$CONTAINS")
           if [ "$CONFIRM" = "true" ]; then
@@ -42,5 +47,8 @@ jobs:
           fi
           if [ "$KEEP_EARLIEST" = "true" ]; then
             args+=(--keep-earliest)
+          fi
+          if [ "$DEBUG_RAW" = "true" ]; then
+            args+=(--debug-raw)
           fi
           python scripts/delete_facebook_post.py "${args[@]}"

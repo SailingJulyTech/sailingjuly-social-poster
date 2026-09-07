@@ -70,10 +70,37 @@ def main():
              "-- for cleaning up a retry-caused duplicate (identical caption, published later) "
              "without touching the original it duplicated.",
     )
+    parser.add_argument(
+        "--debug-raw", action="store_true",
+        help="Print the raw /videos and /video_reels API responses (status, error body, item "
+             "count, first few descriptions) before matching, to diagnose an unexpected "
+             "zero-match result -- permissions, wrong edge, field name, etc.",
+    )
     args = parser.parse_args()
 
     page_id = env("META_PAGE_ID")
     token = env("META_PAGE_ACCESS_TOKEN")
+
+    if args.debug_raw:
+        for edge in ("videos", "video_reels"):
+            resp = requests.get(
+                f"{GRAPH_BASE}/{page_id}/{edge}",
+                params={"fields": "id,description,created_time", "access_token": token, "limit": 50},
+                timeout=30,
+            )
+            log(f"GET /{page_id}/{edge} -> HTTP {resp.status_code}")
+            try:
+                body = resp.json()
+            except ValueError:
+                log(f"  non-JSON body: {resp.text[:500]!r}")
+                continue
+            if "error" in body:
+                log(f"  error: {body['error']}")
+                continue
+            data = body.get("data", [])
+            log(f"  {len(data)} item(s) returned")
+            for v in data[:10]:
+                log(f"  - id={v.get('id')} created={v.get('created_time')} description={v.get('description')!r}")
 
     matches = find_matching_videos(page_id, token, args.contains)
     if not matches:
