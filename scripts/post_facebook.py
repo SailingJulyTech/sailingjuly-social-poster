@@ -179,17 +179,38 @@ def post_video_reel(page_id, token, caption, media_url):
     """Publish a short vertical video as a Facebook Reel rather than a plain
     Page video post. Plain /videos posts get almost no organic distribution
     under Meta's current algorithm -- nearly all short vertical video reach
-    goes through the dedicated Reels surface, which this uses instead."""
+    goes through the dedicated Reels surface, which this uses instead.
+
+    Fallback, added 2026-09-07: confirmed empirically (delete_facebook_post.py
+    --check-status against a real stuck video_id, 28+ hours later, still
+    processing_phase=not_started) that Reels processing can get stuck
+    server-side indefinitely -- not a client-side timeout that a longer
+    poll would fix. A plain /videos post via post_video_file, tested
+    directly against the same real media while Reels were stuck, published
+    successfully and immediately (HTTP 200). So a `wait_for_reel_ready`
+    timeout specifically (not other failures -- a genuine upload/terminal
+    error likely isn't Reels-specific and a plain-post retry probably
+    wouldn't help either) falls back to posting the SAME already-downloaded
+    file as a plain video post: reduced organic reach, but something
+    actually goes live instead of nothing. Reels stays the default/first
+    attempt since it's the real distribution surface when Meta's pipeline
+    isn't stuck.
+    """
     video_id, upload_url = start_reel_upload(page_id, token)
     log(f"Reel upload session started: video_id={video_id}")
     log(f"Downloading {media_url} for direct upload...")
     tmp_path = download_to_tempfile(media_url)
     try:
         upload_reel_bytes(upload_url, token, tmp_path)
+        try:
+            wait_for_reel_ready(page_id, token, video_id)
+        except TimeoutError as e:
+            log(f"Reel {video_id} processing stuck ({e}) -- falling back to a plain video post "
+                f"(reduced reach, but actually publishes)")
+            return post_video_file(page_id, token, caption, tmp_path)
+        return finish_reel(page_id, token, video_id, caption)
     finally:
         os.remove(tmp_path)
-    wait_for_reel_ready(page_id, token, video_id)
-    return finish_reel(page_id, token, video_id, caption)
 
 
 def main():
