@@ -804,7 +804,13 @@
     "caption": "Bahamas. Caribbean. Brazil. Then Lagos, Nigeria -- by boat. I pitched a total stranger my whole route and she said yes.\n\nFull episode on the channel.\n\n#sailingjuly #sailboat #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/short-11/lagos-pitch-final-loud.mp4",
     "media_type": "video",
-    "status": "pending"
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-07T18:48:00.663188+00:00"
+    },
+    "last_result": {
+      "facebook": true
+    }
   },
   {
     "id": "lowes-experiment-13-brought-me-to-tears-repost-fb-reel",
