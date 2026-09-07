@@ -10,6 +10,10 @@ on:
         description: "true to actually delete matches; false just lists them"
         required: false
         default: "false"
+      keep_earliest:
+        description: "true to keep only the earliest match and delete the rest (retry-caused duplicate cleanup)"
+        required: false
+        default: "false"
 
 jobs:
   delete:
@@ -30,9 +34,13 @@ jobs:
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           CONTAINS: ${{ github.event.inputs.contains }}
           CONFIRM: ${{ github.event.inputs.confirm }}
+          KEEP_EARLIEST: ${{ github.event.inputs.keep_earliest }}
         run: |
+          args=(--contains "$CONTAINS")
           if [ "$CONFIRM" = "true" ]; then
-            python scripts/delete_facebook_post.py --contains "$CONTAINS" --confirm
-          else
-            python scripts/delete_facebook_post.py --contains "$CONTAINS"
+            args+=(--confirm)
           fi
+          if [ "$KEEP_EARLIEST" = "true" ]; then
+            args+=(--keep-earliest)
+          fi
+          python scripts/delete_facebook_post.py "${args[@]}"
