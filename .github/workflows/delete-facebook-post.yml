@@ -4,8 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       contains:
-        description: "Substring to match in the post's description/caption"
-        required: true
+        description: "Substring to match in the post's description/caption (ignored if check_status is set)"
+        required: false
+      check_status:
+        description: "Read-only: a video_id to check current status for, instead of matching/deleting"
+        required: false
       confirm:
         description: "true to actually delete matches; false just lists them"
         required: false
@@ -40,7 +43,12 @@ jobs:
           CONFIRM: ${{ github.event.inputs.confirm }}
           KEEP_EARLIEST: ${{ github.event.inputs.keep_earliest }}
           DEBUG_RAW: ${{ github.event.inputs.debug_raw }}
+          CHECK_STATUS: ${{ github.event.inputs.check_status }}
         run: |
+          if [ -n "$CHECK_STATUS" ]; then
+            python scripts/delete_facebook_post.py --check-status "$CHECK_STATUS"
+            exit 0
+          fi
           args=(--contains "$CONTAINS")
           if [ "$CONFIRM" = "true" ]; then
             args+=(--confirm)

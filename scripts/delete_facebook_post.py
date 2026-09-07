@@ -62,7 +62,14 @@ def delete_video(video_id, token):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--contains", required=True, help="Substring to match in the post's description")
+    parser.add_argument("--contains", default=None, help="Substring to match in the post's description")
+    parser.add_argument(
+        "--check-status", default=None, metavar="VIDEO_ID",
+        help="Read-only: GET the given video_id's current status (video_status, uploading_phase, "
+             "processing_phase) and exit -- for checking whether a Reel from a timed-out "
+             "wait_for_reel_ready() call ever actually finished processing, days later. "
+             "Ignores --contains/--confirm/--keep-earliest entirely.",
+    )
     parser.add_argument("--confirm", action="store_true", help="Actually delete matches; otherwise just list them")
     parser.add_argument(
         "--keep-earliest", action="store_true",
@@ -80,6 +87,22 @@ def main():
 
     page_id = env("META_PAGE_ID")
     token = env("META_PAGE_ACCESS_TOKEN")
+
+    if args.check_status:
+        resp = requests.get(
+            f"{GRAPH_BASE}/{args.check_status}",
+            params={"fields": "status", "access_token": token},
+            timeout=30,
+        )
+        log(f"GET /{args.check_status}?fields=status -> HTTP {resp.status_code}")
+        try:
+            log(f"  {resp.json()}")
+        except ValueError:
+            log(f"  non-JSON body: {resp.text[:500]!r}")
+        return
+
+    if not args.contains:
+        raise SystemExit("--contains is required unless --check-status is given")
 
     if args.debug_raw:
         for edge in ("videos", "video_reels"):
