@@ -10,6 +10,10 @@ on:
         description: "Caption/description for the test post"
         required: true
         default: "[internal test -- plain video post fallback, will be deleted]"
+      via_reel_fallback:
+        description: "true to call the real post_video_reel() (Reels attempt -> timeout -> plain-post fallback) instead of posting plain directly"
+        required: false
+        default: "false"
 
 jobs:
   test:
@@ -24,12 +28,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Download and post via plain /videos (non-Reels)
+      - name: Post (plain, or via the real Reel-then-fallback path)
         env:
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           MEDIA_URL: ${{ github.event.inputs.media_url }}
           CAPTION: ${{ github.event.inputs.caption }}
+          VIA_REEL_FALLBACK: ${{ github.event.inputs.via_reel_fallback }}
         run: |
           python -c "
           import sys, os
@@ -42,14 +47,21 @@ jobs:
           media_url = os.environ['MEDIA_URL']
           caption = os.environ['CAPTION']
 
-          log(f'Downloading {media_url}...')
-          tmp_path = pf.download_to_tempfile(media_url)
-          try:
-              log(f'Posting via plain /{page_id}/videos (not Reels)...')
-              resp = pf.post_video_file(page_id, token, caption, tmp_path)
+          if os.environ.get('VIA_REEL_FALLBACK') == 'true':
+              log('Calling the real post_video_reel() -- Reels attempt, then plain-post fallback on timeout')
+              resp = pf.post_video_reel(page_id, token, caption, media_url)
               log(f'HTTP {resp.status_code}')
               log(resp.text[:2000])
               resp.raise_for_status()
-          finally:
-              os.remove(tmp_path)
+          else:
+              log(f'Downloading {media_url}...')
+              tmp_path = pf.download_to_tempfile(media_url)
+              try:
+                  log(f'Posting via plain /{page_id}/videos (not Reels)...')
+                  resp = pf.post_video_file(page_id, token, caption, tmp_path)
+                  log(f'HTTP {resp.status_code}')
+                  log(resp.text[:2000])
+                  resp.raise_for_status()
+              finally:
+                  os.remove(tmp_path)
           "
