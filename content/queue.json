@@ -975,5 +975,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-22-they-followed-before-i-asked",
+    "scheduled_for": "2026-09-14T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Kelvin and James followed before I even got the ask out. A deal's a deal \u2014 shout-out on camera.",
+    "captions": {
+      "instagram": "They called me out mid-recording and followed before I asked. Kelvin and James, this one's yours. \ud83d\ude4f\n\n#sailing #boatrestoration #strangers #community #sailinglife #pearson34 #sailingjuly",
+      "tiktok": "They followed before I even asked. Shout-out to Kelvin and James. #strangers #community #sailing #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f7db1bdd-c1c0-404e-b5c1-d2a338b2fc26/e34a9f0f-d3ed-4c08-8cdd-596516c7f9f3.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
