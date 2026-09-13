@@ -957,5 +957,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-1-i-can-t-tack-in-here",
+    "scheduled_for": "2026-09-13T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I can tack on the boat all day. In the shop, with nothing holding the piece upright, it's a completely different sport.",
+    "captions": {
+      "instagram": "On the boat: easy. In the shop with nothing holding it upright: not so much. \ud83d\udd27\n\n#welding #boatrestoration #learningtoweld #diy #sailing #pearson34 #sailingjuly",
+      "tiktok": "On the boat I can tack. In the shop? Different sport. #welding #boatrestoration #learning #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/9db19ff6-9e4f-4f07-9188-adffe06944d5/abb6abcc-b894-47da-b919-40119d7f2418.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
