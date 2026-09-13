@@ -903,5 +903,23 @@
       "instagram": true,
       "tiktok": false
     }
+  },
+  {
+    "id": "best-buy-experiment-4-where-s-your-phone-at",
+    "scheduled_for": "2026-09-13T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"Where's your phone at, Brandon?\" If you don't follow me on camera, did you really follow me? He was a good sport about it.",
+    "captions": {
+      "instagram": "Off-camera follows don't count. \ud83d\ude02 Brandon found that out mid-aisle.\n\n#sailing #boatrestoration #strangers #sailinglife #boatlife #pearson34 #sailingjuly",
+      "tiktok": "If you don't follow on camera, you didn't really follow. #strangers #funny #sailing #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1a2abdfe-02c0-479a-988b-d9b1b1aefe4c/6b8be4c3-ab90-47e2-aa19-eaeb2f05cf19.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
