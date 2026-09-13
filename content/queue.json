@@ -939,5 +939,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-7-you-re-making-me-look-bad",
+    "scheduled_for": "2026-09-13T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "He gave it a 4 out of 10 and made me look lazy in the process. I maintain this is a two or three man job.",
+    "captions": {
+      "instagram": "\"Four out of ten.\" Sure. \ud83d\ude05 It's a two or three man job and I'll die on that hill.\n\n#boatrestoration #sailing #diy #teamwork #sailinglife #pearson34 #sailingjuly",
+      "tiktok": "He rated it 4/10 just to make me look lazy. #boatrestoration #diy #funny #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8874f64f-0ce2-4862-9319-ad20f9ff3905/c1f4f7f6-0f4a-408e-a212-ec87ccecf797.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
