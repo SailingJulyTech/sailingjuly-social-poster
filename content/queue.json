@@ -921,5 +921,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-3-my-people-never-fail-me",
+    "scheduled_for": "2026-09-13T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"My people never fail me.\" On the clock and still hooking me up. That's how this boat gets fixed \u2014 one subscriber at a time.",
+    "captions": {
+      "instagram": "Told him the boat needs the channel and the channel needs people. He pulled his phone out on the spot. \ud83d\ude4f\n\n#sailing #boatrestoration #community #strangers #sailinglife #pearson34 #sailingjuly",
+      "tiktok": "On the clock and still hooking me up. \ud83d\ude4f #community #strangers #sailing #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/21c14210-f0ea-41df-af0a-2e848209733d/86a6db26-359e-490c-b4ca-834c1c6e5077.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
