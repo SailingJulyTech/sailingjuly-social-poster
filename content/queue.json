@@ -1009,5 +1009,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-1-i-called-him-a-future-follower",
+    "scheduled_for": "2026-09-14T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Tried to introduce Jalen as a \"future follower.\" He just got to work and he's like: I already followed you.",
+    "captions": {
+      "instagram": "\"Future follower\"? Jalen was already ahead of me. \ud83d\ude4c\n\n#strangers #community #bestbuy #sailinglife #pearson34 #sailingjuly",
+      "tiktok": "Future follower? He already followed. Be like Jalen. #strangers #bestbuy #community #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5ef7e4f3-578c-4bb2-9b34-2f0ed231f87e/d016cb98-0e0d-4c47-98a0-0993a7b1b70f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
