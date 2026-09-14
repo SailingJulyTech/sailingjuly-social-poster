@@ -971,8 +971,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8874f64f-0ce2-4862-9319-ad20f9ff3905/c1f4f7f6-0f4a-408e-a212-ec87ccecf797.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-14T11:03:02.371810+00:00",
+      "instagram": "2026-09-14T11:03:55.079439+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-16-1-i-can-t-tack-in-here",
