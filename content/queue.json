@@ -919,8 +919,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1a2abdfe-02c0-479a-988b-d9b1b1aefe4c/6b8be4c3-ab90-47e2-aa19-eaeb2f05cf19.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-14T00:14:03.762680+00:00",
+      "instagram": "2026-09-14T00:15:39.319745+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "home-depot-experiment-3-my-people-never-fail-me",
