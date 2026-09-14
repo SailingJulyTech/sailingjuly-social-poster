@@ -1045,5 +1045,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-23-lowe-s-might-be-my-biggest",
+    "scheduled_for": "2026-09-15T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Lowe's might be my biggest win yet. Asking strangers to follow the boat, one aisle at a time.",
+    "captions": {
+      "instagram": "Lowe's might be my biggest win yet. \ud83d\udee0\ufe0f\n\n#strangers #community #lowes #boatrestoration #sailinglife #sailingjuly",
+      "tiktok": "Lowe's might be my biggest win yet. #lowes #strangers #community #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c6b0c673-2db4-49b3-bbae-6f33246e49d4/bd35f9bb-b80e-4007-9370-4dc71a2644df.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
