@@ -1081,5 +1081,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-2-six-weeks-ago-i-couldn-t",
+    "scheduled_for": "2026-09-15T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A month, a month and a half ago, I didn't think I'd get here. This weld? Pretty good from my perspective.",
+    "captions": {
+      "instagram": "Six weeks ago I couldn't land this. Today: pretty good. \ud83d\udd25\n\n#welding #learningtoweld #boatrestoration #progress #pearson34 #sailingjuly",
+      "tiktok": "Six weeks ago I couldn't do this weld. Now? #welding #learningtoweld #progress #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fb30d004-b8dc-4e00-8581-9e0218ffd93f/93bfd5d6-93dc-43c8-9dbb-31736f55010a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
