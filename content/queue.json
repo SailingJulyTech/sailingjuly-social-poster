@@ -1063,5 +1063,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-2-this-tattoo-is-literally-water",
+    "scheduled_for": "2026-09-14T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A water tattoo. It's water. I had to ask if I could show you guys \u2014 it's so beautiful.",
+    "captions": {
+      "instagram": "Never seen a water tattoo before. Had to ask if I could show it. \ud83c\udf0a\n\nComment your tattoo below \ud83d\udc47\n\n#tattoo #strangers #community #sailinglife #sailingjuly",
+      "tiktok": "A tattoo that's literally water \ud83c\udf0a Comment your tattoo below. #tattoo #strangers #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f0939d1d-232e-4f8f-ad36-393bc6feb26e/26b3d240-dffd-4acb-aeaa-b6640f7e9b06.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
