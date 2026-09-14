@@ -1027,5 +1027,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-5-would-you-trust-this-nigerian",
+    "scheduled_for": "2026-09-14T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Double-checking I didn't pay twice at Best Buy. Honest question: would you all trust this Nigerian?",
+    "captions": {
+      "instagram": "Making sure I didn't pay twice. So... would you trust this Nigerian? \ud83d\ude02 Let us know below.\n\n#nigerian #bestbuy #strangers #sailinglife #sailingjuly",
+      "tiktok": "Would you trust this Nigerian? Let us know \ud83d\ude02 #nigerian #bestbuy #boattok #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/806c7bcb-38b4-44e8-898b-4a6d722a26b2/bc322d44-1349-486c-89d2-dae7e94e5a58.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
