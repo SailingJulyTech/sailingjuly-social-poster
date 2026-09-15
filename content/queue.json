@@ -1219,5 +1219,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "dock-standup-2026-09-14-1-happy-hour-with-my-boat-in",
+    "scheduled_for": "2026-09-16T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Best time to come to Happy Harbor? Happy hour. And July is just right down there, always.",
+    "captions": {
+      "instagram": "Happy hour at Happy Harbor, with July right down there. \u2693\n\n#marina #happyhour #liveaboard #boatlife #sailinglife #sailingjuly",
+      "tiktok": "Happy hour with my boat in view \u2693 #boatlife #marina #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/eb6bc03e-fba3-4db5-9ef4-094f2cc96cc8/b7660b98-5a8b-4e38-8fb2-0e432e78a5e1.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
