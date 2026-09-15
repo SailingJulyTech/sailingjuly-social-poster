@@ -1201,5 +1201,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-24-the-hardest-part-is-the-first",
+    "scheduled_for": "2026-09-16T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"Can I talk to you for one second?\" The hardest part of asking strangers is always the first sentence. Would you stop?",
+    "captions": {
+      "instagram": "The hardest part is the first sentence. \ud83d\ude05 Would you stop? Comment below.\n\n#strangers #lowes #community #boatrestoration #sailinglife #sailingjuly",
+      "tiktok": "Would you stop for this? \ud83d\ude05 #strangers #lowes #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dd11f4d4-a01e-457c-87ca-912f9ad4a009/4ccb081f-3f7c-4542-8872-bba0c5fd6381.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
