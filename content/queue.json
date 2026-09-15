@@ -1165,5 +1165,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-27-he-paused-a-birthday-to-teach",
+    "scheduled_for": "2026-09-15T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Charlie took a moment out of a family birthday to show me a quick weld. That's the kind of people around this boat.",
+    "captions": {
+      "instagram": "Caught Charlie on his way to a family birthday. He still stopped to show me a quick weld. \ud83d\ude4f\n\n#welding #mentor #community #boatrestoration #sailinglife #sailingjuly",
+      "tiktok": "He paused a birthday to show me a weld \ud83d\ude4f #welding #community #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/249363ca-7971-4fa8-815a-b840b5598fc8/2b96b769-2690-484e-a61e-02c55a401bc4.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
