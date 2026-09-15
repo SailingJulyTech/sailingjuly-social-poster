@@ -1183,5 +1183,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-1-is-it-my-hands-or-my",
+    "scheduled_for": "2026-09-16T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "There are so many variables in getting a good weld. You guys decide for me \u2014 is it my hands, or my eyes?",
+    "captions": {
+      "instagram": "Hands or eyes? \ud83e\udd14 Welders, you decide for me. Comment your verdict below.\n\n#welding #learningtoweld #tig #boatrestoration #pearson34 #sailingjuly",
+      "tiktok": "Hands or eyes? Welders, you decide \ud83e\udd14 #welding #learningtoweld #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a4139288-5cab-4d4e-bf5e-b16c806e2f0f/aab8fcc1-f99b-4460-b92c-b0be8b371e2c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
