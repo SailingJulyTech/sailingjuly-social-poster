@@ -1101,8 +1101,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c6b0c673-2db4-49b3-bbae-6f33246e49d4/bd35f9bb-b80e-4007-9370-4dc71a2644df.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-15T15:02:46.223066+00:00",
+      "instagram": "2026-09-15T15:03:13.244151+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "best-buy-experiment-part2-2-this-tattoo-is-literally-water",
