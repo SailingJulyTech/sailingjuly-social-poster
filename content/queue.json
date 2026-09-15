@@ -1147,5 +1147,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-26-i-didn-t-think-i-d",
+    "scheduled_for": "2026-09-15T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "No words. When I started today it was blowing off the plate \u2014 I didn't think I'd be able to get this far.",
+    "captions": {
+      "instagram": "Started the day thinking it'd be another fail day. Didn't think I'd get this far. \ud83d\udd25\n\n#welding #learningtoweld #boatrestoration #progress #pearson34 #sailingjuly",
+      "tiktok": "I didn't think I'd get this far \ud83d\udd25 #welding #learningtoweld #boatrestoration #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/9ee02f50-b40c-4f21-b832-1feaabad09b3/2811c222-d922-4aba-9b08-ff091125a8a8.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
