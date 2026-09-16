@@ -408,12 +408,13 @@
     "caption": "I stopped a total stranger at Lowe's and asked for 20 seconds of his time. Follow for more Sailing July strangers. #sailingjuly #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3e9d687b-6088-437f-9471-14244261bcc4/c6a97356-b775-4fde-8944-6b9e61668342.mp4",
     "media_type": "video",
-    "status": "pending",
+    "status": "failed",
     "posted_at": {
-      "instagram": "2026-09-05T01:32:19.617558+00:00"
+      "instagram": "2026-09-05T01:32:19.617558+00:00",
+      "facebook": "2026-09-16T19:09:14.069995+00:00"
     },
     "last_result": {
-      "facebook": false,
+      "facebook": true,
       "instagram": true,
       "tiktok": false
     }
