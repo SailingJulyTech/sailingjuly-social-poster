@@ -1305,5 +1305,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-2-hoping-they-have-the-lens",
+    "scheduled_for": "2026-09-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Walking in hoping they've got the lens we're looking for. No plan beyond that.",
+    "captions": {
+      "instagram": "Let's get in and see what's up. Hoping they have the lens.\n\n#lowes #welding #weldinglens #diy #boatrestoration",
+      "tiktok": "Walking in with no plan, hoping they have the lens \ud83d\udd0d #lowes #welding #diy #weldinglens"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/917dcc34-93ef-43c1-b3fc-fa05056eae9e/cd5c97b1-209e-4691-b782-7d141b52b380.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
