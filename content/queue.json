@@ -1269,5 +1269,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-28-the-part-i-didn-t-show",
+    "scheduled_for": "2026-09-16T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I blew big craters into this plate and didn't talk about it at the time. Here's me filling them back in. The failed parts are the part worth showing.",
+    "captions": {
+      "instagram": "The part I didn't show you: craters blown straight through the plate. Filling them in now, and it's filling in nicely.\n\n#welding #learningtoweld #beginnerwelder #boatrestoration #sailinglife",
+      "tiktok": "I blew holes in it and didn't mention that part. Filling it in now \ud83e\uddef #welding #learningtoweld #beginnerwelder #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a247c277-3641-4f3c-a2c6-e34c50e9e38c/1167c7b4-6ea8-41ba-a5e6-36e0559e803b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
