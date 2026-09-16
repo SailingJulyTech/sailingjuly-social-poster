@@ -1323,5 +1323,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-29-it-was-supposed-to-puddle-it",
+    "scheduled_for": "2026-09-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Supposed to see a puddle form. It blew up instead. I don't know why yet \u2014 but I'll keep troubleshooting it.",
+    "captions": {
+      "instagram": "Supposed to puddle. Blew up instead. Not sure why yet, still working it out.\n\n#welding #learningtoweld #beginnerwelder #failforward #keepgoing",
+      "tiktok": "It was supposed to puddle. It blew up. Back to troubleshooting \ud83d\udd25 #welding #learningtoweld #beginnerwelder #keepgoing"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bae5ad24-8d95-43e1-9530-8f08559ffcd1/45b726a4-5355-4f82-b267-681d41598871.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
