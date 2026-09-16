@@ -1257,8 +1257,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dd11f4d4-a01e-457c-87ca-912f9ad4a009/4ccb081f-3f7c-4542-8872-bba0c5fd6381.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-16T12:47:01.563108+00:00",
+      "instagram": "2026-09-16T12:47:39.563099+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "dock-standup-2026-09-14-1-happy-hour-with-my-boat-in",
