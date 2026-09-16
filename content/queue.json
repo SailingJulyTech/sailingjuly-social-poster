@@ -1341,5 +1341,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-3-asking-for-help-finding-the-welding",
+    "scheduled_for": "2026-09-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Looking for welding lenses. Instead of wandering the whole store, I just asked. Still haven't found them yet.",
+    "captions": {
+      "instagram": "\"Do you know where the welding section is?\" \u2014 the whole experiment is just asking people instead of figuring it out alone.\n\n#lowes #welding #weldinglens #askforhelp #diy",
+      "tiktok": "Step one: ask a human where the welding aisle is. Step two: still no lenses \ud83d\ude43 #lowes #welding #diy #askingforhelp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/df436817-591c-46aa-8eb8-2392f3de7cb6/89e05337-a671-4696-aae9-9fbf9ada9c97.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
