@@ -1395,7 +1395,14 @@
     "caption": "Quick shout out from Happy Harbor \u2014 Monday burgers are six bucks and July's parked right down there the whole time. Good afternoon vibes.\n\nSailingJuly \u2014 restoring a 1970s Pearson 34 and sailing her from the US to the Bahamas, the Caribbean, Brazil, and eventually Lagos, Nigeria. New episodes every week. Subscribe so you don't miss the launch.\n#sailing #boatrestoration #sailingjuly",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dock-standup-2026-09-14/dock-standup-final.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-16T22:13:12.355359+00:00",
+      "instagram": "2026-09-16T22:13:47.909661+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
