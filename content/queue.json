@@ -1367,5 +1367,18 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "dock-standup-2026-09-14-six-dollar-burgers",
+    "scheduled_for": "2026-09-16T12:23:52Z",
+    "platforms": [
+      "facebook",
+      "instagram"
+    ],
+    "caption": "Quick shout out from Happy Harbor \u2014 Monday burgers are six bucks and July's parked right down there the whole time. Good afternoon vibes.\n\nSailingJuly \u2014 restoring a 1970s Pearson 34 and sailing her from the US to the Bahamas, the Caribbean, Brazil, and eventually Lagos, Nigeria. New episodes every week. Subscribe so you don't miss the launch.\n#sailing #boatrestoration #sailingjuly",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dock-standup-2026-09-14/dock-standup-final.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
