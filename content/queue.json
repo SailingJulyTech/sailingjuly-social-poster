@@ -1287,5 +1287,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-3-i-m-going-again",
+    "scheduled_for": "2026-09-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Then I'm going to try to go again. That's the whole method, honestly. Same weld, one more time.",
+    "captions": {
+      "instagram": "Going again. And again. Nobody posts the reps, but the reps are the entire thing.\n\n#welding #learningtoweld #beginnerwelder #practicemakesprogress #reps",
+      "tiktok": "Going again. That's it. That's the technique \u2699\ufe0f #welding #learningtoweld #practice #reps"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8ba8a8b0-3b95-4e76-b71b-987a4c9e1444/3ae5ba5b-4f70-4ed8-8f63-71c16b6fb68b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
