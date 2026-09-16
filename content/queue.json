@@ -1283,8 +1283,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/eb6bc03e-fba3-4db5-9ef4-094f2cc96cc8/b7660b98-5a8b-4e38-8fb2-0e432e78a5e1.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-16T15:37:26.283241+00:00",
+      "instagram": "2026-09-16T15:38:03.511395+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-15-28-the-part-i-didn-t-show",
