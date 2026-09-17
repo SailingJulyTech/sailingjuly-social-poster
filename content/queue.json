@@ -1311,8 +1311,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a247c277-3641-4f3c-a2c6-e34c50e9e38c/1167c7b4-6ea8-41ba-a5e6-36e0559e803b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-17T06:12:20.202861+00:00",
+      "instagram": "2026-09-17T06:12:58.366340+00:00",
+      "tiktok": "2026-09-17T06:13:10.761420+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-3-i-m-going-again",
