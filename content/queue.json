@@ -1338,8 +1338,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8ba8a8b0-3b95-4e76-b71b-987a4c9e1444/3ae5ba5b-4f70-4ed8-8f63-71c16b6fb68b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-17T11:46:46.180075+00:00",
+      "instagram": "2026-09-17T11:47:22.734707+00:00",
+      "tiktok": "2026-09-17T11:47:41.218405+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-2-hoping-they-have-the-lens",
