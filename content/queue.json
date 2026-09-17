@@ -1450,5 +1450,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-30-i-finally-got-one",
+    "scheduled_for": "2026-09-18T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Oh man, I got one. Let's go. Now let's do it again and see if I can complete a whole plate.",
+    "captions": {
+      "instagram": "I got one. Let's go. Next up: a whole plate.\n\n#welding #learningtoweld #beginnerwelder #progress #boatrestoration",
+      "tiktok": "Finally got one \ud83d\udd25 now a whole plate #welding #learningtoweld #beginnerwelder #progress"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/304fa6c4-54d8-4d33-af3e-0aa6125efa7a/e1b280f5-09db-4ed9-860d-a845f6371d76.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
