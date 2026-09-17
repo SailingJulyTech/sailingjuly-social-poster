@@ -1486,5 +1486,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-25-filming-yourself-at-self-checkout-is",
+    "scheduled_for": "2026-09-18T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Guys, I can't find any way to put you... okay, we got it. Self-checkout with a camera is its own challenge.",
+    "captions": {
+      "instagram": "Nowhere to put the camera at self-checkout. Okay. We got it.\n\n#lowes #selfcheckout #vlogging #sailingjuly",
+      "tiktok": "Where do I put the camera?? okay we got it \ud83d\ude05 #lowes #selfcheckout #vlogging #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8c7b3194-2b21-487d-acbf-e9709942c073/3caa1073-8703-45c0-8bb8-88def54c647e.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
