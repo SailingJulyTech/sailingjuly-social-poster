@@ -1432,5 +1432,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-4-i-think-i-found-the-problem",
+    "scheduled_for": "2026-09-18T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "It's probably because I'm using too much heat... and then I realized something else. Learning to weld one mistake at a time.",
+    "captions": {
+      "instagram": "Too much heat. Then I realized something else.\n\nTroubleshooting is half of learning this.\n\n#welding #learningtoweld #beginnerwelder #weldingtips #boatrestoration",
+      "tiktok": "Too much heat... and something else \ud83e\udd14 #welding #learningtoweld #weldingtips #beginnerwelder"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/23b9c5b2-ad5d-41a4-bd1e-a44e2edae2c5/b0692eba-d23d-4fc6-9cfe-e36730e497e0.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
