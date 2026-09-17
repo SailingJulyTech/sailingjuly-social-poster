@@ -365,7 +365,7 @@
     "caption": "shorts-engine E6-02 pipeline verification -- please ignore, internal test of the queue-writer across all 3 platforms, will be deleted.",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/shorts-engine-token-verify-1788469138/e4-04-reverify-native-1788455823.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-03T21:36:27.493769+00:00",
       "instagram": "2026-09-03T21:36:54.280384+00:00"
@@ -373,7 +373,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -408,7 +408,7 @@
     "caption": "I stopped a total stranger at Lowe's and asked for 20 seconds of his time. Follow for more Sailing July strangers. #sailingjuly #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3e9d687b-6088-437f-9471-14244261bcc4/c6a97356-b775-4fde-8944-6b9e61668342.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "instagram": "2026-09-05T01:32:19.617558+00:00",
       "facebook": "2026-09-16T19:09:14.069995+00:00"
@@ -416,7 +416,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -451,7 +451,7 @@
     "caption": "He actually did it -- and I couldn't hold back the reaction. Comment below if this got you too. #sailingjuly #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59d82523-27e8-4554-b18e-2e922a695599/868848c0-e19a-4cc7-8047-5204efff1fbd.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "instagram": "2026-09-05T01:44:11.514730+00:00",
       "facebook": "2026-09-17T00:57:26.860607+00:00"
@@ -459,7 +459,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -921,7 +921,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1a2abdfe-02c0-479a-988b-d9b1b1aefe4c/6b8be4c3-ab90-47e2-aa19-eaeb2f05cf19.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-14T00:14:03.762680+00:00",
       "instagram": "2026-09-14T00:15:39.319745+00:00"
@@ -929,7 +929,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -947,7 +947,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/21c14210-f0ea-41df-af0a-2e848209733d/86a6db26-359e-490c-b4ca-834c1c6e5077.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-14T05:30:43.920369+00:00",
       "instagram": "2026-09-14T05:31:20.824829+00:00"
@@ -955,7 +955,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -973,7 +973,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8874f64f-0ce2-4862-9319-ad20f9ff3905/c1f4f7f6-0f4a-408e-a212-ec87ccecf797.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-14T11:03:02.371810+00:00",
       "instagram": "2026-09-14T11:03:55.079439+00:00"
@@ -981,7 +981,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -999,7 +999,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/9db19ff6-9e4f-4f07-9188-adffe06944d5/abb6abcc-b894-47da-b919-40119d7f2418.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-14T17:02:15.045273+00:00",
       "instagram": "2026-09-14T17:03:33.795930+00:00"
@@ -1007,7 +1007,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1025,7 +1025,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f7db1bdd-c1c0-404e-b5c1-d2a338b2fc26/e34a9f0f-d3ed-4c08-8cdd-596516c7f9f3.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-14T21:01:23.891845+00:00",
       "instagram": "2026-09-14T21:02:03.605809+00:00"
@@ -1033,7 +1033,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1051,7 +1051,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5ef7e4f3-578c-4bb2-9b34-2f0ed231f87e/d016cb98-0e0d-4c47-98a0-0993a7b1b70f.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-14T23:56:32.388262+00:00",
       "instagram": "2026-09-14T23:57:08.322307+00:00"
@@ -1059,7 +1059,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1077,7 +1077,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/806c7bcb-38b4-44e8-898b-4a6d722a26b2/bc322d44-1349-486c-89d2-dae7e94e5a58.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-15T10:06:49.599044+00:00",
       "instagram": "2026-09-15T10:07:24.343727+00:00"
@@ -1085,7 +1085,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1103,7 +1103,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c6b0c673-2db4-49b3-bbae-6f33246e49d4/bd35f9bb-b80e-4007-9370-4dc71a2644df.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-15T15:02:46.223066+00:00",
       "instagram": "2026-09-15T15:03:13.244151+00:00"
@@ -1111,7 +1111,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1129,7 +1129,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f0939d1d-232e-4f8f-ad36-393bc6feb26e/26b3d240-dffd-4acb-aeaa-b6640f7e9b06.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-15T04:53:54.838878+00:00",
       "instagram": "2026-09-15T04:54:31.662115+00:00"
@@ -1137,7 +1137,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1155,7 +1155,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fb30d004-b8dc-4e00-8581-9e0218ffd93f/93bfd5d6-93dc-43c8-9dbb-31736f55010a.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-15T19:02:33.078317+00:00",
       "instagram": "2026-09-15T19:03:11.022974+00:00"
@@ -1163,7 +1163,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1181,7 +1181,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/9ee02f50-b40c-4f21-b832-1feaabad09b3/2811c222-d922-4aba-9b08-ff091125a8a8.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-16T00:51:48.667719+00:00",
       "instagram": "2026-09-16T00:52:23.520527+00:00"
@@ -1189,7 +1189,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1207,7 +1207,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/249363ca-7971-4fa8-815a-b840b5598fc8/2b96b769-2690-484e-a61e-02c55a401bc4.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-16T06:03:36.933282+00:00",
       "instagram": "2026-09-16T06:04:15.089248+00:00"
@@ -1215,7 +1215,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1233,7 +1233,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a4139288-5cab-4d4e-bf5e-b16c806e2f0f/aab8fcc1-f99b-4460-b92c-b0be8b371e2c.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-16T11:31:12.467479+00:00",
       "instagram": "2026-09-16T11:32:11.612192+00:00"
@@ -1241,7 +1241,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1259,7 +1259,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dd11f4d4-a01e-457c-87ca-912f9ad4a009/4ccb081f-3f7c-4542-8872-bba0c5fd6381.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-16T12:47:01.563108+00:00",
       "instagram": "2026-09-16T12:47:39.563099+00:00"
@@ -1267,7 +1267,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
@@ -1285,7 +1285,7 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/eb6bc03e-fba3-4db5-9ef4-094f2cc96cc8/b7660b98-5a8b-4e38-8fb2-0e432e78a5e1.mp4",
     "media_type": "video",
-    "status": "failed",
+    "status": "pending",
     "posted_at": {
       "facebook": "2026-09-16T15:37:26.283241+00:00",
       "instagram": "2026-09-16T15:38:03.511395+00:00"
@@ -1293,7 +1293,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": null
     }
   },
   {
