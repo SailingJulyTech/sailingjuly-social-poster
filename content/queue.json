@@ -1468,5 +1468,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-3-i-asked-a-stranger-a-shower",
+    "scheduled_for": "2026-09-18T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "So when you take showers you put a cap on? ... Oh, that's beautiful. Thank you. The conversations you get when you just start talking.",
+    "captions": {
+      "instagram": "A shower cap question turned into \"that's beautiful, thank you.\"\n\n#bestbuy #strangers #sailingjuly #meetingpeople #kindness",
+      "tiktok": "Shower cap or no? \ud83d\udebf #bestbuy #strangers #sailingjuly #meetingpeople"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7dc320d9-5c98-4d69-a212-134914b016cb/d7d66b23-7b84-486f-b592-17ed661e1a17.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
