@@ -1554,5 +1554,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-5-can-i-fix-this-boat-myself",
+    "scheduled_for": "2026-09-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Once I have that down, then I'll know for sure if I can do it myself. Fixing up the boat, one step at a time.",
+    "captions": {
+      "instagram": "The question behind every boat project: can I do it myself?\n\n#sailboat #boatrepair #diy #sailingjuly #boatlife",
+      "tiktok": "can I do it myself? we'll find out \u26f5 #sailboat #boatrepair #diy #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59558e7c-ceec-4884-928b-708c5aafb644/de75cc65-fdc2-43cc-a6c0-357e8f4b44f7.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
