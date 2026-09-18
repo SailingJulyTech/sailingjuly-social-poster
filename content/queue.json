@@ -1518,5 +1518,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-4-come-help-my-sister-out",
+    "scheduled_for": "2026-09-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "She's not just doing it for Best Buy, she's gonna get a kickback. So come help my sister out. She can use the support.",
+    "captions": {
+      "instagram": "\"Come help my sister out. She can use the support.\"\n\n#bestbuy #strangers #sailingjuly #meetingpeople #support",
+      "tiktok": "come help my sister out \ud83d\ude02 #bestbuy #strangers #sailingjuly #meetingpeople"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1f3f0067-51d7-4282-a2b3-d3c489227750/0546f51a-a56d-4416-88fc-80255475bda7.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
