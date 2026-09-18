@@ -1536,5 +1536,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-4-pitching-my-sailboat-to-a-stranger",
+    "scheduled_for": "2026-09-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I got a YouTube channel, and on my YouTube channel I got a sailboat. But that thing is expensive to fix. Meeting Devon at Home Depot.",
+    "captions": {
+      "instagram": "Explaining the whole channel to Devon at Home Depot: a sailboat, and it's expensive to fix.\n\n#homedepot #sailboat #boatlife #sailingjuly #strangers",
+      "tiktok": "the sailboat pitch, Home Depot edition \u26f5 #homedepot #sailboat #strangers #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d4344b8c-3d0c-421e-8c1f-d8a67be518fa/febe5939-f309-4184-aa24-2a9e07d061d6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
