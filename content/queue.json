@@ -1572,5 +1572,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-13-1-he-s-welded",
+    "scheduled_for": "2026-09-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "He's welded. So now we're going to College Park. I've seen him do cold welding.",
+    "captions": {
+      "instagram": "Welded. On to the next stop.\n\n#welding #sailboat #boatrepair #sailingjuly #boatlife",
+      "tiktok": "welded \u2705 next stop College Park #welding #sailboat #boatrepair #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5ec133ae-9f5d-4441-8e79-e700c756f62d/89a2470d-4edd-4b41-9069-74796f8b1f1f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
