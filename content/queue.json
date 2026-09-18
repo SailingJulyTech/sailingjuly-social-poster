@@ -1590,5 +1590,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-5-a-stranger-s-encouraging-words",
+    "scheduled_for": "2026-09-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Those are encouraging words, mom. Where you from? Meeting people at Lowe's.",
+    "captions": {
+      "instagram": "\"Those are encouraging words, mom.\"\n\n#lowes #strangers #kindness #sailingjuly #meetingpeople",
+      "tiktok": "encouraging words from a stranger \ud83d\ude4f #lowes #strangers #kindness #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ab29e460-f6dd-4f3d-99e8-4baf1ee5215d/c0660fb6-0be8-416a-bc4f-e28f324cabc0.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
