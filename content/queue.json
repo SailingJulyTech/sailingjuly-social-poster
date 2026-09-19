@@ -1651,5 +1651,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-31-still-welding-this-late",
+    "scheduled_for": "2026-09-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Pretty late, but grinding the plate off and starting a new section of welds.",
+    "captions": {
+      "instagram": "\"Grind the plate off and start a new section of welds.\"\n\n#welding #boatrepair #diy #sailingjuly #boatlife",
+      "tiktok": "late night welds \ud83d\udd25 #welding #boatrepair #diy #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/649830f2-dc3c-4ff3-9a8c-90c6d765b376/8de939bf-81a1-4103-9878-f6f8f20be29b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
