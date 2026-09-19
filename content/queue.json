@@ -1633,5 +1633,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-6-how-do-i-even-reach-that",
+    "scheduled_for": "2026-09-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "One tight corner on the boat and no easy way in. Being stubborn about it anyway.",
+    "captions": {
+      "instagram": "\"I really don't know how I'm going to get into that corner.\"\n\n#boatrepair #diy #sailboat #sailingjuly #boatlife",
+      "tiktok": "being stubborn with this corner \ud83d\ude24 #boatrepair #diy #sailboat #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/13558b8f-8013-463c-858a-753bdbd6ec6e/7ec4c3fb-7147-440f-b899-7102e3aa0433.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
