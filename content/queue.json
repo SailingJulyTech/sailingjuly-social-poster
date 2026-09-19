@@ -1687,5 +1687,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-5-a-stranger-promised-to-subscribe",
+    "scheduled_for": "2026-09-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"You said you would, and I'll take you at your word.\" Meeting people at Home Depot.",
+    "captions": {
+      "instagram": "\"I'll take you at your word.\"\n\n#homedepot #strangers #kindness #sailingjuly #meetingpeople",
+      "tiktok": "you said you would \ud83d\ude02 #homedepot #strangers #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ca3e07a6-2bbf-4893-948b-8fec8df75188/13702c00-d7bd-4fdc-97a3-c1e99b3237fb.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
