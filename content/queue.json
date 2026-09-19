@@ -1615,5 +1615,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-26-why-am-i-crying-at-lowe",
+    "scheduled_for": "2026-09-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"People are so kind.\" The end of the Lowe's experiment hit different.",
+    "captions": {
+      "instagram": "\"I don't know why I'm so emotional... people are so kind.\"\n\n#lowes #kindness #strangers #sailingjuly #humanity",
+      "tiktok": "people are so kind \ud83e\udd79 #lowes #kindness #strangers #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8d2f5daa-dbc2-4c2b-a537-9e6d8d4427a8/733dfeb6-9754-422e-9852-d045cfbebd1c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
