@@ -1669,5 +1669,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-5-walking-up-to-a-stranger-at",
+    "scheduled_for": "2026-09-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"Can I ask you a question?\" Walking up to strangers at Best Buy.",
+    "captions": {
+      "instagram": "\"Hi miss, can I ask you a question?\"\n\n#bestbuy #strangers #experiment #sailingjuly #socialexperiment",
+      "tiktok": "can I ask you a question? \ud83d\udc40 #bestbuy #strangers #experiment #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/9e380602-5020-40f9-a6b5-7bb67a502d38/373a7faf-f4d5-44e3-9b8e-0dfcf76b30b4.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
