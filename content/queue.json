@@ -1435,8 +1435,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/df436817-591c-46aa-8eb8-2392f3de7cb6/89e05337-a671-4696-aae9-9fbf9ada9c97.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-20T17:45:03.363855+00:00",
+      "instagram": "2026-09-20T17:45:41.230739+00:00",
+      "tiktok": "2026-09-20T17:45:59.526889+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "dock-standup-2026-09-14-six-dollar-burgers",
