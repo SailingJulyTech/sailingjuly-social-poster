@@ -1754,5 +1754,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-7-not-practice-makes-perfect-practice-makes",
+    "scheduled_for": "2026-09-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I've said it a thousand times and I'll keep saying it: practice makes improvement.",
+    "captions": {
+      "instagram": "\"Practice makes improvement.\"\n\n#mindset #practice #sailingjuly #boatlife #diy",
+      "tiktok": "practice makes improvement \ud83d\udcaa #mindset #practice #sailingjuly #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7f1146f2-54e4-4d19-910c-34e2db1b628c/e5d3680f-d07e-419c-8ac9-2f8fc157f17f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
