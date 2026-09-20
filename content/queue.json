@@ -1736,5 +1736,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-32-the-dry-run-is-where-i",
+    "scheduled_for": "2026-09-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Charlie preps his tungsten completely differently than I do. That's what the dry run is for \u2014 finding the problems before the real weld.",
+    "captions": {
+      "instagram": "\"That's why we do a dry run. I'm discovering issues that I have.\"\n\n#welding #tig #aluminum #boatrepair #sailingjuly #boatlife",
+      "tiktok": "the dry run always humbles me \ud83d\ude05 #welding #tig #aluminum #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1713e8d3-c1cc-42cf-bd26-4972d866e252/3711a964-365b-4ea8-bc9d-4d928e20db27.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
