@@ -1790,5 +1790,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-33-one-hand-on-the-torch-and",
+    "scheduled_for": "2026-09-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Torch in one hand, and it still has to be manipulated exactly right. Still working on that one.",
+    "captions": {
+      "instagram": "\"When I have the torch in one hand, I have to be able to manipulate it.\"\n\n#welding #tig #learning #boatrepair #sailingjuly #boatlife",
+      "tiktok": "one hand, full control \ud83d\udd27 #welding #tig #learning #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f88d265e-8f10-42e3-898e-b1565ecdb49c/62232829-25d9-454c-ba64-f2e8cd9ea6a9.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
