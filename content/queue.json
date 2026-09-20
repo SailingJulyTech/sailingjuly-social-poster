@@ -1772,5 +1772,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-27-now-you-get-to-see-the",
+    "scheduled_for": "2026-09-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Rigged it so you can actually see the weld I'm doing, straight through the goggles.",
+    "captions": {
+      "instagram": "\"So you guys can actually see the weld that I'm doing.\"\n\n#welding #tig #pov #boatrepair #sailingjuly #boatlife",
+      "tiktok": "see the weld how i see it \ud83d\udd25 #welding #tig #pov #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fa1c624c-1351-424d-98c8-9f9a0dc53cb5/7f8c8379-fb0f-4ef6-a229-61534bf98bf0.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
