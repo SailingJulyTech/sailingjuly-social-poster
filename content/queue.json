@@ -453,7 +453,7 @@
     "caption": "He actually did it -- and I couldn't hold back the reaction. Comment below if this got you too. #sailingjuly #shorts",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59d82523-27e8-4554-b18e-2e922a695599/868848c0-e19a-4cc7-8047-5204efff1fbd.mp4",
     "media_type": "video",
-    "status": "pending",
+    "status": "failed",
     "posted_at": {
       "instagram": "2026-09-05T01:44:11.514730+00:00",
       "facebook": "2026-09-17T00:57:26.860607+00:00"
@@ -461,7 +461,7 @@
     "last_result": {
       "facebook": true,
       "instagram": true,
-      "tiktok": null
+      "tiktok": false
     }
   },
   {
