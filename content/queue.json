@@ -1718,5 +1718,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-6-i-handed-him-my-phone-and",
+    "scheduled_for": "2026-09-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Handed over the phone and asked him to hit subscribe himself. He did it without hesitating.",
+    "captions": {
+      "instagram": "\"Just push subscribe, the black button. He's a subscriber.\"\n\n#sailingjuly #strangers #subscribe #boatlife #sailing",
+      "tiktok": "he pressed it himself \ud83d\ude04 #sailingjuly #strangers #subscribe #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fba1598e-fe12-472e-b717-30d8e6b56242/8eb288f3-737a-4e7f-9f4b-42de650d05c5.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
