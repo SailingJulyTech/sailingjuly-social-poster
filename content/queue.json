@@ -1382,8 +1382,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/917dcc34-93ef-43c1-b3fc-fa05056eae9e/cd5c97b1-209e-4691-b782-7d141b52b380.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-20T10:10:17.267766+00:00",
+      "instagram": "2026-09-20T10:10:48.227884+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-15-29-it-was-supposed-to-puddle-it",
