@@ -1408,8 +1408,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bae5ad24-8d95-43e1-9530-8f08559ffcd1/45b726a4-5355-4f82-b267-681d41598871.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-20T14:18:34.226472+00:00",
+      "instagram": "2026-09-20T14:19:10.130757+00:00",
+      "tiktok": "2026-09-20T14:19:21.989683+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-3-asking-for-help-finding-the-welding",
