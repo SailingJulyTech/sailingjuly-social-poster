@@ -1486,8 +1486,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/01f48b70-c9b2-497e-9bea-5b44103be8b4/d8c4791d-8d4d-44ee-804b-c03fecb8bca8.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-21T01:43:27.379714+00:00",
+      "instagram": "2026-09-21T01:44:04.141454+00:00",
+      "tiktok": "2026-09-21T01:44:17.417618+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-4-i-think-i-found-the-problem",
