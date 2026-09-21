@@ -1866,5 +1866,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-6-he-wanted-milwaukee-specials",
+    "scheduled_for": "2026-09-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "He wanted to show me the Milwaukee specials. I wanted a subscriber. We made a deal.\n\nThe Home Depot Experiment, still undefeated. Follow along with the restoration.",
+    "captions": {
+      "instagram": "He wanted to talk Milwaukee specials. I wanted a subscriber. Deal struck. \ud83e\udd1d\ud83d\udd34\n\n#sailingjuly #theexperiment #homedepot #milwaukeetools #boatrestoration #reels",
+      "tiktok": "he wanted to show me the Milwaukee specials, I wanted a subscriber. we made a deal \ud83e\udd1d\ud83d\udd34\n\n#sailingjuly #homedepot #milwaukeetools #boattok #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b767bba4-2cb6-43ee-a291-235691d1fee8/377fc235-6a7a-4754-8e0e-44f333b9b935.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
