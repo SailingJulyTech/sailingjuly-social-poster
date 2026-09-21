@@ -1567,8 +1567,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7dc320d9-5c98-4d69-a212-134914b016cb/d7d66b23-7b84-486f-b592-17ed661e1a17.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-21T20:04:13.595835+00:00",
+      "instagram": "2026-09-21T20:04:49.774104+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "lowes-experiment-25-filming-yourself-at-self-checkout-is",
