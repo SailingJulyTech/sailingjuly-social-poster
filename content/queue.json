@@ -1920,5 +1920,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-8-then-the-weld-falls-in",
+    "scheduled_for": "2026-09-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Nobody told me this part: the beginning of the bead is always rough. Once the metal absorbs enough heat, the puddle moves easy and the weld falls right into place.\n\nLearning to weld for the boat build. Follow along.",
+    "captions": {
+      "instagram": "Once the metal absorbs enough heat, the puddle moves easy and the weld just falls into place. \ud83d\udd25\n\nLearning to weld so I can build out the Pearson 34 myself.\n\n#sailingjuly #welding #weldporn #boatrestoration #pearson34 #diy #reels",
+      "tiktok": "once the metal absorbs enough heat the puddle moves easy and the weld just falls into place \ud83d\udd25 learning this for the boat build\n\n#sailingjuly #welding #weldtok #boattok #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0b15ad51-716b-4c0d-8d21-91ddc4ba36b4/3534e89e-091b-4516-bd79-6f8e16c2a59d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
