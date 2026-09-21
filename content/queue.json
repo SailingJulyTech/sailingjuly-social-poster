@@ -1902,5 +1902,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-30-why-i-m-bothering-you",
+    "scheduled_for": "2026-09-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"The reason why I'm bothering you...\"\n\nMeet Karen. I explained the boat, explained the channel, and made the ask. This is how the whole thing gets funded \u2014 one conversation at a time.\n\nFollow along.",
+    "captions": {
+      "instagram": "\"The reason why I'm bothering you is...\" \ud83d\ude43\n\nMeet Karen. Boat's called July. Channel's called July. Don't ask why \u2014 that's another video entirely.\n\n#sailingjuly #theexperiment #boatrestoration #pearson34 #sailinglife #strangers #reels",
+      "tiktok": "\"the reason why I'm bothering you is...\" \ud83d\ude2d meet Karen\n\nboat's named July. channel's named July. don't ask why, that's another video\n\n#sailingjuly #boattok #strangers #fyp #sailing"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/faf82147-1104-407c-a63e-6d380450995e/002be067-9d63-4cfd-87b9-2f869d09fdef.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
