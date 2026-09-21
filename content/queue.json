@@ -1540,8 +1540,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/304fa6c4-54d8-4d33-af3e-0aa6125efa7a/e1b280f5-09db-4ed9-860d-a845f6371d76.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-21T15:09:54.017408+00:00",
+      "instagram": "2026-09-21T15:10:31.642404+00:00",
+      "tiktok": "2026-09-21T15:10:50.236791+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-3-i-asked-a-stranger-a-shower",
