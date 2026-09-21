@@ -1848,5 +1848,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-28-saying-hi-terrified-me",
+    "scheduled_for": "2026-09-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The hardest part of this whole project isn't the welding or the money. It's walking up to a stranger and saying hi. I was genuinely scared. Did it anyway.\n\nFollow along with the Pearson 34 restoration.",
+    "captions": {
+      "instagram": "The boat isn't the scary part. Saying hi is. \ud83d\ude05\n\nRestoring a Pearson 34 and asking strangers to come along for it \u2014 turns out the hello is heavier than the hull.\n\n#sailingjuly #boatrestoration #pearson34 #sailinglife #socialanxiety #reels",
+      "tiktok": "I was so scared y'all \ud83d\ude2d walking up to strangers and just saying hi is genuinely the hardest part of this whole boat project\n\n#sailingjuly #boattok #sailing #scared #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/40dbff1b-1922-4953-9ad6-1850a7f3f2a0/cd226279-d81a-4452-80d7-b5242a786fe6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
