@@ -1884,5 +1884,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-29-the-whole-plan-honestly",
+    "scheduled_for": "2026-09-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The entire plan, said out loud: talk to people, tell them about the boat, get monetized, put every dollar into the restoration.\n\nNo sponsors, no investors. Just this. Subscribe and you're step one.",
+    "captions": {
+      "instagram": "The entire business plan in one breath \ud83d\udee5\ufe0f\n\nTalk to people \u2192 tell them about the boat \u2192 get monetized \u2192 put it all back into the Pearson 34.\n\n#sailingjuly #boatrestoration #pearson34 #sailinglife #boatlife #reels",
+      "tiktok": "long story short: talk to people, tell them about the sailboat, get monetized, fix the boat. that's the whole plan \ud83e\udd1d\n\n#sailingjuly #boattok #sailing #restoration #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/be98dfdc-d01a-4084-98d8-53eaa608c622/a885b55c-eb52-4e1f-831c-96119a43ec03.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
