@@ -1513,8 +1513,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/23b9c5b2-ad5d-41a4-bd1e-a44e2edae2c5/b0692eba-d23d-4fc6-9cfe-e36730e497e0.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-21T08:00:31.396606+00:00",
+      "instagram": "2026-09-21T08:01:12.962256+00:00",
+      "tiktok": "2026-09-21T08:01:41.097100+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-30-i-finally-got-one",
