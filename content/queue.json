@@ -1593,8 +1593,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8c7b3194-2b21-487d-acbf-e9709942c073/3caa1073-8703-45c0-8bb8-88def54c647e.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-21T23:19:43.998770+00:00",
+      "instagram": "2026-09-21T23:20:20.969878+00:00",
+      "tiktok": "2026-09-21T23:20:33.485307+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-4-come-help-my-sister-out",
