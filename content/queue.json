@@ -2003,5 +2003,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-7-he-s-65-and-his-knees",
+    "scheduled_for": "2026-09-23T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "He's 65 years old and got knees like that.\n\nWe were at Lowe's asking real people for real favors when this happened. I told him straight up - if you ever find me in that position, take me to the ER.\n\nEvery conversation in this series is real and unscripted, including the ones that don't go our way. It's all part of funding and building a 1970s Pearson 34 into a dive boat.",
+    "captions": {
+      "instagram": "He's 65. His knees still do that. Mine file a complaint on the stairs.\n\nReal asks, real strangers, no setups - The Experiment Series.\n\n#sailingjuly #theexperiment #reels #boatlife #realpeople",
+      "tiktok": "he's 65. his knees still do that. mine would need an ambulance \n\nreal strangers, real asks, nothing staged\n\n#sailingjuly #theexperiment #fyp #realpeople #65"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/374fa1c8-3573-4c52-857a-45e5513918d1/d2ebe3d7-2c62-4a60-b3e5-1ac687d586be.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
