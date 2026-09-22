@@ -2039,5 +2039,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-9-the-weld-didn-t-even-hold",
+    "scheduled_for": "2026-09-23T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"This weld didn't even hold. The sucker is hot.\"\n\nNot every attempt works. This one came apart and the steel was still too hot to touch while I figured that out. I'm leaving the failures in - that's the honest version of rebuilding this boat.",
+    "captions": {
+      "instagram": "\"This weld didn't even hold. The sucker is hot.\"\n\nPosting the ones that fail too, otherwise none of it means anything.\n\n#sailingjuly #welding #boatrestoration #reels #learningtoweld",
+      "tiktok": "\"this weld didn't even hold\"\n\"the sucker is hot\"\n\nkeeping the fails in, it's the only honest way to post this\n\n#sailingjuly #welding #fail #fyp #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/73d52dfc-3305-44b1-9a9d-071a97bd3dc7/1d4e767d-624c-4bc1-9f98-29243c1b0374.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
