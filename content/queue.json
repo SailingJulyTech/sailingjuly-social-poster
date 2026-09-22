@@ -2021,5 +2021,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-6-wait-is-that-us-on-the",
+    "scheduled_for": "2026-09-23T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"Is that us, guys?\" \"No, that's not you though.\" \"That's us.\"\n\nCatching yourself on a wall of screens and immediately arguing about whether it's really you. From the Best Buy stop in The Experiment Series.",
+    "captions": {
+      "instagram": "\"Is that us?\"\n\"No, that's not you.\"\n\"...That's us.\"\n\nA full identity crisis in five seconds.\n\n#sailingjuly #theexperiment #bestbuy #reels #realpeople",
+      "tiktok": "\"is that us?\"\n\"no that's not you\"\n\"...that's us\"\n\nwe were on every screen in the store\n\n#sailingjuly #theexperiment #bestbuy #fyp #strangers"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/08197caf-f3c0-4d61-a753-4b0d56677d25/aa2067fa-7c08-4c43-a09b-7351f2a05a1d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
