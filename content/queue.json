@@ -479,12 +479,13 @@
     "caption": "I asked a total stranger for a favor on camera and her reaction says it all. Follow for more real dock encounters on the Pearson 34 restoration. #sailingjuly #boatlife #restoration",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/31965506-107d-45c4-a854-145f1959e815/ef22ad0c-d871-4ca0-ab2e-5e68c791841f.mp4",
     "media_type": "video",
-    "status": "pending",
+    "status": "failed",
     "posted_at": {
-      "instagram": "2026-09-05T01:50:16.213235+00:00"
+      "instagram": "2026-09-05T01:50:16.213235+00:00",
+      "facebook": "2026-09-22T07:45:25.902025+00:00"
     },
     "last_result": {
-      "facebook": false,
+      "facebook": true,
       "instagram": true,
       "tiktok": false
     }
