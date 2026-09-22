@@ -1967,5 +1967,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-34-charlie-called-my-weld-a-glob",
+    "scheduled_for": "2026-09-23T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"It was a big glob before - then I melted it down, because Charlie said it's just a glob.\"\n\nThat's what learning a skill on camera actually looks like. Somebody who knows what they're doing tells you the truth, and you go run the bead again.\n\nAll part of turning a 1970s Pearson 34 into a dive and expedition boat.",
+    "captions": {
+      "instagram": "Charlie looked at my weld and called it a glob.\n\nSo I melted it down and ran it again. That's the whole learning curve in one clip.\n\n#sailingjuly #welding #learningtoweld #boatrestoration #reels",
+      "tiktok": "my friend looked at my weld and called it a glob\n\nso i melted it down and did it again \n\n#sailingjuly #welding #learningcurve #fyp #boatrestoration"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1e7f2711-b1d0-4850-a621-191ac679a846/7e1f669c-9320-4755-8855-724b6f754a37.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
