@@ -1704,8 +1704,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5ec133ae-9f5d-4441-8e79-e700c756f62d/89a2470d-4edd-4b41-9069-74796f8b1f1f.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-22T23:52:46.966656+00:00",
+      "instagram": "2026-09-22T23:53:24.081019+00:00",
+      "tiktok": "2026-09-22T23:53:37.461468+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-5-a-stranger-s-encouraging-words",
