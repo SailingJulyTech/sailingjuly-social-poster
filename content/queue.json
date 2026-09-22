@@ -1623,8 +1623,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1f3f0067-51d7-4282-a2b3-d3c489227750/0546f51a-a56d-4416-88fc-80255475bda7.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-22T13:28:10.454261+00:00",
+      "instagram": "2026-09-22T13:29:02.998138+00:00",
+      "tiktok": "2026-09-22T13:29:09.885053+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-4-pitching-my-sailboat-to-a-stranger",
