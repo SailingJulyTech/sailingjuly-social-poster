@@ -1677,8 +1677,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59558e7c-ceec-4884-928b-708c5aafb644/de75cc65-fdc2-43cc-a6c0-357e8f4b44f7.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-22T21:19:44.043328+00:00",
+      "instagram": "2026-09-22T21:20:19.216917+00:00",
+      "tiktok": "2026-09-22T21:20:31.308391+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-13-1-he-s-welded",
