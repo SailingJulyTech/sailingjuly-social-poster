@@ -1650,8 +1650,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d4344b8c-3d0c-421e-8c1f-d8a67be518fa/febe5939-f309-4184-aa24-2a9e07d061d6.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-22T17:50:18.016693+00:00",
+      "instagram": "2026-09-22T17:50:57.940034+00:00",
+      "tiktok": "2026-09-22T17:51:10.957255+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-5-can-i-fix-this-boat-myself",
