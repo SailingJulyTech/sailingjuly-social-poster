@@ -1985,5 +1985,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-7-he-didn-t-have-youtube-he",
+    "scheduled_for": "2026-09-23T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "\"I don't have YouTube.\"\n\n\"Don't worry - you don't need YouTube. I got YouTube. You just subscribe.\"\n\nAsking real people for real favors at Home Depot, on camera, with no script and no arrangement beforehand. This one made the whole trip worth it.",
+    "captions": {
+      "instagram": "\"I don't have YouTube.\"\n\"You don't need YouTube. I got YouTube.\"\n\nStill one of my favorite things anyone has said to a camera.\n\n#sailingjuly #theexperiment #reels #homedepot #realpeople",
+      "tiktok": "\"i don't have youtube\"\n\"you don't need youtube. i got youtube\"\n\nunmatched logic honestly\n\n#sailingjuly #theexperiment #fyp #homedepot #strangers"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/368636ca-3b02-4287-ad93-cb91b795d40f/f01ede45-a603-4e3f-851e-0b25ada82706.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
