@@ -501,12 +501,13 @@
     "caption": "I had just turned the camera off when this gentleman stopped me to ask about the channel. Follow us \u2014 it's Sailing July, one word. #sailingjuly #boatlife #contentcreator",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b305ace3-48ad-4d57-8f4f-d96495335d7d/fa217887-76b1-4929-95b6-f417b8475600.mp4",
     "media_type": "video",
-    "status": "pending",
+    "status": "failed",
     "posted_at": {
-      "instagram": "2026-09-05T01:50:54.239267+00:00"
+      "instagram": "2026-09-05T01:50:54.239267+00:00",
+      "facebook": "2026-09-23T10:01:24.731470+00:00"
     },
     "last_result": {
-      "facebook": false,
+      "facebook": true,
       "instagram": true,
       "tiktok": false
     }
