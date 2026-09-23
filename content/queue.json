@@ -1761,8 +1761,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8d2f5daa-dbc2-4c2b-a537-9e6d8d4427a8/733dfeb6-9754-422e-9852-d045cfbebd1c.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-23T19:06:54.862752+00:00",
+      "instagram": "2026-09-23T19:07:32.029521+00:00",
+      "tiktok": "2026-09-23T19:08:08.326519+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-6-how-do-i-even-reach-that",
