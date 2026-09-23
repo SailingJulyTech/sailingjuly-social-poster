@@ -1788,8 +1788,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/13558b8f-8013-463c-858a-753bdbd6ec6e/7ec4c3fb-7147-440f-b899-7102e3aa0433.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-23T22:20:43.305715+00:00",
+      "instagram": "2026-09-23T22:21:21.178175+00:00",
+      "tiktok": "2026-09-23T22:21:39.599333+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-31-still-welding-this-late",
