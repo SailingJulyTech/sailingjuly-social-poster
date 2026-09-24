@@ -1899,8 +1899,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fba1598e-fe12-472e-b717-30d8e6b56242/8eb288f3-737a-4e7f-9f4b-42de650d05c5.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-24T23:57:25.816177+00:00",
+      "instagram": "2026-09-24T23:57:57.817577+00:00",
+      "tiktok": "2026-09-24T23:58:37.817118+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-32-the-dry-run-is-where-i",
