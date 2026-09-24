@@ -1815,8 +1815,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/649830f2-dc3c-4ff3-9a8c-90c6d765b376/8de939bf-81a1-4103-9878-f6f8f20be29b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-24T00:57:30.518084+00:00",
+      "instagram": "2026-09-24T00:58:31.674669+00:00",
+      "tiktok": "2026-09-24T00:58:50.814424+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-5-walking-up-to-a-stranger-at",
