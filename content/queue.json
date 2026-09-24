@@ -619,14 +619,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/03860ad7-ead1-41a8-bd6e-0a3bfe9928a0/7e74ac98-9ba1-4653-84cd-75ca02404b8f.mp4",
     "media_type": "video",
-    "status": "pending",
+    "status": "posted",
     "posted_at": {
-      "instagram": "2026-09-05T01:53:58.665201+00:00"
+      "instagram": "2026-09-05T01:53:58.665201+00:00",
+      "facebook": "2026-09-24T17:37:10.790256+00:00",
+      "tiktok": "2026-09-24T17:37:23.620319+00:00"
     },
     "last_result": {
-      "facebook": false,
+      "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": true
     }
   },
   {
