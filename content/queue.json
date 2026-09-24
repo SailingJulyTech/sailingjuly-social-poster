@@ -1842,8 +1842,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/9e380602-5020-40f9-a6b5-7bb67a502d38/373a7faf-f4d5-44e3-9b8e-0dfcf76b30b4.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-24T06:13:27.618547+00:00",
+      "instagram": "2026-09-24T06:14:03.578327+00:00",
+      "tiktok": "2026-09-24T06:14:16.350683+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-5-a-stranger-promised-to-subscribe",
