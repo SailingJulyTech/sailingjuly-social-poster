@@ -1869,8 +1869,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ca3e07a6-2bbf-4893-948b-8fec8df75188/13702c00-d7bd-4fdc-97a3-c1e99b3237fb.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-24T12:15:49.526661+00:00",
+      "instagram": "2026-09-24T12:16:24.206976+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "lowes-experiment-part2-6-i-handed-him-my-phone-and",
