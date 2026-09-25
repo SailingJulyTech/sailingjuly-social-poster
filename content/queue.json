@@ -1926,8 +1926,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1713e8d3-c1cc-42cf-bd26-4972d866e252/3711a964-365b-4ea8-bc9d-4d928e20db27.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-25T04:55:41.126048+00:00",
+      "instagram": "2026-09-25T04:56:18.658285+00:00",
+      "tiktok": "2026-09-25T04:56:59.601093+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-7-not-practice-makes-perfect-practice-makes",
