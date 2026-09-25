@@ -1953,8 +1953,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7f1146f2-54e4-4d19-910c-34e2db1b628c/e5d3680f-d07e-419c-8ac9-2f8fc157f17f.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-25T10:14:50.872363+00:00",
+      "instagram": "2026-09-25T10:16:22.459200+00:00",
+      "tiktok": "2026-09-25T10:16:40.633753+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-27-now-you-get-to-see-the",
