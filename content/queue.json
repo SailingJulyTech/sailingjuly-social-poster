@@ -2006,8 +2006,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f88d265e-8f10-42e3-898e-b1565ecdb49c/62232829-25d9-454c-ba64-f2e8cd9ea6a9.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-25T19:37:21.631769+00:00",
+      "instagram": "2026-09-25T19:37:59.801533+00:00",
+      "tiktok": "2026-09-25T19:38:22.538552+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-28-saying-hi-terrified-me",
