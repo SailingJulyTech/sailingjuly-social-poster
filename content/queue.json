@@ -1980,8 +1980,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fa1c624c-1351-424d-98c8-9f9a0dc53cb5/7f8c8379-fb0f-4ef6-a229-61534bf98bf0.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-25T15:37:38.993068+00:00",
+      "instagram": "2026-09-25T15:38:52.755168+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-15-33-one-hand-on-the-torch-and",
