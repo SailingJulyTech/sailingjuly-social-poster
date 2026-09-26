@@ -2091,8 +2091,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/be98dfdc-d01a-4084-98d8-53eaa608c622/a885b55c-eb52-4e1f-831c-96119a43ec03.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-26T16:24:05.406078+00:00",
+      "instagram": "2026-09-26T16:24:40.829955+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "lowes-experiment-30-why-i-m-bothering-you",
