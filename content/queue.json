@@ -567,14 +567,16 @@
     "caption": "Devin didn't even watch YouTube and still told me I needed a channel. Follow for more dock encounters like this one. #sailingjuly #boatrestoration #doubleyoutube",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d0fb083e-9c72-4833-9ea7-a12d144f90dc/4cf7d7a0-13c7-4d61-a93a-7d3b473e7b8e.mp4",
     "media_type": "video",
-    "status": "pending",
+    "status": "posted",
     "posted_at": {
-      "instagram": "2026-09-05T01:52:55.081911+00:00"
+      "instagram": "2026-09-05T01:52:55.081911+00:00",
+      "facebook": "2026-09-26T01:35:11.291216+00:00",
+      "tiktok": "2026-09-26T01:35:35.304040+00:00"
     },
     "last_result": {
-      "facebook": false,
+      "facebook": true,
       "instagram": true,
-      "tiktok": false
+      "tiktok": true
     }
   },
   {
