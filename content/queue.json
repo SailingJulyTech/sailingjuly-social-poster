@@ -2117,8 +2117,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/faf82147-1104-407c-a63e-6d380450995e/002be067-9d63-4cfd-87b9-2f869d09fdef.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-26T19:27:08.193180+00:00",
+      "instagram": "2026-09-26T19:27:44.223156+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-16-8-then-the-weld-falls-in",
