@@ -2064,8 +2064,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b767bba4-2cb6-43ee-a291-235691d1fee8/377fc235-6a7a-4754-8e0e-44f333b9b935.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-26T11:52:37.210876+00:00",
+      "instagram": "2026-09-26T11:53:08.111393+00:00",
+      "tiktok": "2026-09-26T11:53:21.141727+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-29-the-whole-plan-honestly",
