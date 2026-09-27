@@ -2228,8 +2228,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/374fa1c8-3573-4c52-857a-45e5513918d1/d2ebe3d7-2c62-4a60-b3e5-1ac687d586be.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-09-27T20:27:31.378140+00:00",
+      "instagram": "2026-09-27T20:28:05.214062+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "best-buy-experiment-6-wait-is-that-us-on-the",
