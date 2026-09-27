@@ -2292,5 +2292,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-36-i-m-really-struggling-with-this",
+    "scheduled_for": "2026-09-27T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Some days the boat wins. Doesn't mean we stop. Let's go again. Follow along as I restore my Pearson 34 \u2014 rookie at everything, learning out loud.",
+    "captions": {
+      "instagram": "Struggling. Going again anyway. \ud83d\udcaa\n\nFollow for the whole Pearson 34 restoration. #sailing #boatrestoration #welding #shorts #sailingjuly",
+      "tiktok": "Struggling. Going again anyway. \ud83d\udcaa #sailing #boatrestoration #welding #shorts #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/15df616a-d647-402a-ba88-0119fc137b9a/95cbf209-5067-4e16-9e07-76f68a07c86c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
