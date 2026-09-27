@@ -2201,8 +2201,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/368636ca-3b02-4287-ad93-cb91b795d40f/f01ede45-a603-4e3f-851e-0b25ada82706.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-27T17:21:23.035813+00:00",
+      "instagram": "2026-09-27T17:21:59.740670+00:00",
+      "tiktok": "2026-09-27T17:22:13.695990+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-7-he-s-65-and-his-knees",
