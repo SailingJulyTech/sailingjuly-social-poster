@@ -2174,8 +2174,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1e7f2711-b1d0-4850-a621-191ac679a846/7e1f669c-9320-4755-8855-724b6f754a37.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-27T12:32:03.597879+00:00",
+      "instagram": "2026-09-27T12:32:37.420561+00:00",
+      "tiktok": "2026-09-27T12:33:00.393257+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-7-he-didn-t-have-youtube-he",
