@@ -2254,8 +2254,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/08197caf-f3c0-4d61-a753-4b0d56677d25/aa2067fa-7c08-4c43-a09b-7351f2a05a1d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-27T23:28:43.050399+00:00",
+      "instagram": "2026-09-27T23:29:14.497552+00:00",
+      "tiktok": "2026-09-27T23:29:27.585592+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-9-the-weld-didn-t-even-hold",
