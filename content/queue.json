@@ -2274,5 +2274,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-35-how-welds-actually-get-smooth",
+    "scheduled_for": "2026-09-27T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Turns out the smooth welds aren't magic \u2014 they grind it. Learning this one step at a time. Follow along as I restore my Pearson 34 \u2014 rookie at everything, learning out loud.",
+    "captions": {
+      "instagram": "The secret to smooth welds? Grind it. \ud83d\udd27\n\nFollow for the whole Pearson 34 restoration. #sailing #boatrestoration #welding #shorts #sailingjuly",
+      "tiktok": "The secret to smooth welds? Grind it. \ud83d\udd27 #sailing #boatrestoration #welding #shorts #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1d077491-4910-4976-9ed3-7dc071a26416/b39f06df-7717-4d56-b301-b516946f868b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
