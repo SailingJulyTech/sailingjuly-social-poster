@@ -2348,5 +2348,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-8-everyone-makes-me-type-my-channel",
+    "scheduled_for": "2026-09-28T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Asking strangers at Home Depot to subscribe, and every single one hands me their phone so I type Sailing July myself. Smart people. Save yourself the step: search Sailing July and subscribe.",
+    "captions": {
+      "instagram": "Every stranger makes me type my own channel name. Smart. Search Sailing July and subscribe.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "Every stranger makes me type my own channel name. Smart. Search Sailing July and subscribe. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/20f542e0-1e18-41e9-a7fa-180eab10ccc8/4cf422e8-c3f7-492c-a8f7-9ad5dcf43524.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
