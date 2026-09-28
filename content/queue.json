@@ -2330,5 +2330,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-10-why-my-welds-always-start-shaky",
+    "scheduled_for": "2026-09-28T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Learning to weld for my sailboat. I finally noticed why the start of every bead is shaky: I rush it before the metal takes the heat. Next up: a pipe flange. Follow along.",
+    "captions": {
+      "instagram": "Figured out why the start of my welds is always shaky. Pipe flange next \u2014 follow for the next try.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "Figured out why the start of my welds is always shaky. Pipe flange next \u2014 follow for the next try. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0fd229d8-568e-4813-883f-9d58595d2941/7143980c-8243-4d90-bec8-dc6b3affc57d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
