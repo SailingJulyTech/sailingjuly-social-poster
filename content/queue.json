@@ -2366,5 +2366,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-6-he-swore-he-already-followed-me",
+    "scheduled_for": "2026-09-28T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Jalen just got to work and told me he already followed the channel. Spoiler: he didn't. Search Sailing July and actually hit follow this time.",
+    "captions": {
+      "instagram": "Jalen \"already followed\" me. He did not \ud83d\ude02 Follow for more.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "Jalen \"already followed\" me. He did not \ud83d\ude02 Follow for more. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b3462dc3-bb94-4d5b-a864-92ad4db50fac/17a928cf-79ec-4522-ab9a-1fe82f7a5748.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
