@@ -2281,8 +2281,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/73d52dfc-3305-44b1-9a9d-071a97bd3dc7/1d4e767d-624c-4bc1-9f98-29243c1b0374.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-28T02:03:26.988274+00:00",
+      "instagram": "2026-09-28T02:04:04.155138+00:00",
+      "tiktok": "2026-09-28T02:04:28.500949+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-35-how-welds-actually-get-smooth",
