@@ -2384,5 +2384,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-31-a-new-subscriber-told-me-she",
+    "scheduled_for": "2026-09-28T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Met a new subscriber at Lowe's who used to sail on weekends down in Annapolis. Then she told me she's moving out of the country to slow travel, starting in Vietnam. Where would you go first? Comment below.",
+    "captions": {
+      "instagram": "She used to sail in Annapolis. Now she's moving abroad to slow travel. Comment your first stop.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "She used to sail in Annapolis. Now she's moving abroad to slow travel. Comment your first stop. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dfeae63b-34e5-4907-8b67-0dc95fece95c/d7f4acd6-b6a9-45a6-820b-ec145ff9856c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
