@@ -2604,5 +2604,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-38-straight-line-charlie-approved",
+    "scheduled_for": "2026-09-30T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Been practicing, and this weld finally stayed on top of the metal instead of sinking. Charlie showed up just in time to see it. Straight line, no holes in the shirt. Follow for the next weld.",
+    "captions": {
+      "instagram": "The weld finally stayed on top. Charlie saw it. No holes in the shirt. Follow for the next weld.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "The weld finally stayed on top. Charlie saw it. No holes in the shirt. Follow for the next weld. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e187c730-f42a-4453-8244-efa1406f6d6d/6794331c-f214-46de-8d8e-e27abad0589a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
