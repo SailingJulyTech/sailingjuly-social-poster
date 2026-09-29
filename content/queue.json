@@ -2550,5 +2550,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-8-a-water-tattoo-that-s-lasted",
+    "scheduled_for": "2026-09-30T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Met Cookie at Best Buy, covered in water tattoos straight off Amazon. Five weeks and still on. The secret? A cap in the shower. Would you try it? Comment below.",
+    "captions": {
+      "instagram": "Water tattoos from Amazon, five weeks strong. The trick is a cap in the shower. Would you try it? Comment below.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "Water tattoos from Amazon, five weeks strong. The trick is a cap in the shower. Would you try it? Comment below. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/984897ef-9c31-463f-9fbd-78a4c9abc0b3/4094ea4b-5006-4d7c-b98d-638792cdd46d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
