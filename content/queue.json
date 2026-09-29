@@ -2676,5 +2676,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-3-dull-and-grimy-to-bright-white",
+    "scheduled_for": "2026-09-30T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Pressure washing the boat carpet on a medium setting so I don't damage the old caulking. Watching it go from dull and grimy to bright white never gets old. Save this for your next boat clean-up.",
+    "captions": {
+      "instagram": "Boat carpet, dull and grimy to bright white. Medium pressure to protect the old caulking. Save this for your next boat clean-up.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "Boat carpet, dull and grimy to bright white. Medium pressure to protect the old caulking. Save this for your next boat clean-up. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ef866f5a-ad58-4bd8-a8c8-8755ee8d8f07/2e6bccc0-69c1-40cf-8d0a-36cab77d431d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
