@@ -2341,8 +2341,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/15df616a-d647-402a-ba88-0119fc137b9a/95cbf209-5067-4e16-9e07-76f68a07c86c.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-29T09:49:38.925415+00:00",
+      "instagram": "2026-09-29T09:50:04.496820+00:00",
+      "tiktok": "2026-09-29T09:50:21.455356+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-10-why-my-welds-always-start-shaky",
