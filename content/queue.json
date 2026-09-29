@@ -2404,8 +2404,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b3462dc3-bb94-4d5b-a864-92ad4db50fac/17a928cf-79ec-4522-ab9a-1fe82f7a5748.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-29T16:34:20.111303+00:00",
+      "instagram": "2026-09-29T16:34:54.155164+00:00",
+      "tiktok": "2026-09-29T16:35:12.307580+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-31-a-new-subscriber-told-me-she",
