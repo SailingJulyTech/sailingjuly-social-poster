@@ -2442,5 +2442,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-8-you-won-t-believe-where-we",
+    "scheduled_for": "2026-09-29T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Guys, you won't believe where we're at. The Lowe's experiment, round two. Follow for how it goes.",
+    "captions": {
+      "instagram": "You won't believe where we're at. Lowe's experiment, round two. Follow for how it goes.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "You won't believe where we're at. Lowe's experiment, round two. Follow for how it goes. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5509604f-cfbf-4f84-8664-4d0ed053e22b/fbb1595e-3be6-4877-a8ff-2314e5bc229c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
