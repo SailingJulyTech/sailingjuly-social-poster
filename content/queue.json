@@ -2368,8 +2368,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0fd229d8-568e-4813-883f-9d58595d2941/7143980c-8243-4d90-bec8-dc6b3affc57d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-29T21:06:38.972910+00:00",
+      "instagram": "2026-09-29T21:07:57.912270+00:00",
+      "tiktok": "2026-09-29T21:08:16.443721+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-8-everyone-makes-me-type-my-channel",
