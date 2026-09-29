@@ -2314,8 +2314,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1d077491-4910-4976-9ed3-7dc071a26416/b39f06df-7717-4d56-b301-b516946f868b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-29T02:48:55.558179+00:00",
+      "instagram": "2026-09-29T02:49:38.307253+00:00",
+      "tiktok": "2026-09-29T02:49:57.266781+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-36-i-m-really-struggling-with-this",
