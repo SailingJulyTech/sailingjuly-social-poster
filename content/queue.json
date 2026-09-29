@@ -2622,5 +2622,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-11-a-stranger-at-home-depot-just",
+    "scheduled_for": "2026-09-30T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Asked a Home Depot worker to subscribe so I can keep fixing the sailboat, and they hooked me up right there on the job. My people never fail me. Search Sailing July and subscribe.",
+    "captions": {
+      "instagram": "Home Depot, on the job, still hooking me up. Search Sailing July and subscribe.\n\n#sailingjuly #sailboat #shorts #boatlife",
+      "tiktok": "Home Depot, on the job, still hooking me up. Search Sailing July and subscribe. #sailingjuly #sailboat #shorts #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c94d01c9-c82a-4980-98e3-3eb9a797b310/7bd6d216-135d-4005-8412-59741d42c43a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
