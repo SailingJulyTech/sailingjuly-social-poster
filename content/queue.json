@@ -2748,5 +2748,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-12-told-a-total-stranger-i-bought",
+    "scheduled_for": "2026-10-01T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The goal right now: fix this sailboat. First step - telling strangers about it.",
+    "captions": {
+      "instagram": "I bought a sailboat. Now I have to fix it.\n\n#sailboat #boatrestoration #boatlife #SailingJuly",
+      "tiktok": "I bought a sailboat. Now I have to fix it. #sailboat #boatrestoration #boatlife #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/85b9a81b-6de5-4251-aab1-3dab1bb26ef3/b14bb2a7-323b-4b72-bafe-6968a8b581df.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
