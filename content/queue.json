@@ -2856,5 +2856,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-40-burned-right-through-it",
+    "scheduled_for": "2026-10-01T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Still going a little too slow for the metal - burned right through. New line, same problem. Welders, what am I doing wrong?",
+    "captions": {
+      "instagram": "Too slow for the metal = burn through. Welders, help.\n\n#welding #learningtoweld #boatproject #SailingJuly",
+      "tiktok": "Too slow for the metal = burn through. Welders, help. #welding #learningtoweld #boatproject #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/11ddb279-6a0a-4fe0-8b04-10efb2f28e97/46c8f88e-4d69-45fc-9273-42dab5c19683.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
