@@ -2449,8 +2449,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dfeae63b-34e5-4907-8b67-0dc95fece95c/d7f4acd6-b6a9-45a6-820b-ec145ff9856c.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-30T06:02:20.868648+00:00",
+      "instagram": "2026-09-30T06:04:01.549807+00:00",
+      "tiktok": "2026-09-30T06:04:20.300972+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-13-2-they-moved-our-school-s-m",
