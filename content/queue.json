@@ -2395,8 +2395,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/20f542e0-1e18-41e9-a7fa-180eab10ccc8/4cf422e8-c3f7-492c-a8f7-9ad5dcf43524.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-09-30T00:27:57.921589+00:00",
+      "instagram": "2026-09-30T00:28:35.727720+00:00",
+      "tiktok": "2026-09-30T00:28:53.799520+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-6-he-swore-he-already-followed-me",
