@@ -2730,5 +2730,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-32-she-just-subscribed-and-she-used",
+    "scheduled_for": "2026-10-01T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Met a new subscriber who used to go sailing with friends around Annapolis when her kids were little - and it turns out she's right here in Chesapeake Beach. The invite to come aboard is open.",
+    "captions": {
+      "instagram": "New subscriber, old sailor, same bay. Invite's open.\n\n#chesapeakebay #sailing #annapolis #SailingJuly",
+      "tiktok": "New subscriber, old sailor, same bay. Invite's open. #chesapeakebay #sailing #annapolis #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7e86daf3-2738-44bd-84bf-be5a28a58209/60597b56-28b6-481e-a433-dd3573b70ad2.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
