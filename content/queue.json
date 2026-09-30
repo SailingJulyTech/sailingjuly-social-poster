@@ -2838,5 +2838,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-11-went-hunting-for-a-lens-came",
+    "scheduled_for": "2026-10-01T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Needed 1,000 followers by the end of the month, so the lens hunt turned into a follower hunt. Still no lens - but we picked up brand new followers. Shout out Nick, Newton & Alan. Next stop decides if this expedition is over.",
+    "captions": {
+      "instagram": "No lens yet. New followers though. Thank you Nick, Newton & Alan!\n\n#roadto1000 #boatlife #sailboat #SailingJuly",
+      "tiktok": "No lens yet. New followers though. Thank you Nick, Newton & Alan! #roadto1000 #boatlife #sailboat #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/aaf9cfa4-baa8-401b-82e7-2a4189b340f9/84c435c2-0fc5-45f5-bffb-cea42b6c8811.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
