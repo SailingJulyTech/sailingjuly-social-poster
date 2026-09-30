@@ -2820,5 +2820,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-8-the-boat-s-new-arch-is",
+    "scheduled_for": "2026-10-01T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The aluminum arch is on and tack welded at the feet. One bead all the way around each foot and it's done.",
+    "captions": {
+      "instagram": "Aluminum arch: tacked, one bead per foot to go.\n\n#welding #aluminumwelding #boatproject #sailboat #SailingJuly",
+      "tiktok": "Aluminum arch: tacked, one bead per foot to go. #welding #aluminumwelding #boatproject #sailboat #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/94adceb0-dc6e-42df-9f54-e06f9ddec708/6f802760-73a2-4451-923b-189697227b8b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
