@@ -2991,5 +2991,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-34-told-a-stranger-my-plan",
+    "scheduled_for": "2026-10-02T02:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Telling a stranger the plan: restore a really old sailboat, then take off to the Bahamas and beyond.",
+    "captions": {
+      "instagram": "Restore the old boat. Then the Bahamas.\n\nThat's the plan.\n\n#sailboatlife #boatrestoration #bahamas #sailingtheworld #SailingJuly",
+      "tiktok": "Restore the old boat, then sail to the Bahamas #sailboat #boatrestoration #bahamas #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/cec35da2-a422-4c4d-a0e6-c381210d0756/ba1ad5ad-f52d-48d1-9467-67cd7ca3f187.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
