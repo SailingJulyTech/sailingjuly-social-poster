@@ -2611,8 +2611,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ef866f5a-ad58-4bd8-a8c8-8755ee8d8f07/2e6bccc0-69c1-40cf-8d0a-36cab77d431d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-01T20:34:27.703802+00:00",
+      "instagram": "2026-10-01T20:35:10.743232+00:00",
+      "tiktok": "2026-10-01T20:35:29.523453+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-9-you-won-t-believe-where-we",
