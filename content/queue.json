@@ -2973,5 +2973,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "i-still-cant-weld-1-what-do-i-need-gloves-for",
+    "scheduled_for": "2026-10-02T02:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "You're supposed to bring your own gloves. \"What do I need gloves for?\" ... \"Don't catch a fire.\" What's your #1 shop safety rule?",
+    "captions": {
+      "instagram": "\"What do I need gloves for?\"\n\"Don't catch a fire.\"\n\nComment your shop rule.\n\n#welding #learningtoweld #weldinglife #SailingJuly",
+      "tiktok": "What do I need gloves for? Don't catch a fire. #welding #learningtoweld #weldinglife #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3e86c129-9db1-4a2b-8a92-72b521707d69/2c8366b2-7b3a-4609-9157-126994cc5da4.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
