@@ -2937,5 +2937,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "gratitude-reflection-1-2026-wasn-t-perfect",
+    "scheduled_for": "2026-10-02T02:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "2026 wasn't perfect - saying it was would be a lie. But it's been here for me. Grateful for every bit of this journey with July.",
+    "captions": {
+      "instagram": "Not perfect. But here for me.\n\nA quiet minute on the boat to look back at 2026.\n\n#gratitude #sailboatlife #liveaboard #boatrestoration #SailingJuly",
+      "tiktok": "2026 wasn't perfect... but it showed up for me #gratitude #sailboat #boatlife #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/131a7e6f-ae52-4832-88c7-064164410d99/9c38c293-2cf9-4ebf-90a7-1834a8be80d0.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
