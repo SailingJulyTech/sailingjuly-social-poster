@@ -2955,5 +2955,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-4-this-boat-s-been-sitting-a",
+    "scheduled_for": "2026-10-02T02:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Where it all started - a Pearson 34 that had clearly been sitting for a while. Before she could sail again, the aging rigging had to go.",
+    "captions": {
+      "instagram": "Day one with July: been sitting a while, rigging's tired.\n\n#pearson34 #boatrestoration #sailboatlife #projectboat #SailingJuly",
+      "tiktok": "Day one with a Pearson 34 that's been sitting a while #boatrestoration #sailboat #projectboat #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3dfec098-4f2a-4606-ae88-0a9e0fa27188/28f476bd-b90c-469f-a989-d632d3454f44.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
