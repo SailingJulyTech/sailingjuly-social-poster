@@ -2557,8 +2557,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c94d01c9-c82a-4980-98e3-3eb9a797b310/7bd6d216-135d-4005-8412-59741d42c43a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-01T15:30:07.281043+00:00",
+      "instagram": "2026-10-01T15:30:43.035228+00:00",
+      "tiktok": "2026-10-01T15:30:54.954516+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-37-straight-line-charlie-approved",
