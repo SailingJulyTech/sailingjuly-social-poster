@@ -3009,5 +3009,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-9-no-way-i-m-sailing-with",
+    "scheduled_for": "2026-10-02T02:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The solar arch was only tack welded, one screw per post holding it down. No way I'm sailing like that - so Mark and his truck came to the rescue to get it off the boat.",
+    "captions": {
+      "instagram": "Tack welds + one screw per post = not leaving the dock.\n\nMark, bring the truck.\n\n#boatproject #welding #solararch #sailboatlife #SailingJuly",
+      "tiktok": "Tack welds only? Not leaving the dock like that #boatproject #welding #sailboat #SailingJuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ff802947-9879-495f-a3b4-61fdf8a671db/665026c7-7f72-4df0-91a9-8986c0fdd682.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
