@@ -3135,5 +3135,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-12-if-you-ever-find-me-like",
+    "scheduled_for": "2026-10-03T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "If you ever find me in this position, call 911. \ud83d\ude02",
+    "captions": {
+      "instagram": "If you ever find me in this position, call 911. \ud83d\ude02\n\n#sailing #sailboat #boatlife #pearson34",
+      "tiktok": "If you ever find me in this position, call 911. \ud83d\ude02 #sailing #sailboat #boatlife #pearson34"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e0f56649-dbaf-41bc-8722-22bb35678c3e/6f721a9f-dfba-4533-9069-f049fd99670a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
