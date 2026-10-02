@@ -3099,5 +3099,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-5-meet-the-boat-i-m-bringing",
+    "scheduled_for": "2026-10-03T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Allow me to introduce you to my Pearson 34, a well-regarded cruising sailboat. This is where the restoration starts. \u26f5",
+    "captions": {
+      "instagram": "Allow me to introduce you to my Pearson 34, a well-regarded cruising sailboat. This is where the restoration starts. \u26f5\n\n#sailing #sailboat #boatlife #pearson34",
+      "tiktok": "Allow me to introduce you to my Pearson 34, a well-regarded cruising sailboat. This is where the restoration starts. \u26f5 #sailing #sailboat #boatlife #pearson34"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/77f4bd41-cc3b-45ec-9117-f3dfda4aefce/5c6ea87a-81a9-4327-a8ec-f29193264e0b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
