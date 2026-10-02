@@ -2692,8 +2692,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c94d01c9-c82a-4980-98e3-3eb9a797b310/7bd6d216-135d-4005-8412-59741d42c43a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-02T06:14:28.580766+00:00",
+      "instagram": "2026-10-02T06:15:03.651159+00:00",
+      "tiktok": "2026-10-02T06:15:15.696182+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-9-a-water-tattoo-that-s-lasted",
