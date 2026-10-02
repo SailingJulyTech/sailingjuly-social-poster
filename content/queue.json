@@ -3081,5 +3081,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-10-we-just-met-him-watch-what",
+    "scheduled_for": "2026-10-03T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Met a new friend at the boat and he subscribed on the spot. Nice to meet you! \ud83d\ude4c",
+    "captions": {
+      "instagram": "Met a new friend at the boat and he subscribed on the spot. Nice to meet you! \ud83d\ude4c\n\n#sailing #sailboat #boatlife #pearson34",
+      "tiktok": "Met a new friend at the boat and he subscribed on the spot. Nice to meet you! \ud83d\ude4c #sailing #sailboat #boatlife #pearson34"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/deb2dd2c-0499-4b75-af69-01f1fea1d2f2/89d42149-da76-4b1f-9e30-4ca16b64757f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
