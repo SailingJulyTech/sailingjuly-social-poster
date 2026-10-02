@@ -3117,5 +3117,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-13-3-didn-t-know-my-buddy-could",
+    "scheduled_for": "2026-10-03T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "This guy, I don't know where he picked up welding skills. Didn't know about it! \ud83d\udd25",
+    "captions": {
+      "instagram": "This guy, I don't know where he picked up welding skills. Didn't know about it! \ud83d\udd25\n\n#sailing #sailboat #boatlife #pearson34",
+      "tiktok": "This guy, I don't know where he picked up welding skills. Didn't know about it! \ud83d\udd25 #sailing #sailboat #boatlife #pearson34"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d5963b1a-c988-4b01-a1e4-860c2b3df16e/06ea8f7e-a504-474d-abf5-e8f993877ead.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
