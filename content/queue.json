@@ -2746,8 +2746,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e187c730-f42a-4453-8244-efa1406f6d6d/6794331c-f214-46de-8d8e-e27abad0589a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-02T18:45:51.427449+00:00",
+      "instagram": "2026-10-02T18:46:16.943207+00:00",
+      "tiktok": "2026-10-02T18:46:30.155223+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-11-a-stranger-at-home-depot-just",
