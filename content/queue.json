@@ -3288,5 +3288,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-43-weeks-of-failed-welds-then-this",
+    "scheduled_for": "2026-10-04T01:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Weeks of trying to weld for the boat rebuild, and it finally happened. I'm welding, folks.",
+    "captions": {
+      "instagram": "Weeks of failed welds. Then it finally stuck.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Weeks of failed welds. Then it finally stuck. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/760eea90-9652-4eb8-9c1e-4b5ded8d91b6/8b77b798-e4f1-4163-ba4a-0f26553d34e6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
