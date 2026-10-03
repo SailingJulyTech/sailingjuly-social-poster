@@ -2800,8 +2800,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e187c730-f42a-4453-8244-efa1406f6d6d/6794331c-f214-46de-8d8e-e27abad0589a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-03T01:59:14.366813+00:00",
+      "instagram": "2026-10-03T01:59:52.978735+00:00",
+      "tiktok": "2026-10-03T02:00:11.617211+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "intro-episode-2-dull-and-grimy-to-bright-white",
