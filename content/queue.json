@@ -3270,5 +3270,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-6-day-one-with-a-boat-that",
+    "scheduled_for": "2026-10-04T01:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Where it started: a Pearson 34 named July, new to me, with plenty of work ahead.",
+    "captions": {
+      "instagram": "Where it all started. This boat has some work ahead of it.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Where it all started. This boat has some work ahead of it. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5fba58ee-83b6-49a5-bc29-4cf0c87ec471/d2c764a7-45ac-4943-9013-9396c19de269.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
