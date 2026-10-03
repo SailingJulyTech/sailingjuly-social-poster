@@ -3252,5 +3252,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-14-he-wanted-a-shout-out-it",
+    "scheduled_for": "2026-10-04T01:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Met a guy at Home Depot who already had the hat on. Next shout-out costs extra, apparently.",
+    "captions": {
+      "instagram": "Home Depot stranger already had the hat on. Next shout-out isn't free.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Home Depot stranger already had the hat on. Next shout-out isn't free. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5b68febd-57df-48a3-94c4-edf03add117c/3d773b45-75d8-4710-8973-b55475d4d2cf.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
