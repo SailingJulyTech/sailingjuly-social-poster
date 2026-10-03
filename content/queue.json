@@ -3234,5 +3234,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-12-asked-a-best-buy-stranger-how",
+    "scheduled_for": "2026-10-04T01:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A simple 'how you doing today' at Best Buy turned into a whole conversation.",
+    "captions": {
+      "instagram": "One 'how you doing' at Best Buy and suddenly we're talking tattoos.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "One 'how you doing' at Best Buy and suddenly we're talking tattoos. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e86399f4-50b8-458a-8c80-5955fbe57ea7/7a899bdb-a08d-48f8-9b19-07d18ca25c48.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
