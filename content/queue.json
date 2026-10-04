@@ -3015,8 +3015,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/94adceb0-dc6e-42df-9f54-e06f9ddec708/6f802760-73a2-4451-923b-189697227b8b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-04T15:25:01.382669+00:00",
+      "instagram": "2026-10-04T15:25:41.256777+00:00",
+      "tiktok": "2026-10-04T15:26:21.084998+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-11-went-hunting-for-a-lens-came",
