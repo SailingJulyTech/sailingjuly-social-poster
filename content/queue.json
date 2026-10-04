@@ -3095,8 +3095,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/11ddb279-6a0a-4fe0-8b04-10efb2f28e97/46c8f88e-4d69-45fc-9273-42dab5c19683.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "gratitude-reflection-1-2026-wasn-t-perfect",
@@ -3185,8 +3186,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ff802947-9879-495f-a3b4-61fdf8a671db/665026c7-7f72-4df0-91a9-8986c0fdd682.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "episode-12-10-no-way-i-m-sailing-with",
@@ -3293,8 +3295,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/deb2dd2c-0499-4b75-af69-01f1fea1d2f2/89d42149-da76-4b1f-9e30-4ca16b64757f.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "episode-15-42-weeks-of-failed-welds-then-this",
@@ -3383,8 +3386,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/760eea90-9652-4eb8-9c1e-4b5ded8d91b6/8b77b798-e4f1-4163-ba4a-0f26553d34e6.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "best-buy-experiment-part2-13-asked-a-best-buy-stranger-how",
@@ -3401,8 +3405,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e86399f4-50b8-458a-8c80-5955fbe57ea7/7a899bdb-a08d-48f8-9b19-07d18ca25c48.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "lowes-experiment-35-strangers-were-kind-that-s-what",
@@ -3473,8 +3478,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/43b4816a-e791-4283-bcfd-91e574f32e3d/7cf405c0-68ec-400e-b364-de7d9431c553.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "episode-12-11-one-question-do-you-have-a",
@@ -3509,8 +3515,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b26603e6-bef4-4e73-a9c2-3fdba14f672c/cd452fdb-33b8-462a-9297-c34fb7a560ee.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "episode-15-46-my-weld-puddled-charlie-said-it",
@@ -3527,8 +3534,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b26603e6-bef4-4e73-a9c2-3fdba14f672c/cd452fdb-33b8-462a-9297-c34fb7a560ee.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "intro-episode-8-why-i-bought-a-boat-instead",
@@ -3545,8 +3553,9 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f80d3f27-4c39-42ee-9315-aa1742e627c1/c8926d58-553e-4198-9725-5dc9891aae5d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "skipped",
+    "posted_at": {},
+    "skip_reason": "duplicate of earlier entry for same review item (test9 double-dashboard, 2026-10-04)"
   },
   {
     "id": "best-buy-experiment-part2-14-first-patreon-member-gets-their-name",
