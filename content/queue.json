@@ -3503,5 +3503,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-8-why-i-bought-a-boat-instead",
+    "scheduled_for": "2026-10-05T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Charter boats add up fast. July, a Pearson 34, is my ticket to world-class dive sites on my own schedule at a fraction of the cost.",
+    "captions": {
+      "instagram": "Charters were too expensive, so I'm rebuilding my own dive boat.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Charters were too expensive, so I'm rebuilding my own dive boat. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f80d3f27-4c39-42ee-9315-aa1742e627c1/c8926d58-553e-4198-9725-5dc9891aae5d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
