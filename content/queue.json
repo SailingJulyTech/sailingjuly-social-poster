@@ -3377,5 +3377,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-35-strangers-were-kind-that-s-what",
+    "scheduled_for": "2026-10-05T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Went into Lowe's to talk to strangers about the boat. The kindness is what got me. I really want to do this, but it's pretty intimidating.",
+    "captions": {
+      "instagram": "Strangers at Lowe's were kind. That's what brought me to tears.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Strangers at Lowe's were kind. That's what brought me to tears. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/43b4816a-e791-4283-bcfd-91e574f32e3d/7cf405c0-68ec-400e-b364-de7d9431c553.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
