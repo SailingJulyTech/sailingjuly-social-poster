@@ -3467,5 +3467,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-45-my-weld-puddled-charlie-said-it",
+    "scheduled_for": "2026-10-05T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Learning to weld on the Pearson 34. The bead puddled, Charlie said it looked like a glob, so I put the torch on it and melted it down flat.",
+    "captions": {
+      "instagram": "Weld puddled. Charlie said glob. Torch fixed it.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Weld puddled. Charlie said glob. Torch fixed it. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b26603e6-bef4-4e73-a9c2-3fdba14f672c/cd452fdb-33b8-462a-9297-c34fb7a560ee.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
