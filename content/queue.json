@@ -2961,8 +2961,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7e86daf3-2738-44bd-84bf-be5a28a58209/60597b56-28b6-481e-a433-dd3573b70ad2.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-04T02:56:29.143414+00:00",
+      "instagram": "2026-10-04T02:57:00.818822+00:00",
+      "tiktok": "2026-10-04T02:57:18.282973+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-13-told-a-total-stranger-i-bought",
