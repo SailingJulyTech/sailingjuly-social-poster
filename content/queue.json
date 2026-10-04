@@ -2988,8 +2988,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/85b9a81b-6de5-4251-aab1-3dab1bb26ef3/b14bb2a7-323b-4b72-bafe-6968a8b581df.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-04T09:46:26.624046+00:00",
+      "instagram": "2026-10-04T09:47:02.618504+00:00",
+      "tiktok": "2026-10-04T09:47:20.331316+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-12-8-the-boat-s-new-arch-is",
