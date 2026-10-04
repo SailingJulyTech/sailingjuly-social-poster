@@ -3521,5 +3521,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-14-first-patreon-member-gets-their-name",
+    "scheduled_for": "2026-10-05T01:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Every time I try to end the video I pick up another subscriber. Now it's a race: the first Patreon member gets their name on a plaque on the boat. For real.",
+    "captions": {
+      "instagram": "Best Buy turned into a race for the first Patreon spot. Winner's name goes on the boat.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Best Buy turned into a race for the first Patreon spot. Winner's name goes on the boat. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7b85c00f-2afe-4386-996e-5a199f737f8f/4b5e8702-d59e-4e8f-97b2-304b2d87eb35.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
