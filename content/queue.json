@@ -3042,8 +3042,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/aaf9cfa4-baa8-401b-82e7-2a4189b340f9/84c435c2-0fc5-45f5-bffb-cea42b6c8811.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-04T18:52:05.458488+00:00",
+      "instagram": "2026-10-04T18:53:20.024394+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-15-40-burned-right-through-it",
