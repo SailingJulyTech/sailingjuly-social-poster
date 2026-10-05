@@ -3114,8 +3114,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/131a7e6f-ae52-4832-88c7-064164410d99/9c38c293-2cf9-4ebf-90a7-1834a8be80d0.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-05T01:20:50.303831+00:00",
+      "instagram": "2026-10-05T01:21:13.630053+00:00",
+      "tiktok": "2026-10-05T01:21:32.110669+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "intro-episode-4-this-boat-s-been-sitting-a",
