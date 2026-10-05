@@ -45,6 +45,16 @@ DEFAULT_STATE_PATH = os.path.join(
 # platform API calls, not just "whatever the cron happens to trigger."
 MIN_GAP_MINUTES = 60
 
+# Raised from 1 to 3 on 2026-10-05: GitHub's cron fires this workflow only
+# ~5x/day in practice (not every 30 min), so one item per run posted ~5/day
+# while shorts-engine queues ~5/day, and the due backlog (17 items, oldest
+# 3 days late) never shrank. The 2026-09-05 failure modes above stay
+# covered: queue.json + scheduler_state.json are saved after EACH item (a
+# crash or push race can't lose earlier items' results), and the batch
+# stops at the first item with any platform failure, so a platform-wide
+# problem (rate limit, TikTok spam_risk) fails one item per run, not three.
+MAX_ITEMS_PER_RUN = 3
+
 
 def load_state(path):
     if not os.path.exists(path):
@@ -216,10 +226,10 @@ def main():
                 )
                 return
 
-    # Only the SINGLE oldest due+pending item -- not a loop over every due
-    # item -- is processed per invocation, so a batch of many due posts
-    # gets spread across many runs (paced by MIN_GAP_MINUTES above) instead
-    # of firing at every platform back-to-back in one run.
+    # At most MAX_ITEMS_PER_RUN of the oldest due+pending items -- not a
+    # loop over every due item -- are processed per invocation, so a large
+    # backlog gets spread across many runs (paced by MIN_GAP_MINUTES above)
+    # instead of firing at every platform back-to-back in one run.
     due_items = [
         item for item in queue
         if item.get("status") == "pending"
@@ -231,8 +241,32 @@ def main():
         log("Nothing due.")
         return
 
-    item = due_items[0]
-    log(f"Processing due post: {item['id']} ({len(due_items) - 1} more still due after this one)")
+    batch = due_items[:MAX_ITEMS_PER_RUN]
+    log(
+        f"{len(due_items)} due; processing {len(batch)} this run "
+        f"(max {MAX_ITEMS_PER_RUN}), {len(due_items) - len(batch)} left for later runs"
+    )
+    for n, item in enumerate(batch, start=1):
+        log(f"Processing due post {n}/{len(batch)}: {item['id']}")
+        ok = process_item(item, args.dry_run)
+
+        if not args.dry_run:
+            # Saved after every item, not once at the end -- see
+            # MAX_ITEMS_PER_RUN's comment.
+            save_json(args.queue, queue)
+            log(f"Updated {args.queue}")
+            save_state(args.state, {"last_attempt_at": utcnow().isoformat()})
+            log(f"Updated {args.state}")
+
+        if not ok:
+            log(f"Stopping this run after {item['id']} failed; remaining due items wait for the next run.")
+            sys.exit(1)
+
+
+def process_item(item, dry_run):
+    """Posts one queue item to each of its platforms, updating the item in
+    place (posted_at, status, last_result). Returns True if every platform
+    succeeded."""
     posted_at = item.setdefault("posted_at", {})
     results = {}
     for platform in item.get("platforms", []):
@@ -249,25 +283,17 @@ def main():
             log(f"Unknown platform '{platform}' in item {item['id']}, skipping")
             results[platform] = False
             continue
-        ok = handler(item, args.dry_run)
+        ok = handler(item, dry_run)
         results[platform] = ok
-        if ok and not args.dry_run:
+        if ok and not dry_run:
             posted_at[platform] = utcnow().isoformat()
 
     if all(results.values()):
-        item["status"] = "posted" if not args.dry_run else "pending"
+        item["status"] = "posted" if not dry_run else "pending"
     else:
         item["status"] = "failed"
     item["last_result"] = results
-
-    if not args.dry_run:
-        save_json(args.queue, queue)
-        log(f"Updated {args.queue}")
-        save_state(args.state, {"last_attempt_at": utcnow().isoformat()})
-        log(f"Updated {args.state}")
-
-    if not all(results.values()):
-        sys.exit(1)
+    return all(results.values())
 
 
 if __name__ == "__main__":

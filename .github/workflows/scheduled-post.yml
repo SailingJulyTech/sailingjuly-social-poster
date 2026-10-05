@@ -13,6 +13,15 @@ on:
 permissions:
   contents: write  # needed so the job can commit updated queue.json back
 
+# 2026-10-05: up to 3 items per run (scripts/run_scheduler.py
+# MAX_ITEMS_PER_RUN) makes a run ~20 min, long enough to overlap the next
+# cron tick. An overlapping run would check out queue.json before this one
+# commits its results and post the same items again, so runs queue up
+# instead of running side by side. Never cancel one mid-post.
+concurrency:
+  group: scheduled-social-posting
+  cancel-in-progress: false
+
 jobs:
   post:
     runs-on: ubuntu-latest
