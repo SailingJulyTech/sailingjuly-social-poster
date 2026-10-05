@@ -3682,5 +3682,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-9-dirty-no-lines-hasn-t-sailed",
+    "scheduled_for": "2026-10-06T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "She's dirty, needs new lines and sheets, and hasn't been out on the water for a while. I'm excited to bring her back to life.",
+    "captions": {
+      "instagram": "Dirty, needs new lines, hasn't sailed in a while. Bringing her back.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Dirty, needs new lines, hasn't sailed in a while. Bringing her back. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fa9ec475-d189-4f2a-83bb-55510c456cb2/a366518b-255c-43ad-b2b9-b4cd65a9ff92.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
