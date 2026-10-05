@@ -3321,8 +3321,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d5963b1a-c988-4b01-a1e4-860c2b3df16e/06ea8f7e-a504-474d-abf5-e8f993877ead.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-05T23:15:11.542253+00:00",
+      "instagram": "2026-10-05T23:16:26.392131+00:00",
+      "tiktok": "2026-10-05T23:16:39.698214+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-12-if-you-ever-find-me-like",
@@ -3339,8 +3348,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e0f56649-dbaf-41bc-8722-22bb35678c3e/6f721a9f-dfba-4533-9069-f049fd99670a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-05T23:22:08.029030+00:00",
+      "instagram": "2026-10-05T23:22:33.471697+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "best-buy-experiment-part2-11-we-just-met-him-watch-what",
