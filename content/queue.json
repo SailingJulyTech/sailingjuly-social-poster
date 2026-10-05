@@ -3664,5 +3664,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "i-still-cant-weld-2-every-excuse-i-d-been-hiding",
+    "scheduled_for": "2026-10-06T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "And one by one, every excuse I'd been hiding behind vanished. That's how this boat project actually started.",
+    "captions": {
+      "instagram": "One by one, every excuse vanished.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "One by one, every excuse vanished. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c36ba68d-030d-43fb-90a1-25087c856b4d/79cc8f7e-2cba-480e-b9b2-bba9490243e5.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
