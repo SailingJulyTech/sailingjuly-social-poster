@@ -3141,8 +3141,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3dfec098-4f2a-4606-ae88-0a9e0fa27188/28f476bd-b90c-469f-a989-d632d3454f44.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-05T07:45:18.453658+00:00",
+      "instagram": "2026-10-05T07:45:51.369849+00:00",
+      "tiktok": "2026-10-05T07:46:09.274984+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "i-still-cant-weld-1-what-do-i-need-gloves-for",
