@@ -3610,5 +3610,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-15-fingers-crossed-the-home-depot-guy",
+    "scheduled_for": "2026-10-06T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Went hunting for a part for the boat and wasn't sure they'd have it. Big up energy for the Home Depot man.",
+    "captions": {
+      "instagram": "Big up energy for the Home Depot man.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Big up energy for the Home Depot man. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3d5a99cd-e5d7-4338-9ada-2843bb244b24/558bf562-bd69-447c-8041-bcb76b49e734.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
