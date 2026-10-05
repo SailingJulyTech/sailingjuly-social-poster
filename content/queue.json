@@ -3574,5 +3574,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-12-every-boat-owner-holds-their-breath",
+    "scheduled_for": "2026-10-03T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The slings, the lean, the pull. Nerve-wracking every single time. \u26f5",
+    "captions": {
+      "instagram": "The slings, the lean, the pull. Nerve-wracking every single time. \u26f5\n\n#sailing #sailboat #boatlife #pearson34",
+      "tiktok": "The slings, the lean, the pull. Nerve-wracking every single time. \u26f5 #sailing #sailboat #boatlife #pearson34"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c368a161-445e-4f95-9b12-671444027f71/0f907816-6777-4e92-b083-a61d1d4ac2b6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
