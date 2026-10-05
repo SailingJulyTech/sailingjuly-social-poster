@@ -3628,5 +3628,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-13-met-a-stranger-now-he-s",
+    "scheduled_for": "2026-10-06T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Five minutes in and he's already promising the channel a bunch of young followers. Sailing July has a new hype man.",
+    "captions": {
+      "instagram": "New hype man for Sailing July, apparently.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "New hype man for Sailing July, apparently. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/df48b039-d05b-45af-a23c-3727b32b3dc5/b9d9eb3e-d365-44ab-a5d5-5e793210d031.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
