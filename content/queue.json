@@ -3646,5 +3646,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-11-rookie-move-twice",
+    "scheduled_for": "2026-10-06T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Rookie move. Rookie move. Let's go again. Learning this stuff from zero, one mistake at a time.",
+    "captions": {
+      "instagram": "Rookie move. Let's go again.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Rookie move. Let's go again. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/60b10e43-d957-42d3-824a-cc116646aa4a/1313541e-3298-4247-8509-835c50884702.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
