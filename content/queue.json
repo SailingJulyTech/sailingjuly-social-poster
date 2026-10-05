@@ -3268,8 +3268,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/deb2dd2c-0499-4b75-af69-01f1fea1d2f2/89d42149-da76-4b1f-9e30-4ca16b64757f.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-05T18:24:21.416744+00:00",
+      "instagram": "2026-10-05T18:24:50.048268+00:00",
+      "tiktok": "2026-10-05T18:25:12.795016+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "intro-episode-5-meet-the-boat-i-m-bringing",
@@ -3286,8 +3295,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/77f4bd41-cc3b-45ec-9117-f3dfda4aefce/5c6ea87a-81a9-4327-a8ec-f29193264e0b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-05T18:30:50.909245+00:00",
+      "instagram": "2026-10-05T18:31:20.726647+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-13-3-didn-t-know-my-buddy-could",
