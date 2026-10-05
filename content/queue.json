@@ -3168,8 +3168,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3e86c129-9db1-4a2b-8a92-72b521707d69/2c8366b2-7b3a-4609-9157-126994cc5da4.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-05T16:39:48.996504+00:00",
+      "instagram": "2026-10-05T16:40:25.021236+00:00",
+      "tiktok": "2026-10-05T16:40:47.551446+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-34-told-a-stranger-my-plan",
@@ -3186,8 +3195,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/cec35da2-a422-4c4d-a0e6-c381210d0756/ba1ad5ad-f52d-48d1-9467-67cd7ca3f187.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-05T16:46:10.425644+00:00",
+      "instagram": "2026-10-05T16:47:10.466234+00:00",
+      "tiktok": "2026-10-05T16:47:22.627209+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-12-9-no-way-i-m-sailing-with",
@@ -3223,8 +3241,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ff802947-9879-495f-a3b4-61fdf8a671db/665026c7-7f72-4df0-91a9-8986c0fdd682.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-05T16:52:47.842030+00:00",
+      "instagram": "2026-10-05T16:54:07.824122+00:00",
+      "tiktok": "2026-10-05T16:54:45.860881+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-10-we-just-met-him-watch-what",
