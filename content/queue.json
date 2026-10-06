@@ -3538,8 +3538,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/43b4816a-e791-4283-bcfd-91e574f32e3d/7cf405c0-68ec-400e-b364-de7d9431c553.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-06T21:58:25.212656+00:00",
+      "instagram": "2026-10-06T21:59:02.877422+00:00",
+      "tiktok": "2026-10-06T21:59:26.717652+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-44-my-weld-puddled-charlie-said-it",
@@ -3556,8 +3565,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b26603e6-bef4-4e73-a9c2-3fdba14f672c/cd452fdb-33b8-462a-9297-c34fb7a560ee.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-06T22:04:56.250835+00:00",
+      "instagram": "2026-10-06T22:05:27.051388+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "intro-episode-7-why-i-bought-a-boat-instead",
