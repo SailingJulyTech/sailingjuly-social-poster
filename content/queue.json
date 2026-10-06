@@ -3419,8 +3419,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e86399f4-50b8-458a-8c80-5955fbe57ea7/7a899bdb-a08d-48f8-9b19-07d18ca25c48.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-06T17:15:02.716392+00:00",
+      "instagram": "2026-10-06T17:16:17.057007+00:00",
+      "tiktok": "2026-10-06T17:16:34.140707+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-14-he-wanted-a-shout-out-it",
@@ -3437,8 +3446,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5b68febd-57df-48a3-94c4-edf03add117c/3d773b45-75d8-4710-8973-b55475d4d2cf.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-06T17:22:00.061653+00:00",
+      "instagram": "2026-10-06T17:22:23.922164+00:00",
+      "tiktok": "2026-10-06T17:22:41.188954+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "intro-episode-6-day-one-with-a-boat-that",
@@ -3455,8 +3473,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5fba58ee-83b6-49a5-bc29-4cf0c87ec471/d2c764a7-45ac-4943-9013-9396c19de269.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-06T17:28:07.925065+00:00",
+      "instagram": "2026-10-06T17:28:42.243503+00:00",
+      "tiktok": "2026-10-06T17:28:59.509152+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-43-weeks-of-failed-welds-then-this",
