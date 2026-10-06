@@ -3669,8 +3669,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c368a161-445e-4f95-9b12-671444027f71/0f907816-6777-4e92-b083-a61d1d4ac2b6.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-06T03:24:33.701735+00:00",
+      "instagram": "2026-10-06T03:25:20.795700+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "home-depot-experiment-15-fingers-crossed-the-home-depot-guy",
