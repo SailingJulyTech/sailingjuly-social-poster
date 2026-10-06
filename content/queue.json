@@ -3393,8 +3393,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/760eea90-9652-4eb8-9c1e-4b5ded8d91b6/8b77b798-e4f1-4163-ba4a-0f26553d34e6.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-06T10:51:09.739106+00:00",
+      "instagram": "2026-10-06T10:51:45.465002+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "best-buy-experiment-part2-12-asked-a-best-buy-stranger-how",
