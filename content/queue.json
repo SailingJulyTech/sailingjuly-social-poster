@@ -3591,8 +3591,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f80d3f27-4c39-42ee-9315-aa1742e627c1/c8926d58-553e-4198-9725-5dc9891aae5d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-07T01:35:18.735520+00:00",
+      "instagram": "2026-10-07T01:35:56.017166+00:00",
+      "tiktok": "2026-10-07T01:36:20.490050+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-36-strangers-were-kind-that-s-what",
@@ -3628,8 +3637,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b0b8d4d6-8af0-40bb-b576-a89a582bf82a/6910f089-3e4a-4d74-95da-64fe4fa4ecd0.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-07T01:41:53.369368+00:00",
+      "instagram": "2026-10-07T01:42:41.498233+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-15-45-my-weld-puddled-charlie-said-it",
