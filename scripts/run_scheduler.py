@@ -56,6 +56,18 @@ MIN_GAP_MINUTES = 60
 MAX_ITEMS_PER_RUN = 3
 
 
+# TikTok's draft-to-inbox endpoint refuses new uploads with this error code
+# once too many unpublished drafts are pending in the account's inbox. It
+# clears only when drafts are published/deleted in the TikTok app, so
+# retrying (or failing the whole item over it) just halts the run: on
+# 2026-10-07 three consecutive runs stopped on it. Treated as "skipped",
+# not "failed": the item still counts as posted for the platforms that
+# worked, and is flagged tiktok_deferred so TikTok can be requeued later.
+TIKTOK_CAP_ERROR = "spam_risk_too_many_pending_share"
+SKIPPED_TIKTOK_CAP = "skipped_tiktok_cap"
+_tiktok_capped = False
+
+
 def load_state(path):
     if not os.path.exists(path):
         return {}
@@ -185,7 +197,16 @@ def post_to_tiktok(item, dry_run):
         post_tiktok.poll_status(access_token, publish_id)
         return True
     except Exception as e:
-        log(f"TikTok post failed for {item['id']}: {describe_error(e)}")
+        described = describe_error(e)
+        if TIKTOK_CAP_ERROR in described:
+            global _tiktok_capped
+            _tiktok_capped = True
+            log(
+                f"TikTok pending-draft cap hit for {item['id']}; skipping TikTok "
+                f"for the rest of this run (clear drafts in the TikTok app): {described}"
+            )
+            return SKIPPED_TIKTOK_CAP
+        log(f"TikTok post failed for {item['id']}: {described}")
         return False
 
 
@@ -283,9 +304,16 @@ def process_item(item, dry_run):
             log(f"Unknown platform '{platform}' in item {item['id']}, skipping")
             results[platform] = False
             continue
+        if platform == "tiktok" and _tiktok_capped:
+            log(f"Skipping tiktok for {item['id']}: pending-draft cap already hit this run")
+            results[platform] = SKIPPED_TIKTOK_CAP
+            item["tiktok_deferred"] = True
+            continue
         ok = handler(item, dry_run)
         results[platform] = ok
-        if ok and not dry_run:
+        if ok == SKIPPED_TIKTOK_CAP:
+            item["tiktok_deferred"] = True
+        elif ok and not dry_run:
             posted_at[platform] = utcnow().isoformat()
 
     if all(results.values()):
