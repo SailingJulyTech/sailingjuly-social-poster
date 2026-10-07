@@ -3772,8 +3772,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3d5a99cd-e5d7-4338-9ada-2843bb244b24/558bf562-bd69-447c-8041-bcb76b49e734.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-07T15:36:27.418445+00:00",
+      "instagram": "2026-10-07T15:37:09.205696+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "lowes-experiment-part2-13-met-a-stranger-now-he-s",
