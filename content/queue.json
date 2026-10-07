@@ -3720,8 +3720,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7b85c00f-2afe-4386-996e-5a199f737f8f/4b5e8702-d59e-4e8f-97b2-304b2d87eb35.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-07T07:47:40.380850+00:00",
+      "instagram": "2026-10-07T07:48:17.389018+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-12-12-every-boat-owner-holds-their-breath",
