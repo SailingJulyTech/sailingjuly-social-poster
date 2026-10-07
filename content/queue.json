@@ -3798,8 +3798,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/df48b039-d05b-45af-a23c-3727b32b3dc5/b9d9eb3e-d365-44ab-a5d5-5e793210d031.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-07T20:51:32.041261+00:00",
+      "instagram": "2026-10-07T20:52:21.493745+00:00",
+      "tiktok": "2026-10-07T20:52:34.620966+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-11-rookie-move-twice",
@@ -3816,8 +3825,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/60b10e43-d957-42d3-824a-cc116646aa4a/1313541e-3298-4247-8509-835c50884702.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-07T20:57:59.496237+00:00",
+      "instagram": "2026-10-07T20:58:36.558549+00:00",
+      "tiktok": "2026-10-07T20:58:55.192461+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "i-still-cant-weld-2-every-excuse-i-d-been-hiding",
@@ -3834,8 +3852,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c36ba68d-030d-43fb-90a1-25087c856b4d/79cc8f7e-2cba-480e-b9b2-bba9490243e5.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-07T21:04:21.406957+00:00",
+      "instagram": "2026-10-07T21:05:02.338899+00:00",
+      "tiktok": "2026-10-07T21:05:15.462834+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "intro-episode-9-dirty-no-lines-hasn-t-sailed",
