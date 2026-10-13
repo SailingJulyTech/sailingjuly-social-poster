@@ -3962,5 +3962,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-15-she-subscribed-so-i-offered-to",
+    "scheduled_for": "2026-10-07T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "She pushed the subscribe button on camera, so the deal was I'd sign up for a Best Buy card for her. Then I remembered I already have one.",
+    "captions": {
+      "instagram": "She subscribed. I owed her one. Small problem.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "She subscribed. I owed her one. Small problem. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3d21caa6-95fc-49fc-9be9-089a5a15270f/b70fd714-db7a-476f-8df7-0f8a8eb18157.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
