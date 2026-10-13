@@ -4196,5 +4196,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-11-grimy-to-bright-white-she-s",
+    "scheduled_for": "2026-10-07T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Boat work is all about patience. Dirt hides in every scupper and deck fitting, but a little work goes a long way. She's slowly coming alive.",
+    "captions": {
+      "instagram": "She's slowly coming alive.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "She's slowly coming alive. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c3403754-4945-4027-a9ed-bfdfe9b73e39/9996d516-616f-44e2-8208-14cf6490d704.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
