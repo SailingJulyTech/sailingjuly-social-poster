@@ -4070,5 +4070,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-14-mark-made-it-so-much-easier",
+    "scheduled_for": "2026-10-10T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Mark is a superstar, not going to lie, he made this so much easier. Now we just have to figure out how to walk it down the dock and get it in the truck.",
+    "captions": {
+      "instagram": "Mark made it so much easier. Now how do we get it down the dock?\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Mark made it so much easier. Now how do we get it down the dock? #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/71b6bfcf-582d-4590-bfe3-127219b1b264/dfa7209c-e1b6-40de-8135-795a45033c47.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
