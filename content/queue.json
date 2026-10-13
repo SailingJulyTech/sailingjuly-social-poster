@@ -4178,5 +4178,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-40-worst-pitch-to-a-stranger-ever",
+    "scheduled_for": "2026-10-08T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Can I borrow you for 20 seconds? I have a YouTube channel called Sailing July... and I'm running out of money. Should have led with the sailboat.",
+    "captions": {
+      "instagram": "Should have led with the sailboat.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Should have led with the sailboat. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bb927297-6daa-4afd-bebb-80b0c12c20ff/67f0065f-4979-44a3-8427-f6694f566caf.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
