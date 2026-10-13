@@ -3944,5 +3944,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-37-asking-strangers-is-scary",
+    "scheduled_for": "2026-10-13T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Lowe's experiment: a couple more yeses or noes before we head out. I'm not going to lie, walking up to strangers still makes me nervous.",
+    "captions": {
+      "instagram": "Walking up to strangers still makes me nervous. Asking anyway.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Walking up to strangers still makes me nervous. Asking anyway. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3383977c-67ed-48d8-854d-3c79ef159cc4/ccb3f7e8-02c6-4e0d-ad6d-4f9ed936c176.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
