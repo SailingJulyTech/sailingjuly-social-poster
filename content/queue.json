@@ -4214,5 +4214,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "gratitude-reflection-3-too-many-to-list",
+    "scheduled_for": "2026-10-12T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The air, July, my health. There are so many things to be grateful for, I couldn't list them all. What's yours today?",
+    "captions": {
+      "instagram": "The air. July. My health. Too many to list. What's yours today?\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "The air. July. My health. Too many to list. What's yours today? #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ca168c0e-ee11-4c20-9f67-012ce816c198/c4f30dfd-ee10-4686-8356-af543a8f7035.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
