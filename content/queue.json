@@ -4160,5 +4160,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-14-why-won-t-it-flow",
+    "scheduled_for": "2026-10-09T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The filler is melting but it's staying in one place. I'm not getting it to flow. Probably too much heat. Learning to TIG weld one bead at a time.",
+    "captions": {
+      "instagram": "Melting, but not flowing. Probably too much heat.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Melting, but not flowing. Probably too much heat. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/88156681-4944-4bbe-9972-7b6dbdbbf549/ecae59a5-3317-42ab-89a1-2126a8eb840d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
