@@ -4286,5 +4286,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-16-kicked-out-and-i-can-t",
+    "scheduled_for": "2026-10-09T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The marina still wants me out. And I can't move, because the real reason I was in that marina in the first place was the welder I paid to build my solar arch.",
+    "captions": {
+      "instagram": "The marina wants me out. I can't move. Here's why.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "The marina wants me out. I can't move. Here's why. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/de5c91d8-88c5-4581-ae34-954edf8b7231/ca3af3f0-c9cd-430f-89b8-1b1f81dfb020.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
