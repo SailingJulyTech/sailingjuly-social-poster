@@ -3998,5 +3998,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "sailingjuly-overview-1-the-welder-quit-so-i-learned",
+    "scheduled_for": "2026-10-09T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I hired a welder. They didn't finish. So I took the arch to Charlie's and learned to weld it myself. I welded the foot of that arch myself.",
+    "captions": {
+      "instagram": "The welder quit. I welded the foot of that arch myself.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "The welder quit. I welded the foot of that arch myself. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/57feae67-34db-4399-b53d-5661be505b51/17d37c8f-4542-4d84-9b34-44e81e60a140.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
