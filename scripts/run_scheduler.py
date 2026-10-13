@@ -148,6 +148,39 @@ def post_to_instagram(item, dry_run):
         return False
 
 
+def post_to_instagram_story(item, dry_run):
+    """Re-upload the same video as a fresh, standalone Instagram Story.
+
+    Meta's API has no "reshare an existing post to Story" action -- that's
+    a mobile-app-only gesture (the paper-airplane share icon's "Add post
+    to your story", which stamps a link-back sticker to the original Reel).
+    This just publishes the same file as a brand-new Story post instead:
+    same content reaches Story viewers, but with no link-back sticker and
+    no shared view count. Stories also take no caption at all (the API
+    silently drops it if sent) and expire after 24h like any Story.
+    """
+    media_url = item["media_url"]
+    if item.get("media_type") != "video":
+        log(f"Skipping Instagram Story for {item['id']}: not a video item")
+        return False
+    if dry_run:
+        log(f"[dry-run] would post to Instagram Story: {item['id']}")
+        return True
+    try:
+        target = post_instagram.resolve_target()
+        log(f"Instagram Story via {target}")
+        container_id = post_instagram.create_hosted_container(
+            target, caption="", media_url=media_url, media_type="stories"
+        )
+        post_instagram.wait_for_container(target, container_id)
+        resp = post_instagram.publish_container(target, container_id)
+        resp.raise_for_status()
+        return True
+    except Exception as e:
+        log(f"Instagram Story post failed for {item['id']}: {describe_error(e)}")
+        return False
+
+
 def post_to_tiktok(item, dry_run):
     caption = caption_for(item, "tiktok")
     media_url = item["media_url"]
@@ -213,6 +246,7 @@ def post_to_tiktok(item, dry_run):
 PLATFORM_HANDLERS = {
     "facebook": post_to_facebook,
     "instagram": post_to_instagram,
+    "instagram_story": post_to_instagram_story,
     "tiktok": post_to_tiktok,
 }
 

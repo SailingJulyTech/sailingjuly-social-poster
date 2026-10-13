@@ -162,13 +162,22 @@ def _apply_audio(target, data, audio, audio_name):
 
 
 def create_hosted_container(target, caption, media_url, media_type, audio=None, audio_name=None):
-    data = {"caption": caption, "access_token": target.token}
+    data = {"access_token": target.token}
     if media_type == "image":
+        data["caption"] = caption
         data["image_url"] = media_url
     elif media_type == "reels":
+        data["caption"] = caption
         data["media_type"] = "REELS"
         data["video_url"] = media_url
         _apply_audio(target, data, audio, audio_name)
+    elif media_type == "stories":
+        # Stories take no caption at all -- Meta's API silently ignores it
+        # if sent, but omit it outright since it's misleading to pass text
+        # that will never be shown. Also: no carousels, single video only,
+        # 60s max / 3s min duration, 100MB max.
+        data["media_type"] = "STORIES"
+        data["video_url"] = media_url
     else:
         raise ValueError(f"Unsupported media_type: {media_type}")
 
@@ -240,7 +249,7 @@ def main():
     parser.add_argument("--caption", required=True)
     parser.add_argument("--media-url", default=None, help="Public URL for Meta to fetch")
     parser.add_argument("--media-path", default=None, help="Local video file (reels only)")
-    parser.add_argument("--media-type", choices=["image", "reels"], required=True)
+    parser.add_argument("--media-type", choices=["image", "reels", "stories"], required=True)
     parser.add_argument(
         "--login-type", choices=["instagram", "facebook"], default=None,
         help="Override auth flavour (default: auto-detect from env)"
@@ -287,7 +296,7 @@ def main():
         container_id = create_hosted_container(
             target, args.caption, args.media_url, args.media_type, audio, args.audio_name
         )
-        if args.media_type == "reels":
+        if args.media_type in ("reels", "stories"):
             wait_for_container(target, container_id)
 
     log("Publishing...")
