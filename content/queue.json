@@ -4088,5 +4088,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-15-i-said-six-out-of-ten",
+    "scheduled_for": "2026-10-07T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I rated welding the boat's feet a six out of ten on difficulty. He rated it a four. Only after he showed me how, of course.",
+    "captions": {
+      "instagram": "Six out of ten. He said four.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Six out of ten. He said four. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/753d83c6-cd9c-4b13-97f9-1e3b39f7f7dd/5c5dd5ca-2cf0-4d7e-8f01-2b97bcda2cc6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
