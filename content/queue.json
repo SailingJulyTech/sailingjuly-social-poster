@@ -3980,5 +3980,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "intro-episode-10-any-destination-dive-it-on-a",
+    "scheduled_for": "2026-10-10T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I had a wallet epiphany. What if I could pick any destination in the world and go dive there on a budget? That's how this whole sailboat thing started.",
+    "captions": {
+      "instagram": "What if you could dive anywhere in the world on a budget?\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "What if you could dive anywhere in the world on a budget? #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/54d11e61-5d56-4d79-97da-fd309bec6772/68412b07-1da3-4653-9612-74d80ca02f08.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
