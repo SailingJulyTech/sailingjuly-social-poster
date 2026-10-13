@@ -4268,5 +4268,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-14-my-hands-my-eyes-or-am",
+    "scheduled_for": "2026-10-07T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "So many variables go into nailing a weld. Here's the actual puddle. You decide: is it my hands, my eyes, or am I just being lazy?",
+    "captions": {
+      "instagram": "Hands, eyes, or lazy? You decide.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Hands, eyes, or lazy? You decide. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d8f20c0a-af9c-4337-b767-5a95f38d624c/7f50c303-0cca-4ff2-af54-5b8997fa0be4.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
