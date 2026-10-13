@@ -3890,5 +3890,23 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-16-12-this-one-might-beat-me",
+    "scheduled_for": "2026-10-12T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "This might be a challenge for me, but I'm going to give it a shot and share the progress with you as I go.",
+    "captions": {
+      "instagram": "Might be a challenge. Giving it a shot anyway. Progress updates coming.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Might be a challenge. Giving it a shot anyway. Progress updates coming. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/03a88adc-0d13-48bc-98d6-6371220407c9/edad5e10-7880-446a-9d91-e7f454187e83.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
