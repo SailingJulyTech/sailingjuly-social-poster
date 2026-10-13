@@ -3942,8 +3942,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/297daf31-263e-42aa-b8cc-7fd760257df9/1f3d30ed-ff94-45e3-8151-2a1c7230c705.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-13T21:50:35.899383+00:00",
+      "instagram": "2026-10-13T21:51:17.824365+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "lowes-experiment-37-asking-strangers-is-scary",
@@ -4239,8 +4248,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c3403754-4945-4027-a9ed-bfdfe9b73e39/9996d516-616f-44e2-8208-14cf6490d704.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-13T21:37:32.950500+00:00",
+      "instagram": "2026-10-13T21:38:10.640517+00:00",
+      "tiktok": "2026-10-13T21:38:29.088055+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "gratitude-reflection-3-too-many-to-list",
@@ -4311,8 +4329,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d8f20c0a-af9c-4337-b767-5a95f38d624c/7f50c303-0cca-4ff2-af54-5b8997fa0be4.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-13T21:44:05.902462+00:00",
+      "instagram": "2026-10-13T21:44:43.715367+00:00",
+      "tiktok": "2026-10-13T21:45:02.348402+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-12-16-kicked-out-and-i-can-t",
