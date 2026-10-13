@@ -4232,5 +4232,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-17-he-wanted-to-know-where-i",
+    "scheduled_for": "2026-10-09T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "We got a new subscriber. But he wanted to know my origin. Lagos, Nigeria wasn't specific enough. Everybody's got a hometown.",
+    "captions": {
+      "instagram": "Lagos wasn't specific enough. Everybody's got a hometown.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Lagos wasn't specific enough. Everybody's got a hometown. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d202039e-a688-4c0a-aab9-177c2535dd12/cf625a50-2601-4893-a4b3-60f58abd08e1.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
