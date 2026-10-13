@@ -4124,5 +4124,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-39-met-a-stranger-promised-a-shout",
+    "scheduled_for": "2026-10-10T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Met someone awesome while out filming and promised I'd shout them out when I posted this. So here it is. Thank you, and much success to you!",
+    "captions": {
+      "instagram": "Promised a shout-out when I posted this. Promise kept. Much success to you!\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Promised a shout-out when I posted this. Promise kept. Much success to you! #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7e40b9ff-42b8-4754-b836-ff87042cb817/905675fc-9bfe-4155-9171-8020e9bb7461.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
