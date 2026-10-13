@@ -3978,8 +3978,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3d21caa6-95fc-49fc-9be9-089a5a15270f/b70fd714-db7a-476f-8df7-0f8a8eb18157.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-13T16:30:26.009137+00:00",
+      "instagram": "2026-10-13T16:31:03.280836+00:00",
+      "tiktok": "2026-10-13T16:31:27.392933+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "intro-episode-10-any-destination-dive-it-on-a",
@@ -4104,8 +4113,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/753d83c6-cd9c-4b13-97f9-1e3b39f7f7dd/5c5dd5ca-2cf0-4d7e-8f01-2b97bcda2cc6.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-13T16:36:53.456051+00:00",
+      "instagram": "2026-10-13T16:37:29.522126+00:00",
+      "tiktok": "2026-10-13T16:37:47.893052+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-38-strangers-at-lowe-s-got-me",
@@ -4158,8 +4176,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/86e05926-ed15-4237-983c-b569fa36be86/cc20f779-4543-4643-b269-6c419111515b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-13T16:43:15.918090+00:00",
+      "instagram": "2026-10-13T16:43:57.371237+00:00",
+      "tiktok": "2026-10-13T16:44:21.740100+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-14-why-won-t-it-flow",
