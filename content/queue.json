@@ -4034,5 +4034,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "i-still-cant-weld-4-every-repair-is-a-test-i",
+    "scheduled_for": "2026-10-08T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I don't think I've been afraid of welding. I've been afraid of finding out this dream was always bigger than me. Every repair isn't just another repair.",
+    "captions": {
+      "instagram": "Every repair isn't just another repair.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Every repair isn't just another repair. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5c51eb64-f927-4793-b34d-88d88eebda95/5916c8ad-50e5-4e31-b2f9-0b377179ed7e.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
