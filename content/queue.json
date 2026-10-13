@@ -4106,5 +4106,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-38-strangers-at-lowe-s-got-me",
+    "scheduled_for": "2026-10-08T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I walked into Lowe's and told strangers I bought a sailboat. I don't know why I got so emotional. People are so kind.",
+    "captions": {
+      "instagram": "I don't know why I got so emotional. People are so kind.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "I don't know why I got so emotional. People are so kind. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7914057c-fc86-420a-a57a-52124a693f86/0d4f9df3-3be7-4a77-9d68-959eb70749ad.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
