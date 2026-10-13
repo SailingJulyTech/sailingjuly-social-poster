@@ -4016,5 +4016,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "i-still-cant-weld-3-it-needs-a-name",
+    "scheduled_for": "2026-10-12T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Worst bead I made all day. It definitely needs a name. Best suggestion wins.",
+    "captions": {
+      "instagram": "Worst bead of the day. It needs a name. Go.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Worst bead of the day. It needs a name. Go. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59af5ef7-fba8-40d7-b6ae-aacb507391ee/878c5904-f7c3-4658-9af3-adc58c0b08b6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
