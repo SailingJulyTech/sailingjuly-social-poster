@@ -4052,5 +4052,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-13-am-i-ready-to-weld-the",
+    "scheduled_for": "2026-10-10T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Am I ready to weld the arch on my sailboat, or should I wait and be patient? I'm going to hear what he has to say and let him decide.",
+    "captions": {
+      "instagram": "Ready to weld the arch, or wait and be patient? Letting the pro decide.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Ready to weld the arch, or wait and be patient? Letting the pro decide. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5c6f4f04-ad4d-48b9-9c73-9fdce1f38df5/dd26bb60-915e-42c8-a542-a05f4872ccb5.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
