@@ -3926,5 +3926,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-13-one-more-line-one-more-hand",
+    "scheduled_for": "2026-10-08T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "No crane, just lines and a few extra hands. Easing the new arch into place on July. Oh, beautiful.",
+    "captions": {
+      "instagram": "No crane. Just lines and hands. Oh, beautiful.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "No crane. Just lines and hands. Oh, beautiful. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/297daf31-263e-42aa-b8cc-7fd760257df9/1f3d30ed-ff94-45e3-8151-2a1c7230c705.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
