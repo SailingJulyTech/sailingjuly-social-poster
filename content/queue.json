@@ -3908,5 +3908,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-16-you-gotta-tell-me-the-channel",
+    "scheduled_for": "2026-10-11T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "He looked at me like, how am I supposed to know the name of the YouTube channel if you don't tell me? Fair point. It's SailingJuly.",
+    "captions": {
+      "instagram": "How is he supposed to know the channel name if I don't tell him? It's SailingJuly.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "How is he supposed to know the channel name if I don't tell him? It's SailingJuly. #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/073ec1dd-f13d-4bc9-bb45-1c2e75a9b47b/c80a22da-8778-434c-a05e-e081da7a12cc.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
