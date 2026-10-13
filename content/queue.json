@@ -4250,5 +4250,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "home-depot-experiment-18-he-was-already-on-the-vlog",
+    "scheduled_for": "2026-10-12T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Ran into him at Home Depot and he was already on the vlog before I could ask. Thanks, my man!",
+    "captions": {
+      "instagram": "Already on the vlog before I could even ask. Thanks, my man!\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "Already on the vlog before I could even ask. Thanks, my man! #sailing #boatrestoration #pearson34 #learningtoweld"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d8a98715-a807-4d90-ba98-fb77a472a26d/093d1cfc-1f7d-4d38-875c-691b0cb35473.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
