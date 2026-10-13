@@ -4142,5 +4142,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "gratitude-reflection-2-one-day-this-boat-sails-to",
+    "scheduled_for": "2026-10-07T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Bahamas to the south, New York to the north, Europe if you keep going. But one of my biggest dreams is to sail this boat into Africa.",
+    "captions": {
+      "instagram": "One of my biggest dreams: sail this boat into Africa.\n\n#sailing #boatrestoration #pearson34 #learningtoweld",
+      "tiktok": "One of my biggest dreams: sail this boat into Africa. #sailing #boatrestoration #pearson34 #learningtoweld #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/86e05926-ed15-4237-983c-b569fa36be86/cc20f779-4543-4643-b269-6c419111515b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
