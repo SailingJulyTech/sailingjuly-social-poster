@@ -1,0 +1,80 @@
+name: Backfill Stories (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: "facebook or instagram"
+        required: true
+        type: choice
+        options: [facebook, instagram]
+      since_hours:
+        description: "Only posts made within this many hours (Stories expire after 24h)"
+        required: false
+        default: "24"
+      limit:
+        description: "Max stories to post this run"
+        required: false
+        default: "3"
+      dry_run:
+        description: "true = only print what would be posted"
+        required: false
+        default: "true"
+
+permissions:
+  contents: write  # needed to commit content/story_backfill_state.json back
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Backfill stories
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_FB_ACCESS_TOKEN: ${{ secrets.IG_FB_ACCESS_TOKEN }}
+          IG_FB_USER_ID: ${{ secrets.IG_FB_USER_ID }}
+          IG_LOGIN_TYPE: ${{ vars.IG_LOGIN_TYPE }}
+          PLATFORM: ${{ github.event.inputs.platform }}
+          SINCE_HOURS: ${{ github.event.inputs.since_hours }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          args=(--platform "$PLATFORM" --since-hours "$SINCE_HOURS" --limit "$LIMIT")
+          if [ "$DRY_RUN" != "false" ]; then args+=(--dry-run); fi
+          python scripts/backfill_stories.py "${args[@]}"
+
+      - name: Commit story backfill state
+        if: always() && github.event.inputs.dry_run == 'false'
+        run: |
+          git config user.name "sailingjuly-poster-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain -- content/story_backfill_state.json)" ]; then
+            git add content/story_backfill_state.json
+            git commit -m "Update story backfill state [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                break
+              fi
+              echo "push rejected (attempt $attempt/5) -- fetching + rebasing and retrying"
+              git fetch origin main
+              git rebase origin/main
+              if [ "$attempt" = 5 ]; then
+                echo "::error::push still failing after 5 attempts -- giving up, see log above"
+                exit 1
+              fi
+            done
+          else
+            echo "No state changes to commit."
+          fi

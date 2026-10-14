@@ -138,7 +138,8 @@ def post_to_instagram(item, dry_run):
     audio = item.get("audio")
     if dry_run:
         extra = f" with audio {audio['audio_id']}" if audio else ""
-        log(f"[dry-run] would post to Instagram: {item['id']}{extra}")
+        story = " + Story" if item.get("instagram_story") and item.get("media_type") == "video" else ""
+        log(f"[dry-run] would post to Instagram{story}: {item['id']}{extra}")
         return True
     try:
         if audio and ig_media_type != "reels":
@@ -152,10 +153,32 @@ def post_to_instagram(item, dry_run):
             post_instagram.wait_for_container(target, container_id)
         resp = post_instagram.publish_container(target, container_id)
         resp.raise_for_status()
+        # Opt-in per queue entry ("instagram_story": true, set by shorts-engine
+        # when SOCIAL_IG_STORY=1). Best-effort: never fails the Reel post.
+        if item.get("instagram_story") and item.get("media_type") == "video":
+            try:
+                publish_instagram_story(media_url)
+                log(f"Instagram Story posted for {item['id']}")
+            except Exception as e:
+                log(f"Instagram Story failed for {item['id']} (Reel already posted): {describe_error(e)}")
         return True
     except Exception as e:
         log(f"Instagram post failed for {item['id']}: {describe_error(e)}")
         return False
+
+
+def publish_instagram_story(media_url):
+    """Publish media_url (video) as a standalone Instagram Story. Raises on
+    any failure; callers decide whether that is fatal."""
+    target = post_instagram.resolve_target()
+    log(f"Instagram Story via {target}")
+    container_id = post_instagram.create_hosted_container(
+        target, caption="", media_url=media_url, media_type="stories"
+    )
+    post_instagram.wait_for_container(target, container_id)
+    resp = post_instagram.publish_container(target, container_id)
+    resp.raise_for_status()
+    return resp
 
 
 def post_to_instagram_story(item, dry_run):
@@ -177,14 +200,7 @@ def post_to_instagram_story(item, dry_run):
         log(f"[dry-run] would post to Instagram Story: {item['id']}")
         return True
     try:
-        target = post_instagram.resolve_target()
-        log(f"Instagram Story via {target}")
-        container_id = post_instagram.create_hosted_container(
-            target, caption="", media_url=media_url, media_type="stories"
-        )
-        post_instagram.wait_for_container(target, container_id)
-        resp = post_instagram.publish_container(target, container_id)
-        resp.raise_for_status()
+        publish_instagram_story(media_url)
         return True
     except Exception as e:
         log(f"Instagram Story post failed for {item['id']}: {describe_error(e)}")

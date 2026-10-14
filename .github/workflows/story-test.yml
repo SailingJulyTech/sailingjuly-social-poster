@@ -1,0 +1,47 @@
+name: Story test (manual, one story from a video URL)
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: "facebook or instagram"
+        required: true
+        type: choice
+        options: [facebook, instagram]
+      media_url:
+        description: "Public URL of the video to post as a Story (3-60s, mp4)"
+        required: true
+      dry_run:
+        description: "true = only print what would happen"
+        required: false
+        default: "true"
+
+jobs:
+  story:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Post one story
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_FB_ACCESS_TOKEN: ${{ secrets.IG_FB_ACCESS_TOKEN }}
+          IG_FB_USER_ID: ${{ secrets.IG_FB_USER_ID }}
+          IG_LOGIN_TYPE: ${{ vars.IG_LOGIN_TYPE }}
+          PLATFORM: ${{ github.event.inputs.platform }}
+          MEDIA_URL: ${{ github.event.inputs.media_url }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          args=(--platform "$PLATFORM" --media-url "$MEDIA_URL")
+          if [ "$DRY_RUN" != "false" ]; then args+=(--dry-run); fi
+          python scripts/story_once.py "${args[@]}"
