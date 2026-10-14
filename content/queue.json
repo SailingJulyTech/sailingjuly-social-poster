@@ -4454,5 +4454,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-part2-15-the-store-said-they-had-it",
+    "scheduled_for": "2026-10-14T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The store said they had it. They lied. Follow Sailing July for more. #sailing #boatlife",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/cb63edd1-032e-43b7-aac5-ed7a27b04d54/668ca0ea-3589-4cff-b535-e65af55bbcec.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
