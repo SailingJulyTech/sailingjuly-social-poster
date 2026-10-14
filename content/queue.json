@@ -4522,5 +4522,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "i-still-cant-weld-5-i-just-found-out-his-secret",
+    "scheduled_for": "2026-10-15T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I just found out his secret skill \u2014 more on the channel.",
+    "captions": {
+      "instagram": "I just found out his secret skill \u2014 more on the channel. #sailing #boatlife #shorts",
+      "tiktok": "I just found out his secret skill \u2014 more on the channel. #sailing #boatlife #shorts"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/21aeff80-3c6d-42a3-a768-27ae66bf673d/f441a7dc-868c-4c03-bf79-b5cbd34f091f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
