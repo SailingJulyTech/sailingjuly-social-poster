@@ -4068,8 +4068,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5c51eb64-f927-4793-b34d-88d88eebda95/5916c8ad-50e5-4e31-b2f9-0b377179ed7e.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T00:41:01.023226+00:00",
+      "instagram": "2026-10-14T00:41:24.771555+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "episode-16-13-am-i-ready-to-weld-the",
@@ -4149,8 +4158,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7914057c-fc86-420a-a57a-52124a693f86/0d4f9df3-3be7-4a77-9d68-959eb70749ad.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T00:46:48.161866+00:00",
+      "instagram": "2026-10-14T00:47:52.007085+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "lowes-experiment-39-met-a-stranger-promised-a-shout",
@@ -4230,8 +4248,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bb927297-6daa-4afd-bebb-80b0c12c20ff/67f0065f-4979-44a3-8427-f6694f566caf.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T00:53:16.510670+00:00",
+      "instagram": "2026-10-14T00:53:45.897370+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "intro-episode-11-grimy-to-bright-white-she-s",
