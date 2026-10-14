@@ -192,7 +192,10 @@ def post_video_story(page_id, token, media_url):
     tmp_path = download_to_tempfile(media_url)
     try:
         upload_reel_bytes(upload_url, token, tmp_path)
-        wait_for_reel_ready(page_id, token, video_id)
+        # NOTE: unlike the Reel flow, do NOT wait for "ready" before finish --
+        # for video_stories processing only starts after upload_phase=finish
+        # (2026-10-14 live test: status sat at upload_complete/not_started
+        # until the poll timed out with nothing published).
         return requests.post(
             f"{GRAPH_BASE}/{page_id}/video_stories",
             data={"upload_phase": "finish", "video_id": video_id, "access_token": token},
