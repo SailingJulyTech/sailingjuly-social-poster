@@ -4468,5 +4468,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "sailingjuly-overview-2-water-was-coming-into-the-hull",
+    "scheduled_for": "2026-10-15T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Water was coming into the hull \u2014 more on the channel.",
+    "captions": {
+      "instagram": "Water was coming into the hull \u2014 more on the channel. #sailing #boatlife #shorts",
+      "tiktok": "Water was coming into the hull \u2014 more on the channel. #sailing #boatlife #shorts"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/71b6f1cb-fd3a-4af4-ab57-5b93aa56feb7/2789a5b0-aec4-450b-9313-e7559ca59430.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
