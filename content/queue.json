@@ -4504,5 +4504,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "lowes-experiment-41-gloves-or-nothing-right",
+    "scheduled_for": "2026-10-15T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Gloves or nothing, right? \u2014 more on the channel.",
+    "captions": {
+      "instagram": "Gloves or nothing, right? \u2014 more on the channel. #sailing #boatlife #shorts",
+      "tiktok": "Gloves or nothing, right? \u2014 more on the channel. #sailing #boatlife #shorts"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1d50aae3-771c-4b2b-b17d-e28d5b6bdde8/f2c3f3b3-a21d-44f1-ad7c-4d57187be1c2.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
