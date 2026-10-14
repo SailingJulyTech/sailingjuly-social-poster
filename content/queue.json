@@ -3924,8 +3924,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/073ec1dd-f13d-4bc9-bb45-1c2e75a9b47b/c80a22da-8778-434c-a05e-e081da7a12cc.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-14T23:15:36.843366+00:00",
+      "tiktok": "2026-10-14T23:16:14.764571+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": false,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-12-13-one-more-line-one-more-hand",
