@@ -4014,8 +4014,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/54d11e61-5d56-4d79-97da-fd309bec6772/68412b07-1da3-4653-9612-74d80ca02f08.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T10:47:40.060039+00:00",
+      "instagram": "2026-10-14T10:48:19.890011+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "sailingjuly-overview-1-the-welder-quit-so-i-learned",
@@ -4104,8 +4113,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5c6f4f04-ad4d-48b9-9c73-9fdce1f38df5/dd26bb60-915e-42c8-a542-a05f4872ccb5.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T10:53:56.598227+00:00",
+      "instagram": "2026-10-14T10:54:45.467301+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "episode-12-14-mark-made-it-so-much-easier",
@@ -4410,8 +4428,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/de5c91d8-88c5-4581-ae34-954edf8b7231/ca3af3f0-c9cd-430f-89b8-1b1f81dfb020.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T10:40:32.258646+00:00",
+      "instagram": "2026-10-14T10:42:03.539861+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "best-buy-experiment-part2-16-i-met-her-today-she-did",
