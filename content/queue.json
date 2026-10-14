@@ -4540,5 +4540,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-12-17-a-stranger-gave-me-one-tip",
+    "scheduled_for": "2026-10-15T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A stranger gave me one tip \u2014 more on the channel.",
+    "captions": {
+      "instagram": "A stranger gave me one tip \u2014 more on the channel. #sailing #boatlife #shorts",
+      "tiktok": "A stranger gave me one tip \u2014 more on the channel. #sailing #boatlife #shorts"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/70479b62-778d-4de3-9a02-5cc6edbf0c9c/cdad4187-3742-4f63-aa33-cc0ac43c90a9.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
