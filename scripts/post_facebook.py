@@ -175,6 +175,33 @@ def finish_reel(page_id, token, video_id, caption):
     )
 
 
+def post_video_story(page_id, token, media_url):
+    """Publish the video as a Facebook Page Story (24h). Graph API has no
+    "share an existing Reel to Story" action (that's the web/app Share ->
+    Your story button), so this re-uploads the same file via the Page
+    video_stories edge. No caption is supported. Best-effort by design:
+    callers must not let a story failure fail the Reel post."""
+    r = requests.post(
+        f"{GRAPH_BASE}/{page_id}/video_stories",
+        data={"upload_phase": "start", "access_token": token},
+        timeout=60,
+    )
+    r.raise_for_status()
+    j = r.json()
+    video_id, upload_url = j["video_id"], j["upload_url"]
+    tmp_path = download_to_tempfile(media_url)
+    try:
+        upload_reel_bytes(upload_url, token, tmp_path)
+        wait_for_reel_ready(page_id, token, video_id)
+        return requests.post(
+            f"{GRAPH_BASE}/{page_id}/video_stories",
+            data={"upload_phase": "finish", "video_id": video_id, "access_token": token},
+            timeout=60,
+        )
+    finally:
+        os.remove(tmp_path)
+
+
 def post_video_reel(page_id, token, caption, media_url):
     """Publish a short vertical video as a Facebook Reel rather than a plain
     Page video post. Plain /videos posts get almost no organic distribution

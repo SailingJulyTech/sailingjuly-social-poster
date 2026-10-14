@@ -98,7 +98,8 @@ def post_to_facebook(item, dry_run):
     media_url = item.get("media_url")
     media_type = item.get("media_type")
     if dry_run:
-        log(f"[dry-run] would post to Facebook: {item['id']}")
+        story = " + Story" if item.get("facebook_story") and media_type == "video" else ""
+        log(f"[dry-run] would post to Facebook{story}: {item['id']}")
         return True
     try:
         page_id = os.environ["META_PAGE_ID"]
@@ -110,6 +111,15 @@ def post_to_facebook(item, dry_run):
         else:
             resp = post_facebook.post_video_reel(page_id, token, caption, media_url)
         resp.raise_for_status()
+        # Opt-in per queue entry ("facebook_story": true, set by shorts-engine
+        # when SOCIAL_FB_STORY=1). Best-effort: never fails the Reel post.
+        if item.get("facebook_story") and media_type == "video":
+            try:
+                story = post_facebook.post_video_story(page_id, token, media_url)
+                story.raise_for_status()
+                log(f"Facebook Story posted for {item['id']}")
+            except Exception as e:
+                log(f"Facebook Story failed for {item['id']} (Reel already posted): {describe_error(e)}")
         return True
     except Exception as e:
         log(f"Facebook post failed for {item['id']}: {describe_error(e)}")
