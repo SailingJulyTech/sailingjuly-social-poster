@@ -4440,5 +4440,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-15-47-watch-this-problem-disappear",
+    "scheduled_for": "2026-10-14T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Watch this problem disappear. Follow Sailing July for more. #sailing #boatlife",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5ec3c0da-67a0-4588-ae69-488c0318b961/9a5f9bf3-4f5f-40f3-a950-af2838bdd413.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
