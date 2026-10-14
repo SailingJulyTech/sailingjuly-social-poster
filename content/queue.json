@@ -4412,5 +4412,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "best-buy-experiment-part2-16-i-met-her-today-she-did",
+    "scheduled_for": "2026-10-14T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I met her today. She did this. Follow Sailing July for more. #sailing #boatlife",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/be5186ae-c10e-431a-8926-350e654cc25e/ea07b9ce-6b4a-490b-89ad-54cac7d405ed.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
