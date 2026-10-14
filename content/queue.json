@@ -4486,5 +4486,23 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "gratitude-reflection-4-not-every-update-is-good-news",
+    "scheduled_for": "2026-10-15T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Not every update is good news \u2014 more on the channel.",
+    "captions": {
+      "instagram": "Not every update is good news \u2014 more on the channel. #sailing #boatlife #shorts",
+      "tiktok": "Not every update is good news \u2014 more on the channel. #sailing #boatlife #shorts"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a142324a-2fb2-4503-9259-c64a6b27df26/774d0c1f-25f5-45c5-be4e-cb94823ade7a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
