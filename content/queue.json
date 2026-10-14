@@ -4426,5 +4426,19 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "episode-16-15-this-might-finally-fix-it",
+    "scheduled_for": "2026-10-14T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "This might finally fix it. Follow Sailing July for more. #sailing #boatlife",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59add45b-07d0-47cc-9a4e-0de27b32b6a0/753d0039-ada0-489b-8056-923375d52c40.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {}
   }
 ]
