@@ -4140,8 +4140,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/71b6bfcf-582d-4590-bfe3-127219b1b264/dfa7209c-e1b6-40de-8135-795a45033c47.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-14T15:34:28.081196+00:00",
+      "instagram": "2026-10-14T15:35:16.899368+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-12-15-i-said-six-out-of-ten",
