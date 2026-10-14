@@ -4032,8 +4032,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/57feae67-34db-4399-b53d-5661be505b51/17d37c8f-4542-4d84-9b34-44e81e60a140.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T05:29:48.551765+00:00",
+      "instagram": "2026-10-14T05:30:26.242786+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "i-still-cant-weld-3-it-needs-a-name",
@@ -4230,8 +4239,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/88156681-4944-4bbe-9972-7b6dbdbbf549/ecae59a5-3317-42ab-89a1-2126a8eb840d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T05:35:52.198295+00:00",
+      "instagram": "2026-10-14T05:36:40.430711+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "lowes-experiment-40-worst-pitch-to-a-stranger-ever",
@@ -4320,8 +4338,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d202039e-a688-4c0a-aab9-177c2535dd12/cf625a50-2601-4893-a4b3-60f58abd08e1.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-14T05:42:06.908611+00:00",
+      "instagram": "2026-10-14T05:42:38.168014+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "home-depot-experiment-18-he-was-already-on-the-vlog",
