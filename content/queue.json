@@ -4664,5 +4664,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "sailingjuly-overview-3-i-dove-in-florida-then-money",
+    "scheduled_for": "2026-10-16T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "After college I dove in Florida for a couple months. Then it got expensive. Follow for what came next.",
+    "captions": {
+      "instagram": "Diving in Florida, then home again. Follow along. #sailingjuly #diving",
+      "tiktok": "Dove in Florida, then it got expensive #sailingjuly #diving"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d7d358f1-a5e8-4efc-acc4-e519ce1356a4/e3ac1f6c-1304-4ad7-9e70-d757611ad46a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
