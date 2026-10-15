@@ -3986,8 +3986,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3383977c-67ed-48d8-854d-3c79ef159cc4/ccb3f7e8-02c6-4e0d-ad6d-4f9ed936c176.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T12:57:00.121030+00:00",
+      "instagram": "2026-10-15T12:58:16.032473+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "best-buy-experiment-part2-15-she-subscribed-so-i-offered-to",
@@ -4510,8 +4519,17 @@
     "caption": "I met her today. She did this. Follow Sailing July for more. #sailing #boatlife",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/be5186ae-c10e-431a-8926-350e654cc25e/ea07b9ce-6b4a-490b-89ad-54cac7d405ed.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T13:03:57.717095+00:00",
+      "instagram": "2026-10-15T13:04:35.293147+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "episode-16-15-this-might-finally-fix-it",
@@ -4524,8 +4542,17 @@
     "caption": "This might finally fix it. Follow Sailing July for more. #sailing #boatlife",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/59add45b-07d0-47cc-9a4e-0de27b32b6a0/753d0039-ada0-489b-8056-923375d52c40.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T13:10:07.225523+00:00",
+      "instagram": "2026-10-15T13:10:44.175893+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "episode-15-47-watch-this-problem-disappear",
