@@ -4704,5 +4704,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "best-buy-experiment-part2-17-sorry-i-forgot-your-name-again",
+    "scheduled_for": "2026-10-16T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "If you've seen that face, you know me. Sorry for the wrong names. Follow for more.",
+    "captions": {
+      "instagram": "I keep forgetting names. Sorry! Follow along. #sailingjuly",
+      "tiktok": "Forgot your name again, sorry #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6cd42532-e57f-48a9-a9e2-2d2ade83efd6/a61acb2d-3077-422c-b809-bcad73719c11.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
