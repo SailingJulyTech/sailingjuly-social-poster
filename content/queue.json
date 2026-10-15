@@ -4565,8 +4565,17 @@
     "caption": "Watch this problem disappear. Follow Sailing July for more. #sailing #boatlife",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5ec3c0da-67a0-4588-ae69-488c0318b961/9a5f9bf3-4f5f-40f3-a950-af2838bdd413.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T17:56:16.119534+00:00",
+      "instagram": "2026-10-15T17:57:34.659926+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "lowes-experiment-part2-15-the-store-said-they-had-it",
@@ -4579,8 +4588,17 @@
     "caption": "The store said they had it. They lied. Follow Sailing July for more. #sailing #boatlife",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/cb63edd1-032e-43b7-aac5-ed7a27b04d54/668ca0ea-3589-4cff-b535-e65af55bbcec.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T17:50:10.323647+00:00",
+      "instagram": "2026-10-15T17:50:48.009500+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "sailingjuly-overview-2-water-was-coming-into-the-hull",
@@ -4597,8 +4615,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/71b6f1cb-fd3a-4af4-ab57-5b93aa56feb7/2789a5b0-aec4-450b-9313-e7559ca59430.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T18:03:02.195671+00:00",
+      "instagram": "2026-10-15T18:03:39.138808+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "gratitude-reflection-4-not-every-update-is-good-news",
