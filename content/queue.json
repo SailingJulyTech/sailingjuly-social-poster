@@ -4644,5 +4644,25 @@
     "media_type": "video",
     "status": "pending",
     "posted_at": {}
+  },
+  {
+    "id": "i-still-cant-weld-6-i-called-it-bad-luck-it",
+    "scheduled_for": "2026-10-16T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I kept calling it bad luck. Maybe it wasn't. Follow for more of the story.",
+    "captions": {
+      "instagram": "I kept calling it bad luck... maybe it wasn't. Follow along. #sailingjuly #storytime",
+      "tiktok": "Bad luck or something else? Follow for more #sailingjuly #storytime"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/386bf649-1d02-45ee-a998-c84a544c86ea/eac41903-8cbe-4fb6-96e2-4566cbfcdd30.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
