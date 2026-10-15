@@ -4642,8 +4642,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a142324a-2fb2-4503-9259-c64a6b27df26/774d0c1f-25f5-45c5-be4e-cb94823ade7a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T21:24:25.137624+00:00",
+      "instagram": "2026-10-15T21:25:02.171682+00:00",
+      "tiktok": "2026-10-15T21:25:20.986801+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-41-gloves-or-nothing-right",
@@ -4660,8 +4669,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1d50aae3-771c-4b2b-b17d-e28d5b6bdde8/f2c3f3b3-a21d-44f1-ad7c-4d57187be1c2.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T21:30:53.592494+00:00",
+      "instagram": "2026-10-15T21:31:27.898896+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "i-still-cant-weld-5-i-just-found-out-his-secret",
@@ -4678,8 +4696,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/21aeff80-3c6d-42a3-a768-27ae66bf673d/f441a7dc-868c-4c03-bf79-b5cbd34f091f.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T21:37:11.009817+00:00",
+      "instagram": "2026-10-15T21:38:04.819353+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "episode-12-17-a-stranger-gave-me-one-tip",
