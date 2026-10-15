@@ -4723,8 +4723,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/70479b62-778d-4de3-9a02-5cc6edbf0c9c/cdad4187-3742-4f63-aa33-cc0ac43c90a9.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T23:54:51.391746+00:00",
+      "instagram": "2026-10-15T23:56:21.128383+00:00",
+      "tiktok": "2026-10-15T23:56:34.069890+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "i-still-cant-weld-6-i-called-it-bad-luck-it",
