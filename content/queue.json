@@ -4684,5 +4684,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-15-48-a-straight-line-finally",
+    "scheduled_for": "2026-10-16T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A straight line, finally. Follow along for the progress.",
+    "captions": {
+      "instagram": "Finally a straight line! Follow along. #sailingjuly #progress",
+      "tiktok": "Straight line, finally! #sailingjuly #progress"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/543fe9f4-f96b-4ec5-b970-0c87f90c8d87/68741608-6274-4fba-81b8-4a36790144ee.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
