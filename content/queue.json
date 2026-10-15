@@ -3906,8 +3906,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/03a88adc-0d13-48bc-98d6-6371220407c9/edad5e10-7880-446a-9d91-e7f454187e83.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T07:39:24.389236+00:00",
+      "instagram": "2026-10-15T07:39:59.253441+00:00"
+    },
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "home-depot-experiment-16-you-gotta-tell-me-the-channel",
@@ -4370,8 +4379,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ca168c0e-ee11-4c20-9f67-012ce816c198/c4f30dfd-ee10-4686-8356-af543a8f7035.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T07:33:10.506655+00:00",
+      "instagram": "2026-10-15T07:33:44.724751+00:00",
+      "tiktok": "2026-10-15T07:34:02.269111+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-17-he-wanted-to-know-where-i",
@@ -4415,8 +4433,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d8a98715-a807-4d90-ba98-fb77a472a26d/093d1cfc-1f7d-4d38-875c-691b0cb35473.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {}
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-15T07:26:53.719449+00:00",
+      "instagram": "2026-10-15T07:27:28.885626+00:00",
+      "tiktok": "2026-10-15T07:27:46.193188+00:00"
+    },
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-14-my-hands-my-eyes-or-am",
