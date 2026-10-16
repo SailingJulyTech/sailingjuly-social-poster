@@ -4870,5 +4870,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "gratitude-reflection-5-just-thankful-to-be-alive",
+    "scheduled_for": "2026-10-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Some days just hit different. Follow for more.",
+    "captions": {
+      "instagram": "Some days just hit different. Follow for more. #gratitude #boatlife",
+      "tiktok": "Some days just hit different. Follow for more. #gratitude #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4429b53b-a9cc-466b-8679-2fefa4239566/d00fc2fa-6b24-4ebe-bff7-2ea467170212.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
