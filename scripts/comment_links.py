@@ -26,7 +26,7 @@ ROOT = os.path.join(os.path.dirname(__file__), "..")
 QUEUE = os.path.join(ROOT, "content", "queue.json")
 MAP = os.path.join(ROOT, "content", "ig_youtube_map.json")
 STATE = os.path.join(ROOT, "content", "ig_comment_state.json")
-MATCH_WINDOW_SECONDS = 600
+MATCH_WINDOW_SECONDS = 90
 PAUSE_SECONDS = 20
 BIO_URL = "sailingjulytech.github.io/shorts-links"
 TEXT = ("Full video on YouTube: https://www.youtube.com/watch?v={vid}\n"
@@ -56,10 +56,11 @@ def match(media, queue, ymap):
     for m in sorted(media, key=lambda m: m["timestamp"], reverse=True):
         mt = ts(m["timestamp"])
         best = min(posted, key=lambda p: abs((p[0] - mt).total_seconds()), default=None)
-        ok = best and abs((best[0] - mt).total_seconds()) <= MATCH_WINDOW_SECONDS
+        delta = abs((best[0] - mt).total_seconds()) if best else None
+        ok = best and delta <= MATCH_WINDOW_SECONDS
         slug = best[1] if ok else None
         rows.append({"media_id": m["id"], "timestamp": m["timestamp"], "permalink": m.get("permalink"),
-                     "type": m.get("media_product_type"), "slug": slug, "vid": ymap.get(slug) if slug else None})
+                     "type": m.get("media_product_type"), "slug": slug, "delta": delta, "vid": ymap.get(slug) if slug else None})
     return rows
 
 
@@ -76,7 +77,7 @@ def main():
     log(f"{len(rows)} media | {sum(1 for r in rows if r['vid'])} matched | {len(ready)} to comment")
     for r in rows:
         print(f"{r['timestamp'][:16]}  {r['type'] or '?':6}  {r['permalink']}  ->  "
-              f"{('https://youtu.be/' + r['vid']) if r['vid'] else 'NO MATCH'}  [{r['slug']}]"
+              f"d={('%.0fs' % r['delta']) if r['delta'] is not None else '-':>6}  {('https://youtu.be/' + r['vid']) if r['vid'] else 'NO MATCH'}  [{r['slug']}]"
               f"{'  (done)' if r['media_id'] in state['commented'] else ''}")
     if a.dry_run:
         return
