@@ -4750,10 +4750,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/386bf649-1d02-45ee-a998-c84a544c86ea/eac41903-8cbe-4fb6-96e2-4566cbfcdd30.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-16T04:30:02.184482+00:00",
+      "instagram": "2026-10-16T04:31:15.835941+00:00",
+      "tiktok": "2026-10-16T04:31:34.788729+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "sailingjuly-overview-3-i-dove-in-florida-then-money",
@@ -4770,10 +4779,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d7d358f1-a5e8-4efc-acc4-e519ce1356a4/e3ac1f6c-1304-4ad7-9e70-d757611ad46a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-16T04:37:14.945300+00:00",
+      "instagram": "2026-10-16T04:38:29.031637+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "episode-15-48-a-straight-line-finally",
@@ -4790,10 +4808,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/543fe9f4-f96b-4ec5-b970-0c87f90c8d87/68741608-6274-4fba-81b8-4a36790144ee.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-16T04:44:07.395220+00:00",
+      "instagram": "2026-10-16T04:46:19.186971+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "best-buy-experiment-part2-17-sorry-i-forgot-your-name-again",
