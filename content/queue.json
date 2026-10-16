@@ -4930,5 +4930,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "best-buy-experiment-part2-18-five-weeks-and-it-still-works",
+    "scheduled_for": "2026-10-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Just a wet sponge and five weeks later it still holds. Follow for more fixes.",
+    "captions": {
+      "instagram": "Just a wet sponge and five weeks later it still holds. Follow for more fixes. #sailing #boatlife #boatproject",
+      "tiktok": "Just a wet sponge and five weeks later it still holds. Follow for more fixes. #sailing #boatlife #boatproject"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bdf9b603-f17e-4075-a8a1-c94a42f7ced3/65e4eaf5-4e44-4fa0-99eb-9c17e1a0c312.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
