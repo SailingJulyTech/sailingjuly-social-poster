@@ -4890,5 +4890,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "intro-episode-12-cheap-boat-big-work-ahead",
+    "scheduled_for": "2026-10-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A cheap boat comes with a lot of sweat. Follow to see the work.",
+    "captions": {
+      "instagram": "A cheap boat comes with a lot of sweat. Follow to see the work. #sailing #boatlife #boatproject",
+      "tiktok": "A cheap boat comes with a lot of sweat. Follow to see the work. #sailing #boatlife #boatproject"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/32a2bc4c-af98-4ac2-92c7-e0fafba77f39/d2dc4393-a25f-4939-b4d7-3b419c1306cf.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
