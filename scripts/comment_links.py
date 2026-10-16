@@ -28,9 +28,8 @@ MAP = os.path.join(ROOT, "content", "ig_youtube_map.json")
 STATE = os.path.join(ROOT, "content", "ig_comment_state.json")
 MATCH_WINDOW_SECONDS = 90
 PAUSE_SECONDS = 20
-BIO_URL = "sailingjulytech.github.io/shorts-links"
 TEXT = ("Full video on YouTube: https://www.youtube.com/watch?v={vid}\n"
-        "(or link in bio -> {bio}/#{slug})")
+        "(or tap the link in our bio)")
 
 
 def ts(v):
@@ -84,7 +83,7 @@ def main():
     for r in ready[: a.limit]:
         try:
             resp = requests.post(f"{t.base}/{r['media_id']}/comments", timeout=60, data={
-                "message": TEXT.format(vid=r["vid"], bio=BIO_URL, slug=r["slug"]), "access_token": t.token})
+                "message": TEXT.format(vid=r["vid"]), "access_token": t.token})
             resp.raise_for_status()
         except Exception as e:
             log(f"FAILED {r['permalink']}: {describe_error(e)}")
