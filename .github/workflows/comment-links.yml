@@ -7,6 +7,10 @@ on:
         description: "Max comments to post this run"
         required: false
         default: "5"
+      login_type:
+        description: "instagram or facebook (blank = auto)"
+        required: false
+        default: ""
       dry_run:
         description: "true = only print the match table"
         required: false
@@ -30,10 +34,11 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_FB_ACCESS_TOKEN: ${{ secrets.IG_FB_ACCESS_TOKEN }}
           IG_FB_USER_ID: ${{ secrets.IG_FB_USER_ID }}
-          IG_LOGIN_TYPE: ${{ vars.IG_LOGIN_TYPE }}
+          IG_LOGIN_TYPE: ${{ github.event.inputs.login_type || vars.IG_LOGIN_TYPE }}
           LIMIT: ${{ github.event.inputs.limit }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
+          set -o pipefail
           args=(--limit "$LIMIT")
           if [ "$DRY_RUN" != "false" ]; then args+=(--dry-run); fi
           python scripts/comment_links.py "${args[@]}" | tee match.txt
