@@ -4910,5 +4910,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-12-18-a-stranger-offered-a-hand",
+    "scheduled_for": "2026-10-17T00:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A stranger knew exactly what I was going through and offered to help. Follow for the full story.",
+    "captions": {
+      "instagram": "A stranger knew exactly what I was going through and offered to help. Follow for the full story. #strangers #boatlife",
+      "tiktok": "A stranger knew exactly what I was going through and offered to help. Follow for the full story. #strangers #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/973f6db1-e74d-4660-b471-a4a546c75638/dd3d3624-86ca-488b-9493-e9e6f707a337.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
