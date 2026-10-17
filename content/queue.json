@@ -4995,5 +4995,21 @@
       "instagram": true,
       "tiktok": "skipped_tiktok_cap"
     }
+  },
+  {
+    "id": "gratitude-reflection-6-one-brave-guy",
+    "scheduled_for": "2026-10-18T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A stranger calls July brave. #sailing #boatlife #sailingjuly",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/05595819-3578-44e1-b1fd-ab1ce439b6c1/2e2a4d00-c3fd-4b95-91eb-814100f2d1e4.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
