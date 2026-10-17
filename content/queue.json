@@ -4953,10 +4953,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/973f6db1-e74d-4660-b471-a4a546c75638/dd3d3624-86ca-488b-9493-e9e6f707a337.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-17T05:03:03.174027+00:00",
+      "instagram": "2026-10-17T05:04:52.729622+00:00",
+      "tiktok": "2026-10-17T05:05:17.087719+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-18-five-weeks-and-it-still-works",
@@ -4973,9 +4982,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bdf9b603-f17e-4075-a8a1-c94a42f7ced3/65e4eaf5-4e44-4fa0-99eb-9c17e1a0c312.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-17T05:10:52.411161+00:00",
+      "instagram": "2026-10-17T05:12:01.196301+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   }
 ]
