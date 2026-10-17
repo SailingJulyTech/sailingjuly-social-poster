@@ -5027,5 +5027,21 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "lowes-experiment-42-nobody-knows-where-the-gloves-are",
+    "scheduled_for": "2026-10-18T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Asking around a boat yard for gloves. #sailing #boatlife #sailingjuly",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b15abcca-9916-4435-9022-3180561d66e1/09cea657-99e8-43c7-a05b-a475a59f3d71.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
