@@ -5011,5 +5011,21 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-13-4-meet-my-little-brother",
+    "scheduled_for": "2026-10-18T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Meeting the little brother. #sailing #boatlife #sailingjuly",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6258ad50-ae85-4511-b8fa-5749d20dca40/308d11ff-fcb6-4ce3-b7b0-2766ed59eaba.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
