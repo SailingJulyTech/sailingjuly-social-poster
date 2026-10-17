@@ -5043,5 +5043,21 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "lowes-experiment-part2-16-struggling-today",
+    "scheduled_for": "2026-10-18T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A hard day gets a lift. #sailing #boatlife #sailingjuly",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6dbaac86-6345-4299-87fd-53e5faf9fbdb/5f5ba5ef-f099-4b4d-8170-5c42f03cb2ae.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
