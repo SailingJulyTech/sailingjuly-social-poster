@@ -5180,5 +5180,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-13-5-wait-this-place-is-fancy",
+    "scheduled_for": "2026-10-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Walked into a place that looked way too fancy. Follow for more.",
+    "captions": {
+      "instagram": "Walked into a place that looked way too fancy. Follow for more. #boatlife #liveaboard",
+      "tiktok": "Walked into a place that looked way too fancy. Follow for more. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1c0d8dfe-64f6-44e9-af6f-5c1f624cc5a2/959046af-0b21-4da0-aed0-a2cea821af3e.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
