@@ -1,6 +1,12 @@
-name: Comment YouTube links on Reels (manual)
+name: Comment YouTube links on Reels
 
 on:
+  # Runs after every scheduled posting run so a new Reel gets its link comment shortly after
+  # it publishes. Reels without a known YouTube id yet (content/ig_youtube_map.json) are
+  # skipped and retried on the next run; already-commented ones are skipped via the state file.
+  workflow_run:
+    workflows: ["Scheduled social posting"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       limit:
@@ -10,7 +16,7 @@ on:
       login_type:
         description: "instagram or facebook (blank = auto)"
         required: false
-        default: ""
+        default: "instagram"
       dry_run:
         description: "true = only print the match table"
         required: false
@@ -18,6 +24,11 @@ on:
 
 permissions:
   contents: write  # commit content/ig_comment_state.json back
+
+# One comment run at a time; a queued run waits rather than racing on the state file.
+concurrency:
+  group: comment-links
+  cancel-in-progress: false
 
 jobs:
   comment:
@@ -34,16 +45,17 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_FB_ACCESS_TOKEN: ${{ secrets.IG_FB_ACCESS_TOKEN }}
           IG_FB_USER_ID: ${{ secrets.IG_FB_USER_ID }}
-          IG_LOGIN_TYPE: ${{ github.event.inputs.login_type || vars.IG_LOGIN_TYPE }}
-          LIMIT: ${{ github.event.inputs.limit }}
-          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          IG_LOGIN_TYPE: ${{ github.event.inputs.login_type || 'instagram' }}
+          LIMIT: ${{ github.event.inputs.limit || '5' }}
+          # workflow_run has no inputs: it posts for real. Manual runs default to a dry run.
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run || 'false' }}
         run: |
           set -o pipefail
           args=(--limit "$LIMIT")
           if [ "$DRY_RUN" != "false" ]; then args+=(--dry-run); fi
           python scripts/comment_links.py "${args[@]}" | tee match.txt
       - name: Commit comment state
-        if: always() && github.event.inputs.dry_run == 'false'
+        if: always() && (github.event_name == 'workflow_run' || github.event.inputs.dry_run == 'false')
         run: |
           git config user.name "sailingjuly-poster-bot"
           git config user.email "actions@users.noreply.github.com"
