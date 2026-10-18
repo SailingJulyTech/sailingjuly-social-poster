@@ -5082,10 +5082,19 @@
     "caption": "A hard day gets a lift. #sailing #boatlife #sailingjuly",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6dbaac86-6345-4299-87fd-53e5faf9fbdb/5f5ba5ef-f099-4b4d-8170-5c42f03cb2ae.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-18T09:08:51.875196+00:00",
+      "instagram": "2026-10-18T09:10:07.459451+00:00",
+      "tiktok": "2026-10-18T09:10:19.145946+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "dock-standup-2026-09-14-2-six-dollar-happy-hour",
@@ -5098,9 +5107,18 @@
     "caption": "Happy hour at the harbor. #sailing #boatlife #sailingjuly",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/87d92928-820c-4631-8a07-4b4d6b94a963/03ad053d-cbae-4033-9d6e-2cc8e02d2bc7.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-18T09:15:46.648778+00:00",
+      "instagram": "2026-10-18T09:16:58.315680+00:00",
+      "tiktok": "2026-10-18T09:17:15.299451+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
