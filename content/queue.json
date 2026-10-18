@@ -5140,5 +5140,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "sailingjuly-overview-5-almost-ready-for-the-water",
+    "scheduled_for": "2026-10-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Still some work to go, but soon we're on the water. Follow the build.",
+    "captions": {
+      "instagram": "Still some work to go, but soon we're on the water. Follow the build. #boatlife #liveaboard",
+      "tiktok": "Still some work to go, but soon we're on the water. Follow the build. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3911eae1-95a7-4b73-9b6d-3568a0ecaae0/436f3b0c-e572-439f-91d0-17050a830a55.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
