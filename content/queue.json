@@ -5007,10 +5007,19 @@
     "caption": "A stranger calls July brave. #sailing #boatlife #sailingjuly",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/05595819-3578-44e1-b1fd-ab1ce439b6c1/2e2a4d00-c3fd-4b95-91eb-814100f2d1e4.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-18T04:28:25.599220+00:00",
+      "instagram": "2026-10-18T04:29:55.679754+00:00",
+      "tiktok": "2026-10-18T04:30:14.026343+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-13-4-meet-my-little-brother",
@@ -5023,10 +5032,19 @@
     "caption": "Meeting the little brother. #sailing #boatlife #sailingjuly",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6258ad50-ae85-4511-b8fa-5749d20dca40/308d11ff-fcb6-4ce3-b7b0-2766ed59eaba.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-18T04:36:05.245273+00:00",
+      "instagram": "2026-10-18T04:38:01.874463+00:00",
+      "tiktok": "2026-10-18T04:38:20.086364+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-42-nobody-knows-where-the-gloves-are",
@@ -5039,10 +5057,19 @@
     "caption": "Asking around a boat yard for gloves. #sailing #boatlife #sailingjuly",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b15abcca-9916-4435-9022-3180561d66e1/09cea657-99e8-43c7-a05b-a475a59f3d71.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-18T04:44:10.216958+00:00",
+      "instagram": "2026-10-18T04:45:46.850961+00:00",
+      "tiktok": "2026-10-18T04:46:05.270304+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-part2-16-struggling-today",
