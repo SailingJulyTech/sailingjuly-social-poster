@@ -5120,5 +5120,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "lowes-experiment-part2-17-a-stranger-just-said-this-to",
+    "scheduled_for": "2026-10-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "A stranger's kind words hit different. Follow along for the journey.",
+    "captions": {
+      "instagram": "A stranger's kind words hit different. Follow along for the journey. #boatlife #liveaboard",
+      "tiktok": "A stranger's kind words hit different. Follow along for the journey. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4a369158-4643-40a8-8db5-7bd089ec4bef/8658aa49-a999-456a-af0c-e1ccb8ec5db2.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
