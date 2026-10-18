@@ -5160,5 +5160,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "gratitude-reflection-7-i-can-see-the-way-out",
+    "scheduled_for": "2026-10-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The way out is in sight. Follow along as we get ready to cruise.",
+    "captions": {
+      "instagram": "The way out is in sight. Follow along as we get ready to cruise. #boatlife #liveaboard",
+      "tiktok": "The way out is in sight. Follow along as we get ready to cruise. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6bac85ad-fdb2-40f2-87b2-9b1c1be9dfc6/fafcc514-2992-4bec-aa5a-54007b3aa9ce.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
