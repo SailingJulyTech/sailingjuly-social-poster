@@ -106,6 +106,14 @@ push_to_github.sh                      -- one-shot script to init + push this re
   invalidated by a password change or deauthorizing the app — if posts
   start failing with an auth error, regenerate the token per
   `docs/META_SETUP.md` step 3 and update the GitHub secret.
+- **The Instagram-login token (`IG_ACCESS_TOKEN`, used by comment-links.yml) does
+  expire**, 60 days after issue. `.github/workflows/refresh-ig-token.yml` refreshes
+  it weekly and writes it back as the repo secret. That write needs a fine-grained
+  PAT with "Secrets: read and write" on this repo only, stored as `GH_SECRETS_PAT`;
+  without it the real run fails before touching Instagram. Trigger the workflow
+  manually with `dry_run=true` to see the current `expires_in` without changing
+  anything, or `dry_run=false` to refresh now. If the PAT itself expires the weekly
+  run fails loudly: make a new PAT and update `GH_SECRETS_PAT`.
 - The workflow needs `contents: write` permission to commit queue updates
   back — that's already set in the workflow file, but double check your
   repo's Settings → Actions → General → Workflow permissions allows it if
