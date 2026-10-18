@@ -5200,5 +5200,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-12-19-would-you-try-this",
+    "scheduled_for": "2026-10-19T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "She said it'd be easy... Follow for more.",
+    "captions": {
+      "instagram": "She said it'd be easy... Follow for more. #boatlife #liveaboard",
+      "tiktok": "She said it'd be easy... Follow for more. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4b62b053-2eb4-4665-9a76-c24c0464343d/9ce7a932-4df5-4e8d-a7fd-dbfdbea6e31d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
