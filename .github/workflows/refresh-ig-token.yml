@@ -1,0 +1,137 @@
+name: Refresh Instagram token
+
+# Keeps the Instagram-login token (IG_ACCESS_TOKEN / IG_USER_ID) alive. That pair is the
+# only one with instagram_manage_comments, so comment-links.yml dies when it expires
+# (the Facebook-login pair IG_FB_* used for posting does not expire this way).
+# Instagram-login long-lived tokens last 60 days and can be refreshed once they are more
+# than 24 h old and not yet expired; the refreshed token is good for another 60 days.
+#
+# Storing the result needs a fine-grained PAT (repository permission "Secrets: read and
+# write" on this repo only) saved as the GH_SECRETS_PAT secret: GITHUB_TOKEN cannot write
+# repository secrets. Writing IG_ACCESS_TOKEN also resets its updatedAt, which is what
+# shorts-engine's watchdog check ig_token_age reads.
+
+on:
+  schedule:
+    # Weekly, Sunday 06:19 UTC (off-peak minute, see scheduled-post.yml). Weekly leaves
+    # ~7 missed runs of margin inside the 60-day lifetime.
+    - cron: "19 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = refresh and report expires_in only; false = also store the refreshed token as IG_ACCESS_TOKEN"
+        required: false
+        default: "true"
+
+permissions: {}  # nothing from GITHUB_TOKEN; the secret write uses GH_SECRETS_PAT
+
+concurrency:
+  group: refresh-ig-token
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Refresh the long-lived token
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_PAT }}
+          # schedule has no inputs: it refreshes and stores for real. Manual runs default to dry.
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run || 'false' }}
+        # Never prints a token: the new value is masked the moment it is parsed, response
+        # bodies are only echoed with access_token stripped, and probes print status + username.
+        run: |
+          set -euo pipefail
+
+          if [ -z "${IG_ACCESS_TOKEN:-}" ]; then
+            echo "::error::IG_ACCESS_TOKEN secret is empty"
+            exit 1
+          fi
+          if [ "$DRY_RUN" = "false" ] && [ -z "${GH_TOKEN:-}" ]; then
+            echo "::error::GH_SECRETS_PAT secret is not set; refusing to refresh when the result cannot be stored"
+            exit 1
+          fi
+
+          # probe <token>: prints "HTTP <code> username=<name>", succeeds on HTTP 200.
+          probe() {
+            local body="$RUNNER_TEMP/me.json" http
+            http=$(curl -sS -o "$body" -w '%{http_code}' -G "https://graph.instagram.com/me" \
+                     --data-urlencode "fields=username" \
+                     --data-urlencode "access_token=$1")
+            echo "HTTP $http username=$(jq -r '.username // "?"' "$body" 2>/dev/null || echo '?')"
+            rm -f "$body"
+            [ "$http" = "200" ]
+          }
+
+          secret_updated_at() {
+            gh secret list --repo "$GITHUB_REPOSITORY" --json name,updatedAt \
+              --jq '.[] | select(.name == "IG_ACCESS_TOKEN") | .updatedAt'
+          }
+
+          # Age of the stored secret. Needs the PAT: GITHUB_TOKEN cannot read secrets metadata.
+          if [ -n "${GH_TOKEN:-}" ]; then
+            updated=$(secret_updated_at)
+            age_h=$(( ( $(date +%s) - $(date -d "$updated" +%s) ) / 3600 ))
+            echo "IG_ACCESS_TOKEN secret last set $updated (${age_h} h ago)"
+            if [ "$DRY_RUN" = "false" ] && [ "$age_h" -lt 25 ]; then
+              echo "::notice::secret is under 25 h old and Instagram only refreshes tokens older than 24 h; nothing to do"
+              exit 0
+            fi
+          fi
+
+          resp="$RUNNER_TEMP/refresh.json"
+          http=$(curl -sS -o "$resp" -w '%{http_code}' -G "https://graph.instagram.com/refresh_access_token" \
+                   --data-urlencode "grant_type=ig_refresh_token" \
+                   --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+          new=$(jq -r '.access_token // empty' "$resp" 2>/dev/null || true)
+          if [ -n "$new" ]; then
+            echo "::add-mask::$new"
+          fi
+          if [ "$http" != "200" ] || [ -z "$new" ]; then
+            echo "::error::refresh_access_token failed (HTTP $http): $(jq -c 'del(.access_token)' "$resp" 2>/dev/null || echo '<unparseable body>')"
+            exit 1
+          fi
+          expires_in=$(jq -r '.expires_in // 0' "$resp")
+          rm -f "$resp"
+          days=$(( expires_in / 86400 ))
+          until=$(date -u -d "@$(( $(date +%s) + expires_in ))" +%Y-%m-%dT%H:%MZ)
+          echo "refresh ok: expires_in=${expires_in}s (~${days} days, until ${until})"
+          if [ "$new" = "$IG_ACCESS_TOKEN" ]; then
+            echo "token_changed=false (same token value, lifetime extended)"
+          else
+            echo "token_changed=true (Instagram issued a new token value)"
+          fi
+
+          if out=$(probe "$new"); then
+            echo "refreshed token works: $out"
+          else
+            echo "::error::refreshed token failed the /me probe ($out); not storing it"
+            exit 1
+          fi
+
+          if [ "$DRY_RUN" != "false" ]; then
+            if [ "$new" != "$IG_ACCESS_TOKEN" ]; then
+              if out=$(probe "$IG_ACCESS_TOKEN"); then
+                echo "previous token still works: $out"
+              else
+                echo "::warning::previous token no longer works ($out) and the new one was NOT stored (dry run); run again with dry_run=false now"
+              fi
+            fi
+            echo "dry run: IG_ACCESS_TOKEN secret not updated"
+            exit 0
+          fi
+
+          printf '%s' "$new" | gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY"
+          updated=$(secret_updated_at)
+          if [ $(( $(date +%s) - $(date -d "$updated" +%s) )) -gt 300 ]; then
+            echo "::error::IG_ACCESS_TOKEN updatedAt is $updated, not within the last 5 minutes; the write did not land"
+            exit 1
+          fi
+          echo "IG_ACCESS_TOKEN secret updated at $updated"
+
+          if [ "$expires_in" -lt $(( 50 * 86400 )) ]; then
+            echo "::error::stored, but expires_in is only ~${days} days (expected ~60); investigate before it lapses"
+            exit 1
+          fi
