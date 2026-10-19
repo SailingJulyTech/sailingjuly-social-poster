@@ -5327,5 +5327,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-16-16-do-not-let-it-live-in",
+    "scheduled_for": "2026-10-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Do not let failure live in you. Back tomorrow for a harder test. Follow for more.",
+    "captions": {
+      "instagram": "Do not let failure live in you. Back tomorrow for a harder test. Follow for more. #boatlife #liveaboard",
+      "tiktok": "Do not let failure live in you. Back tomorrow for a harder test. Follow for more. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5a793899-0b3b-4465-a944-7bd54b1c35ff/1d4219bc-0ba3-47a4-b67b-e0925bd265bb.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
