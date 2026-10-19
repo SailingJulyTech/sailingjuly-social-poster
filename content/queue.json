@@ -5287,5 +5287,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-15-49-weeks-of-failing-then-this",
+    "scheduled_for": "2026-10-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Weeks of failing and then the first good one landed. Now for the whole plate. Follow for more.",
+    "captions": {
+      "instagram": "Weeks of failing and then the first good one landed. Now for the whole plate. Follow for more. #boatlife #liveaboard",
+      "tiktok": "Weeks of failing and then the first good one landed. Now for the whole plate. Follow for more. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/39c3a1a5-9f4d-4ac2-8559-fa5e3b02a4da/bb675782-00f7-491f-b23f-bdeedcf77cf2.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
