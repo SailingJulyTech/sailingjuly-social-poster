@@ -5247,5 +5247,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "home-depot-experiment-19-he-said-he-would-subscribe",
+    "scheduled_for": "2026-10-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "He promised to subscribe. Then he could not find the app. Follow for more.",
+    "captions": {
+      "instagram": "He promised to subscribe. Then he could not find the app. Follow for more. #boatlife #liveaboard",
+      "tiktok": "He promised to subscribe. Then he could not find the app. Follow for more. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/651f25cb-040d-4110-8468-6ae25991778b/1a86a9eb-934e-4ede-9360-ea26f671ba82.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
