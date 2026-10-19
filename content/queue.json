@@ -5307,5 +5307,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "i-still-cant-weld-7-the-truth-i-was-hiding-from",
+    "scheduled_for": "2026-10-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "As long as help was coming, I never had to find out if I could do this alone. Follow for more.",
+    "captions": {
+      "instagram": "As long as help was coming, I never had to find out if I could do this alone. Follow for more. #boatlife #liveaboard",
+      "tiktok": "As long as help was coming, I never had to find out if I could do this alone. Follow for more. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/54152c78-1846-4039-8add-a5297d8e061e/3a129101-efb6-469f-8a0b-2df8b61bccb5.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
