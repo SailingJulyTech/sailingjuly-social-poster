@@ -5136,10 +5136,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4a369158-4643-40a8-8db5-7bd089ec4bef/8658aa49-a999-456a-af0c-e1ccb8ec5db2.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-19T05:22:45.890318+00:00",
+      "instagram": "2026-10-19T05:24:08.580286+00:00",
+      "tiktok": "2026-10-19T05:24:21.666359+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "sailingjuly-overview-5-almost-ready-for-the-water",
@@ -5156,10 +5165,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3911eae1-95a7-4b73-9b6d-3568a0ecaae0/436f3b0c-e572-439f-91d0-17050a830a55.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-19T05:30:07.371058+00:00",
+      "instagram": "2026-10-19T05:31:26.866582+00:00",
+      "tiktok": "2026-10-19T05:31:55.630260+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "gratitude-reflection-7-i-can-see-the-way-out",
@@ -5176,10 +5194,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6bac85ad-fdb2-40f2-87b2-9b1c1be9dfc6/fafcc514-2992-4bec-aa5a-54007b3aa9ce.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-19T05:37:40.136528+00:00",
+      "instagram": "2026-10-19T05:38:59.842753+00:00",
+      "tiktok": "2026-10-19T05:39:18.012241+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-13-5-wait-this-place-is-fancy",
