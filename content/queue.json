@@ -5223,10 +5223,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1c0d8dfe-64f6-44e9-af6f-5c1f624cc5a2/959046af-0b21-4da0-aed0-a2cea821af3e.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-19T11:19:13.390967+00:00",
+      "instagram": "2026-10-19T11:20:44.555958+00:00",
+      "tiktok": "2026-10-19T11:21:07.866070+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-12-19-would-you-try-this",
@@ -5243,10 +5252,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4b62b053-2eb4-4665-9a76-c24c0464343d/9ce7a932-4df5-4e8d-a7fd-dbfdbea6e31d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-19T11:26:42.899724+00:00",
+      "instagram": "2026-10-19T11:27:47.742850+00:00",
+      "tiktok": "2026-10-19T11:28:06.155303+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "home-depot-experiment-19-he-said-he-would-subscribe",
