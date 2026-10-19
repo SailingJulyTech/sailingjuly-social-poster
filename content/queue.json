@@ -5267,5 +5267,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "lowes-experiment-43-he-wanted-no-part-of-this",
+    "scheduled_for": "2026-10-20T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Asked a stranger for help and he wanted nothing to do with the camera. Follow for more.",
+    "captions": {
+      "instagram": "Asked a stranger for help and he wanted nothing to do with the camera. Follow for more. #boatlife #liveaboard",
+      "tiktok": "Asked a stranger for help and he wanted nothing to do with the camera. Follow for more. #boatlife #fyp"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/69e2b15d-731a-4b4e-a00a-3993b7ac4c2e/4482285f-e52f-49c6-b412-bf08454b9d8c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
