@@ -5450,5 +5450,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-12-20-that-s-why-you-re-in",
+    "scheduled_for": "2026-10-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "That's why you're in charge. Follow for more.",
+    "captions": {
+      "instagram": "That's why you're in charge. Follow for more. #boatlife",
+      "tiktok": "That's why you're in charge. #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7a0f1b1d-1d1f-47ba-bcbb-a1256bf035d7/cc6c922a-edd9-4773-8939-bee1a945f8f7.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
