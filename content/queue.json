@@ -5470,5 +5470,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "i-still-cant-weld-8-i-keep-telling-people-i-m",
+    "scheduled_for": "2026-10-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I keep telling people I'm fixing up a boat. Follow for more.",
+    "captions": {
+      "instagram": "I keep telling people I'm fixing up a boat. Follow for more. #boatlife",
+      "tiktok": "I keep telling people I'm fixing up a boat. #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fae184ec-df91-4cf5-aa1b-a0ccdcbca4f1/bc7ecff2-83f6-4602-8cbb-f6190f9c9909.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
