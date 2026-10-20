@@ -5368,10 +5368,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/54152c78-1846-4039-8add-a5297d8e061e/3a129101-efb6-469f-8a0b-2df8b61bccb5.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-20T06:39:27.630850+00:00",
+      "instagram": "2026-10-20T06:40:45.562612+00:00",
+      "tiktok": "2026-10-20T06:41:02.760937+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-16-do-not-let-it-live-in",
@@ -5388,9 +5397,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5a793899-0b3b-4465-a944-7bd54b1c35ff/1d4219bc-0ba3-47a4-b67b-e0925bd265bb.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-20T06:46:32.705250+00:00",
+      "instagram": "2026-10-20T06:48:17.678951+00:00",
+      "tiktok": "2026-10-20T06:48:45.066053+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
