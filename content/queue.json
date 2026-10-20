@@ -5490,5 +5490,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "best-buy-experiment-part2-19-carrie-gets-the-honors",
+    "scheduled_for": "2026-10-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Carrie gets the honors. Follow for more.",
+    "captions": {
+      "instagram": "Carrie gets the honors. Follow for more. #boatlife",
+      "tiktok": "Carrie gets the honors. #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a16c9d54-e200-4b0f-a81b-5f3c757d0258/4e7f3255-e307-4907-b3ad-4734a15dc089.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
