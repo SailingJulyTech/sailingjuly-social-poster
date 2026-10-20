@@ -5430,5 +5430,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-15-50-i-m-so-excited-we-can",
+    "scheduled_for": "2026-10-21T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I'm so excited. We can do this. Follow for more.",
+    "captions": {
+      "instagram": "I'm so excited. We can do this. Follow for more. #boatlife",
+      "tiktok": "I'm so excited. We can do this. #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0bef1f3b-c7d7-45ec-b3a5-a8cfe266dda2/21a76bd4-21f3-4d3d-9b75-3ad1afeffab1.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
