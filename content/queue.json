@@ -5281,10 +5281,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/651f25cb-040d-4110-8468-6ae25991778b/1a86a9eb-934e-4ede-9360-ea26f671ba82.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-20T01:20:35.845804+00:00",
+      "instagram": "2026-10-20T01:21:48.707667+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "lowes-experiment-43-he-wanted-no-part-of-this",
@@ -5301,10 +5310,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/69e2b15d-731a-4b4e-a00a-3993b7ac4c2e/4482285f-e52f-49c6-b412-bf08454b9d8c.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-20T01:27:32.895594+00:00",
+      "instagram": "2026-10-20T01:29:09.168308+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "episode-15-49-weeks-of-failing-then-this",
@@ -5321,10 +5339,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/39c3a1a5-9f4d-4ac2-8559-fa5e3b02a4da/bb675782-00f7-491f-b23f-bdeedcf77cf2.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-20T01:35:17.730852+00:00",
+      "instagram": "2026-10-20T01:36:16.148157+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "i-still-cant-weld-7-the-truth-i-was-hiding-from",
