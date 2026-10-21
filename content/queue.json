@@ -5635,5 +5635,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "lowes-experiment-44-she-typed-it-in-already-number",
+    "scheduled_for": "2026-10-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "She typed it in. Already number one. SailingJuly, one word. Follow for more.",
+    "captions": {
+      "instagram": "She typed it in. Already number one. SailingJuly, one word. Follow for more. #boatlife",
+      "tiktok": "She typed it in. Already number one. SailingJuly, one word. #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fca67fb8-173e-4349-b46b-0ca384660d8b/748c10e5-a7ac-4d8b-8bfd-decb5f9bbd3c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
