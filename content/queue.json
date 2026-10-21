@@ -5513,10 +5513,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fae184ec-df91-4cf5-aa1b-a0ccdcbca4f1/bc7ecff2-83f6-4602-8cbb-f6190f9c9909.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-21T09:45:15.213237+00:00",
+      "instagram": "2026-10-21T09:46:37.795617+00:00",
+      "tiktok": "2026-10-21T09:46:56.043331+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-19-carrie-gets-the-honors",
@@ -5533,9 +5542,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a16c9d54-e200-4b0f-a81b-5f3c757d0258/4e7f3255-e307-4907-b3ad-4734a15dc089.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-21T09:52:32.085173+00:00",
+      "instagram": "2026-10-21T09:54:08.537371+00:00",
+      "tiktok": "2026-10-21T09:54:20.898480+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
