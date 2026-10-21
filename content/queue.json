@@ -5575,5 +5575,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "home-depot-experiment-20-this-kid-earns-his-keep",
+    "scheduled_for": "2026-10-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "This kid earns his keep. A quick shout out from the hardware aisle. Follow for more.",
+    "captions": {
+      "instagram": "This kid earns his keep. Shout out from the hardware aisle. Follow for more. #boatlife",
+      "tiktok": "This kid earns his keep. #boatlife #shoutout"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7118d74e-9081-4f09-849e-60099bdec64e/f2f74405-3464-4b80-ab58-e692f82ff45d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
