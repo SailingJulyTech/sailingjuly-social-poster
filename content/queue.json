@@ -5615,5 +5615,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "sailingjuly-overview-7-i-bought-a-boat-to-go",
+    "scheduled_for": "2026-10-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I bought a boat to go diving. Not to cruise. To dive. Follow for more.",
+    "captions": {
+      "instagram": "I bought a boat to go diving. Not to cruise. To dive. Follow for more. #boatlife #scuba",
+      "tiktok": "I bought a boat to go diving. #boatlife #scuba"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ca37d141-79b7-408a-9b5f-3f8ea5b0783e/14de8a85-b3aa-4921-bb8d-546cda332093.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
