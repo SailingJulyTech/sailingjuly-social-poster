@@ -5426,10 +5426,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/e136f746-f7a6-4270-ac40-2747d5c24714/75a5d081-e2ad-4107-bf2f-25a129319a5a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-21T04:42:28.698377+00:00",
+      "instagram": "2026-10-21T04:44:14.491722+00:00",
+      "tiktok": "2026-10-21T04:44:43.453521+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-50-i-m-so-excited-we-can",
@@ -5446,10 +5455,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0bef1f3b-c7d7-45ec-b3a5-a8cfe266dda2/21a76bd4-21f3-4d3d-9b75-3ad1afeffab1.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-21T04:50:17.021342+00:00",
+      "instagram": "2026-10-21T04:51:16.501805+00:00",
+      "tiktok": "2026-10-21T04:51:29.063842+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-12-20-that-s-why-you-re-in",
@@ -5466,10 +5484,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7a0f1b1d-1d1f-47ba-bcbb-a1256bf035d7/cc6c922a-edd9-4773-8939-bee1a945f8f7.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-21T04:57:01.608790+00:00",
+      "instagram": "2026-10-21T04:58:47.717212+00:00",
+      "tiktok": "2026-10-21T04:59:05.414564+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "i-still-cant-weld-8-i-keep-telling-people-i-m",
