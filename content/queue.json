@@ -5555,5 +5555,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-15-51-i-kept-rushing-it",
+    "scheduled_for": "2026-10-22T00:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I kept rushing it. The lesson that finally made a weld hold: wait for the puddle. Follow for more.",
+    "captions": {
+      "instagram": "I kept rushing it. Wait for the puddle, then move. Follow for more. #boatlife #welding",
+      "tiktok": "I kept rushing it. Wait for the puddle. #boatlife #welding"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/02e36640-71c1-48e9-af33-76d4a3ac4866/8f1be0e8-699c-4ccc-8e01-ba89d543a254.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
