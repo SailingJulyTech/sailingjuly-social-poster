@@ -5658,10 +5658,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ca37d141-79b7-408a-9b5f-3f8ea5b0783e/14de8a85-b3aa-4921-bb8d-546cda332093.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-22T06:38:56.446899+00:00",
+      "instagram": "2026-10-22T06:40:55.526871+00:00",
+      "tiktok": "2026-10-22T06:41:08.294634+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "lowes-experiment-44-she-typed-it-in-already-number",
@@ -5678,9 +5687,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fca67fb8-173e-4349-b46b-0ca384660d8b/748c10e5-a7ac-4d8b-8bfd-decb5f9bbd3c.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-22T06:46:41.365676+00:00",
+      "instagram": "2026-10-22T06:48:54.565353+00:00",
+      "tiktok": "2026-10-22T06:49:12.443611+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
