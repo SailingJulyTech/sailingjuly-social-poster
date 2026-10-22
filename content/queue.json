@@ -5571,10 +5571,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/02e36640-71c1-48e9-af33-76d4a3ac4866/8f1be0e8-699c-4ccc-8e01-ba89d543a254.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-22T01:33:05.235513+00:00",
+      "instagram": "2026-10-22T01:34:18.021158+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "home-depot-experiment-20-this-kid-earns-his-keep",
@@ -5591,10 +5600,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7118d74e-9081-4f09-849e-60099bdec64e/f2f74405-3464-4b80-ab58-e692f82ff45d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-22T01:40:08.708295+00:00",
+      "instagram": "2026-10-22T01:41:25.044340+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "gratitude-reflection-8-i-have-my-fears-my-doubts",
@@ -5611,10 +5629,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6c33c160-04d1-476e-8177-34a922e3e1e3/5ec25f97-471d-4576-aaeb-93803f786e5e.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-22T01:47:09.738004+00:00",
+      "instagram": "2026-10-22T01:48:32.317889+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "tiktok_deferred": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": "skipped_tiktok_cap"
+    }
   },
   {
     "id": "sailingjuly-overview-7-i-bought-a-boat-to-go",
