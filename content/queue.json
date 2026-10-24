@@ -5700,5 +5700,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-16-17-six-weeks-of-bad-welds-then",
+    "scheduled_for": "2026-10-24T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Six weeks of welds that blew through the plate. This side finally looks like a weld. Practising on scrap before I weld the arch on my sailboat July.",
+    "captions": {
+      "instagram": "Six weeks of welds that blew through the plate. This side finally looks like a weld. Practising before I weld the boat's arch. #welding #boatrestoration #sailboat",
+      "tiktok": "Six weeks of welds that blew through the plate. This side finally looks like a weld. #welding #boatrestoration"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/48fae137-a4c7-4753-9480-cac771de2099/29308f0f-6537-4e92-8ece-9d3716b902e5.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
