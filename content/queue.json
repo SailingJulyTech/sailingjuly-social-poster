@@ -5720,5 +5720,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "sailingjuly-overview-8-youtube-divers-made-me-buy-a",
+    "scheduled_for": "2026-10-24T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Sailing channels went diving all the time, so I bought a sailboat to turn into the ultimate dive boat. Meet July, a Pearson 34 I'm rebuilding to dive from.",
+    "captions": {
+      "instagram": "Sailing channels went diving all the time, so I bought a sailboat to turn into the ultimate dive boat. Meet July, a Pearson 34. #scuba #sailboat #boatrestoration",
+      "tiktok": "Sailing channels went diving all the time, so I bought a sailboat to turn into the ultimate dive boat. #scuba #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/78895db8-b8be-41be-9305-f759cb2a56a8/3d732225-f797-418c-9311-62e2eff91b19.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
