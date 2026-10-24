@@ -5716,10 +5716,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/48fae137-a4c7-4753-9480-cac771de2099/29308f0f-6537-4e92-8ece-9d3716b902e5.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-24T23:13:12.437731+00:00",
+      "instagram": "2026-10-24T23:14:36.841939+00:00",
+      "tiktok": "2026-10-24T23:15:29.943861+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "sailingjuly-overview-8-youtube-divers-made-me-buy-a",
@@ -5736,9 +5745,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/78895db8-b8be-41be-9305-f759cb2a56a8/3d732225-f797-418c-9311-62e2eff91b19.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-24T23:21:07.687986+00:00",
+      "instagram": "2026-10-24T23:23:13.342658+00:00",
+      "tiktok": "2026-10-24T23:23:53.008020+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
