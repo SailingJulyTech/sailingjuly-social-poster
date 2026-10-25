@@ -5758,5 +5758,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-15-52-my-weld-keeps-blowing-holes-in",
+    "scheduled_for": "2026-10-25T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Every pass blows a hole through the plate, so I back off the heat and try again. Learning to weld so I can build the arch for my sailboat.",
+    "captions": {
+      "instagram": "Every pass blows a hole through the plate, so I back off the heat and try again. Learning to weld for the boat. #welding #sailboat #boatrestoration",
+      "tiktok": "Every pass blows a hole through the plate, so I back off the heat and try again. #welding #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/dfe1c1d7-8c79-48d8-bce0-e097f914fcb8/97fc585d-4c52-415e-9488-88304531cb73.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
