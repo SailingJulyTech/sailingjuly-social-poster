@@ -36,6 +36,9 @@ STATE = os.path.join(ROOT, "content", "ig_comment_state.json")
 # >= 7 min apart, so 300 s cannot pick the wrong entry.
 MATCH_WINDOW_SECONDS = 300
 PAUSE_SECONDS = 20
+# 27 Reels were bulk-posted outside the queue on 2026-09-04/05 (23:20-01:16 UTC); they have no
+# queue entry and never will, so the unmatched record only covers Reels from this moment on.
+UNMATCHED_SINCE = datetime.datetime(2026, 9, 6, tzinfo=datetime.timezone.utc)
 TEXT = ("Full video on YouTube: https://www.youtube.com/watch?v={vid}\n"
         "(or tap the link in our bio)")
 
@@ -72,11 +75,12 @@ def match(media, queue, ymap):
 
 
 def unmatched(rows, queue):
-    """Engine-era Reels with no queue match: {media_id: {timestamp, permalink, nearest_delta}}."""
+    """Engine-era Reels (after the first queue post and UNMATCHED_SINCE) with no queue match:
+    {media_id: {timestamp, permalink, nearest_delta}}."""
     posted = [ts(i["posted_at"]["instagram"]) for i in queue if (i.get("posted_at") or {}).get("instagram")]
     if not posted:
         return {}
-    first = min(posted)
+    first = max(min(posted), UNMATCHED_SINCE)
     return {r["media_id"]: {"timestamp": r["timestamp"], "permalink": r["permalink"],
                             "nearest_delta": round(r["delta"]) if r["delta"] is not None else None}
             for r in rows if r["slug"] is None and (r["type"] or "REELS") == "REELS" and ts(r["timestamp"]) >= first}

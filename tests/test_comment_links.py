@@ -47,6 +47,12 @@ class Match(unittest.TestCase):
         self.assertEqual(u["lost"]["nearest_delta"], 1620)
         self.assertEqual(cl.unmatched(rows, [{"id": "c", "posted_at": {}}]), {})
 
+    def test_unmatched_ignores_reels_before_cutoff(self):
+        early = [{"id": "e", "posted_at": {"instagram": "2026-08-27T16:09:31+00:00"}}]
+        media = [{"id": "bulk", "timestamp": "2026-09-05T01:16:52+0000", "media_product_type": "REELS", "permalink": "p/bulk"},
+                 {"id": "later", "timestamp": "2026-09-07T01:16:52+0000", "media_product_type": "REELS", "permalink": "p/later"}]
+        self.assertEqual(list(cl.unmatched(cl.match(media, early, {}), early)), ["later"])
+
     def test_known_slug_without_youtube_id_has_no_vid(self):
         r = cl.match([{"id": "m1", "timestamp": "2026-10-01T10:00:00+0000"}], QUEUE, {})[0]
         self.assertEqual(r["slug"], "a")
