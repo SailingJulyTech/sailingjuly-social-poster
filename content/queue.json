@@ -5803,10 +5803,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bcab3324-0e68-4cce-837c-756369edb94d/dda886db-27f4-4f96-aa8d-0e5b996df250.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-26T22:42:30.338093+00:00",
+      "instagram": "2026-10-26T22:43:53.281354+00:00",
+      "tiktok": "2026-10-26T22:45:14.638653+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-15-53-charlie-left-a-birthday-party-to",
@@ -5823,9 +5832,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/71cd7e76-730b-4832-92f2-a5ecc3678a1d/b27982d3-3b38-4370-8908-0a63f309318c.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-26T22:51:00.922917+00:00",
+      "instagram": "2026-10-26T22:52:15.772389+00:00",
+      "tiktok": "2026-10-26T22:53:10.131106+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
