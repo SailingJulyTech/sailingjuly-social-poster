@@ -8,6 +8,10 @@ Matches each Instagram media item to a queue entry by posted_at timestamp
 content/ig_youtube_map.json ({queue_id: youtube_video_id}). Ids already in
 content/ig_comment_state.json are skipped. Needs IG_* env (see post_instagram.py)
 and, to post, the instagram_manage_comments permission on the token.
+
+Engine-era Reels (posted at or after the first queue entry Instagram published) that match
+no queue entry are recorded under state["unmatched"] on every posting run, so the
+shorts-engine watchdog can alert on a Reel that will never get its link comment.
 """
 import argparse
 import datetime
@@ -26,7 +30,11 @@ ROOT = os.path.join(os.path.dirname(__file__), "..")
 QUEUE = os.path.join(ROOT, "content", "queue.json")
 MAP = os.path.join(ROOT, "content", "ig_youtube_map.json")
 STATE = os.path.join(ROOT, "content", "ig_comment_state.json")
-MATCH_WINDOW_SECONDS = 90
+# Instagram's media timestamp is the publish moment; the queue's posted_at is written after the
+# publish call returns, up to a couple of minutes later when container processing is slow
+# (2026-10-22 and 10-24 Reels missed a 90 s window at 104 s and 90.x s). Posts in one run are
+# >= 7 min apart, so 300 s cannot pick the wrong entry.
+MATCH_WINDOW_SECONDS = 300
 PAUSE_SECONDS = 20
 TEXT = ("Full video on YouTube: https://www.youtube.com/watch?v={vid}\n"
         "(or tap the link in our bio)")
@@ -63,6 +71,17 @@ def match(media, queue, ymap):
     return rows
 
 
+def unmatched(rows, queue):
+    """Engine-era Reels with no queue match: {media_id: {timestamp, permalink, nearest_delta}}."""
+    posted = [ts(i["posted_at"]["instagram"]) for i in queue if (i.get("posted_at") or {}).get("instagram")]
+    if not posted:
+        return {}
+    first = min(posted)
+    return {r["media_id"]: {"timestamp": r["timestamp"], "permalink": r["permalink"],
+                            "nearest_delta": round(r["delta"]) if r["delta"] is not None else None}
+            for r in rows if r["slug"] is None and (r["type"] or "REELS") == "REELS" and ts(r["timestamp"]) >= first}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -78,8 +97,14 @@ def main():
         print(f"{r['timestamp'][:16]}  {r['type'] or '?':6}  {r['permalink']}  ->  "
               f"d={('%.0fs' % r['delta']) if r['delta'] is not None else '-':>6}  {('https://youtu.be/' + r['vid']) if r['vid'] else 'NO MATCH'}  [{r['slug']}]"
               f"{'  (done)' if r['media_id'] in state['commented'] else ''}")
+    missing = unmatched(rows, queue)
+    if missing:
+        log(f"{len(missing)} engine-era Reel(s) match no queue entry: " + " ".join(v["permalink"] or k for k, v in missing.items()))
     if a.dry_run:
         return
+    if state.get("unmatched") != missing:
+        state["unmatched"] = missing
+        save_json(STATE, state)
     for r in ready[: a.limit]:
         try:
             resp = requests.post(f"{t.base}/{r['media_id']}/comments", timeout=60, data={

@@ -26,6 +26,27 @@ class Match(unittest.TestCase):
         r = cl.match([{"id": "m2", "timestamp": "2026-10-01T10:03:02+0000"}], QUEUE, {"a": "VIDA", "b": "VIDB"})[0]
         self.assertEqual(r["slug"], "b")
 
+    def test_slow_container_within_300s_matches(self):
+        # 2026-10-24 case: Instagram timestamp 90.4 s before the queue's posted_at
+        r = cl.match([{"id": "m1", "timestamp": "2026-10-01T09:58:35+0000"}], QUEUE, {"a": "VIDA"})[0]
+        self.assertEqual((r["slug"], r["vid"]), ("a", "VIDA"))
+        r = cl.match([{"id": "m1", "timestamp": "2026-10-01T09:55:04+0000"}], QUEUE, {"a": "VIDA"})[0]
+        self.assertIsNone(r["slug"])  # 301 s: still outside
+
+    def test_unmatched_lists_only_engine_era_reels(self):
+        media = [
+            {"id": "old", "timestamp": "2026-09-01T10:00:00+0000", "media_product_type": "REELS", "permalink": "p/old"},
+            {"id": "m1", "timestamp": "2026-10-01T10:00:00+0000", "media_product_type": "REELS", "permalink": "p/m1"},
+            {"id": "lost", "timestamp": "2026-10-01T10:30:00+0000", "media_product_type": "REELS", "permalink": "p/lost"},
+            {"id": "feed", "timestamp": "2026-10-01T11:00:00+0000", "media_product_type": "FEED", "permalink": "p/feed"},
+        ]
+        rows = cl.match(media, QUEUE, {"a": "VIDA"})
+        u = cl.unmatched(rows, QUEUE)
+        self.assertEqual(list(u), ["lost"])
+        self.assertEqual(u["lost"]["permalink"], "p/lost")
+        self.assertEqual(u["lost"]["nearest_delta"], 1620)
+        self.assertEqual(cl.unmatched(rows, [{"id": "c", "posted_at": {}}]), {})
+
     def test_known_slug_without_youtube_id_has_no_vid(self):
         r = cl.match([{"id": "m1", "timestamp": "2026-10-01T10:00:00+0000"}], QUEUE, {})[0]
         self.assertEqual(r["slug"], "a")
