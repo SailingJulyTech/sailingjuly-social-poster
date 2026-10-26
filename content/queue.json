@@ -5807,5 +5807,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-15-53-charlie-left-a-birthday-party-to",
+    "scheduled_for": "2026-10-26T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Charlie stepped away from his granddaughter's birthday to show me how to run a weld. Learning to weld for the arch on my sailboat.",
+    "captions": {
+      "instagram": "Charlie stepped away from his granddaughter's birthday to show me how to run a weld. Learning to weld for the arch on my sailboat. #welding #sailboat #boatrestoration",
+      "tiktok": "Charlie stepped away from his granddaughter's birthday to show me how to run a weld. #welding #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/71cd7e76-730b-4832-92f2-a5ecc3678a1d/b27982d3-3b38-4370-8908-0a63f309318c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
