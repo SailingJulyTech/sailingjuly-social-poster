@@ -5787,5 +5787,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-12-21-taking-the-solar-arch-off-without",
+    "scheduled_for": "2026-10-26T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The solar arch can't stay on for the trip, so we rig the main halyard to lower it without it crashing down. Getting July ready to leave the marina.",
+    "captions": {
+      "instagram": "The solar arch can't stay on for the trip, so we rig the main halyard to lower it without it crashing down. Getting July ready to leave the marina. #sailboat #boatrestoration #sailing",
+      "tiktok": "The solar arch can't stay on for the trip, so we rig the main halyard to lower it without it crashing down. #sailboat #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bcab3324-0e68-4cce-837c-756369edb94d/dda886db-27f4-4f96-aa8d-0e5b996df250.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
