@@ -5845,5 +5845,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-12-22-this-boat-came-with-zero-paperwork",
+    "scheduled_for": "2026-10-27T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "No working hour meter, no log books, no paperwork. The engine hours are anyone's guess. Looking over the Pearson 34 that became July.",
+    "captions": {
+      "instagram": "No working hour meter, no log books, no paperwork. The engine hours are anyone's guess. Looking over the Pearson 34 that became July. #sailboat #boatlife #boatrestoration",
+      "tiktok": "No working hour meter, no log books, no paperwork. The engine hours are anyone's guess. #sailboat #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0af30ebc-777d-430c-9e85-b63b8da76abb/f42d6d75-d1c5-4b39-bad7-930b1301f65f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
