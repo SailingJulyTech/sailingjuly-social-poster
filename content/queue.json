@@ -5865,5 +5865,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-16-18-the-arch-needs-a-weld-i",
+    "scheduled_for": "2026-10-27T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The solar arch's foot needs a flange weld, and I've only just learned a straight line. Learning to weld for the arch on my sailboat.",
+    "captions": {
+      "instagram": "The solar arch's foot needs a flange weld, and I've only just learned a straight line. Learning to weld for the arch on my sailboat. #welding #sailboat #boatrestoration",
+      "tiktok": "The solar arch's foot needs a flange weld, and I've only just learned a straight line. #welding #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/451b1b00-7264-46e2-909c-e0dc96cd6b56/f8749c1f-bfc0-46e6-94c8-d924ae762bc4.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
