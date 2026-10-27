@@ -5861,10 +5861,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0af30ebc-777d-430c-9e85-b63b8da76abb/f42d6d75-d1c5-4b39-bad7-930b1301f65f.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-27T23:19:21.659475+00:00",
+      "instagram": "2026-10-27T23:20:46.976671+00:00",
+      "tiktok": "2026-10-27T23:21:33.666307+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-16-18-the-arch-needs-a-weld-i",
@@ -5881,9 +5890,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/451b1b00-7264-46e2-909c-e0dc96cd6b56/f8749c1f-bfc0-46e6-94c8-d924ae762bc4.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-27T23:27:23.639215+00:00",
+      "instagram": "2026-10-27T23:28:37.901468+00:00",
+      "tiktok": "2026-10-27T23:29:22.801706+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
