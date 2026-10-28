@@ -5943,5 +5943,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-15-54-my-first-straight-aluminum-weld-no",
+    "scheduled_for": "2026-10-28T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "First aluminum bead that ran in a straight line, no filler. Then I stayed too long at the end and burnt through. Rebuilding my sailboat July, one weld at a time.",
+    "captions": {
+      "instagram": "First aluminum bead that ran in a straight line, no filler. Then I stayed too long at the end and burnt through. Rebuilding my sailboat July, one weld at a time. #welding #aluminum #sailboat",
+      "tiktok": "First aluminum bead that ran in a straight line, no filler. Then I stayed too long at the end and burnt through. #welding #aluminum"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/447a3131-dcd0-482a-b167-d5ba54fc19a3/4af8897b-361c-4821-9f36-b361b88c183a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
