@@ -5903,5 +5903,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-12-23-the-new-arch-is-the-wrong",
+    "scheduled_for": "2026-10-28T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "We lifted the new stainless arch into place for a test fit, and one section came out the wrong length. Rebuilding my sailboat July, one weld at a time.",
+    "captions": {
+      "instagram": "We lifted the new stainless arch into place for a test fit, and one section came out the wrong length. Rebuilding my sailboat July, one weld at a time. #sailboat #boatlife #boatrestoration",
+      "tiktok": "We lifted the new stainless arch into place for a test fit, and one section came out the wrong length. #sailboat #boatrestoration"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bcc08223-5972-472c-b1b7-07bd391fc463/9ec324c7-fa05-4b36-ad57-23842bd64d32.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
