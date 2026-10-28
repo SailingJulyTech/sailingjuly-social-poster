@@ -5923,5 +5923,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-16-19-i-nearly-quit-welding-my-own",
+    "scheduled_for": "2026-10-28T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Six weeks ago I was ready to hand Charlie the torch and let him weld the arch. I wanted to learn it myself. Rebuilding my sailboat July, one weld at a time.",
+    "captions": {
+      "instagram": "Six weeks ago I was ready to hand Charlie the torch and let him weld the arch. I wanted to learn it myself. Rebuilding my sailboat July, one weld at a time. #welding #sailboat #boatrestoration",
+      "tiktok": "Six weeks ago I was ready to hand Charlie the torch and let him weld the arch. I wanted to learn it myself. #welding #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/259800b7-d1ea-4706-a59c-e7e06abb34bd/22890aea-1128-494c-aea3-27573501e34f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
