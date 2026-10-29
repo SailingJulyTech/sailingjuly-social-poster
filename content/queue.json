@@ -5919,10 +5919,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/bcc08223-5972-472c-b1b7-07bd391fc463/9ec324c7-fa05-4b36-ad57-23842bd64d32.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "facebook": "2026-10-29T00:57:19.816280+00:00",
+      "instagram": "2026-10-29T00:59:12.639902+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": false
+    }
   },
   {
     "id": "episode-16-19-i-nearly-quit-welding-my-own",
