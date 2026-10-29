@@ -5989,5 +5989,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "lowes-experiment-part2-18-he-s-65-his-knees-work",
+    "scheduled_for": "2026-10-29T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Out hunting a welding lens at Lowe's, I found a 65-year-old man sitting on his heels like it was nothing. He says it's just work, not yoga. Rebuilding my sailboat July, one weld at a time.",
+    "captions": {
+      "instagram": "Out hunting a welding lens at Lowe's, I found a 65-year-old man sitting on his heels like it was nothing. He says it's just work, not yoga. Rebuilding my sailboat July, one weld at a time. #lowes #welding #sailboat",
+      "tiktok": "Out hunting a welding lens at Lowe's, I found a 65-year-old man sitting on his heels like it was nothing. He says it's just work, not yoga. #lowes #welding"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/05af7066-813a-4bc4-a0dc-925b0421ffc0/479dff6e-097f-4552-bb31-ca87a82a2b67.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
