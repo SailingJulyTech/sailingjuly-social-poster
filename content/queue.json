@@ -6005,10 +6005,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/05af7066-813a-4bc4-a0dc-925b0421ffc0/479dff6e-097f-4552-bb31-ca87a82a2b67.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-30T00:00:50.109533+00:00",
+      "instagram": "2026-10-30T00:02:01.393508+00:00",
+      "tiktok": "2026-10-30T00:02:52.214934+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "episode-12-24-one-screw-holds-my-arch-4",
@@ -6025,9 +6034,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7d14ebbb-79a5-4471-ab87-26b6efcb5c9f/c648e456-fab7-4d9f-ab49-c14d03bcc94e.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-10-30T00:08:36.919435+00:00",
+      "instagram": "2026-10-30T00:10:31.930053+00:00",
+      "tiktok": "2026-10-30T00:11:44.598352+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
