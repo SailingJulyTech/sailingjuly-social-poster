@@ -6047,5 +6047,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-12-25-i-can-t-leave-with-the",
+    "scheduled_for": "2026-10-31T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The solar arch might break off at sea, so it gets fixed now. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The solar arch might break off at sea, so it gets fixed now. #sailing #boatrestoration #pearson34",
+      "tiktok": "The solar arch might break off at sea, so it gets fixed now. #sailing #boatrestoration"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/72f96e74-710c-459b-8dbf-4f8cd7fa9ad7/9a6fe37c-33d2-45f9-97f6-1538f3b685f6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
