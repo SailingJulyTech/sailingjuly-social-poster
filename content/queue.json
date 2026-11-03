@@ -6076,5 +6076,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "lowes-experiment-45-i-m-paying-for-my-sailboat",
+    "scheduled_for": "2026-11-03T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I have a sailboat and I figured YouTube would pay for it. The conversion rate says otherwise. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "I have a sailboat and I figured YouTube would pay for it. The conversion rate says otherwise. #sailboat #sailingjuly",
+      "tiktok": "I figured YouTube would pay for my sailboat. 7% conversion says otherwise #sailboat #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1f69c703-78f5-40f9-be3f-c779f32eef4e/0c5a9adf-59e3-4260-a717-a8f91e15d825.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
