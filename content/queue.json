@@ -6116,5 +6116,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day3-the-arch-1-where-the-torch-tip-goes-on",
+    "scheduled_for": "2026-11-03T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Where the torch tip goes: at the base, where the metal is thickest. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Where the torch tip goes: at the base, where the metal is thickest. #sailboatrebuild #sailingjuly",
+      "tiktok": "Where the torch tip goes: at the base, where the metal is thickest. #sailboat #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/906d2f00-d389-47ad-87d3-9a4d5deab855/ef19a623-63a8-4cb7-bcd8-d61b938755da.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
