@@ -6096,5 +6096,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "best-buy-experiment-part2-20-this-camera-is-another-expense",
+    "scheduled_for": "2026-11-03T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "My camera is another expense I could have done without. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "My camera is another expense I could have done without. #sailboatrebuild #sailingjuly",
+      "tiktok": "My camera is another expense I could have done without. #sailboat #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/485a128b-9db6-4ddd-95cf-f470c174b971/e4a0c522-26ec-46b4-ad97-a70a82ad8bf2.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
