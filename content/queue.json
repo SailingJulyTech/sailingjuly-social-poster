@@ -6092,10 +6092,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/1f69c703-78f5-40f9-be3f-c779f32eef4e/0c5a9adf-59e3-4260-a717-a8f91e15d825.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-04T01:23:05.358039+00:00",
+      "instagram": "2026-11-04T01:24:17.045520+00:00",
+      "tiktok": "2026-11-04T01:24:50.844032+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "best-buy-experiment-part2-20-this-camera-is-another-expense",
@@ -6112,10 +6121,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/485a128b-9db6-4ddd-95cf-f470c174b971/e4a0c522-26ec-46b4-ad97-a70a82ad8bf2.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-04T01:30:24.321380+00:00",
+      "instagram": "2026-11-04T01:31:33.997320+00:00",
+      "tiktok": "2026-11-04T01:32:02.199918+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "ep17-day3-the-arch-1-where-the-torch-tip-goes-on",
@@ -6132,9 +6150,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/906d2f00-d389-47ad-87d3-9a4d5deab855/ef19a623-63a8-4cb7-bcd8-d61b938755da.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-04T01:37:31.718310+00:00",
+      "instagram": "2026-11-04T01:38:57.843149+00:00",
+      "tiktok": "2026-11-04T01:39:20.860335+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
