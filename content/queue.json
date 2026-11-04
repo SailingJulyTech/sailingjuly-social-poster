@@ -6183,5 +6183,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "i-still-cant-weld-9-a-welder-took-my-money-and",
+    "scheduled_for": "2026-11-04T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The welder I paid to do my arch took off with my money. So we started over.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The welder I paid to do my arch took off with my money. So we started over.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#shorts #welding #boatrebuild",
+      "tiktok": "The welder I paid to do my arch took off with my money. So we started over. #shorts #welding #boatrebuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/fcd6b7f3-e1e2-45ff-85f7-d8beee08db4a/5ca00c01-c6b9-40f3-9036-6dd4c98314bc.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
