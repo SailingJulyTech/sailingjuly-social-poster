@@ -6163,5 +6163,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "ep17-day1-so-many-steps-1-the-marina-wants-her-gone",
+    "scheduled_for": "2026-11-04T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The marina still wants her gone and the bill is still growing. One flange isn't an arch yet.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The marina still wants her gone and the bill is still growing. One flange isn't an arch yet.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#shorts #sailboat #boatrebuild",
+      "tiktok": "The marina still wants her gone and the bill is still growing. One flange isn't an arch yet. #shorts #sailboat #boatrebuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/369e43d0-3aea-4441-9bc8-897df7cca119/b5103dad-5c7e-45aa-b91e-302d51b5bdac.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
