@@ -6179,10 +6179,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/369e43d0-3aea-4441-9bc8-897df7cca119/b5103dad-5c7e-45aa-b91e-302d51b5bdac.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-05T02:50:30.075910+00:00",
+      "instagram": "2026-11-05T02:52:03.384808+00:00",
+      "tiktok": "2026-11-05T02:52:21.979712+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "i-still-cant-weld-9-a-welder-took-my-money-and",
