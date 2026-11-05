@@ -6221,5 +6221,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "ep17-day1-so-many-steps-2-the-welder-disappeared-on-my-4",
+    "scheduled_for": "2026-11-05T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The welder I paid vanished and the marina wants my boat gone. Rebuilding a Pearson 34 named July. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The welder I paid vanished and the marina wants my boat gone. Follow the rebuild. #sailingjuly #sailboatrebuild #welding",
+      "tiktok": "The welder I paid vanished and the marina wants my boat gone. #sailboat #welding #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/272a9a74-6071-40d3-a117-f3de9acd2278/48aef941-2264-49de-823e-0b0cca81f923.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
