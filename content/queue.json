@@ -6298,5 +6298,21 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "sailingjuly-overview-9-she-s-going-to-lagos-nigeria",
+    "scheduled_for": "2026-11-06T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "July isn't the dive boat yet. The plan is to sell her to Lagos, Nigeria. Rebuilding a Pearson 34.",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a2303140-f4d5-45df-810a-f6287157ab76/4f95fd95-da84-499d-9d80-4d15bbc7e0af.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
