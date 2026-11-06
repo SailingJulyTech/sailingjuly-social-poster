@@ -6250,5 +6250,21 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "episode-12-26-i-want-the-whole-3-800",
+    "scheduled_for": "2026-11-06T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The marina is waiting on $3,800 and the guy who vanished can't be the reason I stop. Follow the rebuild of July, a Pearson 34.",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/21c4c06b-5869-4b44-a1b1-e56727c98735/61b9bf2c-ae1a-4a92-99bd-ad8174adf1ae.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
