@@ -6266,5 +6266,21 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day2-it-was-the-gas-1-i-forgot-a-glove-and-welded",
+    "scheduled_for": "2026-11-06T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "No glove on my left hand, but the weld holds. Not pretty, but welded. Follow the rebuild of July, a Pearson 34.",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a22581d5-a9ce-4ec1-88eb-698db2739a10/9ac75e1e-78f4-4c56-a702-3918da170838.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
