@@ -6282,5 +6282,21 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day3-the-arch-2-three-guys-one-arch-one-tight",
+    "scheduled_for": "2026-11-06T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Getting the solar arch through a doorway took three people and a lot of angles. Rebuilding July, a Pearson 34.",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ab683216-77d8-4981-b240-2c2bbae14a7d/76065160-7e51-4479-a75c-2193e8449213.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
