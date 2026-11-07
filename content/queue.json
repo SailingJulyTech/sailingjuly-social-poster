@@ -6262,10 +6262,19 @@
     "caption": "The marina is waiting on $3,800 and the guy who vanished can't be the reason I stop. Follow the rebuild of July, a Pearson 34.",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/21c4c06b-5869-4b44-a1b1-e56727c98735/61b9bf2c-ae1a-4a92-99bd-ad8174adf1ae.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-07T00:57:56.096791+00:00",
+      "instagram": "2026-11-07T00:59:15.483377+00:00",
+      "tiktok": "2026-11-07T00:59:50.510265+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "ep17-day2-it-was-the-gas-1-i-forgot-a-glove-and-welded",
@@ -6278,10 +6287,19 @@
     "caption": "No glove on my left hand, but the weld holds. Not pretty, but welded. Follow the rebuild of July, a Pearson 34.",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a22581d5-a9ce-4ec1-88eb-698db2739a10/9ac75e1e-78f4-4c56-a702-3918da170838.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-07T01:12:43.182879+00:00",
+      "instagram": "2026-11-07T01:14:41.857006+00:00",
+      "tiktok": "2026-11-07T01:15:10.746573+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "ep17-day3-the-arch-2-three-guys-one-arch-one-tight",
@@ -6294,10 +6312,19 @@
     "caption": "Getting the solar arch through a doorway took three people and a lot of angles. Rebuilding July, a Pearson 34.",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ab683216-77d8-4981-b240-2c2bbae14a7d/76065160-7e51-4479-a75c-2193e8449213.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-07T01:05:26.141242+00:00",
+      "instagram": "2026-11-07T01:06:43.689607+00:00",
+      "tiktok": "2026-11-07T01:07:07.814427+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "sailingjuly-overview-9-she-s-going-to-lagos-nigeria",
