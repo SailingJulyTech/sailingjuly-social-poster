@@ -6337,9 +6337,18 @@
     "caption": "July isn't the dive boat yet. The plan is to sell her to Lagos, Nigeria. Rebuilding a Pearson 34.",
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a2303140-f4d5-45df-810a-f6287157ab76/4f95fd95-da84-499d-9d80-4d15bbc7e0af.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-07T07:08:44.341849+00:00",
+      "instagram": "2026-11-07T07:10:19.789267+00:00",
+      "tiktok": "2026-11-07T07:10:38.693272+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
