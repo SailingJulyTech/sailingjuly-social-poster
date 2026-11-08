@@ -6370,5 +6370,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day3-the-arch-3-i-m-scared-to-weld-my",
+    "scheduled_for": "2026-11-08T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I'm scared to weld my own arch The gap between the leg and the plate is mine to fix.",
+    "captions": {
+      "instagram": "I'm scared to weld my own arch\nThe gap between the leg and the plate is mine to fix.\n#sailingjuly #boatbuild #welding",
+      "tiktok": "I'm scared to weld my own arch The gap between the leg and the plate is mine to fix. #sailboat #welding #diy"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/af1d78b0-3ae7-4fdd-b436-d9162fd15066/ef701258-ee6d-408c-9a30-45f8ddc30e4b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
