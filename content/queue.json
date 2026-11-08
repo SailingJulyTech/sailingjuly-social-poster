@@ -6350,5 +6350,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "ep17-day1-so-many-steps-3-it-took-a-month-to-weld",
+    "scheduled_for": "2026-11-08T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "It took a month to weld this flange A full month of practice to get to one weld that holds.",
+    "captions": {
+      "instagram": "It took a month to weld this flange\nA full month of practice to get to one weld that holds.\n#sailingjuly #boatbuild #welding",
+      "tiktok": "It took a month to weld this flange A full month of practice to get to one weld that holds. #sailboat #welding #diy"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/624a8fde-93b2-44c6-bef7-3c8ef6bfe2ee/e478d1f5-f616-4538-9dc7-b15063231747.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
