@@ -6366,10 +6366,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/624a8fde-93b2-44c6-bef7-3c8ef6bfe2ee/e478d1f5-f616-4538-9dc7-b15063231747.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-09T00:53:48.399083+00:00",
+      "instagram": "2026-11-09T00:56:43.954468+00:00",
+      "tiktok": "2026-11-09T00:57:02.492748+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "ep17-day3-the-arch-3-i-m-scared-to-weld-my",
@@ -6386,9 +6395,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/af1d78b0-3ae7-4fdd-b436-d9162fd15066/ef701258-ee6d-408c-9a30-45f8ddc30e4b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-09T01:02:44.684765+00:00",
+      "instagram": "2026-11-09T01:04:22.256561+00:00",
+      "tiktok": "2026-11-09T01:04:56.542118+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
