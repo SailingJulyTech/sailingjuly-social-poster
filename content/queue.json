@@ -6408,5 +6408,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "ep17-day3-the-arch-4-gravity-keeps-pulling-my-weld-off",
+    "scheduled_for": "2026-11-09T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Weld a joint sideways and the aluminum puddle slides right off. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Weld a joint sideways and the aluminum puddle slides right off. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #boatrebuild #welding",
+      "tiktok": "Weld a joint sideways and the aluminum puddle slides right off. Follow the rebuild. #boatrebuild #welding"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/337a8949-a6cc-4448-9e9a-fa6038c6b75b/4927d08d-0bf1-4da0-90cd-79f0d59dedf7.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
