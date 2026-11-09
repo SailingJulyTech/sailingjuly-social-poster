@@ -6428,5 +6428,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day1-so-many-steps-4-my-first-sailing-lesson-blew-my",
+    "scheduled_for": "2026-11-09T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "My first lesson on the water: the most enjoyable thing I've ever done. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "My first lesson on the water: the most enjoyable thing I've ever done. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #boatrebuild #welding",
+      "tiktok": "My first lesson on the water: the most enjoyable thing I've ever done. Follow the rebuild. #boatrebuild #welding"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/09b539ee-fb85-45f6-bb12-7a1c34a1f572/8319790c-f1fc-4c51-94ff-a2671a44c6d6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
