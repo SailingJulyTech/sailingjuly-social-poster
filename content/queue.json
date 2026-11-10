@@ -6424,10 +6424,19 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/337a8949-a6cc-4448-9e9a-fa6038c6b75b/4927d08d-0bf1-4da0-90cd-79f0d59dedf7.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-10T02:06:53.429098+00:00",
+      "instagram": "2026-11-10T02:08:06.095780+00:00",
+      "tiktok": "2026-11-10T02:08:24.155425+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   },
   {
     "id": "ep17-day1-so-many-steps-4-my-first-sailing-lesson-blew-my",
@@ -6444,9 +6453,18 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/09b539ee-fb85-45f6-bb12-7a1c34a1f572/8319790c-f1fc-4c51-94ff-a2671a44c6d6.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-10T02:14:09.237693+00:00",
+      "instagram": "2026-11-10T02:16:04.135232+00:00",
+      "tiktok": "2026-11-10T02:16:33.325685+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true,
+      "tiktok": true
+    }
   }
 ]
