@@ -359,6 +359,14 @@ def process_item(item, dry_run):
             log(f"Skipping {platform} for {item['id']}: already posted at {posted_at[platform]}")
             results[platform] = True
             continue
+        if platform == "tiktok" and os.environ.get("TIKTOK_DISABLED", "1") != "0":
+            # 2026-11-09: TikTok inbox drafts switched off. TikTok is now
+            # scheduled natively in TikTok Studio (tiktok-backlog runner);
+            # these drafts were a second, duplicate pipeline. Not recorded in
+            # posted_at or results, so FB/IG alone decide the item's status.
+            # Set TIKTOK_DISABLED=0 to turn the drafts back on.
+            log(f"Skipping tiktok for {item['id']}: TikTok drafts disabled (TIKTOK_DISABLED)")
+            continue
         handler = PLATFORM_HANDLERS.get(platform)
         if handler is None:
             log(f"Unknown platform '{platform}' in item {item['id']}, skipping")
