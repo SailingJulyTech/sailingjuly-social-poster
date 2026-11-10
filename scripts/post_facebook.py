@@ -139,9 +139,16 @@ def upload_reel_bytes(upload_url, token, media_path):
 
 
 def wait_for_reel_ready(page_id, token, video_id):
-    """Poll until Meta finishes fetching/processing the uploaded video.
-    Without this, calling finish while status is still "uploading" or
-    "processing" publishes an empty/broken Reel instead of failing loudly."""
+    """Poll AFTER finish_reel until Meta has processed and published the Reel.
+
+    2026-11-10: this used to run BEFORE finish, waiting for "ready". Meta's
+    Reels processing doesn't start until upload_phase=finish (same as
+    video_stories, fixed 2026-10-14), so every Reel sat at upload_complete /
+    processing_phase not_started until the timeout, then fell back to a plain
+    /videos post. Every FB post from 2026-09-04 to 2026-11-10 went out as a
+    plain video (almost no reach). Now finish first, then poll here.
+    Returns the last status dict; raises on a terminal error status."""
+    status, last = {}, None
     for attempt in range(REEL_POLL_MAX_ATTEMPTS):
         resp = requests.get(
             f"{GRAPH_BASE}/{video_id}",
@@ -151,13 +158,16 @@ def wait_for_reel_ready(page_id, token, video_id):
         resp.raise_for_status()
         status = resp.json().get("status", {})
         video_status = status.get("video_status")
-        log(f"Reel {video_id} status: {video_status} ({status})")
-        if video_status == "ready":
-            return
-        if video_status in REEL_TERMINAL_ERROR_STATUSES:
-            raise RuntimeError(f"Reel upload did not become ready: {status}")
+        publishing = (status.get("publishing_phase") or {}).get("status")
+        if status != last:
+            log(f"Reel {video_id} status: {video_status}, publishing: {publishing} ({status})")
+            last = status
+        if video_status in REEL_TERMINAL_ERROR_STATUSES or publishing == "error":
+            raise RuntimeError(f"Reel processing failed: {status}")
+        if video_status == "ready" and publishing in (None, "complete"):
+            return status
         time.sleep(REEL_POLL_INTERVAL_SECONDS)
-    raise TimeoutError(f"Reel {video_id} did not become ready in time")
+    raise TimeoutError(f"Reel {video_id} not published after finish: {status}")
 
 
 def finish_reel(page_id, token, video_id, caption):
@@ -211,20 +221,14 @@ def post_video_reel(page_id, token, caption, media_url):
     under Meta's current algorithm -- nearly all short vertical video reach
     goes through the dedicated Reels surface, which this uses instead.
 
-    Fallback, added 2026-09-07: confirmed empirically (delete_facebook_post.py
-    --check-status against a real stuck video_id, 28+ hours later, still
-    processing_phase=not_started) that Reels processing can get stuck
-    server-side indefinitely -- not a client-side timeout that a longer
-    poll would fix. A plain /videos post via post_video_file, tested
-    directly against the same real media while Reels were stuck, published
-    successfully and immediately (HTTP 200). So a `wait_for_reel_ready`
-    timeout specifically (not other failures -- a genuine upload/terminal
-    error likely isn't Reels-specific and a plain-post retry probably
-    wouldn't help either) falls back to posting the SAME already-downloaded
-    file as a plain video post: reduced organic reach, but something
-    actually goes live instead of nothing. Reels stays the default/first
-    attempt since it's the real distribution surface when Meta's pipeline
-    isn't stuck.
+    Order: start -> upload bytes -> finish (video_state PUBLISHED) -> poll.
+    Processing only begins at finish (see wait_for_reel_ready).
+
+    Fallback to a plain /videos post ONLY when finish itself is rejected
+    (nothing was published, so no double post). After a successful finish
+    the Reel is Meta's to process: a slow poll is logged and counted as
+    posted, a terminal error status is raised; neither is re-posted as a
+    plain video (that would duplicate it).
     """
     video_id, upload_url = start_reel_upload(page_id, token)
     log(f"Reel upload session started: video_id={video_id}")
@@ -232,13 +236,21 @@ def post_video_reel(page_id, token, caption, media_url):
     tmp_path = download_to_tempfile(media_url)
     try:
         upload_reel_bytes(upload_url, token, tmp_path)
+        resp = finish_reel(page_id, token, video_id, caption)
+        ok = resp.ok and (resp.json() if resp.content else {}).get("success", True)
+        if not ok:
+            log(f"Reel finish rejected for {video_id} (HTTP {resp.status_code}: {resp.text[:500]}) "
+                f"-- falling back to a plain video post (reduced reach)")
+            return post_video_file(page_id, token, caption, tmp_path)
+        log(f"Reel {video_id} finish accepted: {resp.text[:300]}")
         try:
             wait_for_reel_ready(page_id, token, video_id)
+            log(f"Reel {video_id} published")
         except TimeoutError as e:
-            log(f"Reel {video_id} processing stuck ({e}) -- falling back to a plain video post "
-                f"(reduced reach, but actually publishes)")
-            return post_video_file(page_id, token, caption, tmp_path)
-        return finish_reel(page_id, token, video_id, caption)
+            # Finish was accepted, so the Reel is queued on Meta's side. Count it
+            # as posted: failing here would make the scheduler retry = duplicate.
+            log(f"WARNING: {e} -- finish was accepted, treating as posted; check the Page")
+        return resp
     finally:
         os.remove(tmp_path)
 
