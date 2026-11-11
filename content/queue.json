@@ -6486,5 +6486,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day2-it-was-the-gas-2-welding-down-almost-beat-me",
+    "scheduled_for": "2026-11-11T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I could weld sideways but not down, so I practiced until I was confident enough to weld the solar arch myself. Follow the rebuild of July.",
+    "captions": {
+      "instagram": "Sideways was fine. Down made a mess. So I practiced until I could trust myself on the arch. #welding #boatlife #pearson34 #sailingjuly",
+      "tiktok": "Welding down made a mess, so I practiced late at night before the solar arch. #welding #boatlife #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0a29b543-4b8a-4465-a883-406e7af08be8/e6cac37d-f50d-4c94-a134-fc5647859178.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
