@@ -6466,5 +6466,25 @@
       "instagram": true,
       "tiktok": true
     }
+  },
+  {
+    "id": "ep17-day1-so-many-steps-5-the-marina-wants-3-800-not",
+    "scheduled_for": "2026-11-11T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I have $200 and the engine won't start. The marina wants the whole $3,800, not payments. Follow the rebuild of July, a Pearson 34.",
+    "captions": {
+      "instagram": "I have $200 and the engine won't start. The marina wants the whole $3,800, not payments. Follow the rebuild of July. #sailing #boatlife #pearson34 #sailingjuly",
+      "tiktok": "The marina wants $3,800, not $200 payments. Rebuilding my Pearson 34 on a budget. #sailing #boatlife #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/48be0fe3-9b0e-47bc-8b51-011fcf470932/b37a9a0f-6383-4d5b-80a9-43041f835c57.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
