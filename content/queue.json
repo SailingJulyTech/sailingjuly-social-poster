@@ -6482,10 +6482,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/48be0fe3-9b0e-47bc-8b51-011fcf470932/b37a9a0f-6383-4d5b-80a9-43041f835c57.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-12T01:29:59.655614+00:00",
+      "instagram": "2026-11-12T01:31:28.778814+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep17-day2-it-was-the-gas-2-welding-down-almost-beat-me",
@@ -6502,9 +6509,15 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/0a29b543-4b8a-4465-a883-406e7af08be8/e6cac37d-f50d-4c94-a134-fc5647859178.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-11-12T01:33:07.706698+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": false,
+      "instagram": true
+    }
   }
 ]
