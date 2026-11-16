@@ -6539,5 +6539,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day1-so-many-steps-6-my-first-sail-on-my-own",
+    "scheduled_for": "2026-11-16T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The day I sailed my own boat home for the first time.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The day I sailed my own boat home for the first time.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#shorts #sailing #boatrepair",
+      "tiktok": "The day I sailed my own boat home for the first time. #shorts #sailing #boatrepair"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8671b197-5158-49c9-b935-fb86861e8b8b/d5bd0890-4547-4b6a-9507-3630f10f2cd6.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
