@@ -6519,5 +6519,25 @@
       "facebook": false,
       "instagram": true
     }
+  },
+  {
+    "id": "ep18-the-bend-1-bending-the-arch-s-back-legs",
+    "scheduled_for": "2026-11-16T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Bending the solar arch's back legs, one matched pair at a time.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Bending the solar arch's back legs, one matched pair at a time.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#shorts #sailing #boatrepair",
+      "tiktok": "Bending the solar arch's back legs, one matched pair at a time. #shorts #sailing #boatrepair"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/630383e6-76e7-4d1c-8c55-e1b9b58542ec/adf2cefa-adb4-48c2-b84a-ab5f5573fbbc.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
