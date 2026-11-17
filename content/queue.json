@@ -6613,5 +6613,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day1-so-many-steps-7-no-shore-power-no-anchor-no",
+    "scheduled_for": "2026-11-17T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Out at anchor there is no dock power: no anchor lift, no engine start, no bilge pump. So July needs an electric windlass and the arch. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Out at anchor there is no dock power: no anchor lift, no engine start, no bilge pump. So July needs an electric windlass and the arch. Follow the rebuild. #sailing #boatlife #pearson34",
+      "tiktok": "Out at anchor there is no dock power: no anchor lift, no engine start, no bilge pump. So July needs an electric windlass and the arch. #sailing #boatlife #diy"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6f22bcdc-4f54-4004-831b-6225b5a185e1/bcc844d1-26fa-4405-8984-7593821e636b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
