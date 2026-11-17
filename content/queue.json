@@ -6573,5 +6573,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep18-the-bend-2-waves-turn-a-400-pound-dinghy",
+    "scheduled_for": "2026-11-17T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Why the arch's back legs need help: a 400 pound dinghy loads up to about 900 in waves. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Why the arch's back legs need help: a 400 pound dinghy loads up to about 900 in waves. Follow the rebuild. #sailing #boatlife #pearson34",
+      "tiktok": "Why the arch's back legs need help: a 400 pound dinghy loads up to about 900 in waves. #sailing #boatlife #diy"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c72e1448-8569-4d25-b91e-3369f729657b/215e2232-5f38-4861-9072-7cf3e76f23f7.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
