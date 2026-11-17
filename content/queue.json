@@ -6535,10 +6535,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/630383e6-76e7-4d1c-8c55-e1b9b58542ec/adf2cefa-adb4-48c2-b84a-ab5f5573fbbc.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-17T03:46:09.304904+00:00",
+      "instagram": "2026-11-17T03:47:46.580707+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep17-day1-so-many-steps-6-my-first-sail-on-my-own",
@@ -6555,9 +6562,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8671b197-5158-49c9-b935-fb86861e8b8b/d5bd0890-4547-4b6a-9507-3630f10f2cd6.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-17T03:48:27.433638+00:00",
+      "instagram": "2026-11-17T03:49:40.299430+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
