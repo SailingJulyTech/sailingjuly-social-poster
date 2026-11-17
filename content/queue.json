@@ -6593,5 +6593,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day3-the-arch-5-flipping-this-arch-section-looks-impossible",
+    "scheduled_for": "2026-11-17T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Charlie wants to swing it, take it out and flip it. Mello: this is impossible. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Charlie wants to swing it, take it out and flip it. Mello: this is impossible. Follow the rebuild. #sailing #boatlife #pearson34",
+      "tiktok": "Charlie wants to swing it, take it out and flip it. Mello: this is impossible. #sailing #boatlife #diy"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3cd8efb4-5656-4c16-b233-73b40acdc6c6/5f8704bb-35d1-458c-bf09-a04fd2c6f98a.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
