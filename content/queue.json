@@ -6589,10 +6589,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/c72e1448-8569-4d25-b91e-3369f729657b/215e2232-5f38-4861-9072-7cf3e76f23f7.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-18T03:41:14.600818+00:00",
+      "instagram": "2026-11-18T03:42:54.862281+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep17-day3-the-arch-5-flipping-this-arch-section-looks-impossible",
@@ -6609,10 +6616,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/3cd8efb4-5656-4c16-b233-73b40acdc6c6/5f8704bb-35d1-458c-bf09-a04fd2c6f98a.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "failed",
+    "posted_at": {
+      "instagram": "2026-11-18T03:46:09.177209+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": false,
+      "instagram": true
+    }
   },
   {
     "id": "ep17-day1-so-many-steps-7-no-shore-power-no-anchor-no",
@@ -6629,9 +6642,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/6f22bcdc-4f54-4004-831b-6225b5a185e1/bcc844d1-26fa-4405-8984-7593821e636b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-18T03:43:36.358734+00:00",
+      "instagram": "2026-11-18T03:44:49.249625+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
