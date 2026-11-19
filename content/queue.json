@@ -6673,5 +6673,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep18-the-bend-3-charlie-won-t-let-me-cut",
+    "scheduled_for": "2026-11-19T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I'd have cut one piece and bent the next to match it. Charlie wants to know ahead of time. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "I'd have cut one piece and bent the next to match. Charlie wants to know ahead of time. #boatrepair #welding #sailingjuly",
+      "tiktok": "Charlie won't let me cut the arch pipe blind. #boatrepair #welding #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b131b0d1-8edf-4406-9054-e33e66309a4f/5542d91b-3159-4018-8561-64bcb23dd4bf.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
