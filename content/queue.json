@@ -6653,5 +6653,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep17-day3-the-arch-6-scared-to-weld-the-arch-myself",
+    "scheduled_for": "2026-11-19T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "First time welding the arch on my own. I'm nervous and I don't want to destroy it. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "First time welding the arch on my own. Wish me luck. #welding #boatrepair #sailingjuly",
+      "tiktok": "Nervous to weld the arch myself. Wish me luck. #welding #boatrepair #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/57a2933d-dd54-4495-87b6-069c74ada581/3b02c4b9-287d-46ef-a10a-8136d4295e96.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
