@@ -6669,10 +6669,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/57a2933d-dd54-4495-87b6-069c74ada581/3b02c4b9-287d-46ef-a10a-8136d4295e96.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-20T01:27:32.769573+00:00",
+      "instagram": "2026-11-20T01:30:27.780005+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep18-the-bend-3-charlie-won-t-let-me-cut",
@@ -6689,9 +6696,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b131b0d1-8edf-4406-9054-e33e66309a4f/5542d91b-3159-4018-8561-64bcb23dd4bf.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-20T01:31:11.782399+00:00",
+      "instagram": "2026-11-20T01:32:50.709703+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
