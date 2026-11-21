@@ -6727,5 +6727,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day1-so-many-steps-8-i-still-haven-t-dived-from",
+    "scheduled_for": "2026-11-21T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "I still haven't dived from her. That's the whole point of all this. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "I still haven't dived from her. That's the whole point of all this.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#sailboat #boatrepair #welding",
+      "tiktok": "I still haven't dived from her. That's the whole point of all this. Full episode on SailingJuly. #sailboat #boatrepair #welding"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f97d33f0-a39d-46f7-8b32-5b62b226c7e7/e5d62108-a4c2-4c61-982b-0716eddc5df4.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
