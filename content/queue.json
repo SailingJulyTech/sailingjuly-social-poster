@@ -6707,5 +6707,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep17-day3-the-arch-7-my-welds-keep-falling-off-the",
+    "scheduled_for": "2026-11-21T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Every weld I put in just falls off. I can't weld this sideways yet, so the plate has to move. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Every weld I put in just falls off. I can't weld this sideways yet, so the plate has to move.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#sailboat #boatrepair #welding",
+      "tiktok": "Every weld I put in just falls off. I can't weld this sideways yet, so the plate has to move. Full episode on SailingJuly. #sailboat #boatrepair #welding"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/34655168-020a-4c59-8208-083f7f991052/bf8db6f6-7de0-46b8-972d-232e5803c40c.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
