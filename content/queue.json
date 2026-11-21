@@ -6747,5 +6747,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep18-the-bend-4-this-90-pipe-bend-could-become",
+    "scheduled_for": "2026-11-21T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Every bend in the same plane, or this $90 pipe turns into scrap. The boat's still in the marina. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Every bend in the same plane, or this $90 pipe turns into scrap. The boat's still in the marina.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#sailboat #boatrepair #welding",
+      "tiktok": "Every bend in the same plane, or this $90 pipe turns into scrap. The boat's still in the marina. Full episode on SailingJuly. #sailboat #boatrepair #welding"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/22e12892-b894-40ef-8f86-a57368825410/ac1b1c07-c16c-4901-9c46-5242aa7ac87d.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
