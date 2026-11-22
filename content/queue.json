@@ -6828,5 +6828,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day1-so-many-steps-9-sailing-my-new-boat-home-at",
+    "scheduled_for": "2026-11-22T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Sailing my new boat home at 4.2 knots. First sail after buying her, and I'm not happy with the speed. Then I went racing that night. Follow the rebuild of a Pearson 34 named July.",
+    "captions": {
+      "instagram": "Sailing my new boat home at 4.2 knots. First sail after buying her, and I'm not happy with the speed. Then I went racing that night.\nRebuilding a Pearson 34 named July. #sailing #boatrebuild #shorts",
+      "tiktok": "Sailing my new boat home at 4.2 knots. First sail after buying her, and I'm not happy with the speed. Then I went racing that night. #sailing #boatlife #boatrebuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ec5aa0c0-7932-4133-b885-c973fdbaee84/a31e0b03-f7fa-4c39-b5ab-2e832f38fae7.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
