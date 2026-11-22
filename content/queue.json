@@ -6723,10 +6723,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/34655168-020a-4c59-8208-083f7f991052/bf8db6f6-7de0-46b8-972d-232e5803c40c.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-22T01:17:22.339449+00:00",
+      "instagram": "2026-11-22T01:18:31.898534+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep17-day1-so-many-steps-8-i-still-haven-t-dived-from",
@@ -6743,10 +6750,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/f97d33f0-a39d-46f7-8b32-5b62b226c7e7/e5d62108-a4c2-4c61-982b-0716eddc5df4.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-22T01:19:06.899959+00:00",
+      "instagram": "2026-11-22T01:21:00.101566+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep18-the-bend-4-this-90-pipe-bend-could-become",
@@ -6763,9 +6777,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/22e12892-b894-40ef-8f86-a57368825410/ac1b1c07-c16c-4901-9c46-5242aa7ac87d.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-22T01:21:43.457000+00:00",
+      "instagram": "2026-11-22T01:23:57.187535+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
