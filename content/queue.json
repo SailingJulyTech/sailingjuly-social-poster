@@ -6788,5 +6788,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep17-day2-it-was-the-gas-3-three-rules-that-cost-me-an",
+    "scheduled_for": "2026-11-22T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Three rules that cost me an hour. Lost almost an hour looking for a tool that was in the pile the whole time. Check the gas, clean the metal, never weld downhill. Follow the rebuild of a Pearson 34 named July.",
+    "captions": {
+      "instagram": "Three rules that cost me an hour. Lost almost an hour looking for a tool that was in the pile the whole time. Check the gas, clean the metal, never weld downhill.\nRebuilding a Pearson 34 named July. #sailing #boatrebuild #shorts",
+      "tiktok": "Three rules that cost me an hour. Lost almost an hour looking for a tool that was in the pile the whole time. Check the gas, clean the metal, never weld downhill. #sailing #boatlife #boatrebuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/364435ad-8f71-4626-975e-77263687fd33/6a9026d0-b750-4e07-b6bb-907a62d28068.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
