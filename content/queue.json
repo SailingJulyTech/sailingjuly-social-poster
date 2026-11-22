@@ -6808,5 +6808,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep17-day3-the-arch-8-every-weld-i-put-in-just",
+    "scheduled_for": "2026-11-22T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Every weld I put in just falls off. Welding sideways on the boat, gravity wins every time. Follow the rebuild of a Pearson 34 named July.",
+    "captions": {
+      "instagram": "Every weld I put in just falls off. Welding sideways on the boat, gravity wins every time.\nRebuilding a Pearson 34 named July. #sailing #boatrebuild #shorts",
+      "tiktok": "Every weld I put in just falls off. Welding sideways on the boat, gravity wins every time. #sailing #boatlife #boatrebuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5eda6204-ca15-4018-8199-06cc7fa4a7ce/2a6ef5f6-e678-493c-b81a-156af27dcc6e.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
