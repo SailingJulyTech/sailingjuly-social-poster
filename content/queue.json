@@ -6824,10 +6824,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/5eda6204-ca15-4018-8199-06cc7fa4a7ce/2a6ef5f6-e678-493c-b81a-156af27dcc6e.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-22T22:28:08.551556+00:00",
+      "instagram": "2026-11-22T22:29:13.272181+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep17-day1-so-many-steps-9-sailing-my-new-boat-home-at",
