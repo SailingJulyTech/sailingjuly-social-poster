@@ -6909,5 +6909,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-12-27-is-water-coming-into-the-boat",
+    "scheduled_for": "2026-11-23T23:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Is Water Coming Into The Boat?\n\nBatteries finally charging, and then water shows up aft.",
+    "captions": {
+      "instagram": "Is Water Coming Into The Boat?\n\nBatteries finally charging, and then water shows up aft.\n#sailing #boatbuilding #welding",
+      "tiktok": "Is Water Coming Into The Boat? #sailing #welding #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d1d667f3-d201-413e-95b1-a2c59f57a47c/784cb002-585c-4f61-88cd-ec152db298a3.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
