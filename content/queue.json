@@ -6889,5 +6889,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-16-20-solar-panels-and-a-dinghy-on",
+    "scheduled_for": "2026-11-23T23:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Solar Panels And A Dinghy On One Arch\n\nOne arch has to carry the solar panels and the dinghy.",
+    "captions": {
+      "instagram": "Solar Panels And A Dinghy On One Arch\n\nOne arch has to carry the solar panels and the dinghy.\n#sailing #boatbuilding #welding",
+      "tiktok": "Solar Panels And A Dinghy On One Arch #sailing #welding #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/98ec7a44-2606-4823-8668-47650bb61b6b/1d5f5157-3228-4f8d-8f39-e581af7cb7bf.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
