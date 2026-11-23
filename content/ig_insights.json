@@ -1,9 +1,9 @@
 {
-  "pulled_at": "2026-11-21T23:26:24+00:00",
+  "pulled_at": "2026-11-23T22:40:36+00:00",
   "login_type": "instagram",
   "account": {
-    "followers_count": 57,
-    "media_count": 293,
+    "followers_count": 72,
+    "media_count": 299,
     "id": "28248154428208082",
     "online_followers": [],
     "follower_demographics_city": [],
@@ -13,25 +13,163 @@
   },
   "media": [
     {
+      "id": "17995015938077087",
+      "timestamp": "2026-11-23T03:08:11+0000",
+      "permalink": "https://www.instagram.com/reel/DgEYM2HlkoA/",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Sailing my new boat home at 4.2 knots. First sail after buying her, and I'm not happy with the speed. Then I went racing that night.\nRebuilding a Pearson 34 named July. #sailing #boatrebuild #shorts",
+      "like_count": 21,
+      "comments_count": 0,
+      "slug": "ep17-day1-so-many-steps-9-sailing-my-new-boat-home-at",
+      "insights": {
+        "views": 1180,
+        "reach": 947,
+        "saved": 2,
+        "shares": 0,
+        "total_interactions": 23,
+        "likes": 21,
+        "comments": 0,
+        "ig_reels_avg_watch_time": 14893,
+        "ig_reels_video_view_total_time": 13999991
+      },
+      "unavailable": {}
+    },
+    {
+      "id": "18416854357089881",
+      "timestamp": "2026-11-23T03:06:11+0000",
+      "permalink": "https://www.instagram.com/reel/DgEX-KGDgFZ/",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Three rules that cost me an hour. Lost almost an hour looking for a tool that was in the pile the whole time. Check the gas, clean the metal, never weld downhill.\nRebuilding a Pearson 34 named July. #sailing #boatrebuild #shorts",
+      "like_count": 3,
+      "comments_count": 1,
+      "slug": "ep17-day2-it-was-the-gas-3-three-rules-that-cost-me-an",
+      "insights": {
+        "views": 304,
+        "reach": 260,
+        "saved": 0,
+        "shares": 0,
+        "total_interactions": 4,
+        "likes": 3,
+        "comments": 1,
+        "ig_reels_avg_watch_time": 7220,
+        "ig_reels_video_view_total_time": 1870055
+      },
+      "unavailable": {}
+    },
+    {
+      "id": "18380963638208017",
+      "timestamp": "2026-11-22T22:28:32+0000",
+      "permalink": "https://www.instagram.com/reel/DgD4NZgD89q/",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Every weld I put in just falls off. Welding sideways on the boat, gravity wins every time.\nRebuilding a Pearson 34 named July. #sailing #boatrebuild #shorts",
+      "like_count": 33,
+      "comments_count": 9,
+      "slug": "ep17-day3-the-arch-8-every-weld-i-put-in-just",
+      "insights": {
+        "views": 3844,
+        "reach": 2601,
+        "saved": 1,
+        "shares": 1,
+        "total_interactions": 45,
+        "likes": 33,
+        "comments": 9,
+        "ig_reels_avg_watch_time": 13302,
+        "ig_reels_video_view_total_time": 34427536
+      },
+      "unavailable": {}
+    },
+    {
+      "id": "18088572731512131",
+      "timestamp": "2026-11-22T01:22:28+0000",
+      "permalink": "https://www.instagram.com/reel/DgBnSFmAUqc/",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Every bend in the same plane, or this $90 pipe turns into scrap. The boat's still in the marina.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#sailboat #boatrepair #welding",
+      "like_count": 1,
+      "comments_count": 1,
+      "slug": "ep17-day1-so-many-steps-8-i-still-haven-t-dived-from",
+      "insights": {
+        "views": 196,
+        "reach": 179,
+        "saved": 0,
+        "shares": 0,
+        "total_interactions": 2,
+        "likes": 1,
+        "comments": 1,
+        "ig_reels_avg_watch_time": 8455,
+        "ig_reels_video_view_total_time": 1530477
+      },
+      "unavailable": {}
+    },
+    {
+      "id": "18135233287690911",
+      "timestamp": "2026-11-22T01:20:14+0000",
+      "permalink": "https://www.instagram.com/reel/DgBnDXGjmxY/",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "I still haven't dived from her. That's the whole point of all this.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#sailboat #boatrepair #welding",
+      "like_count": 3,
+      "comments_count": 1,
+      "slug": "ep17-day1-so-many-steps-8-i-still-haven-t-dived-from",
+      "insights": {
+        "views": 248,
+        "reach": 221,
+        "saved": 0,
+        "shares": 0,
+        "total_interactions": 4,
+        "likes": 3,
+        "comments": 1,
+        "ig_reels_avg_watch_time": 5712,
+        "ig_reels_video_view_total_time": 1268103
+      },
+      "unavailable": {}
+    },
+    {
+      "id": "18136373750499108",
+      "timestamp": "2026-11-22T01:17:52+0000",
+      "permalink": "https://www.instagram.com/reel/DgBmyLVjtWp/",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Every weld I put in just falls off. I can't weld this sideways yet, so the plate has to move.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#sailboat #boatrepair #welding",
+      "like_count": 1,
+      "comments_count": 1,
+      "slug": "ep17-day3-the-arch-7-my-welds-keep-falling-off-the",
+      "insights": {
+        "views": 332,
+        "reach": 273,
+        "saved": 0,
+        "shares": 0,
+        "total_interactions": 2,
+        "likes": 1,
+        "comments": 1,
+        "ig_reels_avg_watch_time": 10006,
+        "ig_reels_video_view_total_time": 2711720
+      },
+      "unavailable": {}
+    },
+    {
       "id": "18100865282441482",
       "timestamp": "2026-11-20T01:32:08+0000",
       "permalink": "https://www.instagram.com/reel/Df8ex7sgrAD/",
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "I'd have cut one piece and bent the next to match. Charlie wants to know ahead of time. #boatrepair #welding #sailingjuly",
-      "like_count": 4,
+      "like_count": 5,
       "comments_count": 1,
       "slug": "ep18-the-bend-3-charlie-won-t-let-me-cut",
       "insights": {
-        "views": 490,
-        "reach": 425,
+        "views": 512,
+        "reach": 446,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 5,
-        "likes": 4,
+        "total_interactions": 6,
+        "likes": 5,
         "comments": 1,
-        "ig_reels_avg_watch_time": 11891,
-        "ig_reels_video_view_total_time": 5244129
+        "ig_reels_avg_watch_time": 11843,
+        "ig_reels_video_view_total_time": 5447910
       },
       "unavailable": {}
     },
@@ -42,19 +180,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "First time welding the arch on my own. Wish me luck. #welding #boatrepair #sailingjuly",
-      "like_count": 14,
+      "like_count": 15,
       "comments_count": 1,
       "slug": "ep17-day3-the-arch-6-scared-to-weld-the-arch-myself",
       "insights": {
-        "views": 1025,
-        "reach": 852,
+        "views": 1062,
+        "reach": 879,
         "saved": 1,
         "shares": 0,
-        "total_interactions": 16,
-        "likes": 14,
+        "total_interactions": 17,
+        "likes": 15,
         "comments": 1,
-        "ig_reels_avg_watch_time": 14304,
-        "ig_reels_video_view_total_time": 12173166
+        "ig_reels_avg_watch_time": 14398,
+        "ig_reels_video_view_total_time": 12656375
       },
       "unavailable": {}
     },
@@ -65,19 +203,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "Charlie wants to swing it, take it out and flip it. Mello: this is impossible. Follow the rebuild. #sailing #boatlife #pearson34",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 1,
       "slug": "ep17-day1-so-many-steps-7-no-shore-power-no-anchor-no",
       "insights": {
-        "views": 167,
-        "reach": 154,
+        "views": 188,
+        "reach": 173,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 2,
-        "likes": 1,
+        "total_interactions": 3,
+        "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4417,
-        "ig_reels_video_view_total_time": 680302
+        "ig_reels_avg_watch_time": 4477,
+        "ig_reels_video_view_total_time": 770082
       },
       "unavailable": {}
     },
@@ -88,19 +226,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "Out at anchor there is no dock power: no anchor lift, no engine start, no bilge pump. So July needs an electric windlass and the arch. Follow the rebuild. #sailing #boatlife #pearson34",
-      "like_count": 5,
+      "like_count": 7,
       "comments_count": 1,
       "slug": "ep17-day1-so-many-steps-7-no-shore-power-no-anchor-no",
       "insights": {
-        "views": 1229,
-        "reach": 1071,
+        "views": 1250,
+        "reach": 1090,
         "saved": 1,
         "shares": 0,
-        "total_interactions": 7,
-        "likes": 5,
+        "total_interactions": 9,
+        "likes": 7,
         "comments": 1,
-        "ig_reels_avg_watch_time": 15330,
-        "ig_reels_video_view_total_time": 16449182
+        "ig_reels_avg_watch_time": 15262,
+        "ig_reels_video_view_total_time": 16651638
       },
       "unavailable": {}
     },
@@ -111,19 +249,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "Why the arch's back legs need help: a 400 pound dinghy loads up to about 900 in waves. Follow the rebuild. #sailing #boatlife #pearson34",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 1,
       "slug": "ep18-the-bend-2-waves-turn-a-400-pound-dinghy",
       "insights": {
-        "views": 166,
-        "reach": 159,
+        "views": 180,
+        "reach": 173,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 1,
-        "likes": 0,
+        "total_interactions": 2,
+        "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4250,
-        "ig_reels_video_view_total_time": 684336
+        "ig_reels_avg_watch_time": 4111,
+        "ig_reels_video_view_total_time": 715337
       },
       "unavailable": {}
     },
@@ -134,19 +272,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "The day I sailed my own boat home for the first time.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#shorts #sailing #boatrepair",
-      "like_count": 10,
+      "like_count": 11,
       "comments_count": 3,
       "slug": "ep17-day1-so-many-steps-6-my-first-sail-on-my-own",
       "insights": {
-        "views": 313,
-        "reach": 275,
+        "views": 329,
+        "reach": 288,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 13,
-        "likes": 10,
+        "total_interactions": 14,
+        "likes": 11,
         "comments": 3,
-        "ig_reels_avg_watch_time": 8899,
-        "ig_reels_video_view_total_time": 2465271
+        "ig_reels_avg_watch_time": 8957,
+        "ig_reels_video_view_total_time": 2597603
       },
       "unavailable": {}
     },
@@ -157,19 +295,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "Bending the solar arch's back legs, one matched pair at a time.\nRebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.\n#shorts #sailing #boatrepair",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 1,
       "slug": "ep18-the-bend-1-bending-the-arch-s-back-legs",
       "insights": {
-        "views": 221,
-        "reach": 205,
+        "views": 231,
+        "reach": 213,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 1,
-        "likes": 0,
+        "total_interactions": 2,
+        "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4632,
-        "ig_reels_video_view_total_time": 949648
+        "ig_reels_avg_watch_time": 4595,
+        "ig_reels_video_view_total_time": 978759
       },
       "unavailable": {}
     },
@@ -180,19 +318,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "Sideways was fine. Down made a mess. So I practiced until I could trust myself on the arch. #welding #boatlife #pearson34 #sailingjuly",
-      "like_count": 5,
+      "like_count": 6,
       "comments_count": 1,
       "slug": "ep17-day2-it-was-the-gas-2-welding-down-almost-beat-me",
       "insights": {
-        "views": 298,
-        "reach": 267,
+        "views": 310,
+        "reach": 277,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 6,
-        "likes": 5,
+        "total_interactions": 7,
+        "likes": 6,
         "comments": 1,
-        "ig_reels_avg_watch_time": 8643,
-        "ig_reels_video_view_total_time": 2325128
+        "ig_reels_avg_watch_time": 8565,
+        "ig_reels_video_view_total_time": 2389855
       },
       "unavailable": {}
     },
@@ -203,19 +341,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "I have $200 and the engine won't start. The marina wants the whole $3,800, not payments. Follow the rebuild of July. #sailing #boatlife #pearson34 #sailingjuly",
-      "like_count": 7,
+      "like_count": 8,
       "comments_count": 4,
       "slug": "ep17-day1-so-many-steps-5-the-marina-wants-3-800-not",
       "insights": {
-        "views": 2705,
-        "reach": 1777,
+        "views": 2719,
+        "reach": 1784,
         "saved": 1,
         "shares": 0,
-        "total_interactions": 12,
-        "likes": 7,
+        "total_interactions": 13,
+        "likes": 8,
         "comments": 4,
-        "ig_reels_avg_watch_time": 18661,
-        "ig_reels_video_view_total_time": 34262363
+        "ig_reels_avg_watch_time": 18677,
+        "ig_reels_video_view_total_time": 34441443
       },
       "unavailable": {}
     },
@@ -226,19 +364,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "My first lesson on the water: the most enjoyable thing I've ever done. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #boatrebuild #welding",
-      "like_count": 6,
+      "like_count": 7,
       "comments_count": 1,
       "slug": "ep17-day1-so-many-steps-4-my-first-sailing-lesson-blew-my",
       "insights": {
-        "views": 178,
-        "reach": 158,
+        "views": 188,
+        "reach": 166,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 7,
-        "likes": 6,
+        "total_interactions": 8,
+        "likes": 7,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5413,
-        "ig_reels_video_view_total_time": 887887
+        "ig_reels_avg_watch_time": 5383,
+        "ig_reels_video_view_total_time": 925878
       },
       "unavailable": {}
     },
@@ -249,19 +387,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "Weld a joint sideways and the aluminum puddle slides right off. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #boatrebuild #welding",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 1,
       "slug": "ep17-day3-the-arch-4-gravity-keeps-pulling-my-weld-off",
       "insights": {
-        "views": 241,
-        "reach": 214,
+        "views": 248,
+        "reach": 221,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 2,
-        "likes": 1,
+        "total_interactions": 3,
+        "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 8485,
-        "ig_reels_video_view_total_time": 1832846
+        "ig_reels_avg_watch_time": 8366,
+        "ig_reels_video_view_total_time": 1865735
       },
       "unavailable": {}
     },
@@ -272,19 +410,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "I'm scared to weld my own arch\nThe gap between the leg and the plate is mine to fix.\n#sailingjuly #boatbuild #welding",
-      "like_count": 28,
+      "like_count": 29,
       "comments_count": 1,
       "slug": "ep17-day3-the-arch-3-i-m-scared-to-weld-my",
       "insights": {
-        "views": 1950,
-        "reach": 1601,
+        "views": 1955,
+        "reach": 1606,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 29,
-        "likes": 28,
+        "total_interactions": 30,
+        "likes": 29,
         "comments": 1,
-        "ig_reels_avg_watch_time": 24510,
-        "ig_reels_video_view_total_time": 39780815
+        "ig_reels_avg_watch_time": 24470,
+        "ig_reels_video_view_total_time": 39837383
       },
       "unavailable": {}
     },
@@ -295,19 +433,19 @@
       "media_product_type": "REELS",
       "media_type": "VIDEO",
       "caption": "It took a month to weld this flange\nA full month of practice to get to one weld that holds.\n#sailingjuly #boatbuild #welding",
-      "like_count": 25,
+      "like_count": 26,
       "comments_count": 1,
       "slug": "ep17-day1-so-many-steps-3-it-took-a-month-to-weld",
       "insights": {
-        "views": 1814,
-        "reach": 1433,
+        "views": 1822,
+        "reach": 1439,
         "saved": 1,
         "shares": 1,
-        "total_interactions": 28,
-        "likes": 25,
+        "total_interactions": 29,
+        "likes": 26,
         "comments": 1,
-        "ig_reels_avg_watch_time": 9728,
-        "ig_reels_video_view_total_time": 13815114
+        "ig_reels_avg_watch_time": 9716,
+        "ig_reels_video_view_total_time": 13855083
       },
       "unavailable": {}
     },
@@ -322,15 +460,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-9-she-s-going-to-lagos-nigeria",
       "insights": {
-        "views": 223,
-        "reach": 204,
+        "views": 227,
+        "reach": 207,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4906,
-        "ig_reels_video_view_total_time": 996060
+        "ig_reels_avg_watch_time": 4923,
+        "ig_reels_video_view_total_time": 1014292
       },
       "unavailable": {}
     },
@@ -345,15 +483,15 @@
       "comments_count": 1,
       "slug": "ep17-day2-it-was-the-gas-1-i-forgot-a-glove-and-welded",
       "insights": {
-        "views": 1459,
-        "reach": 1147,
+        "views": 1465,
+        "reach": 1148,
         "saved": 0,
         "shares": 0,
         "total_interactions": 21,
         "likes": 20,
         "comments": 1,
-        "ig_reels_avg_watch_time": 13913,
-        "ig_reels_video_view_total_time": 16195422
+        "ig_reels_avg_watch_time": 13922,
+        "ig_reels_video_view_total_time": 16262051
       },
       "unavailable": {}
     },
@@ -368,15 +506,15 @@
       "comments_count": 1,
       "slug": "ep17-day3-the-arch-2-three-guys-one-arch-one-tight",
       "insights": {
-        "views": 180,
-        "reach": 167,
+        "views": 185,
+        "reach": 171,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5286,
-        "ig_reels_video_view_total_time": 904046
+        "ig_reels_avg_watch_time": 5401,
+        "ig_reels_video_view_total_time": 945309
       },
       "unavailable": {}
     },
@@ -391,15 +529,15 @@
       "comments_count": 1,
       "slug": "episode-12-26-i-want-the-whole-3-800",
       "insights": {
-        "views": 2342,
-        "reach": 1693,
+        "views": 2350,
+        "reach": 1698,
         "saved": 0,
         "shares": 2,
         "total_interactions": 19,
         "likes": 16,
         "comments": 1,
-        "ig_reels_avg_watch_time": 16806,
-        "ig_reels_video_view_total_time": 28788985
+        "ig_reels_avg_watch_time": 16779,
+        "ig_reels_video_view_total_time": 28861053
       },
       "unavailable": {}
     },
@@ -414,15 +552,15 @@
       "comments_count": 1,
       "slug": "ep17-day1-so-many-steps-2-the-welder-disappeared-on-my-4",
       "insights": {
-        "views": 943,
-        "reach": 720,
+        "views": 951,
+        "reach": 724,
         "saved": 0,
         "shares": 0,
         "total_interactions": 6,
         "likes": 5,
         "comments": 1,
-        "ig_reels_avg_watch_time": 14422,
-        "ig_reels_video_view_total_time": 10586440
+        "ig_reels_avg_watch_time": 14494,
+        "ig_reels_video_view_total_time": 10696976
       },
       "unavailable": {}
     },
@@ -437,15 +575,15 @@
       "comments_count": 1,
       "slug": "ep17-day1-so-many-steps-1-the-marina-wants-her-gone",
       "insights": {
-        "views": 178,
-        "reach": 151,
+        "views": 183,
+        "reach": 155,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6533,
-        "ig_reels_video_view_total_time": 1019211
+        "ig_reels_avg_watch_time": 6493,
+        "ig_reels_video_view_total_time": 1038979
       },
       "unavailable": {}
     },
@@ -460,15 +598,15 @@
       "comments_count": 1,
       "slug": "i-still-cant-weld-9-a-welder-took-my-money-and",
       "insights": {
-        "views": 204,
-        "reach": 157,
+        "views": 207,
+        "reach": 160,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 10163,
-        "ig_reels_video_view_total_time": 1595682
+        "ig_reels_avg_watch_time": 9987,
+        "ig_reels_video_view_total_time": 1597945
       },
       "unavailable": {}
     },
@@ -483,15 +621,15 @@
       "comments_count": 1,
       "slug": "ep17-day3-the-arch-1-where-the-torch-tip-goes-on",
       "insights": {
-        "views": 215,
-        "reach": 186,
+        "views": 216,
+        "reach": 187,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5320,
-        "ig_reels_video_view_total_time": 1000191
+        "ig_reels_avg_watch_time": 5294,
+        "ig_reels_video_view_total_time": 1000666
       },
       "unavailable": {}
     },
@@ -506,15 +644,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-20-this-camera-is-another-expense",
       "insights": {
-        "views": 156,
-        "reach": 139,
+        "views": 157,
+        "reach": 140,
         "saved": 0,
         "shares": 0,
         "total_interactions": 4,
         "likes": 3,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5124,
-        "ig_reels_video_view_total_time": 712274
+        "ig_reels_avg_watch_time": 5090,
+        "ig_reels_video_view_total_time": 712674
       },
       "unavailable": {}
     },
@@ -529,15 +667,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-45-i-m-paying-for-my-sailboat",
       "insights": {
-        "views": 249,
-        "reach": 191,
+        "views": 250,
+        "reach": 192,
         "saved": 0,
         "shares": 0,
         "total_interactions": 6,
         "likes": 5,
         "comments": 1,
-        "ig_reels_avg_watch_time": 9044,
-        "ig_reels_video_view_total_time": 1763680
+        "ig_reels_avg_watch_time": 9000,
+        "ig_reels_video_view_total_time": 1764085
       },
       "unavailable": {}
     },
@@ -552,15 +690,15 @@
       "comments_count": 1,
       "slug": "episode-12-25-i-can-t-leave-with-the",
       "insights": {
-        "views": 162,
-        "reach": 148,
+        "views": 164,
+        "reach": 149,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6393,
-        "ig_reels_video_view_total_time": 959005
+        "ig_reels_avg_watch_time": 6357,
+        "ig_reels_video_view_total_time": 960018
       },
       "unavailable": {}
     },
@@ -575,15 +713,15 @@
       "comments_count": 3,
       "slug": "episode-12-24-one-screw-holds-my-arch-4",
       "insights": {
-        "views": 1294,
-        "reach": 1159,
+        "views": 1297,
+        "reach": 1161,
         "saved": 1,
         "shares": 1,
         "total_interactions": 16,
         "likes": 11,
         "comments": 3,
-        "ig_reels_avg_watch_time": 17136,
-        "ig_reels_video_view_total_time": 19878391
+        "ig_reels_avg_watch_time": 17160,
+        "ig_reels_video_view_total_time": 19940484
       },
       "unavailable": {}
     },
@@ -598,15 +736,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-18-he-s-65-his-knees-work",
       "insights": {
-        "views": 1235,
-        "reach": 1132,
+        "views": 1236,
+        "reach": 1133,
         "saved": 0,
         "shares": 0,
         "total_interactions": 10,
         "likes": 9,
         "comments": 1,
-        "ig_reels_avg_watch_time": 9879,
-        "ig_reels_video_view_total_time": 11094483
+        "ig_reels_avg_watch_time": 9870,
+        "ig_reels_video_view_total_time": 11094897
       },
       "unavailable": {}
     },
@@ -621,15 +759,15 @@
       "comments_count": 2,
       "slug": "episode-15-54-my-first-straight-aluminum-weld-no",
       "insights": {
-        "views": 269,
-        "reach": 225,
+        "views": 270,
+        "reach": 226,
         "saved": 0,
         "shares": 0,
         "total_interactions": 5,
         "likes": 3,
         "comments": 2,
-        "ig_reels_avg_watch_time": 7286,
-        "ig_reels_video_view_total_time": 1654078
+        "ig_reels_avg_watch_time": 7257,
+        "ig_reels_video_view_total_time": 1654656
       },
       "unavailable": {}
     },
@@ -644,15 +782,15 @@
       "comments_count": 1,
       "slug": "episode-16-19-i-nearly-quit-welding-my-own",
       "insights": {
-        "views": 176,
-        "reach": 160,
+        "views": 177,
+        "reach": 161,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4790,
-        "ig_reels_video_view_total_time": 761697
+        "ig_reels_avg_watch_time": 4767,
+        "ig_reels_video_view_total_time": 762743
       },
       "unavailable": {}
     },
@@ -667,15 +805,15 @@
       "comments_count": 1,
       "slug": "episode-12-23-the-new-arch-is-the-wrong",
       "insights": {
-        "views": 65,
-        "reach": 61,
+        "views": 66,
+        "reach": 62,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4132,
-        "ig_reels_video_view_total_time": 260378
+        "ig_reels_avg_watch_time": 4098,
+        "ig_reels_video_view_total_time": 262335
       },
       "unavailable": {}
     },
@@ -690,15 +828,15 @@
       "comments_count": 3,
       "slug": "episode-16-18-the-arch-needs-a-weld-i",
       "insights": {
-        "views": 141,
-        "reach": 132,
+        "views": 142,
+        "reach": 133,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 0,
         "comments": 3,
-        "ig_reels_avg_watch_time": 6756,
-        "ig_reels_video_view_total_time": 891795
+        "ig_reels_avg_watch_time": 6714,
+        "ig_reels_video_view_total_time": 892980
       },
       "unavailable": {}
     },
@@ -713,15 +851,15 @@
       "comments_count": 1,
       "slug": "episode-12-22-this-boat-came-with-zero-paperwork",
       "insights": {
-        "views": 137,
-        "reach": 130,
+        "views": 139,
+        "reach": 132,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7182,
-        "ig_reels_video_view_total_time": 948072
+        "ig_reels_avg_watch_time": 7146,
+        "ig_reels_video_view_total_time": 957661
       },
       "unavailable": {}
     },
@@ -736,15 +874,15 @@
       "comments_count": 1,
       "slug": "episode-15-53-charlie-left-a-birthday-party-to",
       "insights": {
-        "views": 220,
-        "reach": 201,
+        "views": 221,
+        "reach": 202,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7397,
-        "ig_reels_video_view_total_time": 1501775
+        "ig_reels_avg_watch_time": 7365,
+        "ig_reels_video_view_total_time": 1502518
       },
       "unavailable": {}
     },
@@ -759,15 +897,15 @@
       "comments_count": 1,
       "slug": "episode-12-21-taking-the-solar-arch-off-without",
       "insights": {
-        "views": 147,
-        "reach": 137,
+        "views": 149,
+        "reach": 139,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6289,
-        "ig_reels_video_view_total_time": 874198
+        "ig_reels_avg_watch_time": 6268,
+        "ig_reels_video_view_total_time": 883917
       },
       "unavailable": {}
     },
@@ -782,15 +920,15 @@
       "comments_count": 3,
       "slug": "episode-15-52-my-weld-keeps-blowing-holes-in",
       "insights": {
-        "views": 1591,
+        "views": 1592,
         "reach": 1175,
         "saved": 1,
         "shares": 0,
         "total_interactions": 24,
         "likes": 20,
         "comments": 3,
-        "ig_reels_avg_watch_time": 11078,
-        "ig_reels_video_view_total_time": 12995123
+        "ig_reels_avg_watch_time": 11070,
+        "ig_reels_video_view_total_time": 12996422
       },
       "unavailable": {}
     },
@@ -805,15 +943,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-8-youtube-divers-made-me-buy-a",
       "insights": {
-        "views": 140,
-        "reach": 133,
+        "views": 141,
+        "reach": 134,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5095,
-        "ig_reels_video_view_total_time": 698056
+        "ig_reels_avg_watch_time": 5188,
+        "ig_reels_video_view_total_time": 715960
       },
       "unavailable": {}
     },
@@ -828,15 +966,15 @@
       "comments_count": 4,
       "slug": "episode-16-17-six-weeks-of-bad-welds-then",
       "insights": {
-        "views": 167,
-        "reach": 139,
+        "views": 168,
+        "reach": 140,
         "saved": 0,
         "shares": 0,
         "total_interactions": 4,
         "likes": 0,
         "comments": 4,
-        "ig_reels_avg_watch_time": 6865,
-        "ig_reels_video_view_total_time": 961112
+        "ig_reels_avg_watch_time": 6822,
+        "ig_reels_video_view_total_time": 962008
       },
       "unavailable": {}
     },
@@ -851,15 +989,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-44-she-typed-it-in-already-number",
       "insights": {
-        "views": 155,
-        "reach": 129,
+        "views": 157,
+        "reach": 130,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4731,
-        "ig_reels_video_view_total_time": 615035
+        "ig_reels_avg_watch_time": 4726,
+        "ig_reels_video_view_total_time": 619112
       },
       "unavailable": {}
     },
@@ -874,15 +1012,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-7-i-bought-a-boat-to-go",
       "insights": {
-        "views": 159,
-        "reach": 132,
+        "views": 160,
+        "reach": 133,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4331,
-        "ig_reels_video_view_total_time": 567412
+        "ig_reels_avg_watch_time": 4345,
+        "ig_reels_video_view_total_time": 573647
       },
       "unavailable": {}
     },
@@ -897,15 +1035,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-8-i-have-my-fears-my-doubts",
       "insights": {
-        "views": 39,
-        "reach": 34,
+        "views": 40,
+        "reach": 35,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3943,
-        "ig_reels_video_view_total_time": 149837
+        "ig_reels_avg_watch_time": 3855,
+        "ig_reels_video_view_total_time": 150363
       },
       "unavailable": {}
     },
@@ -920,15 +1058,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-20-this-kid-earns-his-keep",
       "insights": {
-        "views": 46,
-        "reach": 36,
+        "views": 47,
+        "reach": 37,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3358,
-        "ig_reels_video_view_total_time": 124273
+        "ig_reels_avg_watch_time": 3287,
+        "ig_reels_video_view_total_time": 124911
       },
       "unavailable": {}
     },
@@ -943,15 +1081,15 @@
       "comments_count": 1,
       "slug": "episode-15-51-i-kept-rushing-it",
       "insights": {
-        "views": 27,
-        "reach": 19,
+        "views": 28,
+        "reach": 20,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4942,
-        "ig_reels_video_view_total_time": 103802
+        "ig_reels_avg_watch_time": 4739,
+        "ig_reels_video_view_total_time": 104278
       },
       "unavailable": {}
     },
@@ -966,15 +1104,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-19-carrie-gets-the-honors",
       "insights": {
-        "views": 134,
-        "reach": 113,
+        "views": 135,
+        "reach": 114,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2959,
-        "ig_reels_video_view_total_time": 337330
+        "ig_reels_avg_watch_time": 2940,
+        "ig_reels_video_view_total_time": 338124
       },
       "unavailable": {}
     },
@@ -989,15 +1127,15 @@
       "comments_count": 1,
       "slug": "i-still-cant-weld-8-i-keep-telling-people-i-m",
       "insights": {
-        "views": 142,
-        "reach": 125,
+        "views": 143,
+        "reach": 126,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4562,
-        "ig_reels_video_view_total_time": 565718
+        "ig_reels_avg_watch_time": 4532,
+        "ig_reels_video_view_total_time": 566548
       },
       "unavailable": {}
     },
@@ -1012,15 +1150,15 @@
       "comments_count": 1,
       "slug": "episode-12-20-that-s-why-you-re-in",
       "insights": {
-        "views": 184,
-        "reach": 134,
+        "views": 187,
+        "reach": 136,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4355,
-        "ig_reels_video_view_total_time": 588004
+        "ig_reels_avg_watch_time": 4358,
+        "ig_reels_video_view_total_time": 597058
       },
       "unavailable": {}
     },
@@ -1035,15 +1173,15 @@
       "comments_count": 1,
       "slug": "episode-15-50-i-m-so-excited-we-can",
       "insights": {
-        "views": 81,
-        "reach": 65,
+        "views": 83,
+        "reach": 66,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2620,
-        "ig_reels_video_view_total_time": 178197
+        "ig_reels_avg_watch_time": 2603,
+        "ig_reels_video_view_total_time": 179638
       },
       "unavailable": {}
     },
@@ -1058,15 +1196,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-6-the-ocean-calls-i-m-answering",
       "insights": {
-        "views": 140,
-        "reach": 128,
+        "views": 141,
+        "reach": 129,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3489,
-        "ig_reels_video_view_total_time": 450168
+        "ig_reels_avg_watch_time": 3511,
+        "ig_reels_video_view_total_time": 456544
       },
       "unavailable": {}
     },
@@ -1081,15 +1219,15 @@
       "comments_count": 1,
       "slug": "episode-16-16-do-not-let-it-live-in",
       "insights": {
-        "views": 122,
-        "reach": 112,
+        "views": 123,
+        "reach": 113,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4423,
-        "ig_reels_video_view_total_time": 499824
+        "ig_reels_avg_watch_time": 4388,
+        "ig_reels_video_view_total_time": 500236
       },
       "unavailable": {}
     },
@@ -1104,15 +1242,15 @@
       "comments_count": 1,
       "slug": "i-still-cant-weld-7-the-truth-i-was-hiding-from",
       "insights": {
-        "views": 160,
-        "reach": 126,
+        "views": 161,
+        "reach": 127,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3439,
-        "ig_reels_video_view_total_time": 440223
+        "ig_reels_avg_watch_time": 3415,
+        "ig_reels_video_view_total_time": 440570
       },
       "unavailable": {}
     },
@@ -1127,15 +1265,15 @@
       "comments_count": 1,
       "slug": "episode-15-49-weeks-of-failing-then-this",
       "insights": {
-        "views": 127,
-        "reach": 114,
+        "views": 128,
+        "reach": 115,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3600,
-        "ig_reels_video_view_total_time": 414080
+        "ig_reels_avg_watch_time": 3573,
+        "ig_reels_video_view_total_time": 414487
       },
       "unavailable": {}
     },
@@ -1150,15 +1288,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-43-he-wanted-no-part-of-this",
       "insights": {
-        "views": 154,
-        "reach": 123,
+        "views": 155,
+        "reach": 124,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3756,
-        "ig_reels_video_view_total_time": 469580
+        "ig_reels_avg_watch_time": 3730,
+        "ig_reels_video_view_total_time": 470029
       },
       "unavailable": {}
     },
@@ -1173,15 +1311,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-19-he-said-he-would-subscribe",
       "insights": {
-        "views": 25,
-        "reach": 24,
+        "views": 26,
+        "reach": 25,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3894,
-        "ig_reels_video_view_total_time": 105143
+        "ig_reels_avg_watch_time": 3786,
+        "ig_reels_video_view_total_time": 106016
       },
       "unavailable": {}
     },
@@ -1196,15 +1334,15 @@
       "comments_count": 1,
       "slug": "episode-12-19-would-you-try-this",
       "insights": {
-        "views": 153,
-        "reach": 118,
+        "views": 155,
+        "reach": 119,
         "saved": 0,
         "shares": 0,
         "total_interactions": 4,
         "likes": 3,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3762,
-        "ig_reels_video_view_total_time": 436480
+        "ig_reels_avg_watch_time": 3800,
+        "ig_reels_video_view_total_time": 444652
       },
       "unavailable": {}
     },
@@ -1219,15 +1357,15 @@
       "comments_count": 1,
       "slug": "episode-13-5-wait-this-place-is-fancy",
       "insights": {
-        "views": 126,
-        "reach": 111,
+        "views": 127,
+        "reach": 112,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3233,
-        "ig_reels_video_view_total_time": 355686
+        "ig_reels_avg_watch_time": 3212,
+        "ig_reels_video_view_total_time": 356638
       },
       "unavailable": {}
     },
@@ -1242,15 +1380,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-7-i-can-see-the-way-out",
       "insights": {
-        "views": 78,
-        "reach": 70,
+        "views": 80,
+        "reach": 71,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3103,
-        "ig_reels_video_view_total_time": 223451
+        "ig_reels_avg_watch_time": 3203,
+        "ig_reels_video_view_total_time": 233842
       },
       "unavailable": {}
     },
@@ -1265,15 +1403,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-5-almost-ready-for-the-water",
       "insights": {
-        "views": 139,
-        "reach": 131,
+        "views": 140,
+        "reach": 132,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 18998,
-        "ig_reels_video_view_total_time": 2450746
+        "ig_reels_avg_watch_time": 18854,
+        "ig_reels_video_view_total_time": 2451142
       },
       "unavailable": {}
     },
@@ -1288,15 +1426,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-17-a-stranger-just-said-this-to",
       "insights": {
-        "views": 144,
-        "reach": 117,
+        "views": 145,
+        "reach": 118,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2833,
-        "ig_reels_video_view_total_time": 339966
+        "ig_reels_avg_watch_time": 2813,
+        "ig_reels_video_view_total_time": 340455
       },
       "unavailable": {}
     },
@@ -1311,15 +1449,15 @@
       "comments_count": 1,
       "slug": "dock-standup-2026-09-14-2-six-dollar-happy-hour",
       "insights": {
-        "views": 23,
-        "reach": 22,
+        "views": 24,
+        "reach": 23,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2205,
-        "ig_reels_video_view_total_time": 50717
+        "ig_reels_avg_watch_time": 2124,
+        "ig_reels_video_view_total_time": 50981
       },
       "unavailable": {}
     },
@@ -1335,7 +1473,7 @@
       "slug": "lowes-experiment-part2-16-struggling-today",
       "insights": {
         "views": 50,
-        "reach": 40,
+        "reach": 41,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -1357,15 +1495,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-42-nobody-knows-where-the-gloves-are",
       "insights": {
-        "views": 131,
-        "reach": 106,
+        "views": 133,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3302,
-        "ig_reels_video_view_total_time": 356687
+        "ig_reels_avg_watch_time": 3280,
+        "ig_reels_video_view_total_time": 357547
       },
       "unavailable": {}
     },
@@ -1380,15 +1518,15 @@
       "comments_count": 1,
       "slug": "episode-13-4-meet-my-little-brother",
       "insights": {
-        "views": 296,
-        "reach": 194,
+        "views": 298,
+        "reach": 195,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4533,
-        "ig_reels_video_view_total_time": 897697
+        "ig_reels_avg_watch_time": 4538,
+        "ig_reels_video_view_total_time": 903106
       },
       "unavailable": {}
     },
@@ -1403,15 +1541,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-6-one-brave-guy",
       "insights": {
-        "views": 49,
-        "reach": 42,
+        "views": 50,
+        "reach": 43,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3377,
-        "ig_reels_video_view_total_time": 148592
+        "ig_reels_avg_watch_time": 3307,
+        "ig_reels_video_view_total_time": 148856
       },
       "unavailable": {}
     },
@@ -1426,15 +1564,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-18-five-weeks-and-it-still-works",
       "insights": {
-        "views": 177,
-        "reach": 146,
+        "views": 178,
+        "reach": 147,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4127,
-        "ig_reels_video_view_total_time": 606714
+        "ig_reels_avg_watch_time": 4101,
+        "ig_reels_video_view_total_time": 606999
       },
       "unavailable": {}
     },
@@ -1449,15 +1587,15 @@
       "comments_count": 1,
       "slug": "episode-12-18-a-stranger-offered-a-hand",
       "insights": {
-        "views": 138,
-        "reach": 118,
+        "views": 139,
+        "reach": 119,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7062,
-        "ig_reels_video_view_total_time": 840408
+        "ig_reels_avg_watch_time": 7005,
+        "ig_reels_video_view_total_time": 840670
       },
       "unavailable": {}
     },
@@ -1472,15 +1610,15 @@
       "comments_count": 1,
       "slug": "intro-episode-12-cheap-boat-big-work-ahead",
       "insights": {
-        "views": 132,
-        "reach": 114,
+        "views": 135,
+        "reach": 116,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4183,
-        "ig_reels_video_view_total_time": 481092
+        "ig_reels_avg_watch_time": 4231,
+        "ig_reels_video_view_total_time": 495072
       },
       "unavailable": {}
     },
@@ -1495,15 +1633,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-5-just-thankful-to-be-alive",
       "insights": {
-        "views": 11,
-        "reach": 11,
+        "views": 12,
+        "reach": 12,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5660,
-        "ig_reels_video_view_total_time": 67926
+        "ig_reels_avg_watch_time": 5262,
+        "ig_reels_video_view_total_time": 68407
       },
       "unavailable": {}
     },
@@ -1518,15 +1656,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-4-she-was-filthy-then-she-leaked",
       "insights": {
-        "views": 203,
-        "reach": 178,
+        "views": 204,
+        "reach": 179,
         "saved": 0,
         "shares": 0,
         "total_interactions": 4,
         "likes": 3,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5529,
-        "ig_reels_video_view_total_time": 1006316
+        "ig_reels_avg_watch_time": 5559,
+        "ig_reels_video_view_total_time": 1017353
       },
       "unavailable": {}
     },
@@ -1541,15 +1679,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-17-sorry-i-forgot-your-name-again",
       "insights": {
-        "views": 82,
-        "reach": 68,
+        "views": 83,
+        "reach": 69,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3327,
-        "ig_reels_video_view_total_time": 232948
+        "ig_reels_avg_watch_time": 3286,
+        "ig_reels_video_view_total_time": 233340
       },
       "unavailable": {}
     },
@@ -1564,15 +1702,15 @@
       "comments_count": 1,
       "slug": "episode-15-48-a-straight-line-finally",
       "insights": {
-        "views": 132,
-        "reach": 106,
+        "views": 133,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3580,
-        "ig_reels_video_view_total_time": 375912
+        "ig_reels_avg_watch_time": 3553,
+        "ig_reels_video_view_total_time": 376634
       },
       "unavailable": {}
     },
@@ -1587,15 +1725,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-3-i-dove-in-florida-then-money",
       "insights": {
-        "views": 160,
-        "reach": 121,
+        "views": 161,
+        "reach": 122,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3883,
-        "ig_reels_video_view_total_time": 466045
+        "ig_reels_avg_watch_time": 3867,
+        "ig_reels_video_view_total_time": 467977
       },
       "unavailable": {}
     },
@@ -1610,15 +1748,15 @@
       "comments_count": 1,
       "slug": "i-still-cant-weld-6-i-called-it-bad-luck-it",
       "insights": {
-        "views": 152,
-        "reach": 136,
+        "views": 153,
+        "reach": 137,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3737,
-        "ig_reels_video_view_total_time": 512008
+        "ig_reels_avg_watch_time": 3720,
+        "ig_reels_video_view_total_time": 513376
       },
       "unavailable": {}
     },
@@ -1633,15 +1771,15 @@
       "comments_count": 1,
       "slug": "episode-12-17-a-stranger-gave-me-one-tip",
       "insights": {
-        "views": 138,
-        "reach": 109,
+        "views": 140,
+        "reach": 110,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3936,
-        "ig_reels_video_view_total_time": 433047
+        "ig_reels_avg_watch_time": 3951,
+        "ig_reels_video_view_total_time": 438651
       },
       "unavailable": {}
     },
@@ -1657,7 +1795,7 @@
       "slug": "i-still-cant-weld-5-i-just-found-out-his-secret",
       "insights": {
         "views": 104,
-        "reach": 85,
+        "reach": 86,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -1679,15 +1817,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-41-gloves-or-nothing-right",
       "insights": {
-        "views": 140,
-        "reach": 106,
+        "views": 141,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4904,
-        "ig_reels_video_view_total_time": 514961
+        "ig_reels_avg_watch_time": 4859,
+        "ig_reels_video_view_total_time": 515098
       },
       "unavailable": {}
     },
@@ -1702,15 +1840,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-4-not-every-update-is-good-news",
       "insights": {
-        "views": 74,
-        "reach": 69,
+        "views": 76,
+        "reach": 70,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3680,
-        "ig_reels_video_view_total_time": 253960
+        "ig_reels_avg_watch_time": 3666,
+        "ig_reels_video_view_total_time": 256675
       },
       "unavailable": {}
     },
@@ -1725,15 +1863,15 @@
       "comments_count": 1,
       "slug": "sailingjuly-overview-2-water-was-coming-into-the-hull",
       "insights": {
-        "views": 130,
-        "reach": 114,
+        "views": 131,
+        "reach": 115,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4685,
-        "ig_reels_video_view_total_time": 534122
+        "ig_reels_avg_watch_time": 4650,
+        "ig_reels_video_view_total_time": 534768
       },
       "unavailable": {}
     },
@@ -1748,15 +1886,15 @@
       "comments_count": 1,
       "slug": "episode-15-47-watch-this-problem-disappear",
       "insights": {
-        "views": 152,
-        "reach": 118,
+        "views": 153,
+        "reach": 119,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3922,
-        "ig_reels_video_view_total_time": 470704
+        "ig_reels_avg_watch_time": 3893,
+        "ig_reels_video_view_total_time": 471135
       },
       "unavailable": {}
     },
@@ -1771,15 +1909,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-15-the-store-said-they-had-it",
       "insights": {
-        "views": 143,
-        "reach": 115,
+        "views": 144,
+        "reach": 116,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5406,
-        "ig_reels_video_view_total_time": 621778
+        "ig_reels_avg_watch_time": 5363,
+        "ig_reels_video_view_total_time": 622205
       },
       "unavailable": {}
     },
@@ -1794,15 +1932,15 @@
       "comments_count": 1,
       "slug": "episode-16-15-this-might-finally-fix-it",
       "insights": {
-        "views": 131,
-        "reach": 111,
+        "views": 132,
+        "reach": 112,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5221,
-        "ig_reels_video_view_total_time": 584787
+        "ig_reels_avg_watch_time": 5178,
+        "ig_reels_video_view_total_time": 585201
       },
       "unavailable": {}
     },
@@ -1817,15 +1955,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-16-i-met-her-today-she-did",
       "insights": {
-        "views": 134,
-        "reach": 107,
+        "views": 135,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4057,
-        "ig_reels_video_view_total_time": 438250
+        "ig_reels_avg_watch_time": 4025,
+        "ig_reels_video_view_total_time": 438770
       },
       "unavailable": {}
     },
@@ -1840,15 +1978,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-37-asking-strangers-is-scary",
       "insights": {
-        "views": 75,
-        "reach": 70,
+        "views": 76,
+        "reach": 71,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3471,
-        "ig_reels_video_view_total_time": 242993
+        "ig_reels_avg_watch_time": 3455,
+        "ig_reels_video_view_total_time": 245349
       },
       "unavailable": {}
     },
@@ -1863,15 +2001,15 @@
       "comments_count": 1,
       "slug": "episode-16-12-this-one-might-beat-me",
       "insights": {
-        "views": 164,
-        "reach": 129,
+        "views": 165,
+        "reach": 130,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4807,
-        "ig_reels_video_view_total_time": 610497
+        "ig_reels_avg_watch_time": 4773,
+        "ig_reels_video_view_total_time": 611012
       },
       "unavailable": {}
     },
@@ -1886,15 +2024,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-3-too-many-to-list",
       "insights": {
-        "views": 22,
-        "reach": 13,
+        "views": 23,
+        "reach": 14,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3769,
-        "ig_reels_video_view_total_time": 56538
+        "ig_reels_avg_watch_time": 3573,
+        "ig_reels_video_view_total_time": 57177
       },
       "unavailable": {}
     },
@@ -1909,15 +2047,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-18-he-was-already-on-the-vlog",
       "insights": {
-        "views": 151,
-        "reach": 114,
+        "views": 152,
+        "reach": 115,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3687,
-        "ig_reels_video_view_total_time": 424106
+        "ig_reels_avg_watch_time": 3660,
+        "ig_reels_video_view_total_time": 424622
       },
       "unavailable": {}
     },
@@ -1932,15 +2070,15 @@
       "comments_count": 1,
       "slug": "episode-12-14-mark-made-it-so-much-easier",
       "insights": {
-        "views": 128,
-        "reach": 106,
+        "views": 129,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4626,
-        "ig_reels_video_view_total_time": 490358
+        "ig_reels_avg_watch_time": 4586,
+        "ig_reels_video_view_total_time": 490804
       },
       "unavailable": {}
     },
@@ -1955,15 +2093,15 @@
       "comments_count": 1,
       "slug": "episode-16-13-am-i-ready-to-weld-the",
       "insights": {
-        "views": 69,
-        "reach": 63,
+        "views": 70,
+        "reach": 64,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3344,
-        "ig_reels_video_view_total_time": 214033
+        "ig_reels_avg_watch_time": 3296,
+        "ig_reels_video_view_total_time": 214260
       },
       "unavailable": {}
     },
@@ -1978,15 +2116,15 @@
       "comments_count": 1,
       "slug": "intro-episode-10-any-destination-dive-it-on-a",
       "insights": {
-        "views": 63,
-        "reach": 55,
+        "views": 64,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4192,
-        "ig_reels_video_view_total_time": 230594
+        "ig_reels_avg_watch_time": 4118,
+        "ig_reels_video_view_total_time": 230622
       },
       "unavailable": {}
     },
@@ -2001,15 +2139,15 @@
       "comments_count": 1,
       "slug": "episode-12-16-kicked-out-and-i-can-t",
       "insights": {
-        "views": 123,
-        "reach": 102,
+        "views": 124,
+        "reach": 103,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5050,
-        "ig_reels_video_view_total_time": 535394
+        "ig_reels_avg_watch_time": 5004,
+        "ig_reels_video_view_total_time": 535483
       },
       "unavailable": {}
     },
@@ -2025,7 +2163,7 @@
       "slug": "home-depot-experiment-17-he-wanted-to-know-where-i",
       "insights": {
         "views": 56,
-        "reach": 48,
+        "reach": 49,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -2047,15 +2185,15 @@
       "comments_count": 1,
       "slug": "episode-16-14-why-won-t-it-flow",
       "insights": {
-        "views": 182,
-        "reach": 149,
+        "views": 183,
+        "reach": 150,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6094,
-        "ig_reels_video_view_total_time": 908018
+        "ig_reels_avg_watch_time": 6053,
+        "ig_reels_video_view_total_time": 908079
       },
       "unavailable": {}
     },
@@ -2071,7 +2209,7 @@
       "slug": "sailingjuly-overview-1-the-welder-quit-so-i-learned",
       "insights": {
         "views": 157,
-        "reach": 130,
+        "reach": 131,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -2093,15 +2231,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-40-worst-pitch-to-a-stranger-ever",
       "insights": {
-        "views": 134,
-        "reach": 119,
+        "views": 135,
+        "reach": 120,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4416,
-        "ig_reels_video_view_total_time": 530006
+        "ig_reels_avg_watch_time": 4381,
+        "ig_reels_video_view_total_time": 530169
       },
       "unavailable": {}
     },
@@ -2116,15 +2254,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-38-strangers-at-lowe-s-got-me",
       "insights": {
-        "views": 133,
-        "reach": 106,
+        "views": 134,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3971,
-        "ig_reels_video_view_total_time": 421021
+        "ig_reels_avg_watch_time": 3935,
+        "ig_reels_video_view_total_time": 421114
       },
       "unavailable": {}
     },
@@ -2140,7 +2278,7 @@
       "slug": "i-still-cant-weld-4-every-repair-is-a-test-i",
       "insights": {
         "views": 140,
-        "reach": 117,
+        "reach": 118,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -2162,15 +2300,15 @@
       "comments_count": 1,
       "slug": "episode-12-13-one-more-line-one-more-hand",
       "insights": {
-        "views": 178,
-        "reach": 150,
+        "views": 179,
+        "reach": 151,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5052,
-        "ig_reels_video_view_total_time": 768022
+        "ig_reels_avg_watch_time": 5025,
+        "ig_reels_video_view_total_time": 768868
       },
       "unavailable": {}
     },
@@ -2185,15 +2323,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-14-my-hands-my-eyes-or-am",
       "insights": {
-        "views": 84,
-        "reach": 72,
+        "views": 85,
+        "reach": 73,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3486,
-        "ig_reels_video_view_total_time": 247544
+        "ig_reels_avg_watch_time": 3448,
+        "ig_reels_video_view_total_time": 248297
       },
       "unavailable": {}
     },
@@ -2208,15 +2346,15 @@
       "comments_count": 1,
       "slug": "intro-episode-11-grimy-to-bright-white-she-s",
       "insights": {
-        "views": 165,
-        "reach": 137,
+        "views": 166,
+        "reach": 138,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5591,
-        "ig_reels_video_view_total_time": 760415
+        "ig_reels_avg_watch_time": 5555,
+        "ig_reels_video_view_total_time": 761050
       },
       "unavailable": {}
     },
@@ -2231,15 +2369,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-2-one-day-this-boat-sails-to",
       "insights": {
-        "views": 116,
-        "reach": 107,
+        "views": 117,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3894,
-        "ig_reels_video_view_total_time": 416696
+        "ig_reels_avg_watch_time": 3871,
+        "ig_reels_video_view_total_time": 418172
       },
       "unavailable": {}
     },
@@ -2254,15 +2392,15 @@
       "comments_count": 1,
       "slug": "episode-12-15-i-said-six-out-of-ten",
       "insights": {
-        "views": 154,
-        "reach": 117,
+        "views": 155,
+        "reach": 118,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4997,
-        "ig_reels_video_view_total_time": 589749
+        "ig_reels_avg_watch_time": 4956,
+        "ig_reels_video_view_total_time": 589846
       },
       "unavailable": {}
     },
@@ -2277,15 +2415,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-15-she-subscribed-so-i-offered-to",
       "insights": {
-        "views": 66,
-        "reach": 57,
+        "views": 67,
+        "reach": 58,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7574,
-        "ig_reels_video_view_total_time": 439293
+        "ig_reels_avg_watch_time": 7463,
+        "ig_reels_video_view_total_time": 440364
       },
       "unavailable": {}
     },
@@ -2301,7 +2439,7 @@
       "slug": "intro-episode-9-dirty-no-lines-hasn-t-sailed",
       "insights": {
         "views": 136,
-        "reach": 118,
+        "reach": 119,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -2323,15 +2461,15 @@
       "comments_count": 1,
       "slug": "i-still-cant-weld-2-every-excuse-i-d-been-hiding",
       "insights": {
-        "views": 127,
-        "reach": 110,
+        "views": 128,
+        "reach": 111,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2825,
-        "ig_reels_video_view_total_time": 313624
+        "ig_reels_avg_watch_time": 2800,
+        "ig_reels_video_view_total_time": 313654
       },
       "unavailable": {}
     },
@@ -2346,15 +2484,15 @@
       "comments_count": 1,
       "slug": "episode-16-11-rookie-move-twice",
       "insights": {
-        "views": 181,
-        "reach": 141,
+        "views": 182,
+        "reach": 142,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6181,
-        "ig_reels_video_view_total_time": 871622
+        "ig_reels_avg_watch_time": 6139,
+        "ig_reels_video_view_total_time": 871853
       },
       "unavailable": {}
     },
@@ -2369,15 +2507,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-13-met-a-stranger-now-he-s",
       "insights": {
-        "views": 19,
-        "reach": 14,
+        "views": 20,
+        "reach": 15,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2704,
-        "ig_reels_video_view_total_time": 37861
+        "ig_reels_avg_watch_time": 2532,
+        "ig_reels_video_view_total_time": 37984
       },
       "unavailable": {}
     },
@@ -2392,15 +2530,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-15-fingers-crossed-the-home-depot-guy",
       "insights": {
-        "views": 124,
-        "reach": 107,
+        "views": 125,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3383,
-        "ig_reels_video_view_total_time": 361999
+        "ig_reels_avg_watch_time": 3352,
+        "ig_reels_video_view_total_time": 362065
       },
       "unavailable": {}
     },
@@ -2415,15 +2553,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-14-first-patreon-member-gets-their-name",
       "insights": {
-        "views": 51,
-        "reach": 55,
+        "views": 52,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3275,
-        "ig_reels_video_view_total_time": 183450
+        "ig_reels_avg_watch_time": 3221,
+        "ig_reels_video_view_total_time": 183646
       },
       "unavailable": {}
     },
@@ -2438,15 +2576,15 @@
       "comments_count": 1,
       "slug": "episode-12-11-one-question-do-you-have-a",
       "insights": {
-        "views": 158,
-        "reach": 112,
+        "views": 159,
+        "reach": 113,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4614,
-        "ig_reels_video_view_total_time": 521401
+        "ig_reels_avg_watch_time": 4575,
+        "ig_reels_video_view_total_time": 521649
       },
       "unavailable": {}
     },
@@ -2461,15 +2599,15 @@
       "comments_count": 1,
       "slug": "intro-episode-7-why-i-bought-a-boat-instead",
       "insights": {
-        "views": 136,
-        "reach": 127,
+        "views": 137,
+        "reach": 128,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4325,
-        "ig_reels_video_view_total_time": 540629
+        "ig_reels_avg_watch_time": 4295,
+        "ig_reels_video_view_total_time": 541266
       },
       "unavailable": {}
     },
@@ -2484,15 +2622,15 @@
       "comments_count": 1,
       "slug": "episode-15-44-my-weld-puddled-charlie-said-it",
       "insights": {
-        "views": 95,
-        "reach": 91,
+        "views": 96,
+        "reach": 92,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5057,
-        "ig_reels_video_view_total_time": 460269
+        "ig_reels_avg_watch_time": 5005,
+        "ig_reels_video_view_total_time": 460515
       },
       "unavailable": {}
     },
@@ -2507,15 +2645,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-35-strangers-were-kind-that-s-what",
       "insights": {
-        "views": 70,
-        "reach": 53,
+        "views": 71,
+        "reach": 54,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5348,
-        "ig_reels_video_view_total_time": 278126
+        "ig_reels_avg_watch_time": 5261,
+        "ig_reels_video_view_total_time": 278884
       },
       "unavailable": {}
     },
@@ -2530,15 +2668,15 @@
       "comments_count": 1,
       "slug": "intro-episode-6-day-one-with-a-boat-that",
       "insights": {
-        "views": 130,
-        "reach": 110,
+        "views": 132,
+        "reach": 111,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3191,
-        "ig_reels_video_view_total_time": 344659
+        "ig_reels_avg_watch_time": 3220,
+        "ig_reels_video_view_total_time": 351048
       },
       "unavailable": {}
     },
@@ -2553,15 +2691,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-14-he-wanted-a-shout-out-it",
       "insights": {
-        "views": 123,
-        "reach": 107,
+        "views": 124,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3879,
-        "ig_reels_video_view_total_time": 403458
+        "ig_reels_avg_watch_time": 3849,
+        "ig_reels_video_view_total_time": 404181
       },
       "unavailable": {}
     },
@@ -2576,15 +2714,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-12-asked-a-best-buy-stranger-how",
       "insights": {
-        "views": 132,
-        "reach": 120,
+        "views": 133,
+        "reach": 121,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3660,
-        "ig_reels_video_view_total_time": 439280
+        "ig_reels_avg_watch_time": 3637,
+        "ig_reels_video_view_total_time": 440147
       },
       "unavailable": {}
     },
@@ -2599,15 +2737,15 @@
       "comments_count": 1,
       "slug": "episode-15-42-weeks-of-failed-welds-then-this",
       "insights": {
-        "views": 150,
-        "reach": 131,
+        "views": 151,
+        "reach": 132,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4381,
-        "ig_reels_video_view_total_time": 573938
+        "ig_reels_avg_watch_time": 4350,
+        "ig_reels_video_view_total_time": 574204
       },
       "unavailable": {}
     },
@@ -2622,15 +2760,15 @@
       "comments_count": 1,
       "slug": "episode-12-12-every-boat-owner-holds-their-breath",
       "insights": {
-        "views": 117,
-        "reach": 115,
+        "views": 118,
+        "reach": 116,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6394,
-        "ig_reels_video_view_total_time": 735329
+        "ig_reels_avg_watch_time": 6350,
+        "ig_reels_video_view_total_time": 736715
       },
       "unavailable": {}
     },
@@ -2645,15 +2783,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-12-if-you-ever-find-me-like",
       "insights": {
-        "views": 272,
-        "reach": 210,
+        "views": 273,
+        "reach": 211,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4495,
-        "ig_reels_video_view_total_time": 939496
+        "ig_reels_avg_watch_time": 4475,
+        "ig_reels_video_view_total_time": 939895
       },
       "unavailable": {}
     },
@@ -2668,15 +2806,15 @@
       "comments_count": 1,
       "slug": "episode-13-3-didn-t-know-my-buddy-could",
       "insights": {
-        "views": 129,
-        "reach": 108,
+        "views": 130,
+        "reach": 109,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3113,
-        "ig_reels_video_view_total_time": 336220
+        "ig_reels_avg_watch_time": 3091,
+        "ig_reels_video_view_total_time": 336995
       },
       "unavailable": {}
     },
@@ -2691,15 +2829,15 @@
       "comments_count": 1,
       "slug": "intro-episode-5-meet-the-boat-i-m-bringing",
       "insights": {
-        "views": 122,
-        "reach": 105,
+        "views": 123,
+        "reach": 106,
         "saved": 0,
         "shares": 0,
         "total_interactions": 4,
         "likes": 3,
         "comments": 1,
         "ig_reels_avg_watch_time": 3172,
-        "ig_reels_video_view_total_time": 349024
+        "ig_reels_video_view_total_time": 352131
       },
       "unavailable": {}
     },
@@ -2714,15 +2852,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-10-we-just-met-him-watch-what",
       "insights": {
-        "views": 123,
-        "reach": 107,
+        "views": 125,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3795,
-        "ig_reels_video_view_total_time": 406142
+        "ig_reels_avg_watch_time": 3970,
+        "ig_reels_video_view_total_time": 428842
       },
       "unavailable": {}
     },
@@ -2738,7 +2876,7 @@
       "slug": "episode-12-10-no-way-i-m-sailing-with",
       "insights": {
         "views": 126,
-        "reach": 107,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -2760,15 +2898,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-34-told-a-stranger-my-plan",
       "insights": {
-        "views": 144,
-        "reach": 108,
+        "views": 146,
+        "reach": 109,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5187,
-        "ig_reels_video_view_total_time": 560275
+        "ig_reels_avg_watch_time": 5211,
+        "ig_reels_video_view_total_time": 568057
       },
       "unavailable": {}
     },
@@ -2783,15 +2921,15 @@
       "comments_count": 1,
       "slug": "i-still-cant-weld-1-what-do-i-need-gloves-for",
       "insights": {
-        "views": 154,
-        "reach": 108,
+        "views": 155,
+        "reach": 109,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5781,
-        "ig_reels_video_view_total_time": 624446
+        "ig_reels_avg_watch_time": 5758,
+        "ig_reels_video_view_total_time": 627687
       },
       "unavailable": {}
     },
@@ -2806,15 +2944,15 @@
       "comments_count": 1,
       "slug": "intro-episode-4-this-boat-s-been-sitting-a",
       "insights": {
-        "views": 484,
-        "reach": 371,
+        "views": 488,
+        "reach": 372,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6890,
-        "ig_reels_video_view_total_time": 2542478
+        "ig_reels_avg_watch_time": 6969,
+        "ig_reels_video_view_total_time": 2578835
       },
       "unavailable": {}
     },
@@ -2829,15 +2967,15 @@
       "comments_count": 1,
       "slug": "gratitude-reflection-1-2026-wasn-t-perfect",
       "insights": {
-        "views": 22,
-        "reach": 12,
+        "views": 24,
+        "reach": 13,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5181,
-        "ig_reels_video_view_total_time": 67359
+        "ig_reels_avg_watch_time": 5868,
+        "ig_reels_video_view_total_time": 82152
       },
       "unavailable": {}
     },
@@ -2852,15 +2990,15 @@
       "comments_count": 0,
       "slug": "episode-15-40-burned-right-through-it",
       "insights": {
-        "views": 126,
-        "reach": 112,
+        "views": 127,
+        "reach": 113,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6860,
-        "ig_reels_video_view_total_time": 768321
+        "ig_reels_avg_watch_time": 6806,
+        "ig_reels_video_view_total_time": 769166
       },
       "unavailable": {}
     },
@@ -2875,15 +3013,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-part2-11-went-hunting-for-a-lens-came",
       "insights": {
-        "views": 23,
-        "reach": 19,
+        "views": 24,
+        "reach": 20,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2507,
-        "ig_reels_video_view_total_time": 50142
+        "ig_reels_avg_watch_time": 2438,
+        "ig_reels_video_view_total_time": 51203
       },
       "unavailable": {}
     },
@@ -2898,15 +3036,15 @@
       "comments_count": 1,
       "slug": "episode-12-8-the-boat-s-new-arch-is",
       "insights": {
-        "views": 108,
-        "reach": 103,
+        "views": 109,
+        "reach": 104,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4742,
-        "ig_reels_video_view_total_time": 488509
+        "ig_reels_avg_watch_time": 4708,
+        "ig_reels_video_view_total_time": 489714
       },
       "unavailable": {}
     },
@@ -2921,15 +3059,15 @@
       "comments_count": 0,
       "slug": "home-depot-experiment-13-told-a-total-stranger-i-bought",
       "insights": {
-        "views": 65,
-        "reach": 46,
+        "views": 66,
+        "reach": 47,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3741,
-        "ig_reels_video_view_total_time": 175867
+        "ig_reels_avg_watch_time": 3682,
+        "ig_reels_video_view_total_time": 176776
       },
       "unavailable": {}
     },
@@ -2944,15 +3082,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-33-she-just-subscribed-and-she-used",
       "insights": {
-        "views": 80,
-        "reach": 62,
+        "views": 81,
+        "reach": 63,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3674,
-        "ig_reels_video_view_total_time": 224127
+        "ig_reels_avg_watch_time": 3639,
+        "ig_reels_video_view_total_time": 225637
       },
       "unavailable": {}
     },
@@ -2967,15 +3105,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-10-went-hunting-for-a-lens-came",
       "insights": {
-        "views": 17,
-        "reach": 14,
+        "views": 18,
+        "reach": 15,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6238,
-        "ig_reels_video_view_total_time": 81102
+        "ig_reels_avg_watch_time": 6039,
+        "ig_reels_video_view_total_time": 84557
       },
       "unavailable": {}
     },
@@ -2990,15 +3128,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-12-told-a-total-stranger-i-bought",
       "insights": {
-        "views": 83,
-        "reach": 61,
+        "views": 85,
+        "reach": 62,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3788,
-        "ig_reels_video_view_total_time": 227311
+        "ig_reels_avg_watch_time": 3824,
+        "ig_reels_video_view_total_time": 233277
       },
       "unavailable": {}
     },
@@ -3013,15 +3151,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-32-she-just-subscribed-and-she-used",
       "insights": {
-        "views": 59,
-        "reach": 47,
+        "views": 62,
+        "reach": 48,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2972,
-        "ig_reels_video_view_total_time": 142690
+        "ig_reels_avg_watch_time": 3127,
+        "ig_reels_video_view_total_time": 153255
       },
       "unavailable": {}
     },
@@ -3036,15 +3174,15 @@
       "comments_count": 0,
       "slug": "intro-episode-3-dull-and-grimy-to-bright-white",
       "insights": {
-        "views": 241,
-        "reach": 201,
+        "views": 242,
+        "reach": 202,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 8706,
-        "ig_reels_video_view_total_time": 1749934
+        "ig_reels_avg_watch_time": 8666,
+        "ig_reels_video_view_total_time": 1750605
       },
       "unavailable": {}
     },
@@ -3059,15 +3197,15 @@
       "comments_count": 0,
       "slug": "intro-episode-2-dull-and-grimy-to-bright-white",
       "insights": {
-        "views": 138,
-        "reach": 119,
+        "views": 140,
+        "reach": 120,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3951,
-        "ig_reels_video_view_total_time": 474234
+        "ig_reels_avg_watch_time": 4016,
+        "ig_reels_video_view_total_time": 485958
       },
       "unavailable": {}
     },
@@ -3082,15 +3220,15 @@
       "comments_count": 0,
       "slug": "episode-15-39-straight-line-charlie-approved",
       "insights": {
-        "views": 124,
-        "reach": 107,
+        "views": 126,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3177,
-        "ig_reels_video_view_total_time": 336772
+        "ig_reels_avg_watch_time": 3242,
+        "ig_reels_video_view_total_time": 346976
       },
       "unavailable": {}
     },
@@ -3105,15 +3243,15 @@
       "comments_count": 0,
       "slug": "home-depot-experiment-11-a-stranger-at-home-depot-just",
       "insights": {
-        "views": 17,
-        "reach": 11,
+        "views": 18,
+        "reach": 12,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4075,
-        "ig_reels_video_view_total_time": 48904
+        "ig_reels_avg_watch_time": 3827,
+        "ig_reels_video_view_total_time": 49754
       },
       "unavailable": {}
     },
@@ -3128,15 +3266,15 @@
       "comments_count": 0,
       "slug": "episode-15-38-straight-line-charlie-approved",
       "insights": {
-        "views": 130,
-        "reach": 106,
+        "views": 131,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3607,
-        "ig_reels_video_view_total_time": 385991
+        "ig_reels_avg_watch_time": 3578,
+        "ig_reels_video_view_total_time": 386432
       },
       "unavailable": {}
     },
@@ -3151,15 +3289,15 @@
       "comments_count": 0,
       "slug": "best-buy-experiment-part2-9-a-water-tattoo-that-s-lasted",
       "insights": {
-        "views": 144,
-        "reach": 107,
+        "views": 145,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4982,
-        "ig_reels_video_view_total_time": 538111
+        "ig_reels_avg_watch_time": 4948,
+        "ig_reels_video_view_total_time": 539350
       },
       "unavailable": {}
     },
@@ -3174,15 +3312,15 @@
       "comments_count": 0,
       "slug": "home-depot-experiment-10-a-stranger-at-home-depot-just",
       "insights": {
-        "views": 29,
-        "reach": 25,
+        "views": 30,
+        "reach": 26,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 1878,
-        "ig_reels_video_view_total_time": 48851
+        "ig_reels_avg_watch_time": 1933,
+        "ig_reels_video_view_total_time": 52209
       },
       "unavailable": {}
     },
@@ -3197,15 +3335,15 @@
       "comments_count": 0,
       "slug": "best-buy-experiment-part2-8-a-water-tattoo-that-s-lasted",
       "insights": {
-        "views": 148,
-        "reach": 107,
+        "views": 151,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5318,
-        "ig_reels_video_view_total_time": 569080
+        "ig_reels_avg_watch_time": 5340,
+        "ig_reels_video_view_total_time": 576780
       },
       "unavailable": {}
     },
@@ -3220,15 +3358,15 @@
       "comments_count": 1,
       "slug": "intro-episode-1-dull-and-grimy-to-bright-white",
       "insights": {
-        "views": 143,
-        "reach": 121,
+        "views": 145,
+        "reach": 122,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4489,
-        "ig_reels_video_view_total_time": 538776
+        "ig_reels_avg_watch_time": 4562,
+        "ig_reels_video_view_total_time": 552096
       },
       "unavailable": {}
     },
@@ -3243,15 +3381,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-9-a-stranger-at-home-depot-just",
       "insights": {
-        "views": 19,
-        "reach": 14,
+        "views": 20,
+        "reach": 15,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2581,
-        "ig_reels_video_view_total_time": 38721
+        "ig_reels_avg_watch_time": 2442,
+        "ig_reels_video_view_total_time": 39073
       },
       "unavailable": {}
     },
@@ -3266,15 +3404,15 @@
       "comments_count": 1,
       "slug": "episode-15-37-straight-line-charlie-approved",
       "insights": {
-        "views": 126,
-        "reach": 108,
+        "views": 127,
+        "reach": 109,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3211,
-        "ig_reels_video_view_total_time": 343623
+        "ig_reels_avg_watch_time": 3185,
+        "ig_reels_video_view_total_time": 343986
       },
       "unavailable": {}
     },
@@ -3289,15 +3427,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-7-a-water-tattoo-that-s-lasted",
       "insights": {
-        "views": 154,
-        "reach": 116,
+        "views": 155,
+        "reach": 117,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4958,
-        "ig_reels_video_view_total_time": 575233
+        "ig_reels_avg_watch_time": 4919,
+        "ig_reels_video_view_total_time": 575539
       },
       "unavailable": {}
     },
@@ -3312,15 +3450,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-part2-9-you-won-t-believe-where-we",
       "insights": {
-        "views": 16,
-        "reach": 13,
+        "views": 17,
+        "reach": 14,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3999,
-        "ig_reels_video_view_total_time": 55995
+        "ig_reels_avg_watch_time": 3756,
+        "ig_reels_video_view_total_time": 56354
       },
       "unavailable": {}
     },
@@ -3336,7 +3474,7 @@
       "slug": "lowes-experiment-part2-8-you-won-t-believe-where-we",
       "insights": {
         "views": 17,
-        "reach": 13,
+        "reach": 14,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3359,7 +3497,7 @@
       "slug": "episode-13-2-they-moved-our-school-s-m",
       "insights": {
         "views": 175,
-        "reach": 130,
+        "reach": 131,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3381,15 +3519,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-31-a-new-subscriber-told-me-she",
       "insights": {
-        "views": 93,
-        "reach": 79,
+        "views": 94,
+        "reach": 80,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2662,
-        "ig_reels_video_view_total_time": 210374
+        "ig_reels_avg_watch_time": 2629,
+        "ig_reels_video_view_total_time": 210382
       },
       "unavailable": {}
     },
@@ -3404,15 +3542,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-8-everyone-makes-me-type-my-channel",
       "insights": {
-        "views": 47,
-        "reach": 36,
+        "views": 48,
+        "reach": 37,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2447,
-        "ig_reels_video_view_total_time": 90543
+        "ig_reels_avg_watch_time": 2384,
+        "ig_reels_video_view_total_time": 90617
       },
       "unavailable": {}
     },
@@ -3427,15 +3565,15 @@
       "comments_count": 1,
       "slug": "episode-16-10-why-my-welds-always-start-shaky",
       "insights": {
-        "views": 143,
-        "reach": 109,
+        "views": 144,
+        "reach": 110,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5700,
-        "ig_reels_video_view_total_time": 632791
+        "ig_reels_avg_watch_time": 5651,
+        "ig_reels_video_view_total_time": 632927
       },
       "unavailable": {}
     },
@@ -3450,15 +3588,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-6-he-swore-he-already-followed-me",
       "insights": {
-        "views": 120,
-        "reach": 104,
+        "views": 121,
+        "reach": 105,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2688,
-        "ig_reels_video_view_total_time": 279584
+        "ig_reels_avg_watch_time": 2663,
+        "ig_reels_video_view_total_time": 279688
       },
       "unavailable": {}
     },
@@ -3473,15 +3611,15 @@
       "comments_count": 1,
       "slug": "episode-15-36-i-m-really-struggling-with-this",
       "insights": {
-        "views": 42,
-        "reach": 36,
+        "views": 43,
+        "reach": 37,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2829,
-        "ig_reels_video_view_total_time": 101865
+        "ig_reels_avg_watch_time": 2757,
+        "ig_reels_video_view_total_time": 102030
       },
       "unavailable": {}
     },
@@ -3497,7 +3635,7 @@
       "slug": "episode-15-35-how-welds-actually-get-smooth",
       "insights": {
         "views": 131,
-        "reach": 106,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3520,7 +3658,7 @@
       "slug": "episode-16-9-the-weld-didn-t-even-hold",
       "insights": {
         "views": 169,
-        "reach": 131,
+        "reach": 132,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3543,7 +3681,7 @@
       "slug": "best-buy-experiment-6-wait-is-that-us-on-the",
       "insights": {
         "views": 164,
-        "reach": 116,
+        "reach": 117,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3565,15 +3703,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-7-he-s-65-and-his-knees",
       "insights": {
-        "views": 150,
-        "reach": 130,
+        "views": 151,
+        "reach": 131,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7424,
-        "ig_reels_video_view_total_time": 987420
+        "ig_reels_avg_watch_time": 7369,
+        "ig_reels_video_view_total_time": 987533
       },
       "unavailable": {}
     },
@@ -3588,15 +3726,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-7-he-didn-t-have-youtube-he",
       "insights": {
-        "views": 126,
-        "reach": 106,
+        "views": 127,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3542,
-        "ig_reels_video_view_total_time": 379071
+        "ig_reels_avg_watch_time": 3511,
+        "ig_reels_video_view_total_time": 379242
       },
       "unavailable": {}
     },
@@ -3612,7 +3750,7 @@
       "slug": "episode-15-34-charlie-called-my-weld-a-glob",
       "insights": {
         "views": 179,
-        "reach": 147,
+        "reach": 148,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3635,7 +3773,7 @@
       "slug": "episode-16-8-then-the-weld-falls-in",
       "insights": {
         "views": 132,
-        "reach": 110,
+        "reach": 111,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
@@ -3658,7 +3796,7 @@
       "slug": "lowes-experiment-30-why-i-m-bothering-you",
       "insights": {
         "views": 56,
-        "reach": 50,
+        "reach": 51,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3680,15 +3818,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-29-the-whole-plan-honestly",
       "insights": {
-        "views": 23,
-        "reach": 21,
+        "views": 24,
+        "reach": 22,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3045,
-        "ig_reels_video_view_total_time": 67009
+        "ig_reels_avg_watch_time": 2917,
+        "ig_reels_video_view_total_time": 67091
       },
       "unavailable": {}
     },
@@ -3703,15 +3841,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-6-he-wanted-milwaukee-specials",
       "insights": {
-        "views": 11,
-        "reach": 12,
+        "views": 12,
+        "reach": 13,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2659,
-        "ig_reels_video_view_total_time": 31916
+        "ig_reels_avg_watch_time": 2465,
+        "ig_reels_video_view_total_time": 32047
       },
       "unavailable": {}
     },
@@ -3727,7 +3865,7 @@
       "slug": "lowes-experiment-28-saying-hi-terrified-me",
       "insights": {
         "views": 15,
-        "reach": 11,
+        "reach": 12,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3749,15 +3887,15 @@
       "comments_count": 1,
       "slug": "episode-15-33-one-hand-on-the-torch-and",
       "insights": {
-        "views": 117,
-        "reach": 106,
+        "views": 118,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3581,
-        "ig_reels_video_view_total_time": 376072
+        "ig_reels_avg_watch_time": 3548,
+        "ig_reels_video_view_total_time": 376156
       },
       "unavailable": {}
     },
@@ -3772,15 +3910,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-27-now-you-get-to-see-the",
       "insights": {
-        "views": 150,
-        "reach": 130,
+        "views": 151,
+        "reach": 131,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7207,
-        "ig_reels_video_view_total_time": 922508
+        "ig_reels_avg_watch_time": 7151,
+        "ig_reels_video_view_total_time": 922539
       },
       "unavailable": {}
     },
@@ -3795,15 +3933,15 @@
       "comments_count": 1,
       "slug": "episode-16-7-not-practice-makes-perfect-practice-makes",
       "insights": {
-        "views": 150,
-        "reach": 109,
+        "views": 151,
+        "reach": 110,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4613,
-        "ig_reels_video_view_total_time": 493688
+        "ig_reels_avg_watch_time": 4572,
+        "ig_reels_video_view_total_time": 493861
       },
       "unavailable": {}
     },
@@ -3818,15 +3956,15 @@
       "comments_count": 1,
       "slug": "episode-15-32-the-dry-run-is-where-i",
       "insights": {
-        "views": 147,
-        "reach": 133,
+        "views": 148,
+        "reach": 134,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 8438,
-        "ig_reels_video_view_total_time": 1122334
+        "ig_reels_avg_watch_time": 8376,
+        "ig_reels_video_view_total_time": 1122495
       },
       "unavailable": {}
     },
@@ -3841,15 +3979,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-6-i-handed-him-my-phone-and",
       "insights": {
-        "views": 112,
-        "reach": 107,
+        "views": 113,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4780,
-        "ig_reels_video_view_total_time": 506778
+        "ig_reels_avg_watch_time": 4739,
+        "ig_reels_video_view_total_time": 507073
       },
       "unavailable": {}
     },
@@ -3865,7 +4003,7 @@
       "slug": "home-depot-experiment-5-a-stranger-promised-to-subscribe",
       "insights": {
         "views": 5,
-        "reach": 5,
+        "reach": 6,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -3887,15 +4025,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-5-walking-up-to-a-stranger-at",
       "insights": {
-        "views": 8,
-        "reach": 7,
+        "views": 9,
+        "reach": 8,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 1485,
-        "ig_reels_video_view_total_time": 11886
+        "ig_reels_avg_watch_time": 1339,
+        "ig_reels_video_view_total_time": 12056
       },
       "unavailable": {}
     },
@@ -3910,15 +4048,15 @@
       "comments_count": 1,
       "slug": "episode-15-31-still-welding-this-late",
       "insights": {
-        "views": 120,
-        "reach": 103,
+        "views": 121,
+        "reach": 104,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3909,
-        "ig_reels_video_view_total_time": 406589
+        "ig_reels_avg_watch_time": 3873,
+        "ig_reels_video_view_total_time": 406760
       },
       "unavailable": {}
     },
@@ -3933,15 +4071,15 @@
       "comments_count": 1,
       "slug": "episode-16-6-how-do-i-even-reach-that",
       "insights": {
-        "views": 127,
-        "reach": 105,
+        "views": 128,
+        "reach": 106,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4962,
-        "ig_reels_video_view_total_time": 525986
+        "ig_reels_avg_watch_time": 4916,
+        "ig_reels_video_view_total_time": 526112
       },
       "unavailable": {}
     },
@@ -3956,15 +4094,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-26-why-am-i-crying-at-lowe",
       "insights": {
-        "views": 98,
-        "reach": 88,
+        "views": 99,
+        "reach": 89,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3384,
-        "ig_reels_video_view_total_time": 307944
+        "ig_reels_avg_watch_time": 3349,
+        "ig_reels_video_view_total_time": 308158
       },
       "unavailable": {}
     },
@@ -3979,15 +4117,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-5-a-stranger-s-encouraging-words",
       "insights": {
-        "views": 133,
-        "reach": 107,
+        "views": 134,
+        "reach": 108,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4219,
-        "ig_reels_video_view_total_time": 451433
+        "ig_reels_avg_watch_time": 4180,
+        "ig_reels_video_view_total_time": 451520
       },
       "unavailable": {}
     },
@@ -4002,15 +4140,15 @@
       "comments_count": 1,
       "slug": "episode-13-1-he-s-welded",
       "insights": {
-        "views": 54,
-        "reach": 47,
+        "views": 55,
+        "reach": 48,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3631,
-        "ig_reels_video_view_total_time": 170695
+        "ig_reels_avg_watch_time": 3558,
+        "ig_reels_video_view_total_time": 170830
       },
       "unavailable": {}
     },
@@ -4025,15 +4163,15 @@
       "comments_count": 1,
       "slug": "episode-16-5-can-i-fix-this-boat-myself",
       "insights": {
-        "views": 134,
-        "reach": 107,
+        "views": 136,
+        "reach": 109,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3021,
-        "ig_reels_video_view_total_time": 329328
+        "ig_reels_avg_watch_time": 3046,
+        "ig_reels_video_view_total_time": 335084
       },
       "unavailable": {}
     },
@@ -4049,7 +4187,7 @@
       "slug": "home-depot-experiment-4-pitching-my-sailboat-to-a-stranger",
       "insights": {
         "views": 84,
-        "reach": 69,
+        "reach": 70,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -4072,7 +4210,7 @@
       "slug": "best-buy-experiment-part2-4-come-help-my-sister-out",
       "insights": {
         "views": 65,
-        "reach": 60,
+        "reach": 61,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -4094,15 +4232,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-25-filming-yourself-at-self-checkout-is",
       "insights": {
-        "views": 56,
-        "reach": 45,
+        "views": 57,
+        "reach": 46,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4062,
-        "ig_reels_video_view_total_time": 190943
+        "ig_reels_avg_watch_time": 3978,
+        "ig_reels_video_view_total_time": 190961
       },
       "unavailable": {}
     },
@@ -4118,7 +4256,7 @@
       "slug": "best-buy-experiment-part2-3-i-asked-a-stranger-a-shower",
       "insights": {
         "views": 17,
-        "reach": 11,
+        "reach": 12,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -4141,7 +4279,7 @@
       "slug": "episode-15-30-i-finally-got-one",
       "insights": {
         "views": 47,
-        "reach": 34,
+        "reach": 35,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -4164,7 +4302,7 @@
       "slug": "episode-16-4-i-think-i-found-the-problem",
       "insights": {
         "views": 139,
-        "reach": 117,
+        "reach": 118,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
@@ -4186,15 +4324,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-4-he-s-way-too-comfortable-like",
       "insights": {
-        "views": 129,
-        "reach": 106,
+        "views": 130,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3312,
-        "ig_reels_video_view_total_time": 347812
+        "ig_reels_avg_watch_time": 3284,
+        "ig_reels_video_view_total_time": 348117
       },
       "unavailable": {}
     },
@@ -4210,7 +4348,7 @@
       "slug": "lowes-experiment-part2-3-asking-for-help-finding-the-welding",
       "insights": {
         "views": 62,
-        "reach": 47,
+        "reach": 48,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -4232,15 +4370,15 @@
       "comments_count": 1,
       "slug": "episode-15-29-it-was-supposed-to-puddle-it",
       "insights": {
-        "views": 83,
-        "reach": 64,
+        "views": 84,
+        "reach": 65,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5021,
-        "ig_reels_video_view_total_time": 331424
+        "ig_reels_avg_watch_time": 4947,
+        "ig_reels_video_view_total_time": 331498
       },
       "unavailable": {}
     },
@@ -4255,15 +4393,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-2-hoping-they-have-the-lens",
       "insights": {
-        "views": 61,
-        "reach": 53,
+        "views": 62,
+        "reach": 54,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2646,
-        "ig_reels_video_view_total_time": 145565
+        "ig_reels_avg_watch_time": 2607,
+        "ig_reels_video_view_total_time": 146001
       },
       "unavailable": {}
     },
@@ -4278,15 +4416,15 @@
       "comments_count": 1,
       "slug": "episode-16-3-i-m-going-again",
       "insights": {
-        "views": 136,
-        "reach": 113,
+        "views": 138,
+        "reach": 114,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4856,
-        "ig_reels_video_view_total_time": 553605
+        "ig_reels_avg_watch_time": 4919,
+        "ig_reels_video_view_total_time": 565796
       },
       "unavailable": {}
     },
@@ -4301,15 +4439,15 @@
       "comments_count": 1,
       "slug": "episode-15-28-the-part-i-didn-t-show",
       "insights": {
-        "views": 132,
-        "reach": 112,
+        "views": 133,
+        "reach": 113,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4998,
-        "ig_reels_video_view_total_time": 564789
+        "ig_reels_avg_watch_time": 4956,
+        "ig_reels_video_view_total_time": 565001
       },
       "unavailable": {}
     },
@@ -4324,15 +4462,15 @@
       "comments_count": 0,
       "slug": "dock-standup-2026-09-14-six-dollar-burgers",
       "insights": {
-        "views": 17,
-        "reach": 13,
+        "views": 18,
+        "reach": 14,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4249,
-        "ig_reels_video_view_total_time": 59497
+        "ig_reels_avg_watch_time": 3974,
+        "ig_reels_video_view_total_time": 59621
       },
       "unavailable": {}
     },
@@ -4347,15 +4485,15 @@
       "comments_count": 1,
       "slug": "dock-standup-2026-09-14-1-happy-hour-with-my-boat-in",
       "insights": {
-        "views": 6,
-        "reach": 3,
+        "views": 7,
+        "reach": 4,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7776,
-        "ig_reels_video_view_total_time": 31106
+        "ig_reels_avg_watch_time": 6310,
+        "ig_reels_video_view_total_time": 31551
       },
       "unavailable": {}
     },
@@ -4370,15 +4508,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-24-the-hardest-part-is-the-first",
       "insights": {
-        "views": 35,
-        "reach": 28,
+        "views": 36,
+        "reach": 29,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2205,
-        "ig_reels_video_view_total_time": 63945
+        "ig_reels_avg_watch_time": 2135,
+        "ig_reels_video_view_total_time": 64079
       },
       "unavailable": {}
     },
@@ -4393,15 +4531,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-part2-1-is-it-my-hands-or-my",
       "insights": {
-        "views": 25,
-        "reach": 22,
+        "views": 26,
+        "reach": 23,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 6171,
-        "ig_reels_video_view_total_time": 141938
+        "ig_reels_avg_watch_time": 5918,
+        "ig_reels_video_view_total_time": 142039
       },
       "unavailable": {}
     },
@@ -4416,15 +4554,15 @@
       "comments_count": 1,
       "slug": "episode-15-27-he-paused-a-birthday-to-teach",
       "insights": {
-        "views": 127,
-        "reach": 110,
+        "views": 128,
+        "reach": 111,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5458,
-        "ig_reels_video_view_total_time": 605911
+        "ig_reels_avg_watch_time": 5411,
+        "ig_reels_video_view_total_time": 606035
       },
       "unavailable": {}
     },
@@ -4439,15 +4577,15 @@
       "comments_count": 1,
       "slug": "episode-15-26-i-didn-t-think-i-d",
       "insights": {
-        "views": 32,
-        "reach": 26,
+        "views": 33,
+        "reach": 27,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4224,
-        "ig_reels_video_view_total_time": 109845
+        "ig_reels_avg_watch_time": 4071,
+        "ig_reels_video_view_total_time": 109923
       },
       "unavailable": {}
     },
@@ -4462,15 +4600,15 @@
       "comments_count": 1,
       "slug": "episode-16-2-six-weeks-ago-i-couldn-t",
       "insights": {
-        "views": 60,
-        "reach": 41,
+        "views": 61,
+        "reach": 42,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 8075,
-        "ig_reels_video_view_total_time": 339182
+        "ig_reels_avg_watch_time": 7889,
+        "ig_reels_video_view_total_time": 339241
       },
       "unavailable": {}
     },
@@ -4485,15 +4623,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-23-lowe-s-might-be-my-biggest",
       "insights": {
-        "views": 50,
-        "reach": 40,
+        "views": 51,
+        "reach": 41,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4286,
-        "ig_reels_video_view_total_time": 180040
+        "ig_reels_avg_watch_time": 4188,
+        "ig_reels_video_view_total_time": 180084
       },
       "unavailable": {}
     },
@@ -4508,15 +4646,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-5-would-you-trust-this-nigerian",
       "insights": {
-        "views": 133,
-        "reach": 105,
+        "views": 134,
+        "reach": 106,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3768,
-        "ig_reels_video_view_total_time": 403246
+        "ig_reels_avg_watch_time": 3735,
+        "ig_reels_video_view_total_time": 403431
       },
       "unavailable": {}
     },
@@ -4531,15 +4669,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-part2-2-this-tattoo-is-literally-water",
       "insights": {
-        "views": 272,
-        "reach": 163,
+        "views": 273,
+        "reach": 164,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5836,
-        "ig_reels_video_view_total_time": 968820
+        "ig_reels_avg_watch_time": 5802,
+        "ig_reels_video_view_total_time": 968990
       },
       "unavailable": {}
     },
@@ -4555,7 +4693,7 @@
       "slug": "best-buy-experiment-part2-1-i-called-him-a-future-follower",
       "insights": {
         "views": 7,
-        "reach": 7,
+        "reach": 8,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -4577,15 +4715,15 @@
       "comments_count": 1,
       "slug": "lowes-experiment-22-they-followed-before-i-asked",
       "insights": {
-        "views": 16,
-        "reach": 13,
+        "views": 17,
+        "reach": 14,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 2392,
-        "ig_reels_video_view_total_time": 33490
+        "ig_reels_avg_watch_time": 2243,
+        "ig_reels_video_view_total_time": 33655
       },
       "unavailable": {}
     },
@@ -4600,15 +4738,15 @@
       "comments_count": 1,
       "slug": "episode-16-1-i-can-t-tack-in-here",
       "insights": {
-        "views": 159,
-        "reach": 141,
+        "views": 160,
+        "reach": 142,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5279,
-        "ig_reels_video_view_total_time": 755020
+        "ig_reels_avg_watch_time": 5243,
+        "ig_reels_video_view_total_time": 755042
       },
       "unavailable": {}
     },
@@ -4623,15 +4761,15 @@
       "comments_count": 1,
       "slug": "episode-12-7-you-re-making-me-look-bad",
       "insights": {
-        "views": 56,
-        "reach": 46,
+        "views": 57,
+        "reach": 47,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4171,
-        "ig_reels_video_view_total_time": 196057
+        "ig_reels_avg_watch_time": 4089,
+        "ig_reels_video_view_total_time": 196280
       },
       "unavailable": {}
     },
@@ -4646,15 +4784,15 @@
       "comments_count": 1,
       "slug": "home-depot-experiment-3-my-people-never-fail-me",
       "insights": {
-        "views": 130,
-        "reach": 103,
+        "views": 131,
+        "reach": 104,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5003,
-        "ig_reels_video_view_total_time": 520347
+        "ig_reels_avg_watch_time": 4956,
+        "ig_reels_video_view_total_time": 520465
       },
       "unavailable": {}
     },
@@ -4669,15 +4807,15 @@
       "comments_count": 1,
       "slug": "best-buy-experiment-4-where-s-your-phone-at",
       "insights": {
-        "views": 30,
-        "reach": 23,
+        "views": 31,
+        "reach": 24,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3953,
-        "ig_reels_video_view_total_time": 94875
+        "ig_reels_avg_watch_time": 3800,
+        "ig_reels_video_view_total_time": 95013
       },
       "unavailable": {}
     },
@@ -4692,15 +4830,15 @@
       "comments_count": 0,
       "slug": "home-depot-experiment-2-download-your-youtube-app-man",
       "insights": {
-        "views": 57,
-        "reach": 49,
+        "views": 58,
+        "reach": 50,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2920,
-        "ig_reels_video_view_total_time": 151860
+        "ig_reels_avg_watch_time": 2867,
+        "ig_reels_video_view_total_time": 151955
       },
       "unavailable": {}
     },
@@ -4716,7 +4854,7 @@
       "slug": "episode-15-25-one-month-still-can-t-weld",
       "insights": {
         "views": 150,
-        "reach": 111,
+        "reach": 112,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -4738,15 +4876,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-21-july-isn-t-a-month",
       "insights": {
-        "views": 23,
-        "reach": 21,
+        "views": 24,
+        "reach": 22,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2499,
-        "ig_reels_video_view_total_time": 54981
+        "ig_reels_avg_watch_time": 2391,
+        "ig_reels_video_view_total_time": 54996
       },
       "unavailable": {}
     },
@@ -4761,15 +4899,15 @@
       "comments_count": 1,
       "slug": "episode-15-23-i-haven-t-landed-this-weld",
       "insights": {
-        "views": 54,
-        "reach": 42,
+        "views": 55,
+        "reach": 43,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 5328,
-        "ig_reels_video_view_total_time": 229104
+        "ig_reels_avg_watch_time": 5209,
+        "ig_reels_video_view_total_time": 229205
       },
       "unavailable": {}
     },
@@ -4784,15 +4922,15 @@
       "comments_count": 1,
       "slug": "episode-15-22-wait-it-s-actually-moving",
       "insights": {
-        "views": 72,
-        "reach": 54,
+        "views": 73,
+        "reach": 55,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 4938,
-        "ig_reels_video_view_total_time": 276574
+        "ig_reels_avg_watch_time": 4856,
+        "ig_reels_video_view_total_time": 276800
       },
       "unavailable": {}
     },
@@ -4808,7 +4946,7 @@
       "slug": "episode-15-22-wait-it-s-actually-moving",
       "insights": {
         "views": 87,
-        "reach": 72,
+        "reach": 73,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
@@ -4831,7 +4969,7 @@
       "slug": "episode-12-6-this-weld-only-takes-one-bead",
       "insights": {
         "views": 7,
-        "reach": 6,
+        "reach": 7,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
@@ -4853,15 +4991,15 @@
       "comments_count": 1,
       "slug": "episode-12-6-this-weld-only-takes-one-bead",
       "insights": {
-        "views": 134,
-        "reach": 115,
+        "views": 136,
+        "reach": 116,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 3860,
-        "ig_reels_video_view_total_time": 447775
+        "ig_reels_avg_watch_time": 3856,
+        "ig_reels_video_view_total_time": 451186
       },
       "unavailable": {}
     },
@@ -4876,15 +5014,15 @@
       "comments_count": 0,
       "slug": "home-depot-experiment-1-a-stranger-told-me-i-need",
       "insights": {
-        "views": 95,
-        "reach": 86,
+        "views": 96,
+        "reach": 87,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4834,
-        "ig_reels_video_view_total_time": 420625
+        "ig_reels_avg_watch_time": 4784,
+        "ig_reels_video_view_total_time": 421039
       },
       "unavailable": {}
     },
@@ -4899,15 +5037,15 @@
       "comments_count": 0,
       "slug": "best-buy-experiment-2-i-asked-a-total-stranger-for",
       "insights": {
-        "views": 9,
-        "reach": 8,
+        "views": 10,
+        "reach": 9,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2307,
-        "ig_reels_video_view_total_time": 20765
+        "ig_reels_avg_watch_time": 2119,
+        "ig_reels_video_view_total_time": 21191
       },
       "unavailable": {}
     },
@@ -4922,15 +5060,15 @@
       "comments_count": 0,
       "slug": "episode-15-21-this-hole-nearly-sank-my-restoration",
       "insights": {
-        "views": 128,
-        "reach": 103,
+        "views": 129,
+        "reach": 104,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 9822,
-        "ig_reels_video_view_total_time": 1021565
+        "ig_reels_avg_watch_time": 9733,
+        "ig_reels_video_view_total_time": 1021977
       },
       "unavailable": {}
     },
@@ -4945,15 +5083,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-20-i-thought-the-camera-was-off",
       "insights": {
-        "views": 134,
-        "reach": 123,
+        "views": 135,
+        "reach": 124,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 10044,
-        "ig_reels_video_view_total_time": 1215431
+        "ig_reels_avg_watch_time": 9965,
+        "ig_reels_video_view_total_time": 1215775
       },
       "unavailable": {}
     },
@@ -4968,15 +5106,15 @@
       "comments_count": 0,
       "slug": "best-buy-experiment-1-i-asked-a-total-stranger-for",
       "insights": {
-        "views": 32,
-        "reach": 23,
+        "views": 33,
+        "reach": 24,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4590,
-        "ig_reels_video_view_total_time": 110161
+        "ig_reels_avg_watch_time": 4423,
+        "ig_reels_video_view_total_time": 110593
       },
       "unavailable": {}
     },
@@ -4991,15 +5129,15 @@
       "comments_count": 0,
       "slug": "best-buy-experiment-1-i-asked-a-total-stranger-for",
       "insights": {
-        "views": 71,
-        "reach": 54,
+        "views": 72,
+        "reach": 55,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5250,
-        "ig_reels_video_view_total_time": 288757
+        "ig_reels_avg_watch_time": 5163,
+        "ig_reels_video_view_total_time": 289176
       },
       "unavailable": {}
     },
@@ -5014,15 +5152,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-19-he-actually-did-it-and-i",
       "insights": {
-        "views": 40,
-        "reach": 29,
+        "views": 41,
+        "reach": 30,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4550,
-        "ig_reels_video_view_total_time": 136529
+        "ig_reels_avg_watch_time": 4415,
+        "ig_reels_video_view_total_time": 136890
       },
       "unavailable": {}
     },
@@ -5037,15 +5175,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-19-he-actually-did-it-and-i",
       "insights": {
-        "views": 146,
-        "reach": 114,
+        "views": 147,
+        "reach": 115,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5863,
-        "ig_reels_video_view_total_time": 668403
+        "ig_reels_avg_watch_time": 5815,
+        "ig_reels_video_view_total_time": 668820
       },
       "unavailable": {}
     },
@@ -5060,15 +5198,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-18-new-technology-same-old-sailing-july",
       "insights": {
-        "views": 72,
-        "reach": 68,
+        "views": 73,
+        "reach": 69,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 1675,
-        "ig_reels_video_view_total_time": 117299
+        "ig_reels_avg_watch_time": 1657,
+        "ig_reels_video_view_total_time": 117669
       },
       "unavailable": {}
     },
@@ -5083,15 +5221,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-17-i-stopped-a-total-stranger-at",
       "insights": {
-        "views": 152,
-        "reach": 106,
+        "views": 153,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 135357,
-        "ig_reels_video_view_total_time": 14754004
+        "ig_reels_avg_watch_time": 134131,
+        "ig_reels_video_view_total_time": 14754436
       },
       "unavailable": {}
     },
@@ -5107,7 +5245,7 @@
       "slug": "lowes-experiment-17-i-stopped-a-total-stranger-at",
       "insights": {
         "views": 9,
-        "reach": 7,
+        "reach": 8,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
@@ -5129,15 +5267,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-16-a-total-stranger-just-told-me",
       "insights": {
-        "views": 44,
-        "reach": 41,
+        "views": 45,
+        "reach": 42,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3945,
-        "ig_reels_video_view_total_time": 169672
+        "ig_reels_avg_watch_time": 3857,
+        "ig_reels_video_view_total_time": 169727
       },
       "unavailable": {}
     },
@@ -5153,7 +5291,7 @@
       "slug": "lowes-experiment-16-a-total-stranger-just-told-me",
       "insights": {
         "views": 17,
-        "reach": 16,
+        "reach": 17,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
@@ -5175,15 +5313,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-16-a-total-stranger-just-told-me",
       "insights": {
-        "views": 11,
-        "reach": 9,
+        "views": 12,
+        "reach": 10,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4062,
-        "ig_reels_video_view_total_time": 40626
+        "ig_reels_avg_watch_time": 3712,
+        "ig_reels_video_view_total_time": 40833
       },
       "unavailable": {}
     },
@@ -5198,15 +5336,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 38,
-        "reach": 34,
+        "views": 39,
+        "reach": 35,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6043,
-        "ig_reels_video_view_total_time": 211526
+        "ig_reels_avg_watch_time": 5884,
+        "ig_reels_video_view_total_time": 211824
       },
       "unavailable": {}
     },
@@ -5221,15 +5359,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 132,
-        "reach": 115,
+        "views": 133,
+        "reach": 116,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 11415,
-        "ig_reels_video_view_total_time": 1324211
+        "ig_reels_avg_watch_time": 11368,
+        "ig_reels_video_view_total_time": 1330068
       },
       "unavailable": {}
     },
@@ -5244,15 +5382,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 7,
+        "views": 8,
         "reach": 5,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6867,
-        "ig_reels_video_view_total_time": 41204
+        "ig_reels_avg_watch_time": 5890,
+        "ig_reels_video_view_total_time": 41232
       },
       "unavailable": {}
     },
@@ -5267,15 +5405,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 19,
-        "reach": 18,
+        "views": 20,
+        "reach": 19,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3445,
-        "ig_reels_video_view_total_time": 65463
+        "ig_reels_avg_watch_time": 3274,
+        "ig_reels_video_view_total_time": 65483
       },
       "unavailable": {}
     },
@@ -5291,7 +5429,7 @@
       "slug": null,
       "insights": {
         "views": 6,
-        "reach": 4,
+        "reach": 5,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
@@ -5313,15 +5451,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 16,
-        "reach": 10,
+        "views": 17,
+        "reach": 11,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6037,
-        "ig_reels_video_view_total_time": 66407
+        "ig_reels_avg_watch_time": 5550,
+        "ig_reels_video_view_total_time": 66602
       },
       "unavailable": {}
     },
@@ -5336,15 +5474,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 11,
-        "reach": 9,
+        "views": 12,
+        "reach": 10,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5433,
-        "ig_reels_video_view_total_time": 48900
+        "ig_reels_avg_watch_time": 4910,
+        "ig_reels_video_view_total_time": 49104
       },
       "unavailable": {}
     },
@@ -5359,15 +5497,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 11,
-        "reach": 8,
+        "views": 12,
+        "reach": 9,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 8140,
-        "ig_reels_video_view_total_time": 73266
+        "ig_reels_avg_watch_time": 7334,
+        "ig_reels_video_view_total_time": 73342
       },
       "unavailable": {}
     },
@@ -5382,15 +5520,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 70,
-        "reach": 64,
+        "views": 71,
+        "reach": 65,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 7279,
-        "ig_reels_video_view_total_time": 465897
+        "ig_reels_avg_watch_time": 7170,
+        "ig_reels_video_view_total_time": 466085
       },
       "unavailable": {}
     },
@@ -5405,15 +5543,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 100,
-        "reach": 77,
+        "views": 101,
+        "reach": 78,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5274,
-        "ig_reels_video_view_total_time": 421945
+        "ig_reels_avg_watch_time": 5210,
+        "ig_reels_video_view_total_time": 422064
       },
       "unavailable": {}
     },
@@ -5428,15 +5566,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 24,
-        "reach": 19,
+        "views": 25,
+        "reach": 20,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5483,
-        "ig_reels_video_view_total_time": 104187
+        "ig_reels_avg_watch_time": 5220,
+        "ig_reels_video_view_total_time": 104403
       },
       "unavailable": {}
     },
@@ -5451,15 +5589,15 @@
       "comments_count": 2,
       "slug": null,
       "insights": {
-        "views": 151,
-        "reach": 111,
+        "views": 152,
+        "reach": 112,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 1,
         "comments": 2,
-        "ig_reels_avg_watch_time": 4181,
-        "ig_reels_video_view_total_time": 464153
+        "ig_reels_avg_watch_time": 4145,
+        "ig_reels_video_view_total_time": 464261
       },
       "unavailable": {}
     },
@@ -5474,15 +5612,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 18,
-        "reach": 14,
+        "views": 19,
+        "reach": 15,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3921,
-        "ig_reels_video_view_total_time": 58824
+        "ig_reels_avg_watch_time": 3696,
+        "ig_reels_video_view_total_time": 59141
       },
       "unavailable": {}
     },
@@ -5497,15 +5635,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 145,
+        "views": 146,
         "reach": 113,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5803,
-        "ig_reels_video_view_total_time": 661633
+        "ig_reels_avg_watch_time": 5774,
+        "ig_reels_video_view_total_time": 664071
       },
       "unavailable": {}
     },
@@ -5520,15 +5658,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 128,
-        "reach": 103,
+        "views": 129,
+        "reach": 104,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4316,
-        "ig_reels_video_view_total_time": 444575
+        "ig_reels_avg_watch_time": 4276,
+        "ig_reels_video_view_total_time": 444803
       },
       "unavailable": {}
     },
@@ -5543,15 +5681,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 9,
-        "reach": 8,
+        "views": 10,
+        "reach": 9,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3942,
-        "ig_reels_video_view_total_time": 35486
+        "ig_reels_avg_watch_time": 3573,
+        "ig_reels_video_view_total_time": 35736
       },
       "unavailable": {}
     },
@@ -5566,15 +5704,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 9,
+        "views": 10,
         "reach": 7,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2239,
-        "ig_reels_video_view_total_time": 17918
+        "ig_reels_avg_watch_time": 2010,
+        "ig_reels_video_view_total_time": 18091
       },
       "unavailable": {}
     },
@@ -5589,15 +5727,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 15,
-        "reach": 10,
+        "views": 16,
+        "reach": 11,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6063,
-        "ig_reels_video_view_total_time": 66696
+        "ig_reels_avg_watch_time": 5560,
+        "ig_reels_video_view_total_time": 66726
       },
       "unavailable": {}
     },
@@ -5612,15 +5750,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 13,
-        "reach": 7,
+        "views": 14,
+        "reach": 8,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4407,
-        "ig_reels_video_view_total_time": 35263
+        "ig_reels_avg_watch_time": 3919,
+        "ig_reels_video_view_total_time": 35273
       },
       "unavailable": {}
     },
@@ -5635,15 +5773,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 46,
-        "reach": 35,
+        "views": 47,
+        "reach": 36,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 11682,
-        "ig_reels_video_view_total_time": 420568
+        "ig_reels_avg_watch_time": 11372,
+        "ig_reels_video_view_total_time": 420793
       },
       "unavailable": {}
     },
@@ -5658,15 +5796,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 28,
-        "reach": 18,
+        "views": 29,
+        "reach": 19,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6248,
-        "ig_reels_video_view_total_time": 118725
+        "ig_reels_avg_watch_time": 5943,
+        "ig_reels_video_view_total_time": 118860
       },
       "unavailable": {}
     },
@@ -5681,15 +5819,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 122,
-        "reach": 110,
+        "views": 123,
+        "reach": 111,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 2,
         "comments": 0,
-        "ig_reels_avg_watch_time": 9599,
-        "ig_reels_video_view_total_time": 1055926
+        "ig_reels_avg_watch_time": 9513,
+        "ig_reels_video_view_total_time": 1056012
       },
       "unavailable": {}
     },
@@ -5704,15 +5842,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 55,
-        "reach": 45,
+        "views": 56,
+        "reach": 46,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4351,
-        "ig_reels_video_view_total_time": 200153
+        "ig_reels_avg_watch_time": 4262,
+        "ig_reels_video_view_total_time": 200327
       },
       "unavailable": {}
     },
@@ -5727,15 +5865,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 30,
-        "reach": 26,
+        "views": 31,
+        "reach": 27,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2237,
-        "ig_reels_video_view_total_time": 58167
+        "ig_reels_avg_watch_time": 2159,
+        "ig_reels_video_view_total_time": 58312
       },
       "unavailable": {}
     },
@@ -5750,15 +5888,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 3,
-        "reach": 3,
+        "views": 4,
+        "reach": 4,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 206201,
-        "ig_reels_video_view_total_time": 824806
+        "ig_reels_avg_watch_time": 165016,
+        "ig_reels_video_view_total_time": 825081
       },
       "unavailable": {}
     },
@@ -5773,15 +5911,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 14,
-        "reach": 10,
+        "views": 15,
+        "reach": 11,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2921,
-        "ig_reels_video_view_total_time": 32134
+        "ig_reels_avg_watch_time": 2716,
+        "ig_reels_video_view_total_time": 32601
       },
       "unavailable": {}
     },
@@ -5796,15 +5934,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 9,
-        "reach": 8,
+        "views": 10,
+        "reach": 9,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2319,
-        "ig_reels_video_view_total_time": 20871
+        "ig_reels_avg_watch_time": 2894,
+        "ig_reels_video_view_total_time": 28943
       },
       "unavailable": {}
     },
@@ -5819,15 +5957,15 @@
       "comments_count": 0,
       "slug": "shorts-engine-23-e6-02-full-verification",
       "insights": {
-        "views": 10,
-        "reach": 3,
+        "views": 11,
+        "reach": 4,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 7783,
-        "ig_reels_video_view_total_time": 46702
+        "ig_reels_avg_watch_time": 6699,
+        "ig_reels_video_view_total_time": 46893
       },
       "unavailable": {}
     },
@@ -5842,15 +5980,15 @@
       "comments_count": 0,
       "slug": "episode-15-20-ruined-my-joy",
       "insights": {
-        "views": 893,
+        "views": 894,
         "reach": 803,
         "saved": 0,
         "shares": 0,
         "total_interactions": 7,
         "likes": 7,
         "comments": 0,
-        "ig_reels_avg_watch_time": 14524,
-        "ig_reels_video_view_total_time": 11590615
+        "ig_reels_avg_watch_time": 14506,
+        "ig_reels_video_view_total_time": 11590765
       },
       "unavailable": {}
     },
@@ -5865,15 +6003,15 @@
       "comments_count": 0,
       "slug": "episode-15-19-arch-stakes",
       "insights": {
-        "views": 150,
-        "reach": 124,
+        "views": 151,
+        "reach": 125,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6516,
-        "ig_reels_video_view_total_time": 808045
+        "ig_reels_avg_watch_time": 6491,
+        "ig_reels_video_view_total_time": 811445
       },
       "unavailable": {}
     },
@@ -5888,15 +6026,15 @@
       "comments_count": 0,
       "slug": "episode-15-18-charlie-teaches-me-to-weld",
       "insights": {
-        "views": 448,
-        "reach": 402,
+        "views": 449,
+        "reach": 403,
         "saved": 1,
         "shares": 0,
         "total_interactions": 9,
         "likes": 8,
         "comments": 0,
-        "ig_reels_avg_watch_time": 15582,
-        "ig_reels_video_view_total_time": 6326566
+        "ig_reels_avg_watch_time": 15547,
+        "ig_reels_video_view_total_time": 6327718
       },
       "unavailable": {}
     },
@@ -5911,15 +6049,15 @@
       "comments_count": 0,
       "slug": "episode-15-17-glob-fake-out",
       "insights": {
-        "views": 315,
-        "reach": 291,
+        "views": 316,
+        "reach": 292,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 3,
         "comments": 0,
-        "ig_reels_avg_watch_time": 10303,
-        "ig_reels_video_view_total_time": 3029249
+        "ig_reels_avg_watch_time": 10269,
+        "ig_reels_video_view_total_time": 3029509
       },
       "unavailable": {}
     },
@@ -5934,15 +6072,15 @@
       "comments_count": 2,
       "slug": "episode-15-16-first-clean-bead",
       "insights": {
-        "views": 194,
-        "reach": 163,
+        "views": 195,
+        "reach": 164,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 0,
         "comments": 2,
-        "ig_reels_avg_watch_time": 10445,
-        "ig_reels_video_view_total_time": 1734026
+        "ig_reels_avg_watch_time": 10384,
+        "ig_reels_video_view_total_time": 1734195
       },
       "unavailable": {}
     },
@@ -5958,7 +6096,7 @@
       "slug": "lowes-experiment-09-karen-subscribed",
       "insights": {
         "views": 29,
-        "reach": 28,
+        "reach": 29,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
@@ -5980,15 +6118,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-07-100-percent",
       "insights": {
-        "views": 90,
-        "reach": 72,
+        "views": 91,
+        "reach": 73,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5016,
-        "ig_reels_video_view_total_time": 366235
+        "ig_reels_avg_watch_time": 4952,
+        "ig_reels_video_view_total_time": 366457
       },
       "unavailable": {}
     },
@@ -6003,15 +6141,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-13-brought-me-to-tears",
       "insights": {
-        "views": 135,
-        "reach": 119,
+        "views": 136,
+        "reach": 120,
         "saved": 0,
         "shares": 0,
         "total_interactions": 4,
         "likes": 4,
         "comments": 0,
-        "ig_reels_avg_watch_time": 8126,
-        "ig_reels_video_view_total_time": 967106
+        "ig_reels_avg_watch_time": 8061,
+        "ig_reels_video_view_total_time": 967403
       },
       "unavailable": {}
     },
@@ -6026,15 +6164,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-11-lagos-pitch",
       "insights": {
-        "views": 126,
-        "reach": 115,
+        "views": 127,
+        "reach": 116,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6551,
-        "ig_reels_video_view_total_time": 740314
+        "ig_reels_avg_watch_time": 6496,
+        "ig_reels_video_view_total_time": 740569
       },
       "unavailable": {}
     },
@@ -6049,15 +6187,15 @@
       "comments_count": 14,
       "slug": "hot-weld-hands-08-engineering-school",
       "insights": {
-        "views": 1388,
+        "views": 1389,
         "reach": 1095,
         "saved": 3,
         "shares": 0,
         "total_interactions": 38,
         "likes": 21,
         "comments": 14,
-        "ig_reels_avg_watch_time": 16517,
-        "ig_reels_video_view_total_time": 18334195
+        "ig_reels_avg_watch_time": 16502,
+        "ig_reels_video_view_total_time": 18334756
       },
       "unavailable": {}
     },
@@ -6072,15 +6210,15 @@
       "comments_count": 4,
       "slug": "hot-weld-hands-06-wrong-tank-hands",
       "insights": {
-        "views": 1480,
+        "views": 1481,
         "reach": 1220,
         "saved": 0,
         "shares": 1,
         "total_interactions": 37,
         "likes": 32,
         "comments": 4,
-        "ig_reels_avg_watch_time": 15369,
-        "ig_reels_video_view_total_time": 19073532
+        "ig_reels_avg_watch_time": 15360,
+        "ig_reels_video_view_total_time": 19077980
       },
       "unavailable": {}
     },
@@ -6095,15 +6233,15 @@
       "comments_count": 11,
       "slug": "hot-weld-hands-10-weld-in-hand",
       "insights": {
-        "views": 1075,
+        "views": 1076,
         "reach": 884,
         "saved": 0,
         "shares": 0,
         "total_interactions": 24,
         "likes": 12,
         "comments": 11,
-        "ig_reels_avg_watch_time": 16339,
-        "ig_reels_video_view_total_time": 14492839
+        "ig_reels_avg_watch_time": 16320,
+        "ig_reels_video_view_total_time": 14492988
       },
       "unavailable": {}
     },
@@ -6118,15 +6256,15 @@
       "comments_count": 0,
       "slug": "hot-weld-hands-14-burned-shirt",
       "insights": {
-        "views": 168,
-        "reach": 140,
+        "views": 169,
+        "reach": 141,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 2,
         "comments": 0,
-        "ig_reels_avg_watch_time": 9948,
-        "ig_reels_video_view_total_time": 1412653
+        "ig_reels_avg_watch_time": 9880,
+        "ig_reels_video_view_total_time": 1412952
       },
       "unavailable": {}
     },
@@ -6141,15 +6279,15 @@
       "comments_count": 0,
       "slug": "hot-weld-hands-12-nine-subscribers",
       "insights": {
-        "views": 212,
-        "reach": 175,
+        "views": 213,
+        "reach": 176,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 2,
         "comments": 0,
-        "ig_reels_avg_watch_time": 14167,
-        "ig_reels_video_view_total_time": 2479303
+        "ig_reels_avg_watch_time": 14087,
+        "ig_reels_video_view_total_time": 2479431
       },
       "unavailable": {}
     },
@@ -6164,15 +6302,15 @@
       "comments_count": 0,
       "slug": "lowes-experiment-15-biggest-win-yet",
       "insights": {
-        "views": 121,
-        "reach": 110,
+        "views": 122,
+        "reach": 111,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6829,
-        "ig_reels_video_view_total_time": 751216
+        "ig_reels_avg_watch_time": 6771,
+        "ig_reels_video_view_total_time": 751647
       },
       "unavailable": {}
     },
@@ -6187,15 +6325,15 @@
       "comments_count": 0,
       "slug": "episode-12-05-mark-is-a-superstar",
       "insights": {
-        "views": 82,
-        "reach": 77,
+        "views": 83,
+        "reach": 78,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4921,
-        "ig_reels_video_view_total_time": 378971
+        "ig_reels_avg_watch_time": 4862,
+        "ig_reels_video_view_total_time": 379243
       },
       "unavailable": {}
     },
@@ -6210,15 +6348,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 137,
-        "reach": 121,
+        "views": 139,
+        "reach": 122,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 9229,
-        "ig_reels_video_view_total_time": 1116712
+        "ig_reels_avg_watch_time": 9286,
+        "ig_reels_video_view_total_time": 1132965
       },
       "unavailable": {}
     },
@@ -6233,15 +6371,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 67,
-        "reach": 63,
+        "views": 68,
+        "reach": 64,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5074,
-        "ig_reels_video_view_total_time": 309553
+        "ig_reels_avg_watch_time": 5000,
+        "ig_reels_video_view_total_time": 310038
       },
       "unavailable": {}
     },
@@ -6256,15 +6394,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 134,
-        "reach": 124,
+        "views": 135,
+        "reach": 125,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 8429,
-        "ig_reels_video_view_total_time": 1062178
+        "ig_reels_avg_watch_time": 8410,
+        "ig_reels_video_view_total_time": 1068151
       },
       "unavailable": {}
     },
@@ -6279,15 +6417,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 125,
-        "reach": 114,
+        "views": 126,
+        "reach": 115,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6415,
-        "ig_reels_video_view_total_time": 724991
+        "ig_reels_avg_watch_time": 6365,
+        "ig_reels_video_view_total_time": 725636
       },
       "unavailable": {}
     },
@@ -6302,15 +6440,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 116,
-        "reach": 112,
+        "views": 117,
+        "reach": 113,
         "saved": 0,
         "shares": 1,
         "total_interactions": 8,
         "likes": 7,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3113,
-        "ig_reels_video_view_total_time": 345554
+        "ig_reels_avg_watch_time": 3091,
+        "ig_reels_video_view_total_time": 346207
       },
       "unavailable": {}
     },
@@ -6325,15 +6463,15 @@
       "comments_count": 3,
       "slug": null,
       "insights": {
-        "views": 134,
-        "reach": 121,
+        "views": 135,
+        "reach": 122,
         "saved": 0,
         "shares": 0,
         "total_interactions": 8,
         "likes": 5,
         "comments": 3,
-        "ig_reels_avg_watch_time": 14688,
-        "ig_reels_video_view_total_time": 1821379
+        "ig_reels_avg_watch_time": 14583,
+        "ig_reels_video_view_total_time": 1822939
       },
       "unavailable": {}
     },
@@ -6369,15 +6507,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 31,
-        "reach": 30,
+        "views": 32,
+        "reach": 31,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5982,
-        "ig_reels_video_view_total_time": 191438
+        "ig_reels_avg_watch_time": 5869,
+        "ig_reels_video_view_total_time": 193679
       },
       "unavailable": {}
     },
@@ -6392,15 +6530,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 129,
-        "reach": 118,
+        "views": 130,
+        "reach": 119,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 1,
         "comments": 0,
-        "ig_reels_avg_watch_time": 3927,
-        "ig_reels_video_view_total_time": 479169
+        "ig_reels_avg_watch_time": 3908,
+        "ig_reels_video_view_total_time": 480688
       },
       "unavailable": {}
     },
@@ -6415,15 +6553,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 101,
-        "reach": 85,
+        "views": 102,
+        "reach": 86,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 5867,
-        "ig_reels_video_view_total_time": 522229
+        "ig_reels_avg_watch_time": 5880,
+        "ig_reels_video_view_total_time": 529245
       },
       "unavailable": {}
     },
@@ -6438,15 +6576,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 8,
-        "reach": 7,
+        "views": 9,
+        "reach": 8,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6370,
-        "ig_reels_video_view_total_time": 57331
+        "ig_reels_avg_watch_time": 5817,
+        "ig_reels_video_view_total_time": 58170
       },
       "unavailable": {}
     },
@@ -6461,15 +6599,15 @@
       "comments_count": 1,
       "slug": null,
       "insights": {
-        "views": 6,
-        "reach": 5,
+        "views": 7,
+        "reach": 6,
         "saved": 0,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 1,
-        "ig_reels_avg_watch_time": 16111,
-        "ig_reels_video_view_total_time": 112782
+        "ig_reels_avg_watch_time": 14296,
+        "ig_reels_video_view_total_time": 114371
       },
       "unavailable": {}
     },
@@ -6484,15 +6622,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 3,
-        "reach": 3,
+        "views": 4,
+        "reach": 4,
         "saved": 1,
         "shares": 0,
         "total_interactions": 1,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 16341,
-        "ig_reels_video_view_total_time": 130729
+        "ig_reels_avg_watch_time": 14558,
+        "ig_reels_video_view_total_time": 131024
       },
       "unavailable": {}
     },
@@ -6507,15 +6645,15 @@
       "comments_count": 1,
       "slug": null,
       "insights": {
-        "views": 134,
-        "reach": 112,
+        "views": 135,
+        "reach": 113,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 1,
         "comments": 1,
-        "ig_reels_avg_watch_time": 10915,
-        "ig_reels_video_view_total_time": 1288086
+        "ig_reels_avg_watch_time": 10833,
+        "ig_reels_video_view_total_time": 1289160
       },
       "unavailable": {}
     },
@@ -6530,15 +6668,15 @@
       "comments_count": 1,
       "slug": null,
       "insights": {
-        "views": 114,
-        "reach": 104,
+        "views": 115,
+        "reach": 105,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
         "likes": 2,
         "comments": 1,
-        "ig_reels_avg_watch_time": 7019,
-        "ig_reels_video_view_total_time": 730046
+        "ig_reels_avg_watch_time": 7028,
+        "ig_reels_video_view_total_time": 737942
       },
       "unavailable": {}
     },
@@ -6553,15 +6691,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 106,
-        "reach": 102,
+        "views": 107,
+        "reach": 103,
         "saved": 0,
         "shares": 0,
         "total_interactions": 2,
         "likes": 2,
         "comments": 0,
-        "ig_reels_avg_watch_time": 2980,
-        "ig_reels_video_view_total_time": 306958
+        "ig_reels_avg_watch_time": 3062,
+        "ig_reels_video_view_total_time": 318481
       },
       "unavailable": {}
     },
@@ -6576,15 +6714,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 3,
-        "reach": 3,
+        "views": 4,
+        "reach": 4,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 23159,
-        "ig_reels_video_view_total_time": 138959
+        "ig_reels_avg_watch_time": 20001,
+        "ig_reels_video_view_total_time": 140008
       },
       "unavailable": {}
     },
@@ -6599,15 +6737,15 @@
       "comments_count": 2,
       "slug": null,
       "insights": {
-        "views": 122,
-        "reach": 109,
+        "views": 123,
+        "reach": 110,
         "saved": 0,
         "shares": 0,
         "total_interactions": 4,
         "likes": 2,
         "comments": 2,
-        "ig_reels_avg_watch_time": 12317,
-        "ig_reels_video_view_total_time": 1379589
+        "ig_reels_avg_watch_time": 12226,
+        "ig_reels_video_view_total_time": 1381596
       },
       "unavailable": {}
     },
@@ -6622,15 +6760,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 114,
-        "reach": 104,
+        "views": 115,
+        "reach": 105,
         "saved": 0,
         "shares": 0,
         "total_interactions": 5,
         "likes": 5,
         "comments": 0,
-        "ig_reels_avg_watch_time": 4527,
-        "ig_reels_video_view_total_time": 484467
+        "ig_reels_avg_watch_time": 4500,
+        "ig_reels_video_view_total_time": 486098
       },
       "unavailable": {}
     },
@@ -6645,15 +6783,15 @@
       "comments_count": 0,
       "slug": null,
       "insights": {
-        "views": 116,
-        "reach": 103,
+        "views": 117,
+        "reach": 104,
         "saved": 0,
         "shares": 0,
         "total_interactions": 0,
         "likes": 0,
         "comments": 0,
-        "ig_reels_avg_watch_time": 6178,
-        "ig_reels_video_view_total_time": 654947
+        "ig_reels_avg_watch_time": 6142,
+        "ig_reels_video_view_total_time": 657204
       },
       "unavailable": {}
     },
@@ -6669,15 +6807,15 @@
       "slug": null,
       "insights": {},
       "unavailable": {
-        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOS",
-        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX",
-        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3V",
-        "ig_reels_avg_watch_time": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=ig_reels_avg_watch_time&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFp",
-        "ig_reels_video_view_total_time": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=ig_reels_video_view_total_time&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA"
+        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZA",
+        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TU",
+        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAV",
+        "ig_reels_avg_watch_time": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=ig_reels_avg_watch_time&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFR",
+        "ig_reels_video_view_total_time": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18358181500131942/insights?metric=ig_reels_video_view_total_time&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZA"
       }
     },
     {
@@ -6692,13 +6830,13 @@
       "slug": null,
       "insights": {},
       "unavailable": {
-        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOS",
-        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX",
-        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3V"
+        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZA",
+        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TU",
+        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18131550700400866/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAV"
       }
     },
     {
@@ -6713,13 +6851,13 @@
       "slug": null,
       "insights": {},
       "unavailable": {
-        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOS",
-        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX",
-        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3V"
+        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZA",
+        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TU",
+        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/17944168379825156/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAV"
       }
     },
     {
@@ -6734,13 +6872,13 @@
       "slug": null,
       "insights": {},
       "unavailable": {
-        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOS",
-        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX",
-        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3VOSG",
-        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFpwXzdQY3pKY24wRWRzeWN6ekN2a3l4ZA0Q2LTFpWExCX0hVRE9kb3V"
+        "views": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=views&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "reach": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=reach&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "saved": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=saved&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "shares": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=shares&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZA",
+        "total_interactions": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=total_interactions&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TU",
+        "likes": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=likes&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAVZAD",
+        "comments": "400 Client Error: Bad Request for url: https://graph.instagram.com/v19.0/18445421368079319/insights?metric=comments&access_token=IGAGPBo5kzUqRBZAFo5OWl2c1VvMU1scF9XVXpVU0ltNVFWZAE4tVmFRRF9TUERKVGRrZAV"
       }
     }
   ]
