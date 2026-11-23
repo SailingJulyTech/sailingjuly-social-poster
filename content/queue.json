@@ -6804,10 +6804,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/364435ad-8f71-4626-975e-77263687fd33/6a9026d0-b750-4e07-b6bb-907a62d28068.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-23T03:05:40.781016+00:00",
+      "instagram": "2026-11-23T03:06:52.352724+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep17-day3-the-arch-8-every-weld-i-put-in-just",
@@ -6851,9 +6858,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/ec5aa0c0-7932-4133-b885-c973fdbaee84/a31e0b03-f7fa-4c39-b5ab-2e832f38fae7.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-23T03:07:35.141980+00:00",
+      "instagram": "2026-11-23T03:08:59.134885+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
