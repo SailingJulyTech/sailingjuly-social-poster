@@ -6929,5 +6929,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep18-the-bend-5-no-arch-no-solar-boat-stays",
+    "scheduled_for": "2026-11-23T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "No Arch, No Solar, Boat Stays Put\n\nThe boat stays put until the arch can carry solar and a davit.",
+    "captions": {
+      "instagram": "No Arch, No Solar, Boat Stays Put\n\nThe boat stays put until the arch can carry solar and a davit.\n#sailing #boatbuilding #welding",
+      "tiktok": "No Arch, No Solar, Boat Stays Put #sailing #welding #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/579a8164-e1e2-4f8c-92ee-4fc7faaa57ff/d57a3d6c-6e72-44a9-992e-7c9dbd8b5c86.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
