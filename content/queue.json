@@ -6869,5 +6869,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep17-day3-the-arch-9-the-first-real-weld-on-the",
+    "scheduled_for": "2026-11-23T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The First Real Weld On The Arch\n\nPrepped, cleaned with acetone, ground attached: time for the first real weld.",
+    "captions": {
+      "instagram": "The First Real Weld On The Arch\n\nPrepped, cleaned with acetone, ground attached: time for the first real weld.\n#sailing #boatbuilding #welding",
+      "tiktok": "The First Real Weld On The Arch #sailing #welding #boatlife"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d100f4a7-23a3-44ff-9698-245d4ff7e254/3ffb2f21-3a2d-441c-9878-a0bf2cc4cedf.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
