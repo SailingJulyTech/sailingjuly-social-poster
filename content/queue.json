@@ -6997,5 +6997,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "i-still-cant-weld-10-charlie-s-out-with-a-herniated",
+    "scheduled_for": "2026-11-24T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Charlie the welder is out with a herniated disc and on bed rest. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Charlie the welder is out with a herniated disc and on bed rest. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #sailingjuly #sailboat",
+      "tiktok": "Charlie the welder is out with a herniated disc and on bed rest. #sailingjuly #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a25505ed-c254-46f6-baea-38549a8c942e/d58242a1-8973-4a34-b1db-6788dbbd9a3b.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
