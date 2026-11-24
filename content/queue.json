@@ -6939,10 +6939,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d1d667f3-d201-413e-95b1-a2c59f57a47c/784cb002-585c-4f61-88cd-ec152db298a3.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-24T10:24:25.074276+00:00",
+      "instagram": "2026-11-24T10:25:38.576690+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "ep18-the-bend-5-no-arch-no-solar-boat-stays",
