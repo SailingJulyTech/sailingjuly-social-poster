@@ -6885,10 +6885,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/d100f4a7-23a3-44ff-9698-245d4ff7e254/3ffb2f21-3a2d-441c-9878-a0bf2cc4cedf.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-24T00:22:10.919272+00:00",
+      "instagram": "2026-11-24T00:23:23.312104+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "episode-16-20-solar-panels-and-a-dinghy-on",
@@ -6905,10 +6912,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/98ec7a44-2606-4823-8668-47650bb61b6b/1d5f5157-3228-4f8d-8f39-e581af7cb7bf.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-24T00:23:58.824049+00:00",
+      "instagram": "2026-11-24T00:25:27.385124+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "episode-12-27-is-water-coming-into-the-boat",
@@ -6945,9 +6959,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/579a8164-e1e2-4f8c-92ee-4fc7faaa57ff/d57a3d6c-6e72-44a9-992e-7c9dbd8b5c86.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-24T00:20:18.550341+00:00",
+      "instagram": "2026-11-24T00:21:36.076136+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
