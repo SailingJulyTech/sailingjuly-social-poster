@@ -7031,5 +7031,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep17-day3-the-arch-10-the-arch-is-in-now-comes",
+    "scheduled_for": "2026-11-25T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The solar arch is finally in. Now the question is how to weld it. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The solar arch is finally in. Now the question is how to weld it. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #sailingjuly #sailboat",
+      "tiktok": "The solar arch is finally in. Now the question is how to weld it. #sailingjuly #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8f852d1c-ae49-400b-b4b1-58cff84a7225/52de0001-f5f9-4302-b868-18c78aa0f63f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
