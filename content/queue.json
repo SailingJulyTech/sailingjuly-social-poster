@@ -7051,5 +7051,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-16-22-my-weld-didn-t-even-hold",
+    "scheduled_for": "2026-11-25T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Practice plate for the solar arch foot: my weld didn't even hold. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "Practice plate for the solar arch foot: my weld didn't even hold. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #sailingjuly #sailboat",
+      "tiktok": "Practice plate for the solar arch foot: my weld didn't even hold. #sailingjuly #sailboat"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4d20661a-c9b2-448e-8d4d-ded8cca0f2d1/b27975aa-9858-4cc1-a5d8-11c3a61e712e.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
