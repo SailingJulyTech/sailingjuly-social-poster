@@ -7047,10 +7047,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/8f852d1c-ae49-400b-b4b1-58cff84a7225/52de0001-f5f9-4302-b868-18c78aa0f63f.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-25T23:35:49.442789+00:00",
+      "instagram": "2026-11-25T23:37:54.201132+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "episode-16-22-my-weld-didn-t-even-hold",
@@ -7067,9 +7074,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/4d20661a-c9b2-448e-8d4d-ded8cca0f2d1/b27975aa-9858-4cc1-a5d8-11c3a61e712e.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-25T23:38:30.215684+00:00",
+      "instagram": "2026-11-25T23:39:46.903643+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
