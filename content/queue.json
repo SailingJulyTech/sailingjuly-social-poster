@@ -6993,10 +6993,17 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/42a8ddfe-2e62-464a-bc38-3da394232504/384a3455-e4da-4f4c-8bd6-72a5c82fc82b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-25T04:10:13.529400+00:00",
+      "instagram": "2026-11-25T04:11:25.925575+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   },
   {
     "id": "i-still-cant-weld-10-charlie-s-out-with-a-herniated",
@@ -7013,9 +7020,16 @@
     },
     "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/a25505ed-c254-46f6-baea-38549a8c942e/d58242a1-8973-4a34-b1db-6788dbbd9a3b.mp4",
     "media_type": "video",
-    "status": "pending",
-    "posted_at": {},
+    "status": "posted",
+    "posted_at": {
+      "facebook": "2026-11-25T04:08:23.245187+00:00",
+      "instagram": "2026-11-25T04:09:33.444534+00:00"
+    },
     "facebook_story": true,
-    "instagram_story": true
+    "instagram_story": true,
+    "last_result": {
+      "facebook": true,
+      "instagram": true
+    }
   }
 ]
