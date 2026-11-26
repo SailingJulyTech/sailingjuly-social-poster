@@ -7085,5 +7085,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep17-day1-so-many-steps-10-flexing-on-my-little-brother-at",
+    "scheduled_for": "2026-11-26T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Mello shows off his latest creation to his little brother at 11 at night. Peace, the beginning is such a pain.",
+    "captions": {
+      "instagram": "Mello shows off his latest creation to his little brother at 11 at night. Peace, the beginning is such a pain. #sailing #boatlife #rebuild",
+      "tiktok": "Mello shows off his latest creation to his little brother at 11 at night. Peace, the beginning is such a pain. #sailing #welding #boatrebuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/86d596a9-ff38-46d2-8896-b38df8af9b9d/b0a8b817-cacc-4940-a814-ad5b8ffa938f.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
