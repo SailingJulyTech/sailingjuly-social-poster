@@ -7105,5 +7105,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "ep18-the-bend-6-we-re-zigzagging-the-back-of",
+    "scheduled_for": "2026-11-26T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Designing the arch: a zigzag brace, no chasing angles.",
+    "captions": {
+      "instagram": "Designing the arch: a zigzag brace, no chasing angles. #sailing #boatlife #rebuild",
+      "tiktok": "Designing the arch: a zigzag brace, no chasing angles. #sailing #welding #boatrebuild"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/82132276-1e26-4fa1-a3be-1f19bfe55fab/2427904e-60b4-4404-b0bc-f126f6abb287.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
