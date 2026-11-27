@@ -7139,5 +7139,21 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "episode-12-28-the-fridge-was-draining-my-boat",
+    "scheduled_for": "2026-11-27T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "Somebody unplugged it and the fridge ran the batteries down. Found it on the voltmeter. Rebuilding a Pearson 34 named July to sail and dive on a budget. Full episode on SailingJuly. #shorts #boatlife #sailboat",
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/b283512f-f491-429a-8e13-cf8268233b56/d866cac1-f451-4162-a0b5-10f6cf7298ac.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
