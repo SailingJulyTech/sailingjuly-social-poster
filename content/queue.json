@@ -7182,5 +7182,25 @@
     "posted_at": {},
     "facebook_story": true,
     "instagram_story": true
+  },
+  {
+    "id": "episode-16-23-the-arch-base-is-a-tight",
+    "scheduled_for": "2026-11-28T22:30:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The base of the solar arch sits in a really tight corner, so the tungsten has to reach in. Rebuilding a Pearson 34 named July. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The base of the solar arch sits in a really tight corner, so the tungsten has to reach in. Rebuilding a Pearson 34 named July on a budget. #sailboat #boatrebuild #sailingjuly",
+      "tiktok": "The base of the solar arch sits in a really tight corner, so the tungsten has to reach in. #sailboat #boatrebuild #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/36698757-6455-4ee5-8cc1-ed9bfb3d3616/4bb9f3c6-03ab-4feb-9257-e571cd670564.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
