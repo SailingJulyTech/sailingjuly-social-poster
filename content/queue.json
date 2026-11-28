@@ -7162,5 +7162,25 @@
       "facebook": true,
       "instagram": true
     }
+  },
+  {
+    "id": "ep17-day3-the-arch-11-three-people-to-carry-one-arch",
+    "scheduled_for": "2026-11-28T22:00:00Z",
+    "platforms": [
+      "facebook",
+      "instagram",
+      "tiktok"
+    ],
+    "caption": "The solar arch finally got to the boat, and it took three people to angle it in. Rebuilding a Pearson 34 named July. Full episode on SailingJuly.",
+    "captions": {
+      "instagram": "The solar arch finally got to the boat, and it took three people to angle it in. Rebuilding a Pearson 34 named July on a budget. #sailboat #boatrebuild #sailingjuly",
+      "tiktok": "The solar arch finally got to the boat, and it took three people to angle it in. #sailboat #boatrebuild #sailingjuly"
+    },
+    "media_url": "https://github.com/SailingJulyTech/sailingjuly-social-poster/releases/download/7ff3dcdc-68e3-4264-897c-f12602d170c2/4afbdaeb-f163-4f51-b6c3-c34ef18563fd.mp4",
+    "media_type": "video",
+    "status": "pending",
+    "posted_at": {},
+    "facebook_story": true,
+    "instagram_story": true
   }
 ]
